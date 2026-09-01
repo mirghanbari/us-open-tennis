@@ -13,7 +13,7 @@
 // The committed matches.json remains the fallback: if ESPN is unreachable the
 // page still renders the last ingested state rather than going blank.
 import { useEffect, useRef, useState } from "react";
-import { MATCHES } from ".";
+import { META } from ".";
 import type { Match, MatchStatus, SetScore } from "../types";
 
 // ESPN's atp and wta scoreboards return IDENTICAL payloads for a Slam (all five
@@ -51,13 +51,17 @@ function playWindowNow(now = new Date()): boolean {
   return hour >= 11 || hour <= 1;
 }
 
-/** Is the tournament still running, per the committed metadata? */
+/**
+ * Is the tournament still running? This reads the metadata's end date, NOT the
+ * latest match timestamp — unplayed rounds carry no start time, so the furthest
+ * known match is only ever a day or two ahead and would switch polling off
+ * mid-tournament.
+ */
 function withinTournament(now = new Date()): boolean {
-  const days = MATCHES.map((m) => m.epoch).filter((e): e is number => e != null);
-  if (days.length === 0) return true;
-  const last = Math.max(...days);
-  // Give the final day a generous tail so a late finish still updates.
-  return now.getTime() <= last + 12 * 60 * 60_000;
+  const end = Date.parse(`${META.endDate}T23:59:59-04:00`);
+  if (!Number.isFinite(end)) return true;
+  // A generous tail so a final that runs late still updates.
+  return now.getTime() <= end + 6 * 60 * 60_000;
 }
 
 function toStatus(state: string | undefined, completed: boolean | undefined): MatchStatus {

@@ -82,11 +82,56 @@ export function matchesOnDay(day: number): Match[] {
   return MATCHES.filter((m) => m.eventDay === day);
 }
 
-/** The tournament days that have any match attached, ascending. */
-export function eventDays(): number[] {
-  return [...new Set(MATCHES.map((m) => m.eventDay).filter((d): d is number => d != null))].sort(
-    (a, b) => a - b
-  );
+export interface PlayDay {
+  /** The feed's own day number. Kept as the grouping key, not for display. */
+  eventDay: number;
+  /** "2026-08-31" in New York time — the date this session actually falls on. */
+  date: string;
+  /** "Mon, Aug 31" */
+  label: string;
+}
+
+const nyDate = (epoch: number) =>
+  new Intl.DateTimeFormat("en-CA", { timeZone: "America/New_York" }).format(new Date(epoch));
+
+/**
+ * The tournament's play days, each labelled with its real calendar date.
+ *
+ * The feed's `eventDay` counts from the start of Fan Week — its day 9 is the
+ * main draw's opening day — so showing that number raw reads as wrong to anyone
+ * following the tournament. We keep `eventDay` as the grouping key (it is the
+ * feed's own session grouping and correctly separates a late finish from the
+ * next day's play) but label by date instead of inventing a rival numbering.
+ *
+ * The date is the MODE of the day's start times, not the min: a match running
+ * past midnight ET would otherwise drag a whole day's label onto the next date.
+ */
+export function playDays(): PlayDay[] {
+  const byDay = new Map<number, Map<string, number>>();
+  for (const m of MATCHES) {
+    if (m.eventDay == null) continue;
+    if (!byDay.has(m.eventDay)) byDay.set(m.eventDay, new Map());
+    const stamp = m.startEpoch ?? m.epoch;
+    if (!stamp) continue;
+    const counts = byDay.get(m.eventDay)!;
+    const key = nyDate(stamp);
+    counts.set(key, (counts.get(key) ?? 0) + 1);
+  }
+
+  const days: PlayDay[] = [];
+  for (const [eventDay, counts] of byDay) {
+    const date = [...counts.entries()].sort((a, b) => b[1] - a[1])[0]?.[0];
+    if (!date) continue;
+    // Parse as midday UTC so the date can't shift when formatted back to ET.
+    const label = new Date(`${date}T12:00:00Z`).toLocaleDateString("en-US", {
+      timeZone: "UTC",
+      weekday: "short",
+      month: "short",
+      day: "numeric",
+    });
+    days.push({ eventDay, date, label });
+  }
+  return days.sort((a, b) => a.date.localeCompare(b.date));
 }
 
 /** Distinct court names currently in use, show courts first then numbered. */

@@ -1,4 +1,4 @@
-import { MATCHES, applyLive, courts, isDecided, useLiveMatches } from "../data";
+import { MATCHES, applyLive, courts, isDecided, playDays, useLiveMatches } from "../data";
 import { MatchCard } from "../components/MatchCard";
 import { timeET } from "../format";
 
@@ -11,10 +11,24 @@ const SHOW_COURTS = ["Arthur Ashe Stadium", "Louis Armstrong Stadium", "Grandsta
  */
 export function Courts() {
   const live = useLiveMatches();
-  const matches = applyLive(MATCHES, live);
+  const all = applyLive(MATCHES, live);
   const names = courts();
 
-  // Today's play, per court: anything live, else the next scheduled match.
+  // Scope the board to a single session. Without this, "next up" on a court
+  // spills into tomorrow's order of play, which reads as though those matches
+  // are imminent. Prefer the session with live play, else today, else the most
+  // recent day that has any.
+  const days = playDays();
+  const today = new Intl.DateTimeFormat("en-CA", { timeZone: "America/New_York" }).format(
+    new Date()
+  );
+  const sessionDay =
+    all.find((m) => m.status === "live")?.eventDay ??
+    days.find((d) => d.date === today)?.eventDay ??
+    days[days.length - 1]?.eventDay;
+  const session = days.find((d) => d.eventDay === sessionDay);
+  const matches = all.filter((m) => m.eventDay === sessionDay);
+
   const byCourt = new Map<string, typeof matches>();
   for (const m of matches) {
     if (!m.court) continue;
@@ -27,8 +41,8 @@ export function Courts() {
       <div className="page-head">
         <h1>Court board</h1>
         <p>
-          Every court on the grounds, with what is playing now and what follows. Scores refresh
-          from ESPN roughly every 30 seconds while play is under way.
+          {session?.label ?? "Today"} · every court on the grounds, with what is playing now and
+          what follows. Scores refresh from ESPN roughly every 30 seconds while play is under way.
         </p>
       </div>
 

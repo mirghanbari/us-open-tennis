@@ -271,7 +271,10 @@ async function main() {
     name: `US Open ${YEAR}`,
     venue: "USTA Billie Jean King National Tennis Center",
     city: "Flushing Meadows, New York",
-    startDate: `${YEAR}-08-31`,
+    // Provisional only — ingest-espn.mjs overwrites both from the actual match
+    // timestamps, since the draw feed carries no tournament-level dates and the
+    // opening day moves year to year.
+    startDate: `${YEAR}-08-24`,
     endDate: `${YEAR}-09-13`,
     updated: new Date().toISOString(),
     sources,

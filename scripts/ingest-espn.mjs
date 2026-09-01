@@ -280,6 +280,22 @@ async function main() {
     if (Number.isFinite(a.debutYear)) p.turnedPro = a.debutYear;
   }
 
+  // Derive the real tournament window from the data rather than hardcoding it.
+  // The main draw's opening day is the earliest singles first-round start; the
+  // hardcoded guess in ingest-usopen.mjs was a day late (the 15-day format opens
+  // on the Sunday). Qualifying and Fan Week events sit outside this window.
+  const mainDrawStarts = matches
+    .filter((m) => (m.eventCode === "MS" || m.eventCode === "WS") && m.roundIndex === 1)
+    .map((m) => m.startEpoch ?? m.epoch)
+    .filter((e) => e != null);
+  const nyDay = (epoch) =>
+    new Intl.DateTimeFormat("en-CA", { timeZone: "America/New_York" }).format(new Date(epoch));
+  if (mainDrawStarts.length) meta.startDate = nyDay(Math.min(...mainDrawStarts));
+  // The END date must come from the schedule, not the data: later rounds have no
+  // start times yet, so the furthest known match is only ever a day or two out.
+  // ESPN's event carries the real closing date.
+  if (event?.endDate) meta.endDate = nyDay(Date.parse(event.endDate));
+
   meta.updated = new Date().toISOString();
 
   const write = (file, data) =>
