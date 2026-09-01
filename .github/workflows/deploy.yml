@@ -1,0 +1,53 @@
+# Builds the dashboard and publishes it to GitHub Pages.
+name: Deploy US Open dashboard
+
+on:
+  push:
+    branches: [main]
+  # Redeploy after a scheduled data refresh — commits made by the Actions bot
+  # with GITHUB_TOKEN don't trigger `push`, so chain off the data workflow.
+  workflow_run:
+    workflows: ["Update US Open data"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deployment at a time, queueing newer runs behind it. Do NOT cancel in
+# progress: a cancelled run can leave a half-submitted Pages deployment that the
+# next run collides with.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    # Skip deploys chained off a failed data refresh. Push and manual dispatch
+    # carry no workflow_run payload, so they always proceed.
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

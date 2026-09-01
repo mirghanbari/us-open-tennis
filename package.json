@@ -1,0 +1,31 @@
+{
+  "name": "us-open-tennis-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "US Open 2026 dashboard — draws, live scores, order of play, players, stats & a predictive model (React + TypeScript + Vite)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "ingest": "node scripts/ingest-usopen.mjs && node scripts/ingest-espn.mjs",
+    "ingest:usopen": "node scripts/ingest-usopen.mjs",
+    "ingest:espn": "node scripts/ingest-espn.mjs",
+    "ingest:tml": "node scripts/ingest-tml.mjs",
+    "ingest:weather": "node scripts/ingest-weather.mjs",
+    "model": "node scripts/build-model.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}

@@ -1,0 +1,23 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+dist-ssr
+
+# Logs
+*.log
+
+# Editor / OS
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.local
+
+# Local env
+.env
+
+# Cached historical CSVs pulled by scripts/ingest-tml.mjs (large, regenerable).
+# The distilled model output in src/data/model.json IS committed.
+.cache/

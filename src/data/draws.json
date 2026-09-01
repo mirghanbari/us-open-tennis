@@ -1,0 +1,174 @@
+[
+ {
+  "eventCode": "MS",
+  "eventName": "Men's Singles",
+  "drawSize": 128,
+  "totalRounds": 7,
+  "prizeMoney": [
+   {
+    "roundCode": "1",
+    "roundName": "Round 1",
+    "amount": 140000
+   },
+   {
+    "roundCode": "2",
+    "roundName": "Round 2",
+    "amount": 190000
+   },
+   {
+    "roundCode": "3",
+    "roundName": "Round 3",
+    "amount": 290000
+   },
+   {
+    "roundCode": "4",
+    "roundName": "Round 4",
+    "amount": 480000
+   },
+   {
+    "roundCode": "Q",
+    "roundName": "Quarter-Finals",
+    "amount": 780000
+   },
+   {
+    "roundCode": "S",
+    "roundName": "Semi-Finals",
+    "amount": 1450000
+   },
+   {
+    "roundCode": "F",
+    "roundName": "Final",
+    "amount": 2800000
+   },
+   {
+    "roundCode": "W",
+    "roundName": "Winner",
+    "amount": 5500000
+   }
+  ]
+ },
+ {
+  "eventCode": "WS",
+  "eventName": "Women's Singles",
+  "drawSize": 128,
+  "totalRounds": 7,
+  "prizeMoney": [
+   {
+    "roundCode": "1",
+    "roundName": "Round 1",
+    "amount": 140000
+   },
+   {
+    "roundCode": "2",
+    "roundName": "Round 2",
+    "amount": 190000
+   },
+   {
+    "roundCode": "3",
+    "roundName": "Round 3",
+    "amount": 290000
+   },
+   {
+    "roundCode": "4",
+    "roundName": "Round 4",
+    "amount": 480000
+   },
+   {
+    "roundCode": "Q",
+    "roundName": "Quarter-Finals",
+    "amount": 780000
+   },
+   {
+    "roundCode": "S",
+    "roundName": "Semi-Finals",
+    "amount": 1450000
+   },
+   {
+    "roundCode": "F",
+    "roundName": "Final",
+    "amount": 2800000
+   },
+   {
+    "roundCode": "W",
+    "roundName": "Winner",
+    "amount": 5500000
+   }
+  ]
+ },
+ {
+  "eventCode": "WD",
+  "eventName": "Women's Doubles",
+  "drawSize": 64,
+  "totalRounds": 6,
+  "prizeMoney": [
+   {
+    "roundCode": "1",
+    "roundName": "Round 1",
+    "amount": 35000
+   },
+   {
+    "roundCode": "2",
+    "roundName": "Round 2",
+    "amount": 50000
+   },
+   {
+    "roundCode": "3",
+    "roundName": "Round 3",
+    "amount": 80000
+   },
+   {
+    "roundCode": "Q",
+    "roundName": "Quarter-Finals",
+    "amount": 125000
+   },
+   {
+    "roundCode": "S",
+    "roundName": "Semi-Finals",
+    "amount": 250000
+   },
+   {
+    "roundCode": "F",
+    "roundName": "Final",
+    "amount": 500000
+   },
+   {
+    "roundCode": "W",
+    "roundName": "Winner",
+    "amount": 1000000
+   }
+  ]
+ },
+ {
+  "eventCode": "XD",
+  "eventName": "Mixed Doubles",
+  "drawSize": 16,
+  "totalRounds": 4,
+  "prizeMoney": [
+   {
+    "roundCode": "1",
+    "roundName": "Round 1",
+    "amount": 40000
+   },
+   {
+    "roundCode": "Q",
+    "roundName": "Quarter-Finals",
+    "amount": 120000
+   },
+   {
+    "roundCode": "S",
+    "roundName": "Semi-Finals",
+    "amount": 250000
+   },
+   {
+    "roundCode": "F",
+    "roundName": "Final",
+    "amount": 500000
+   },
+   {
+    "roundCode": "W",
+    "roundName": "Winner",
+    "amount": 1000000
+   }
+  ]
+ }
+]

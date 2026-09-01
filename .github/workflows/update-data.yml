@@ -1,0 +1,76 @@
+# Refreshes the dataset from the official US Open feed and ESPN, commits any
+# changed JSON, and lets the deploy workflow republish. No API key required.
+#
+# Cadence note: this deliberately does NOT poll every minute the way the World
+# Cup dashboard's equivalent did. Live scores are fetched by the BROWSER
+# directly from ESPN (CORS-enabled, ~10s fresh, see src/data/live.ts), so this
+# job only needs to keep the slow-moving things current: the draw as it fills
+# in, seeds, courts, start times, prize money, rankings and bios.
+name: Update US Open data
+
+on:
+  schedule:
+    # Every 20 minutes during the tournament (UTC). GitHub throttles scheduled
+    # cron heavily, which is fine here — nothing user-facing depends on it
+    # firing promptly.
+    - cron: "*/20 * 24-31 8 *"
+    - cron: "*/20 * 1-14 9 *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+
+      - name: Refresh draws from the official US Open feed
+        # Non-fatal: a transient outage should leave the data unchanged for this
+        # tick, not red the whole run. The script itself exits non-zero only if
+        # EVERY draw failed, in which case the existing JSON is left untouched.
+        run: npm run ingest:usopen || echo "US Open feed failed (non-fatal; data unchanged)"
+
+      - name: Enrich with TV listings, rankings and bios from ESPN
+        continue-on-error: true
+        run: npm run ingest:espn
+
+      - name: Commit refreshed data
+        run: |
+          set -uo pipefail
+          git config user.name "us-open-bot"
+          git config user.email "actions@github.com"
+          if [ -z "$(git status --porcelain src/data)" ]; then
+            echo "No data changes."
+            exit 0
+          fi
+          git add src/data
+          git commit -m "data: refresh US Open draws and scores"
+          # src/data is a fully regenerated artifact each run, so on a race OUR
+          # copy is authoritative and must replace origin's whole-file. Never
+          # 3-way-merge it: a textual merge of two regenerated JSON files can
+          # union array blocks and silently duplicate records.
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then exit 0; fi
+            echo "push race (attempt $attempt); replaying our data onto origin/main…"
+            snap=$(mktemp -d)
+            cp -a src/data/*.json "$snap/"
+            git fetch origin main || true
+            git reset --hard origin/main
+            cp -a "$snap/." src/data/
+            rm -rf "$snap"
+            git add src/data
+            git commit -m "data: refresh US Open draws and scores" || true
+          done
+          echo "push failed after retries (non-fatal; next run retries)"

@@ -1,0 +1,621 @@
+/* US Open dashboard — design tokens and component styles.
+   Structure mirrors the World Cup dashboard's stylesheet (same class vocabulary:
+   .container, .nav, .card, .grid, .badge …) but reskinned to the hard-court
+   palette: DecoTurf blue courts, navy surround, tennis-ball chartreuse accent. */
+
+:root {
+  --court: #4a7ebb; /* inner court blue */
+  --court-deep: #1e3f6b; /* surround navy */
+  --court-dark: #142a48;
+  --ball: #d8ff3e; /* tennis-ball chartreuse */
+  --ink: #101a26;
+  --ink-soft: #55657a;
+  --ink-faint: #8b99aa;
+  --paper: #f4f7fa;
+  --card: #ffffff;
+  --line: #e2e9f0;
+  --gold: #f4b740;
+  --red: #e23636;
+  --live: #ff2d55;
+  --win: #0f9d58;
+  --shadow: 0 8px 24px -14px rgba(16, 26, 38, 0.35);
+  --shadow-hover: 0 16px 40px -16px rgba(16, 26, 38, 0.45);
+  --radius: 16px;
+  --radius-sm: 10px;
+  --maxw: 1180px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Outfit", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(1200px 480px at 50% -8%, rgba(74, 126, 187, 0.18), transparent 60%),
+    var(--paper);
+  line-height: 1.5;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+main.container {
+  padding-top: 28px;
+  padding-bottom: 56px;
+}
+
+.court-stripe {
+  height: 5px;
+  background: linear-gradient(90deg, var(--court-deep), var(--court), var(--ball), var(--court));
+}
+
+/* ---------------- Nav ---------------- */
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(255, 255, 255, 0.86);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--line);
+}
+.nav-inner {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 64px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: -0.01em;
+}
+.brand-ball {
+  font-size: 1.35rem;
+}
+.brand-text strong {
+  color: var(--court-deep);
+}
+.nav-links {
+  display: flex;
+  gap: 2px;
+  margin-left: auto;
+  flex-wrap: wrap;
+}
+.nav-link {
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--ink-soft);
+  white-space: nowrap;
+}
+.nav-link:hover {
+  background: var(--paper);
+  color: var(--ink);
+}
+.nav-link.is-active {
+  background: var(--court-deep);
+  color: #fff;
+}
+.nav-toggle {
+  display: none;
+  margin-left: auto;
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  padding: 6px 12px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: var(--ink);
+}
+
+/* ---------------- Footer ---------------- */
+.footer {
+  border-top: 1px solid var(--line);
+  background: #fff;
+  padding: 28px 0;
+  color: var(--ink-soft);
+  font-size: 0.88rem;
+}
+.footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer a {
+  color: var(--court-deep);
+  font-weight: 500;
+}
+
+/* ---------------- Headings ---------------- */
+.page-head {
+  margin-bottom: 22px;
+}
+.page-head h1 {
+  font-size: clamp(1.6rem, 3.4vw, 2.3rem);
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+.page-head p {
+  color: var(--ink-soft);
+  margin-top: 6px;
+  max-width: 70ch;
+}
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 30px 0 12px;
+}
+.section-head h2 {
+  font-size: 1.15rem;
+  letter-spacing: -0.01em;
+}
+.section-head a {
+  font-size: 0.86rem;
+  color: var(--court-deep);
+  font-weight: 500;
+}
+
+/* ---------------- Cards & grid ---------------- */
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+.card-pad {
+  padding: 16px 18px;
+}
+.grid {
+  display: grid;
+  gap: 14px;
+}
+.grid-2 {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.grid-3 {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+.grid-4 {
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+}
+
+/* Stat tiles */
+.stat {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  box-shadow: var(--shadow);
+}
+.stat-label {
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--ink-faint);
+  font-weight: 600;
+}
+.stat-value {
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-top: 2px;
+}
+.stat-note {
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+}
+
+/* ---------------- Badges ---------------- */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.74rem;
+  font-weight: 600;
+  background: var(--paper);
+  color: var(--ink-soft);
+  border: 1px solid var(--line);
+  white-space: nowrap;
+}
+.badge-live {
+  background: var(--live);
+  color: #fff;
+  border-color: transparent;
+}
+.badge-seed {
+  background: var(--court-deep);
+  color: #fff;
+  border-color: transparent;
+}
+.badge-upset {
+  background: var(--gold);
+  color: #3d2a00;
+  border-color: transparent;
+}
+.badge-tv {
+  background: #eef3f9;
+  color: var(--court-deep);
+  border-color: #dbe6f2;
+}
+.dot-live {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #fff;
+  animation: pulse 1.4s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.25;
+  }
+}
+
+/* ---------------- Match rows ---------------- */
+.match {
+  display: block;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  box-shadow: var(--shadow);
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+.match:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-hover);
+}
+.match-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  font-size: 0.78rem;
+  color: var(--ink-faint);
+  flex-wrap: wrap;
+}
+.match-side {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 10px;
+  padding: 3px 0;
+}
+.match-side + .match-side {
+  border-top: 1px dashed var(--line);
+}
+.match-name {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-width: 0;
+  font-weight: 500;
+}
+.match-name span.nm {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.match-side.is-winner .match-name {
+  font-weight: 700;
+}
+.match-side.is-loser {
+  color: var(--ink-faint);
+}
+.flag {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--ink-faint);
+  letter-spacing: 0.04em;
+  flex-shrink: 0;
+}
+
+/* Set scores */
+.sets {
+  display: flex;
+  gap: 5px;
+  font-variant-numeric: tabular-nums;
+}
+.set {
+  min-width: 22px;
+  text-align: center;
+  font-weight: 600;
+  position: relative;
+}
+.set sup {
+  font-size: 0.62em;
+  color: var(--ink-faint);
+  margin-left: 1px;
+}
+.set.is-won {
+  color: var(--ink);
+}
+.set.is-lost {
+  color: var(--ink-faint);
+}
+
+/* ---------------- Tables ---------------- */
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--card);
+  box-shadow: var(--shadow);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+th,
+td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--line);
+  white-space: nowrap;
+}
+th {
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-faint);
+  font-weight: 600;
+  background: #fbfcfe;
+  position: sticky;
+  top: 0;
+}
+tbody tr:last-child td {
+  border-bottom: none;
+}
+tbody tr:hover {
+  background: #f8fbfe;
+}
+td.num,
+th.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---------------- Filters ---------------- */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+  align-items: center;
+}
+.chip {
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+.chip:hover {
+  border-color: var(--court);
+  color: var(--ink);
+}
+.chip.is-on {
+  background: var(--court-deep);
+  border-color: var(--court-deep);
+  color: #fff;
+}
+input[type="search"],
+select {
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: var(--card);
+  font: inherit;
+  font-size: 0.9rem;
+  color: var(--ink);
+  min-width: 0;
+}
+input[type="search"] {
+  flex: 1 1 220px;
+}
+
+/* ---------------- Court board ---------------- */
+.court-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.court-card.is-live {
+  border-color: var(--live);
+}
+.court-head {
+  padding: 9px 14px;
+  background: var(--court-deep);
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.88rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+.court-card.is-show .court-head {
+  background: linear-gradient(90deg, var(--court-deep), var(--court));
+}
+.court-body {
+  padding: 12px 14px;
+}
+.court-empty {
+  color: var(--ink-faint);
+  font-size: 0.88rem;
+  padding: 14px;
+  text-align: center;
+}
+
+/* ---------------- Bracket ---------------- */
+.bracket {
+  display: flex;
+  gap: 18px;
+  overflow-x: auto;
+  padding-bottom: 12px;
+}
+.bracket-round {
+  display: flex;
+  flex-direction: column;
+  min-width: 210px;
+}
+/* Not sticky: `.bracket` is an overflow-x scroll container, so a sticky
+   heading's containing block is that container rather than the viewport — the
+   `top` offset just pushed the heading down over the first match instead of
+   pinning it. A plain heading is correct here. */
+.bracket-round h3 {
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--ink-faint);
+  text-align: center;
+  padding: 6px 0;
+  margin-bottom: 4px;
+}
+/* The matches space themselves evenly INSIDE the column, below the heading —
+   so each later round's cards sit midway between the two that feed them, and
+   the sticky heading never overlaps the first match. */
+.bracket-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+}
+.bracket-match {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  padding: 7px 9px;
+  font-size: 0.82rem;
+  box-shadow: var(--shadow);
+}
+.bracket-match.is-live {
+  border-color: var(--live);
+}
+.bracket-side {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 1px 0;
+}
+.bracket-side.is-winner {
+  font-weight: 700;
+}
+.bracket-side.is-loser {
+  color: var(--ink-faint);
+}
+.bracket-tbd {
+  color: var(--ink-faint);
+  font-style: italic;
+}
+
+/* ---------------- Misc ---------------- */
+.muted {
+  color: var(--ink-soft);
+}
+.faint {
+  color: var(--ink-faint);
+}
+.small {
+  font-size: 0.85rem;
+}
+.tiny {
+  font-size: 0.76rem;
+}
+.mono {
+  font-variant-numeric: tabular-nums;
+}
+.row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.empty {
+  padding: 40px 20px;
+  text-align: center;
+  color: var(--ink-faint);
+}
+.provenance {
+  font-size: 0.78rem;
+  color: var(--ink-faint);
+  margin-top: 8px;
+}
+.star {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+  padding: 2px;
+  color: var(--ink-faint);
+}
+.star.is-on {
+  color: var(--gold);
+}
+
+@media (max-width: 820px) {
+  .nav-toggle {
+    display: block;
+  }
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-bottom: 1px solid var(--line);
+    flex-direction: column;
+    padding: 10px 20px 16px;
+    gap: 2px;
+  }
+  .nav-links.is-open {
+    display: flex;
+  }
+  .nav-inner {
+    position: relative;
+  }
+}
