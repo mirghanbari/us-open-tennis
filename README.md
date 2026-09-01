@@ -119,9 +119,20 @@ browser.
 
 ## Deploying
 
+Live at **https://mirghanbari.github.io/us-open-tennis/**
+
 `.github/workflows/deploy.yml` builds and publishes `dist/` to GitHub Pages on
-every push to `main` and after each successful data refresh. Pages must be set to
-build from **GitHub Actions** (Settings → Pages → Source), and the repo must be
+every push to `main` and after each successful data refresh.
+
+One-time setup on a fresh repo: Pages has to be turned on by an owner, either via
+Settings → Pages → Source → **GitHub Actions**, or:
+
+```bash
+gh api -X POST repos/{owner}/{repo}/pages -f build_type=workflow
+```
+
+The workflow cannot do this itself — `configure-pages`'s `enablement` option
+needs repo-admin rights the `GITHUB_TOKEN` doesn't carry. The repo must also be
 public for Pages on the free tier.
 
 Vite's `base` is `"/us-open-tennis/"`, matching the project-page URL.

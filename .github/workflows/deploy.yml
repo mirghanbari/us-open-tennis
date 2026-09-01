@@ -37,11 +37,12 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
+      # Note: `enablement: true` does NOT work here — creating a Pages site needs
+      # repo-admin rights that the workflow's GITHUB_TOKEN doesn't carry
+      # ("Resource not accessible by integration"). Pages must be turned on once
+      # by an owner, either in Settings → Pages → Source → GitHub Actions or via
+      # `POST /repos/{owner}/{repo}/pages -d '{"build_type":"workflow"}'`.
       - uses: actions/configure-pages@v6
-        with:
-          # Turn Pages on (and set its source to Actions) if it isn't already,
-          # so a fresh clone of this repo deploys without a manual settings trip.
-          enablement: true
       - uses: actions/upload-pages-artifact@v5
         with:
           path: dist
