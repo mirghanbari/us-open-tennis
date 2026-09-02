@@ -53,10 +53,12 @@ IS on — erring toward refreshing too often rather than going silent.
    npx wrangler secret put GH_TOKEN
    # paste the PAT when prompted
    ```
-   Optionally protect the manual endpoint:
+   Optionally, to allow forcing a run over HTTP:
    ```bash
-   npx wrangler secret put TRIGGER_KEY   # then GET requires ?key=<value>
+   npx wrangler secret put TRIGGER_KEY
    ```
+   Without it the public endpoint is read-only, which is the safe default —
+   see below.
 
 4. **Deploy:**
    ```bash
@@ -66,14 +68,23 @@ IS on — erring toward refreshing too often rather than going silent.
 ## Checking it
 
 ```bash
-curl "https://uso-data-trigger.<your-subdomain>.workers.dev/?dry=1"
+curl "https://uso-data-trigger.<your-subdomain>.workers.dev/"
 # playOn=true wouldDispatch=false (play window (NY hour 14), min=37)
 
 npx wrangler tail        # live logs
 ```
 
-`?dry=1` reports the decision without firing. Without it, a GET forces a
-dispatch — handy for testing.
+**The HTTP endpoint is read-only.** The workers.dev URL is public, and forcing a
+dispatch would be an unauthenticated write against the repo — enough for a
+passer-by to burn Actions minutes and churn deploys. So a plain GET only reports
+the decision. To force a run you need the `TRIGGER_KEY` secret set, then:
+
+```bash
+curl "https://uso-data-trigger.<your-subdomain>.workers.dev/?force=1&key=<value>"
+```
+
+The cron path is unaffected either way — it dispatches on its own schedule
+regardless of whether TRIGGER_KEY exists.
 
 ## Turning it off
 

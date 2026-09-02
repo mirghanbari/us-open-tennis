@@ -143,19 +143,36 @@ export default {
     );
   },
 
-  // Manual endpoint. `?dry=1` reports the decision without dispatching.
+  /**
+   * Manual endpoint, READ-ONLY unless authenticated.
+   *
+   * The workers.dev URL is public, and forcing a dispatch is an unauthenticated
+   * write against the repo — someone who finds the URL could burn Actions
+   * minutes and churn deploys. So a plain GET only ever reports the decision.
+   * Forcing an actual dispatch requires ?key= matching the TRIGGER_KEY secret,
+   * and is refused outright when that secret isn't set.
+   *
+   * The cron path is unaffected: `scheduled` dispatches on its own schedule.
+   */
   async fetch(request, env) {
-    if (env.TRIGGER_KEY) {
-      const key = new URL(request.url).searchParams.get("key");
-      if (key !== env.TRIGGER_KEY) return new Response("not found\n", { status: 404 });
-    }
-    const dry = new URL(request.url).searchParams.get("dry");
+    const params = new URL(request.url).searchParams;
     const d = await decide(env, Date.now());
-    if (dry) {
-      return new Response(`playOn=${d.on} wouldDispatch=${d.dispatch} (${d.reason})\n`);
+    const status = `playOn=${d.on} wouldDispatch=${d.dispatch} (${d.reason})\n`;
+
+    if (params.get("force") !== "1") return new Response(status);
+
+    if (!env.TRIGGER_KEY) {
+      return new Response(
+        "forcing a dispatch needs the TRIGGER_KEY secret set:\n" +
+          "  npx wrangler secret put TRIGGER_KEY\n",
+        { status: 403 }
+      );
+    }
+    if (params.get("key") !== env.TRIGGER_KEY) {
+      return new Response("not found\n", { status: 404 });
     }
     try {
-      return new Response(`${await dispatch(env)} [${d.reason}]\n`, { status: 200 });
+      return new Response(`${await dispatch(env)} [${d.reason}]\n`);
     } catch (err) {
       return new Response(`${err.message}\n`, { status: 502 });
     }
