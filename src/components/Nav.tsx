@@ -8,6 +8,8 @@ const LINKS = [
   { to: "/draw", label: "Draws", end: false },
   { to: "/matches", label: "Matches", end: false },
   { to: "/players", label: "Players", end: false },
+  { to: "/stats", label: "Stats", end: false },
+  { to: "/favorites", label: "★", end: false },
 ];
 
 export function Nav() {

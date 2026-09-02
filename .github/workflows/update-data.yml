@@ -46,6 +46,16 @@ jobs:
         continue-on-error: true
         run: npm run ingest:espn
 
+      - name: Head-to-head records for upcoming matches
+        continue-on-error: true
+        run: npm run ingest:h2h
+
+      - name: Serve statistics from Tennismylife
+        # Updated roughly daily upstream, so most runs are a no-op. Non-fatal:
+        # this is a third-party mirror and the rest of the site works without it.
+        continue-on-error: true
+        run: npm run ingest:tml
+
       - name: Commit refreshed data
         run: |
           set -uo pipefail

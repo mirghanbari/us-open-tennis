@@ -9,6 +9,7 @@ import {
   useLiveMatches,
 } from "../data";
 import { MatchCard } from "../components/MatchCard";
+import { FavoriteStar } from "../components/FavoriteStar";
 import { money } from "../format";
 import type { EventCode } from "../types";
 
@@ -46,7 +47,10 @@ export function PlayerDetail() {
             </>
           )}
         </div>
-        <h1>{player.fullName}</h1>
+        <h1 className="row">
+          <FavoriteStar id={player.id} label={player.fullName} />
+          {player.fullName}
+        </h1>
       </div>
 
       <div className="grid grid-4">

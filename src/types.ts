@@ -172,3 +172,42 @@ export interface Meta {
   /** Which sources answered on the last run, for the UI's provenance labels. */
   sources: Record<string, boolean>;
 }
+
+/** Head-to-head record between the two sides of an upcoming match. */
+export interface HeadToHead {
+  player1: { id: string; name: string; wins: number };
+  player2: { id: string; name: string; wins: number };
+  meetings: {
+    year: number;
+    tournament: string;
+    surface: string;
+    round: string;
+    /** "1" or "2", referring to player1/player2 above. */
+    winner: string;
+    score: string;
+  }[];
+}
+
+/** One side's serve line for a match, from Tennismylife. */
+export interface ServeStats {
+  aces: number | null;
+  doubleFaults: number | null;
+  servePoints: number | null;
+  firstIn: number | null;
+  firstWon: number | null;
+  secondWon: number | null;
+  serveGames: number | null;
+  bpSaved: number | null;
+  bpFaced: number | null;
+  firstServePct: number | null;
+  firstWonPct: number | null;
+  secondWonPct: number | null;
+  bpSavedPct: number | null;
+}
+
+/** Match statistics, keyed by our match id. Sides are in OUR side order. */
+export interface MatchStats {
+  tour: Tour;
+  minutes: number | null;
+  sides: [ServeStats, ServeStats];
+}

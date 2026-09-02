@@ -12,6 +12,7 @@ import {
   useLiveMatches,
 } from "../data";
 import { MatchCard } from "../components/MatchCard";
+import { WeatherStrip } from "../components/WeatherStrip";
 import { duration, roundLabel } from "../format";
 
 function Stat({ label, value, note }: { label: string; value: string; note?: string }) {
@@ -48,6 +49,8 @@ export function Overview() {
           {matches.length} matches, {done.length} completed.
         </p>
       </div>
+
+      <WeatherStrip />
 
       <div className="grid grid-4">
         <Stat

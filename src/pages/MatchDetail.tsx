@@ -3,11 +3,14 @@ import {
   MATCHES,
   applyLive,
   getMatch,
+  headToHead,
+  matchStats,
 
   isDecided,
   sideName,
   useLiveMatches,
 } from "../data";
+import { ServeStatsTable } from "../components/ServeStatsTable";
 import { dateET, duration, roundLabel, sideTag, timeET } from "../format";
 
 export function MatchDetail() {
@@ -110,12 +113,98 @@ export function MatchDetail() {
           Set durations: {m.setDurations.map((d) => `${d}m`).join(" · ")}
         </div>
       )}
-      {!decided && m.status !== "live" && (
-        <div className="provenance">
-          Not started. Serve-level statistics are not published by either free source until a
-          match is under way.
-        </div>
-      )}
+      {(() => {
+        const stats = matchStats(m.id);
+        if (stats) {
+          return (
+            <>
+              <div className="section-head">
+                <h2>Serve statistics</h2>
+              </div>
+              <ServeStatsTable m={m} stats={stats} />
+              <div className="provenance">
+                From Tennismylife, which publishes the Sackmann-schema match data. Updated roughly
+                daily rather than live
+                {stats.tour === "wta"
+                  ? "; the publisher notes WTA data is less reliable than ATP."
+                  : "."}
+              </div>
+            </>
+          );
+        }
+        if (decided) {
+          return (
+            <div className="provenance">
+              Serve statistics not published for this match yet — Tennismylife updates roughly
+              daily, so a recently finished match usually has none.
+            </div>
+          );
+        }
+        return (
+          <div className="provenance">
+            {m.status === "live"
+              ? "Live serve statistics are not available from any free source; they appear once the match is published."
+              : "Not started."}
+          </div>
+        );
+      })()}
+
+      {(() => {
+        const h = headToHead(m.id);
+        if (!h) return null;
+        const total = h.player1.wins + h.player2.wins;
+        return (
+          <>
+            <div className="section-head">
+              <h2>Head to head</h2>
+              <span className="tiny faint">
+                {total === 0 ? "first meeting" : `${total} previous ${total === 1 ? "meeting" : "meetings"}`}
+              </span>
+            </div>
+            <div className="card card-pad">
+              <div className="row" style={{ justifyContent: "space-between" }}>
+                <span>{h.player1.name}</span>
+                <strong className="mono" style={{ fontSize: "1.2rem" }}>
+                  {h.player1.wins}–{h.player2.wins}
+                </strong>
+                <span>{h.player2.name}</span>
+              </div>
+              {h.meetings.length > 0 && (
+                <div className="table-wrap" style={{ marginTop: 12, boxShadow: "none" }}>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Year</th>
+                        <th>Tournament</th>
+                        <th>Surface</th>
+                        <th>Round</th>
+                        <th>Winner</th>
+                        <th>Score</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {h.meetings.map((r, i) => (
+                        <tr key={i}>
+                          <td className="faint">{r.year}</td>
+                          <td>{r.tournament}</td>
+                          <td className="faint">{r.surface}</td>
+                          <td className="faint">{r.round}</td>
+                          <td>
+                            <strong>
+                              {r.winner === "1" ? h.player1.name : h.player2.name}
+                            </strong>
+                          </td>
+                          <td className="mono tiny">{r.score}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              )}
+            </div>
+          </>
+        );
+      })()}
 
       <div className="grid grid-2" style={{ marginTop: 24 }}>
         <div className="card card-pad">

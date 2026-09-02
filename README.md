@@ -19,6 +19,8 @@ which it borrows its structure from.
 | **Match detail** (`/matches/:id`) | Set-by-set score, route into the match, who the winner meets |
 | **Players** (`/players`) | Everyone in the published draws, sortable |
 | **Player detail** (`/players/:id`) | Bio, ranking, record here, prize money, matches |
+| **Stats** (`/stats`) | Serve leaders, seeds alive/out, prize money, longest matches, nations, upsets, retirements |
+| **My players** (`/favorites`) | Starred players with their live or next match |
 
 Routing uses `HashRouter` so deep links work on GitHub Pages without server config.
 
@@ -33,10 +35,16 @@ Other scripts:
 
 ```bash
 npm run build          # type-check + production build into dist/
-npm run ingest         # refresh everything (US Open feed, then ESPN)
-npm run ingest:usopen  # official draws only
+npm run ingest         # refresh everything, in dependency order
+npm run ingest:usopen  # official draws (run first — the others enrich its output)
 npm run ingest:espn    # TV listings, start times, rankings, bios
+npm run ingest:h2h     # head-to-head for upcoming matches
+npm run ingest:tml     # serve statistics
 ```
+
+Weather is **not** ingested: it changes every few minutes, so committing it would
+churn `src/data` on every CI run and trigger a redeploy even when no match data
+moved. Open-Meteo is CORS-enabled, so the browser fetches it directly.
 
 ## Where the data comes from
 
@@ -48,6 +56,9 @@ Two sources, with a deliberate division of labour.
 | `site.api.espn.com/.../tennis/{atp,wta}/scoreboard` | Live scores, **scheduled start times**, TV/streaming carriers | Yes |
 | `site.api.espn.com/.../tennis/{atp,wta}/rankings` | ATP/WTA top 150, points, trend | Yes |
 | `sports.core.api.espn.com/.../athletes/{id}` | Bios: hand, height, DOB, birthplace | Yes |
+| `www.usopen.org/.../stats/head2head/{match_id}.json` | Head-to-head records, keyed by the same match_id as the draws | No |
+| `stats.tennismylife.org/data/*_ongoing_tourneys.csv` | **Per-match serve statistics** — aces, double faults, first/second serve, break points | No |
+| `api.open-meteo.com` | Conditions at Flushing Meadows | Yes |
 
 Two things about this are worth knowing before changing anything:
 
@@ -81,10 +92,10 @@ The ATP and WTA scoreboards return *identical* payloads for a Slam (all five
 draws under both, verified 625 competitions each), so one request covers
 everything — fetching both would double-index every competition.
 
-### Joining the two sources
+### Joining the sources
 
-There is no shared player id, so matches are joined on names, normalized for
-diacritics and punctuation. Two wrinkles the join handles:
+There is no shared player id anywhere, so everything is joined on names,
+normalized for diacritics and punctuation. Three wrinkles the joins handle:
 
 - The feeds disagree on given/family name order for some players — the draw says
   "Yunchaokete Bu" where ESPN says "Bu Yunchaokete" — so name tokens are sorted
@@ -92,20 +103,32 @@ diacritics and punctuation. Two wrinkles the join handles:
 - ESPN uses fuller or different forms ("Chak Lam Coleman Wong" vs "Coleman
   Wong", "Catherine McNally" vs "Caty McNally"), caught by an unambiguous
   surname-pair fallback.
+- Tennismylife transliterates differently again ("Alexander" vs "Aleksandr"
+  Shevchenko), caught by the same fallback.
 
-Current join rate: **179/179 singles matches** with both sides known. Doubles
-join only once ESPN populates that draw (it shows every doubles slot as `TBD`
-until play starts).
+Tennismylife rows are joined on the unordered **player pair** rather than round
+codes — a given pair meets at most once in a tournament, so the pair alone is
+unambiguous and no round-vocabulary mapping is needed. Its winner/loser columns
+are then re-oriented onto the draw's team1/team2 order (verified in both
+directions against the raw feed).
+
+Current join rates: **ESPN 179/179** singles matches with both sides known;
+**Tennismylife 113/113** published US Open rows. Doubles join to ESPN only once
+it populates that draw (every doubles slot reads `TBD` until play starts).
 
 ## What is NOT available for free
 
 The UI labels provenance rather than inventing values. Known gaps:
 
 - **ESPN publishes no per-match tennis statistics** (`statsSource: none`) and no
-  odds. Serve stats — aces, double faults, first-serve percentage, break points
-  — are planned via [Tennismylife](https://stats.tennismylife.org/tennis-match-database),
-  which mirrors the Sackmann schema and updates roughly daily, not live.
-  (Jeff Sackmann's own `tennis_atp`/`tennis_wta` repos 404 as of Sept 2026.)
+  odds. Serve stats come from [Tennismylife](https://stats.tennismylife.org/tennis-match-database),
+  which mirrors the Sackmann schema. (Jeff Sackmann's own `tennis_atp`/`tennis_wta`
+  repos 404 as of Sept 2026.) It updates **roughly daily, not live**, so a match
+  that finished in the last few hours usually has no stats yet — the UI says so
+  rather than showing blanks. Its publisher also notes WTA data is less reliable
+  than ATP, which the match page repeats where relevant.
+- **No live serve statistics exist in any free source.** In-progress matches show
+  scores only.
 - **Men's doubles** (`MD.json`) is not published yet; the ingest skips it and
   picks it up automatically once it appears.
 - ESPN's season stats for a player are only W/L, titles and prize money.

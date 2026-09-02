@@ -1,5 +1,6 @@
 import { MATCHES, applyLive, courts, isDecided, playDays, useLiveMatches } from "../data";
 import { MatchCard } from "../components/MatchCard";
+import { WeatherStrip } from "../components/WeatherStrip";
 import { timeET } from "../format";
 
 const SHOW_COURTS = ["Arthur Ashe Stadium", "Louis Armstrong Stadium", "Grandstand", "Stadium 17"];
@@ -45,6 +46,8 @@ export function Courts() {
           what follows. Scores refresh from ESPN roughly every 30 seconds while play is under way.
         </p>
       </div>
+
+      <WeatherStrip />
 
       <div className="grid grid-2">
         {names.map((court) => {

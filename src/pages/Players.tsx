@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { PLAYERS } from "../data";
+import { FavoriteStar } from "../components/FavoriteStar";
 
 type Sort = "rank" | "seed" | "name" | "nation";
 
@@ -58,6 +59,7 @@ export function Players() {
         <table>
           <thead>
             <tr>
+              <th />
               <th className="num">Seed</th>
               <th>Player</th>
               <th>Nation</th>
@@ -70,6 +72,9 @@ export function Players() {
           <tbody>
             {shown.map((p) => (
               <tr key={p.id}>
+                <td>
+                  <FavoriteStar id={p.id} label={p.fullName} />
+                </td>
                 <td className="num">
                   {p.seed != null ? (
                     <span className="badge badge-seed">{p.seed}</span>
