@@ -21,28 +21,6 @@
    }
   ]
  },
- "MS-1111": {
-  "player1": {
-   "id": "atps0k7",
-   "name": "Zachary Svajda",
-   "wins": 0
-  },
-  "player2": {
-   "id": "atpae14",
-   "name": "Daniel Altmaier",
-   "wins": 1
-  },
-  "meetings": [
-   {
-    "year": 2023,
-    "tournament": "Dallas",
-    "surface": "Hard",
-    "round": "R1",
-    "winner": "2",
-    "score": "6-2, 6-4"
-   }
-  ]
- },
  "MS-1113": {
   "player1": {
    "id": "atpbu13",
@@ -196,6 +174,19 @@
   "player2": {
    "id": "atpm0ej",
    "name": "Lorenzo Musetti",
+   "wins": 0
+  },
+  "meetings": []
+ },
+ "MS-1206": {
+  "player1": {
+   "id": "atps0k7",
+   "name": "Zachary Svajda",
+   "wins": 0
+  },
+  "player2": {
+   "id": "atpg0ix",
+   "name": "Arthur Gea",
    "wins": 0
   },
   "meetings": []

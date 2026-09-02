@@ -999,11 +999,16 @@
   "court": "Court 7",
   "courtId": "AH",
   "eventDay": 11,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788365995000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:52",
+  "setDurations": [
+   37,
+   28,
+   61,
+   46
+  ],
   "upset": false,
   "sides": [
    {
@@ -1017,8 +1022,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    },
    {
     "players": [
@@ -1031,12 +1036,44 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     1
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     5,
+     7
+    ]
+   },
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 2,
   "notBefore": "12:30 PM",
   "session": 1,
@@ -6589,7 +6626,14 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atps0k7",
+      "name": "Z. Svajda",
+      "fullName": "Zachary Svajda",
+      "nation": "USA"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
@@ -6611,7 +6655,13 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182684",
+  "startEpoch": 1788408000000,
+  "espnSideIds": [
+   "3953",
+   "10427"
+  ]
  },
  {
   "id": "MS-1207",
@@ -7420,8 +7470,8 @@
    "MS-1137",
    "MS-1138"
   ],
-  "court": "Court 13",
-  "courtId": "AN",
+  "court": "Court 4",
+  "courtId": "AF",
   "eventDay": 11,
   "epoch": null,
   "status": "scheduled",
@@ -8147,7 +8197,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788384600000,
+  "startEpoch": 1788385800000,
   "espnSideIds": [
    "3754",
    "10645"
@@ -8219,7 +8269,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788383700000,
+  "startEpoch": 1788384000000,
   "espnSideIds": [
    "2863",
    "2869"
@@ -8291,7 +8341,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788388200000,
+  "startEpoch": 1788388800000,
   "espnSideIds": [
    "2865",
    "1266"
@@ -8435,7 +8485,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788384600000,
+  "startEpoch": 1788385800000,
   "espnSideIds": [
    "1857",
    "2875"
@@ -15918,7 +15968,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788386400000,
+  "startEpoch": 1788385200000,
   "espnSideIds": [
    "2588",
    "3182"
@@ -16566,7 +16616,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788384600000,
+  "startEpoch": 1788385200000,
   "espnSideIds": [
    "3387",
    "2977"
