@@ -12713,11 +12713,14 @@
   "court": "Court 15",
   "courtId": "AP",
   "eventDay": 11,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788356216000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:33",
+  "setDurations": [
+   41,
+   52
+  ],
   "upset": false,
   "sides": [
    {
@@ -12731,8 +12734,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -12745,12 +12748,27 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     1
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1,
@@ -15401,7 +15419,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788377400000,
+  "startEpoch": 1788375000000,
   "espnSideIds": [
    "6571",
    "3908"
@@ -16376,7 +16394,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788374700000,
+  "startEpoch": 1788375600000,
   "espnSideIds": [
    "3387",
    "2977"
@@ -16611,7 +16629,14 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "wta330364",
+      "name": "N. Bartunkova",
+      "fullName": "Nikola Bartunkova",
+      "nation": "CZE"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
