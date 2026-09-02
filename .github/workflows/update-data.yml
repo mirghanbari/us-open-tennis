@@ -53,6 +53,13 @@ jobs:
         # EVERY draw failed, in which case the existing JSON is left untouched.
         run: npm run ingest:usopen || echo "US Open feed failed (non-fatal; data unchanged)"
 
+      - name: Official order of play
+        # Carries what the draw feed does not: day/night sessions, each match's
+        # order on court, "not before" times, and SUSPENDED matches (rain or
+        # darkness), which no other source we use reports.
+        continue-on-error: true
+        run: npm run ingest:schedule
+
       - name: Enrich with TV listings, rankings and bios from ESPN
         continue-on-error: true
         run: npm run ingest:espn

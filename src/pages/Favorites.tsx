@@ -11,6 +11,7 @@ import {
 import { useFavorites } from "../favorites";
 import { MatchCard } from "../components/MatchCard";
 import { FavoriteStar } from "../components/FavoriteStar";
+import { NotifyToggle } from "../components/NotifyToggle";
 import { timeET } from "../format";
 
 /**
@@ -60,6 +61,9 @@ export function Favorites() {
         <p>
           {rows.length} starred. Stored on this device only — no account, nothing synced.
         </p>
+        <div style={{ marginTop: 12 }}>
+          <NotifyToggle />
+        </div>
       </div>
 
       <div className="stack" style={{ gap: 18 }}>

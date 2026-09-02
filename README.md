@@ -13,7 +13,7 @@ which it borrows its structure from.
 | --- | --- |
 | **Overview** (`/`) | Live matches, latest results, seed carnage, marathon watch |
 | **Courts** (`/courts`) | All 17 courts — what's on each now, and what follows |
-| **Schedule** (`/schedule`) | Order of play by tournament day, with start times and TV |
+| **Schedule** (`/schedule`) | The official order of play: day/night sessions per court, match order, "not before" times, suspended matches |
 | **Draws** (`/draw/:event`) | Full bracket per event, plus the prize-money table |
 | **Matches** (`/matches`) | Every match, filterable by event and state |
 | **Match detail** (`/matches/:id`) | Set-by-set score, route into the match, who the winner meets |
@@ -21,7 +21,7 @@ which it borrows its structure from.
 | **Player detail** (`/players/:id`) | Bio, ranking, record here, prize money, matches |
 | **Stats** (`/stats`) | Serve leaders, seeds alive/out, prize money, longest matches, nations, upsets, retirements |
 | **Predictions** (`/predictions`) | Title odds, live win probability, per-match probabilities, and the model's measured accuracy |
-| **My players** (`/favorites`) | Starred players with their live or next match |
+| **My players** (`/favorites`) | Starred players with their live or next match, plus opt-in on-court notifications |
 
 Routing uses `HashRouter` so deep links work on GitHub Pages without server config.
 
@@ -38,6 +38,7 @@ Other scripts:
 npm run build          # type-check + production build into dist/
 npm run ingest         # refresh everything, in dependency order
 npm run ingest:usopen  # official draws (run first — the others enrich its output)
+npm run ingest:schedule # official order of play
 npm run ingest:espn    # TV listings, start times, rankings, bios
 npm run ingest:h2h     # head-to-head for upcoming matches
 npm run ingest:tml     # serve statistics
@@ -59,6 +60,7 @@ Two sources, with a deliberate division of labour.
 | `site.api.espn.com/.../tennis/{atp,wta}/scoreboard` | Live scores, **scheduled start times**, TV/streaming carriers | Yes |
 | `site.api.espn.com/.../tennis/{atp,wta}/rankings` | ATP/WTA top 150, points, trend | Yes |
 | `sports.core.api.espn.com/.../athletes/{id}` | Bios: hand, height, DOB, birthplace | Yes |
+| `www.usopen.org/.../schedule/schedule{day}.json` | **Order of play** — sessions, court order, "not before" times, suspended matches, day notices | No |
 | `www.usopen.org/.../stats/head2head/{match_id}.json` | Head-to-head records, keyed by the same match_id as the draws | No |
 | `stats.tennismylife.org/data/*_ongoing_tourneys.csv` | **Per-match serve statistics** — aces, double faults, first/second serve, break points | No |
 | `api.open-meteo.com` | Conditions at Flushing Meadows | Yes |
@@ -68,6 +70,12 @@ Two things about this are worth knowing before changing anything:
 **Use `www.usopen.org`, never `ashe.usopen.org`.** Both serve the same paths, but
 `ashe` returns a *stale* draw — zero completed matches and entrants from a
 different draw entirely. It fails silently and would poison the whole dataset.
+
+**The site publishes a config listing every feed it has.**
+`www.usopen.org/en_US/json/gen/config_web.json` enumerates the lot — schedule,
+completed matches, per-player details and stat charts, seeds, country
+scoreboards. Worth reading before guessing at URLs, which is how the order-of-play
+feed was found after a round of fruitless path-guessing.
 
 **The bracket comes from the `match_id`.** Ids are
 `{eventDigit}{roundIndex}{2-digit slot}` — `1101` is men's singles round 1 slot 1,
@@ -132,6 +140,14 @@ The UI labels provenance rather than inventing values. Known gaps:
   than ATP, which the match page repeats where relevant.
 - **No live serve statistics exist in any free source.** In-progress matches show
   scores only.
+- **The official JSON feeds carry no live scores at all.** The draws feed reports
+  a match as not-started (`statusCode=B`, zero sets) while it is in its second
+  set, flipping straight to completed at the end; its `serve` and `gameScore`
+  fields exist in the schema but are never populated. Live scores are streamed
+  over MQTT/SSE from `scores.usopen.org` with encoded, compressed topics. That
+  is why ESPN is the live-score source, and why live win probability is computed
+  at game granularity rather than point level. The order-of-play feed *does*
+  report in-progress and suspended status, just not scores.
 - **Men's doubles** (`MD.json`) is not published yet; the ingest skips it and
   picks it up automatically once it appears.
 - ESPN's season stats for a player are only W/L, titles and prize money.

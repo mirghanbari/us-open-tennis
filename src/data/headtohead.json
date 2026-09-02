@@ -735,76 +735,6 @@
   },
   "meetings": []
  },
- "WS-2147": {
-  "player1": {
-   "id": "wta322082",
-   "name": "Daria Kasatkina",
-   "wins": 4
-  },
-  "player2": {
-   "id": "wta320124",
-   "name": "Paula Badosa",
-   "wins": 3
-  },
-  "meetings": [
-   {
-    "year": 2025,
-    "tournament": "Roland Garros",
-    "surface": "Clay",
-    "round": "R3",
-    "winner": "1",
-    "score": "6-1, 7-5"
-   },
-   {
-    "year": 2024,
-    "tournament": "Wimbledon",
-    "surface": "Grass",
-    "round": "R3",
-    "winner": "2",
-    "score": "7-6, 4-6, 6-4"
-   },
-   {
-    "year": 2024,
-    "tournament": "Ningbo",
-    "surface": "Hard",
-    "round": "SF",
-    "winner": "1",
-    "score": "6-4 RET"
-   },
-   {
-    "year": 2023,
-    "tournament": "Stuttgart",
-    "surface": "Clay",
-    "round": "R1",
-    "winner": "2",
-    "score": "6-1, 6-1"
-   },
-   {
-    "year": 2022,
-    "tournament": "Sydney",
-    "surface": "Hard",
-    "round": "SF",
-    "winner": "2",
-    "score": "6-2, 6-2"
-   },
-   {
-    "year": 2022,
-    "tournament": "Rome",
-    "surface": "Clay",
-    "round": "R3",
-    "winner": "1",
-    "score": "6-4, 6-4"
-   },
-   {
-    "year": 2022,
-    "tournament": "San Jose",
-    "surface": "Hard",
-    "round": "SF",
-    "winner": "1",
-    "score": "6-2, 6-4"
-   }
-  ]
- },
  "WS-2201": {
   "player1": {
    "id": "wta320760",
@@ -837,41 +767,6 @@
     "round": "R2",
     "winner": "1",
     "score": "6-2, 7-5"
-   }
-  ]
- },
- "WS-2203": {
-  "player1": {
-   "id": "wta318609",
-   "name": "Taylor Townsend",
-   "wins": 0
-  },
-  "player2": {
-   "id": "wta330291",
-   "name": "Taylah Preston",
-   "wins": 0
-  },
-  "meetings": []
- },
- "WS-2204": {
-  "player1": {
-   "id": "wta313974",
-   "name": "Karolina Pliskova",
-   "wins": 0
-  },
-  "player2": {
-   "id": "wta330482",
-   "name": "Diana Shnaider",
-   "wins": 1
-  },
-  "meetings": [
-   {
-    "year": 2024,
-    "tournament": "Wimbledon",
-    "surface": "Grass",
-    "round": "R1",
-    "winner": "2",
-    "score": "4-6, 6-4, 7-5"
    }
   ]
  },
@@ -953,95 +848,6 @@
    "wins": 0
   },
   "meetings": []
- },
- "WS-2209": {
-  "player1": {
-   "id": "wta316956",
-   "name": "Jessica Pegula",
-   "wins": 3
-  },
-  "player2": {
-   "id": "wta320942",
-   "name": "Sofia Kenin",
-   "wins": 2
-  },
-  "meetings": [
-   {
-    "year": 2025,
-    "tournament": "Charleston",
-    "surface": "Clay",
-    "round": "F",
-    "winner": "1",
-    "score": "6-3, 7-5"
-   },
-   {
-    "year": 2024,
-    "tournament": "US Open",
-    "surface": "Hard",
-    "round": "R2",
-    "winner": "1",
-    "score": "7-6, 6-3"
-   },
-   {
-    "year": 2021,
-    "tournament": "Melbourne Yarra Valley",
-    "surface": "Hard",
-    "round": "R3",
-    "winner": "2",
-    "score": "5-7, 7-5, 6-2"
-   },
-   {
-    "year": 2021,
-    "tournament": "Roland-Garros",
-    "surface": "Clay",
-    "round": "R3",
-    "winner": "2",
-    "score": "4-6, 6-1, 6-4"
-   },
-   {
-    "year": 2018,
-    "tournament": "Quebec City",
-    "surface": "Hard",
-    "round": "SF",
-    "winner": "1",
-    "score": "4-6, 6-2, 6-4"
-   }
-  ]
- },
- "WS-2210": {
-  "player1": {
-   "id": "wta326929",
-   "name": "Mananchaya Sawangkaew",
-   "wins": 0
-  },
-  "player2": {
-   "id": "wta326735",
-   "name": "Leylah Fernandez",
-   "wins": 0
-  },
-  "meetings": []
- },
- "WS-2211": {
-  "player1": {
-   "id": "wta319280",
-   "name": "Jasmine Paolini",
-   "wins": 1
-  },
-  "player2": {
-   "id": "wta323149",
-   "name": "Lucrezia Stefanini",
-   "wins": 0
-  },
-  "meetings": [
-   {
-    "year": 2021,
-    "tournament": "Courmayeur",
-    "surface": "Hard",
-    "round": "R2",
-    "winner": "1",
-    "score": "6-4, 7-5"
-   }
-  ]
  },
  "WS-2212": {
   "player1": {
@@ -1233,6 +1039,84 @@
   },
   "meetings": []
  },
+ "WS-2224": {
+  "player1": {
+   "id": "wta320124",
+   "name": "Paula Badosa",
+   "wins": 5
+  },
+  "player2": {
+   "id": "wta328560",
+   "name": "Coco Gauff",
+   "wins": 3
+  },
+  "meetings": [
+   {
+    "year": 2026,
+    "tournament": "Berlin",
+    "surface": "Grass",
+    "round": "R2",
+    "winner": "1",
+    "score": "1-6, 6-3, 6-2"
+   },
+   {
+    "year": 2025,
+    "tournament": "Australian Open",
+    "surface": "Hard",
+    "round": "QF",
+    "winner": "1",
+    "score": "7-5, 6-4"
+   },
+   {
+    "year": 2024,
+    "tournament": "Rome",
+    "surface": "Clay",
+    "round": "R4",
+    "winner": "2",
+    "score": "5-7, 6-4, 6-1"
+   },
+   {
+    "year": 2024,
+    "tournament": "Beijing",
+    "surface": "Hard",
+    "round": "SF",
+    "winner": "2",
+    "score": "4-6, 6-4, 6-2"
+   },
+   {
+    "year": 2023,
+    "tournament": "Madrid",
+    "surface": "Clay",
+    "round": "R3",
+    "winner": "1",
+    "score": "6-3, 6-0"
+   },
+   {
+    "year": 2022,
+    "tournament": "Doha",
+    "surface": "Hard",
+    "round": "R3",
+    "winner": "2",
+    "score": "6-2, 6-3"
+   },
+   {
+    "year": 2022,
+    "tournament": "San Jose",
+    "surface": "Hard",
+    "round": "QF",
+    "winner": "1",
+    "score": "7-6, 6-2"
+   },
+   {
+    "year": 2021,
+    "tournament": "Indian Wells",
+    "surface": "Hard",
+    "round": "R3",
+    "winner": "1",
+    "score": "6-2, 6-2"
+   }
+  ]
+ },
  "WS-2225": {
   "player1": {
    "id": "wta326408",
@@ -1421,6 +1305,65 @@
     "round": "",
     "winner": "2",
     "score": "6-2, 6-3"
+   }
+  ]
+ },
+ "WS-2302": {
+  "player1": {
+   "id": "wta318609",
+   "name": "Taylor Townsend",
+   "wins": 0
+  },
+  "player2": {
+   "id": "wta330482",
+   "name": "Diana Shnaider",
+   "wins": 0
+  },
+  "meetings": []
+ },
+ "WS-2305": {
+  "player1": {
+   "id": "wta316956",
+   "name": "Jessica Pegula",
+   "wins": 3
+  },
+  "player2": {
+   "id": "wta326735",
+   "name": "Leylah Fernandez",
+   "wins": 1
+  },
+  "meetings": [
+   {
+    "year": 2026,
+    "tournament": "Miami",
+    "surface": "Hard",
+    "round": "R3",
+    "winner": "1",
+    "score": "6-2, 6-2"
+   },
+   {
+    "year": 2025,
+    "tournament": "Washington Dc",
+    "surface": "Hard",
+    "round": "R2",
+    "winner": "2",
+    "score": "6-3, 1-6, 7-5"
+   },
+   {
+    "year": 2024,
+    "tournament": "Miami",
+    "surface": "Hard",
+    "round": "R3",
+    "winner": "1",
+    "score": "7-5, 6-4"
+   },
+   {
+    "year": 2024,
+    "tournament": "Cincinnati",
+    "surface": "Hard",
+    "round": "QF",
+    "winner": "1",
+    "score": "7-5, 6-7, 7-6"
    }
   ]
  }

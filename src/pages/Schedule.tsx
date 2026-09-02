@@ -1,5 +1,14 @@
+import { Link } from "react-router-dom";
 import { useMemo, useState } from "react";
-import { MATCHES, applyLive, playDays, publishedEvents, useLiveMatches } from "../data";
+import {
+  MATCHES,
+  applyLive,
+  getMatch,
+  officialDay,
+  playDays,
+  publishedEvents,
+  useLiveMatches,
+} from "../data";
 import { MatchCard } from "../components/MatchCard";
 import type { EventCode } from "../types";
 
@@ -12,8 +21,19 @@ import type { EventCode } from "../types";
 export function Schedule() {
   const live = useLiveMatches();
   const matches = applyLive(MATCHES, live);
-  const days = playDays();
   const events = publishedEvents();
+
+  // Day chips come from the draw (which covers every day, including past ones),
+  // but the label prefers the tournament's own — "Day 4: Wednesday, September 2"
+  // — wherever the order-of-play feed publishes it.
+  const days = playDays().map((d) => {
+    const official = officialDay(d.eventDay);
+    return {
+      ...d,
+      label: official?.shortLabel ?? official?.label ?? d.label,
+      hasOrderOfPlay: Boolean(official),
+    };
+  });
 
   const today = new Intl.DateTimeFormat("en-CA", { timeZone: "America/New_York" }).format(
     new Date()
@@ -123,7 +143,9 @@ export function Schedule() {
           ))}
       </div>
 
-      {onDay.length === 0 ? (
+      {day !== UNSCHEDULED && officialDay(day) ? (
+        <OrderOfPlay day={day} event={event} matches={matches} />
+      ) : onDay.length === 0 ? (
         <div className="empty">Nothing scheduled for this session yet.</div>
       ) : day === UNSCHEDULED ? (
         // Grouped by round, since there is no time order to sort by.
@@ -149,6 +171,108 @@ export function Schedule() {
         <div className="grid grid-2">
           {onDay.map((m) => (
             <MatchCard key={m.id} m={m} />
+          ))}
+        </div>
+      )}
+    </>
+  );
+}
+
+/**
+ * The official order of play: each court's programme in the order matches will
+ * actually be played, which is what the tournament publishes and what spectators
+ * read. Nominal start times only apply to the first match on each court; after
+ * that it is "2nd on" and, sometimes, a "not before" guarantee.
+ */
+function OrderOfPlay({
+  day,
+  event,
+  matches,
+}: {
+  day: number;
+  event: EventCode | "all";
+  matches: ReturnType<typeof applyLive>;
+}) {
+  const official = officialDay(day);
+  if (!official) return null;
+  const byId = new Map(matches.map((m) => [m.id, m]));
+
+  const courts = official.courts
+    .map((c) => ({
+      ...c,
+      matches: c.matches.filter((m) => (event === "all" ? true : m.eventCode === event)),
+    }))
+    .filter((c) => c.matches.length > 0);
+
+  return (
+    <>
+      {official.comments && <div className="op-notice">{official.comments}</div>}
+
+      {courts.map((c) => (
+        <div key={`${c.court}-${c.session ?? 1}`} className="op-court">
+          <div className="op-head">
+            <span>
+              {c.court}
+              {c.session === 2 && <span className="op-time"> · night session</span>}
+            </span>
+            <span className="op-time">{c.startTime ? `from ${c.startTime}` : ""}</span>
+          </div>
+          <div className="op-list">
+            {c.matches.map((sm) => {
+              const m = byId.get(sm.id) ?? getMatch(sm.id);
+              return (
+                <Link key={sm.id} to={`/matches/${sm.id}`} className="op-row">
+                  <span className="op-order">{sm.order ?? "—"}</span>
+                  <span>
+                    {/* An unfilled slot has no round or event yet, which would
+                        otherwise render as a lone separator. */}
+                    {(sm.roundName || sm.notBefore) && (
+                      <>
+                        <span className="tiny faint">
+                          {[sm.roundName, sm.eventCode].filter(Boolean).join(" · ")}
+                          {sm.notBefore
+                            ? `${sm.roundName ? " · " : ""}not before ${sm.notBefore}`
+                            : ""}
+                        </span>
+                        <br />
+                      </>
+                    )}
+                    {sm.team1 || sm.team2 ? (
+                      <>
+                        <strong>{sm.team1 || "TBD"}</strong>{" "}
+                        <span className="faint">v</span>{" "}
+                        <strong>{sm.team2 || "TBD"}</strong>
+                      </>
+                    ) : (
+                      <span className="faint">Winner of an earlier match</span>
+                    )}
+                  </span>
+                  <span className="row" style={{ justifyContent: "flex-end" }}>
+                    {sm.status === "live" && (
+                      <span className="badge badge-live">
+                        <span className="dot-live" /> LIVE
+                      </span>
+                    )}
+                    {sm.status === "suspended" && (
+                      <span className="badge badge-suspended">Suspended</span>
+                    )}
+                    {m && m.sets.length > 0 && (
+                      <span className="mono tiny">
+                        {m.sets.map((x) => `${x.games[0]}-${x.games[1]}`).join(" ")}
+                      </span>
+                    )}
+                  </span>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      ))}
+
+      {official.footerComment && (
+        <div className="provenance">
+          {official.footerComment.split("|").map((t, i) => (
+            <div key={i}>{t.trim()}</div>
           ))}
         </div>
       )}

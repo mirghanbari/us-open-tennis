@@ -3,6 +3,12 @@ import type { Match } from "../types";
 import { isDecided, sideName } from "../data";
 import { duration, roundLabel, sideTag, timeET } from "../format";
 
+const ordinal = (n: number) => {
+  const s = ["th", "st", "nd", "rd"];
+  const v = n % 100;
+  return n + (s[(v - 20) % 10] ?? s[v] ?? s[0]);
+};
+
 /** The set-score column for one side of a match. */
 function Sets({ m, side }: { m: Match; side: 0 | 1 }) {
   if (m.sets.length === 0) return null;
@@ -44,6 +50,13 @@ export function MatchCard({ m, hideCourt = false }: { m: Match; hideCourt?: bool
         {!decided && !live && m.startEpoch && <span>· {timeET(m.startEpoch)} ET</span>}
         {m.upset && <span className="badge badge-upset">Upset</span>}
         {m.status === "retired" && <span className="badge">Retired</span>}
+        {m.status === "suspended" && <span className="badge badge-suspended">Suspended</span>}
+        {/* Order of play, from the official schedule: "2nd on court" tells you
+            far more about when a match starts than a nominal session time. */}
+        {!decided && m.courtOrder != null && m.courtOrder > 1 && (
+          <span>· {ordinal(m.courtOrder)} on court</span>
+        )}
+        {!decided && m.notBefore && <span>· not before {m.notBefore}</span>}
         <span style={{ marginLeft: "auto" }} className="row">
           {m.broadcasts?.map((b) => (
             <span key={b.name} className="badge badge-tv">

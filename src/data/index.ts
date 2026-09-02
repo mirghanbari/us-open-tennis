@@ -10,6 +10,7 @@ import metaJson from "./meta.json";
 import h2hJson from "./headtohead.json";
 import statsJson from "./stats.json";
 import modelJson from "./model.json";
+import scheduleJson from "./schedule.json";
 import type {
   DrawMeta,
   EventCode,
@@ -18,6 +19,7 @@ import type {
   MatchStats,
   Model,
   Rating,
+  ScheduleDay,
   TitleOdds,
   MatchSide,
   Meta,
@@ -32,6 +34,15 @@ export const META = metaJson as unknown as Meta;
 export const HEAD_TO_HEAD = h2hJson as unknown as Record<string, HeadToHead>;
 export const MATCH_STATS = statsJson as unknown as Record<string, MatchStats>;
 export const MODEL = modelJson as unknown as Model;
+export const SCHEDULE = scheduleJson as unknown as ScheduleDay[];
+
+/**
+ * The official order of play for a tournament day, when published. Only the
+ * current and next day are ingested — earlier days are covered by results.
+ */
+export function officialDay(tournDay: number): ScheduleDay | undefined {
+  return SCHEDULE.find((d) => d.tournDay === tournDay);
+}
 
 /** Model rating for a player, if they were in the training archive. */
 export function ratingFor(playerId: string): Rating | undefined {

@@ -257,6 +257,11 @@ main.container {
   color: #3d2a00;
   border-color: transparent;
 }
+.badge-suspended {
+  background: #6b4fbb;
+  color: #fff;
+  border-color: transparent;
+}
 .badge-tv {
   background: #eef3f9;
   color: var(--court-deep);
@@ -661,4 +666,60 @@ input[type="search"] {
    crowding the grid below it on every breakpoint. */
 .weather {
   margin: 14px 0 22px;
+}
+
+/* ---------------- Order of play ---------------- */
+.op-court {
+  margin-bottom: 20px;
+}
+.op-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 8px 14px;
+  background: var(--court-deep);
+  color: #fff;
+  border-radius: var(--radius) var(--radius) 0 0;
+  font-weight: 600;
+}
+.op-head .op-time {
+  font-weight: 500;
+  opacity: 0.85;
+  font-size: 0.85rem;
+}
+.op-list {
+  border: 1px solid var(--line);
+  border-top: none;
+  border-radius: 0 0 var(--radius) var(--radius);
+  background: var(--card);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.op-row {
+  display: grid;
+  grid-template-columns: 34px 1fr auto;
+  gap: 12px;
+  align-items: center;
+  padding: 10px 14px;
+}
+.op-row + .op-row {
+  border-top: 1px solid var(--line);
+}
+.op-row:hover {
+  background: #f8fbfe;
+}
+.op-order {
+  font-weight: 700;
+  color: var(--ink-faint);
+  font-variant-numeric: tabular-nums;
+}
+.op-notice {
+  background: #fff8e6;
+  border: 1px solid #f2e2b6;
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  font-size: 0.85rem;
+  color: #6b5416;
+  margin-bottom: 16px;
 }

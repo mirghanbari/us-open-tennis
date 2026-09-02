@@ -18,7 +18,17 @@ export type Tour = "atp" | "wta";
  */
 export type RoundCode = "1" | "2" | "3" | "4" | "Q" | "S" | "F";
 
-export type MatchStatus = "scheduled" | "live" | "finished" | "retired" | "walkover";
+/**
+ * "suspended" comes only from the official order-of-play feed — a match stopped
+ * for rain or darkness. No other source we use reports it.
+ */
+export type MatchStatus =
+  | "scheduled"
+  | "live"
+  | "suspended"
+  | "finished"
+  | "retired"
+  | "walkover";
 
 /** One player within a match side. Doubles sides carry a second player. */
 export interface MatchPlayer {
@@ -97,6 +107,14 @@ export interface Match {
   sets: SetScore[];
   /** 1 or 2 for the winning side, null while unresolved. */
   winner: 1 | 2 | null;
+
+  // --- Order of play, from the official schedule feed ---
+  /** Position on its court that day: 1 = first on, 2 = second on, … */
+  courtOrder?: number | null;
+  /** "not before" time, e.g. "2:00 PM", when the tournament publishes one. */
+  notBefore?: string | null;
+  /** 1 = day session, 2 = night session. */
+  session?: number | null;
 
   /** ESPN's competition id, joined on player name, for live-score patching. */
   espnId?: string;
@@ -268,4 +286,40 @@ export interface Model {
     overall: Record<string, BacktestBlock>;
     grandSlam: Record<string, BacktestBlock>;
   };
+}
+
+/** One court's programme for a day, from the official order of play. */
+export interface ScheduleCourt {
+  court: string;
+  courtId: string;
+  session: number | null;
+  sessionName: string | null;
+  startTime: string | null;
+  startEpoch: number | null;
+  matches: {
+    id: string;
+    order: number | null;
+    notBefore: string | null;
+    conjunction: string | null;
+    comment: string | null;
+    status: MatchStatus;
+    eventCode: EventCode;
+    roundName: string;
+    team1: string;
+    team2: string;
+  }[];
+}
+
+export interface ScheduleDay {
+  tournDay: number;
+  /** The tournament's own label, e.g. "Day 4: Wednesday, September 2". */
+  label: string;
+  shortLabel: string | null;
+  displayDate: string | null;
+  date: string | null;
+  releaseTime: string | null;
+  /** Notices for the day — sign-in deadlines and the like. */
+  comments: string | null;
+  footerComment: string | null;
+  courts: ScheduleCourt[];
 }
