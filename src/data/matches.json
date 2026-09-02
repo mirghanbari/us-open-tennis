@@ -8005,7 +8005,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788381000000,
+  "startEpoch": 1788381300000,
   "espnSideIds": [
    "2860",
    "8814"
@@ -8221,7 +8221,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788384600000,
+  "startEpoch": 1788385500000,
   "espnSideIds": [
    "2865",
    "1266"
@@ -13411,7 +13411,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788381000000,
+  "startEpoch": 1788381300000,
   "espnSideIds": [
    "1649",
    "7815"
@@ -16489,7 +16489,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788381000000,
+  "startEpoch": 1788381900000,
   "espnSideIds": [
    "3387",
    "2977"
@@ -16581,11 +16581,14 @@
   "court": "Louis Armstrong Stadium",
   "courtId": "AB",
   "eventDay": 11,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788362930000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "0:58",
+  "setDurations": [
+   29,
+   29
+  ],
   "upset": false,
   "sides": [
    {
@@ -16599,8 +16602,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -16613,12 +16616,27 @@
     ],
     "seed": 7,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     1,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     0,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 3,
   "notBefore": null,
   "session": 1,
@@ -18023,8 +18041,15 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta322191",
+      "name": "K. Muchova",
+      "fullName": "Karolina Muchova",
+      "nation": "CZE"
+     }
+    ],
+    "seed": 7,
     "entryStatus": null,
     "setsWon": null,
     "won": null
