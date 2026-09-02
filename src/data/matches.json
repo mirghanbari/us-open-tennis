@@ -930,11 +930,15 @@
   "court": "Court 10",
   "courtId": "AK",
   "eventDay": 11,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788368814000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:51",
+  "setDurations": [
+   38,
+   44,
+   29
+  ],
   "upset": false,
   "sides": [
    {
@@ -948,8 +952,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -962,12 +966,34 @@
     ],
     "seed": null,
     "entryStatus": "WC",
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 2,
   "notBefore": "12:30 PM",
   "session": 1,
@@ -1213,8 +1239,8 @@
   "slot": 13,
   "feedsInto": "MS-1207",
   "fedBy": null,
-  "court": "Court 12",
-  "courtId": "AM",
+  "court": "Court 10",
+  "courtId": "AK",
   "eventDay": 11,
   "epoch": null,
   "status": "suspended",
@@ -1255,7 +1281,7 @@
   "sets": [],
   "winner": null,
   "courtOrder": 3,
-  "notBefore": "2:00 PM",
+  "notBefore": null,
   "session": 1,
   "espnId": "182685",
   "broadcasts": [
@@ -1264,7 +1290,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788387600000,
+  "startEpoch": 1788388200000,
   "espnSideIds": [
    "3356",
    "3486"
@@ -6616,15 +6642,28 @@
     "won": null
    },
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpz0bz",
+      "name": "M. Zheng",
+      "fullName": "Michael Zheng",
+      "nation": "USA"
+     }
+    ],
     "seed": null,
-    "entryStatus": null,
+    "entryStatus": "WC",
     "setsWon": null,
     "won": null
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182686",
+  "startEpoch": 1788408000000,
+  "espnSideIds": [
+   "11382",
+   "12932"
+  ]
  },
  {
   "id": "MS-1206",
@@ -7551,7 +7590,7 @@
   "sets": [],
   "winner": null,
   "courtOrder": 2,
-  "notBefore": "7:00 PM",
+  "notBefore": "7:15 PM",
   "session": 1,
   "espnId": "182693",
   "broadcasts": [
@@ -8380,7 +8419,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788388800000,
+  "startEpoch": 1788390000000,
   "espnSideIds": [
    "2865",
    "1266"
@@ -8524,7 +8563,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788386700000,
+  "startEpoch": 1788388800000,
   "espnSideIds": [
    "1857",
    "2875"
@@ -16123,7 +16162,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788386400000,
+  "startEpoch": 1788388200000,
   "espnSideIds": [
    "3380",
    "2040"

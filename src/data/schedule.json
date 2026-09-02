@@ -681,7 +681,7 @@
   "shortLabel": "Day 4: Wed, Sept 2",
   "displayDate": "Day 4: Wednesday, September 2",
   "date": "2026-09-02",
-  "releaseTime": "5:54 PM",
+  "releaseTime": "6:09 PM",
   "comments": null,
   "footerComment": null,
   "courts": [
@@ -883,7 +883,7 @@
       "notBefore": "2:00 PM",
       "conjunction": null,
       "comment": null,
-      "status": "scheduled",
+      "status": "live",
       "eventCode": "WS",
       "roundName": "Round 1",
       "team1": "I. Jovic",
@@ -1054,7 +1054,7 @@
      {
       "id": "MS-1219",
       "order": 2,
-      "notBefore": "7:00 PM",
+      "notBefore": "7:15 PM",
       "conjunction": null,
       "comment": null,
       "status": "scheduled",
@@ -1195,11 +1195,23 @@
       "notBefore": "12:30 PM",
       "conjunction": null,
       "comment": null,
-      "status": "live",
+      "status": "finished",
       "eventCode": "MS",
       "roundName": "Round 1",
       "team1": "F. Marozsan",
       "team2": "M. Zheng"
+     },
+     {
+      "id": "MS-1113",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "suspended",
+      "eventCode": "MS",
+      "roundName": "Round 1",
+      "team1": "Z. Bergs",
+      "team2": "C. Taberner"
      }
     ]
    },
@@ -1280,18 +1292,6 @@
       "roundName": "Round 2",
       "team1": "T. Etcheverry",
       "team2": "J. Fearnley"
-     },
-     {
-      "id": "MS-1113",
-      "order": 3,
-      "notBefore": "2:00 PM",
-      "conjunction": null,
-      "comment": null,
-      "status": "suspended",
-      "eventCode": "MS",
-      "roundName": "Round 1",
-      "team1": "Z. Bergs",
-      "team2": "C. Taberner"
      },
      {
       "id": "MS-1224",
