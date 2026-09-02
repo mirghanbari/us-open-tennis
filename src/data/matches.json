@@ -1264,7 +1264,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788385800000,
+  "startEpoch": 1788387600000,
   "espnSideIds": [
    "3356",
    "3486"
@@ -7974,7 +7974,7 @@
   "sets": [],
   "winner": null,
   "courtOrder": 4,
-  "notBefore": null,
+  "notBefore": "6:45 PM",
   "session": 1,
   "espnId": "182720",
   "broadcasts": [
@@ -7983,7 +7983,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788390000000,
+  "startEpoch": 1788391800000,
   "espnSideIds": [
    "2622",
    "9992"
@@ -13461,7 +13461,7 @@
   "courtId": "AC",
   "eventDay": 11,
   "epoch": null,
-  "status": "suspended",
+  "status": "scheduled",
   "statusCode": "B",
   "duration": null,
   "setDurations": [],
@@ -13508,7 +13508,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788386400000,
+  "startEpoch": 1788387000000,
   "espnSideIds": [
    "14311",
    "2672"
@@ -16051,7 +16051,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788386100000,
+  "startEpoch": 1788386400000,
   "espnSideIds": [
    "2588",
    "3182"
@@ -16723,11 +16723,15 @@
   "court": "Grandstand",
   "courtId": "AC",
   "eventDay": 11,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788368152000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:46",
+  "setDurations": [
+   37,
+   62,
+   67
+  ],
   "upset": false,
   "sides": [
    {
@@ -16741,8 +16745,8 @@
     ],
     "seed": 26,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -16755,12 +16759,34 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1,
@@ -18258,8 +18284,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta325410",
+      "name": "E. Navarro",
+      "fullName": "Emma Navarro",
+      "nation": "USA"
+     }
+    ],
+    "seed": 26,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -18280,7 +18313,13 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182537",
+  "startEpoch": 1788494400000,
+  "espnSideIds": [
+   "3785",
+   "3039"
+  ]
  },
  {
   "id": "WS-2309",

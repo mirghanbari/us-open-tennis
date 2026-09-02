@@ -785,44 +785,6 @@
    }
   ]
  },
- "WS-2215": {
-  "player1": {
-   "id": "wta325410",
-   "name": "Emma Navarro",
-   "wins": 2
-  },
-  "player2": {
-   "id": "wta325725",
-   "name": "Caty McNally",
-   "wins": 1
-  },
-  "meetings": [
-   {
-    "year": 2026,
-    "tournament": "'s-Hertogenbosch",
-    "surface": "Grass",
-    "round": "R1",
-    "winner": "2",
-    "score": "4-6, 6-0, 6-4"
-   },
-   {
-    "year": 2025,
-    "tournament": "US Open",
-    "surface": "Hard",
-    "round": "R2",
-    "winner": "1",
-    "score": "6-2, 6-1"
-   },
-   {
-    "year": 2023,
-    "tournament": "Indian Wells",
-    "surface": "Hard",
-    "round": "R1",
-    "winner": "1",
-    "score": "1-6, 6-1, 6-1"
-   }
-  ]
- },
  "WS-2217": {
   "player1": {
    "id": "wta331809",
@@ -1262,5 +1224,18 @@
     "score": "6-4, 4-6, 6-1"
    }
   ]
+ },
+ "WS-2308": {
+  "player1": {
+   "id": "wta325410",
+   "name": "Emma Navarro",
+   "wins": 0
+  },
+  "player2": {
+   "id": "wta322191",
+   "name": "Karolina Muchova",
+   "wins": 0
+  },
+  "meetings": []
  }
 }
