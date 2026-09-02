@@ -7789,7 +7789,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788391200000,
+  "startEpoch": 1788391500000,
   "espnSideIds": [
    "9376",
    "2416"
@@ -8744,7 +8744,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788391200000,
+  "startEpoch": 1788392100000,
   "espnSideIds": [
    "10105",
    "2964"
@@ -13798,11 +13798,14 @@
   "court": "Grandstand",
   "courtId": "AC",
   "eventDay": 11,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788373774000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:12",
+  "setDurations": [
+   74,
+   58
+  ],
   "upset": false,
   "sides": [
    {
@@ -13816,8 +13819,8 @@
     ],
     "seed": 14,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -13830,12 +13833,27 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     7,
+     5
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 3,
   "notBefore": "2:00 PM",
   "session": 1,
@@ -16461,7 +16479,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788390900000,
+  "startEpoch": 1788391500000,
   "espnSideIds": [
    "3380",
    "2040"
@@ -17517,8 +17535,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta332285",
+      "name": "I. Jovic",
+      "fullName": "Iva Jovic",
+      "nation": "USA"
+     }
+    ],
+    "seed": 14,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -17542,7 +17567,13 @@
   "winner": null,
   "courtOrder": 4,
   "notBefore": "4:00 PM",
-  "session": 1
+  "session": 1,
+  "espnId": "182583",
+  "startEpoch": 1788465600000,
+  "espnSideIds": [
+   "14311",
+   "7815"
+  ]
  },
  {
   "id": "WS-2222",
