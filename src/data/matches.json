@@ -1333,7 +1333,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788384900000,
+  "startEpoch": 1788385200000,
   "espnSideIds": [
    "3897",
    "3820"
@@ -1452,11 +1452,15 @@
   "court": "Court 11",
   "courtId": "AL",
   "eventDay": 11,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788366900000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:39",
+  "setDurations": [
+   26,
+   31,
+   42
+  ],
   "upset": false,
   "sides": [
    {
@@ -1470,8 +1474,8 @@
     ],
     "seed": null,
     "entryStatus": "Q",
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -1484,12 +1488,34 @@
     ],
     "seed": 6,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 2,
   "notBefore": "12:30 PM",
   "session": 1,
@@ -6746,15 +6772,28 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpdh58",
+      "name": "A. de Minaur",
+      "fullName": "Alex de Minaur",
+      "nation": "AUS"
+     }
+    ],
+    "seed": 6,
     "entryStatus": null,
     "setsWon": null,
     "won": null
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182700",
+  "startEpoch": 1788408000000,
+  "espnSideIds": [
+   "3310",
+   "2651"
+  ]
  },
  {
   "id": "MS-1209",
@@ -13005,7 +13044,7 @@
   "courtId": "AL",
   "eventDay": 11,
   "epoch": null,
-  "status": "suspended",
+  "status": "scheduled",
   "statusCode": "B",
   "duration": null,
   "setDurations": [],
@@ -15968,7 +16007,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788385200000,
+  "startEpoch": 1788385800000,
   "espnSideIds": [
    "2588",
    "3182"

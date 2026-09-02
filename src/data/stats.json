@@ -2303,6 +2303,42 @@
    }
   ]
  },
+ "MS-1116": {
+  "tour": "atp",
+  "minutes": 99,
+  "sides": [
+   {
+    "aces": 2,
+    "doubleFaults": 2,
+    "servePoints": 76,
+    "firstIn": 48,
+    "firstWon": 32,
+    "secondWon": 10,
+    "serveGames": 13,
+    "bpSaved": 6,
+    "bpFaced": 12,
+    "firstServePct": 63,
+    "firstWonPct": 67,
+    "secondWonPct": 36,
+    "bpSavedPct": 50
+   },
+   {
+    "aces": 5,
+    "doubleFaults": 5,
+    "servePoints": 70,
+    "firstIn": 34,
+    "firstWon": 28,
+    "secondWon": 20,
+    "serveGames": 13,
+    "bpSaved": 0,
+    "bpFaced": 1,
+    "firstServePct": 49,
+    "firstWonPct": 82,
+    "secondWonPct": 56,
+    "bpSavedPct": 0
+   }
+  ]
+ },
  "WS-2104": {
   "tour": "wta",
   "minutes": 113,
