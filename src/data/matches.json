@@ -7789,7 +7789,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788390900000,
+  "startEpoch": 1788391200000,
   "espnSideIds": [
    "9376",
    "2416"
@@ -8379,11 +8379,15 @@
   "court": "Court 13",
   "courtId": "AN",
   "eventDay": 11,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788372943000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:25",
+  "setDurations": [
+   30,
+   49,
+   66
+  ],
   "upset": false,
   "sides": [
    {
@@ -8397,8 +8401,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    },
    {
     "players": [
@@ -8411,12 +8415,37 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     0
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     9,
+     7
+    ]
+   }
+  ],
+  "winner": 1,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1,
@@ -8592,8 +8621,8 @@
    "MS-1157",
    "MS-1158"
   ],
-  "court": "Court 7",
-  "courtId": "AH",
+  "court": "Court 11",
+  "courtId": "AL",
   "eventDay": 11,
   "epoch": null,
   "status": "scheduled",
@@ -8634,7 +8663,7 @@
   "sets": [],
   "winner": null,
   "courtOrder": 4,
-  "notBefore": null,
+  "notBefore": "7:30 PM",
   "session": 1,
   "espnId": "182779",
   "broadcasts": [
@@ -8643,7 +8672,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788391200000,
+  "startEpoch": 1788391800000,
   "espnSideIds": [
    "2865",
    "1266"
@@ -9468,7 +9497,14 @@
     "won": null
    },
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpsu55",
+      "name": "D. Shapovalov",
+      "fullName": "Denis Shapovalov",
+      "nation": "CAN"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
@@ -9476,7 +9512,13 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182745",
+  "startEpoch": 1788494400000,
+  "espnSideIds": [
+   "9250",
+   "2860"
+  ]
  },
  {
   "id": "MS-1314",

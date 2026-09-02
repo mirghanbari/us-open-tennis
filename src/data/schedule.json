@@ -681,7 +681,7 @@
   "shortLabel": "Day 4: Wed, Sept 2",
   "displayDate": "Day 4: Wednesday, September 2",
   "date": "2026-09-02",
-  "releaseTime": "6:50 PM",
+  "releaseTime": "7:15 PM",
   "comments": null,
   "footerComment": null,
   "courts": [
@@ -1142,18 +1142,6 @@
       "roundName": "Round 2",
       "team1": "X. Wang",
       "team2": "A. Kalinskaya"
-     },
-     {
-      "id": "MS-1229",
-      "order": 4,
-      "notBefore": null,
-      "conjunction": null,
-      "comment": null,
-      "status": "scheduled",
-      "eventCode": "MS",
-      "roundName": "Round 2",
-      "team1": "A. Bublik",
-      "team2": "A. Mannarino"
      }
     ]
    },
@@ -1207,7 +1195,7 @@
       "notBefore": "7:15 PM",
       "conjunction": null,
       "comment": null,
-      "status": "scheduled",
+      "status": "live",
       "eventCode": "MS",
       "roundName": "Round 2",
       "team1": "V. Vacherot",
@@ -1258,6 +1246,18 @@
       "roundName": "Round 1",
       "team1": "T. Maria",
       "team2": "J. Ostapenko"
+     },
+     {
+      "id": "MS-1229",
+      "order": 4,
+      "notBefore": "7:30 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MS",
+      "roundName": "Round 2",
+      "team1": "A. Bublik",
+      "team2": "A. Mannarino"
      }
     ]
    },
@@ -1333,7 +1333,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "live",
+      "status": "finished",
       "eventCode": "MS",
       "roundName": "Round 2",
       "team1": "D. Shapovalov",
