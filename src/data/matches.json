@@ -8236,7 +8236,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788385800000,
+  "startEpoch": 1788386700000,
   "espnSideIds": [
    "3754",
    "10645"
@@ -8524,7 +8524,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788385800000,
+  "startEpoch": 1788386700000,
   "espnSideIds": [
    "1857",
    "2875"
@@ -13508,7 +13508,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788385800000,
+  "startEpoch": 1788386400000,
   "espnSideIds": [
    "14311",
    "2672"
@@ -15614,11 +15614,14 @@
   "court": "Court 15",
   "courtId": "AP",
   "eventDay": 11,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788367532000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:06",
+  "setDurations": [
+   39,
+   27
+  ],
   "upset": false,
   "sides": [
    {
@@ -15632,8 +15635,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -15646,12 +15649,27 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     0,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1,
@@ -17839,7 +17857,14 @@
     "won": null
    },
    {
-    "players": [],
+    "players": [
+     {
+      "id": "wta325936",
+      "name": "K. Rakhimova",
+      "fullName": "Kamilla Rakhimova",
+      "nation": "UZB"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
