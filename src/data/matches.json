@@ -8005,7 +8005,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788375900000,
+  "startEpoch": 1788376800000,
   "espnSideIds": [
    "2860",
    "8814"
@@ -8077,7 +8077,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788378900000,
+  "startEpoch": 1788380100000,
   "espnSideIds": [
    "3754",
    "10645"
@@ -13411,7 +13411,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788375300000,
+  "startEpoch": 1788376500000,
   "espnSideIds": [
    "1649",
    "7815"
@@ -15449,7 +15449,7 @@
   "courtId": "AP",
   "eventDay": 11,
   "epoch": null,
-  "status": "scheduled",
+  "status": "suspended",
   "statusCode": "B",
   "duration": null,
   "setDurations": [],
@@ -15703,11 +15703,14 @@
   "court": "Louis Armstrong Stadium",
   "courtId": "AB",
   "eventDay": 11,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788358036000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:27",
+  "setDurations": [
+   30,
+   57
+  ],
   "upset": false,
   "sides": [
    {
@@ -15721,8 +15724,8 @@
     ],
     "seed": 11,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -15735,12 +15738,27 @@
     ],
     "seed": null,
     "entryStatus": "WC",
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     1
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     7,
+     5
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1,
@@ -16601,7 +16619,7 @@
   ],
   "sets": [],
   "winner": null,
-  "courtOrder": 4,
+  "courtOrder": 3,
   "notBefore": null,
   "session": 1,
   "espnId": "182531",
@@ -17736,8 +17754,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta326482",
+      "name": "M. Kostyuk",
+      "fullName": "Marta Kostyuk",
+      "nation": "UKR"
+     }
+    ],
+    "seed": 11,
     "entryStatus": null,
     "setsWon": null,
     "won": null

@@ -680,10 +680,10 @@
   "label": 11,
   "shortLabel": "Day 4: Wed, Sept 2",
   "displayDate": "Day 4: Wednesday, September 2",
-  "date": "2026-09-01",
-  "releaseTime": "-2:59 AM",
-  "comments": "SIGN-IN LOCATED IN THE REFEREE'S OFFICE",
-  "footerComment": "MEN'S LUCKY LOSER SIGN-IN CLOSES AT 12:00 PM |MEN'S DOUBLES ON-SITE SIGN-IN CLOSES AT 4:00 PM",
+  "date": "2026-09-02",
+  "releaseTime": "3:07 PM",
+  "comments": null,
+  "footerComment": null,
   "courts": [
    {
     "court": "Arthur Ashe Stadium",
@@ -791,23 +791,23 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "live",
+      "status": "finished",
       "eventCode": "WS",
       "roundName": "Round 2",
       "team1": "M. Kostyuk",
       "team2": "S. Stephens"
      },
      {
-      "id": "null-0",
+      "id": "WS-2216",
       "order": 3,
       "notBefore": null,
       "conjunction": null,
-      "comment": "Intentionally Blank",
+      "comment": null,
       "status": "scheduled",
-      "eventCode": null,
-      "roundName": "",
-      "team1": "",
-      "team2": ""
+      "eventCode": "WS",
+      "roundName": "Round 2",
+      "team1": "K. Boulter",
+      "team2": "K. Muchova"
      }
     ]
    },
@@ -958,18 +958,6 @@
       "roundName": "Round 1",
       "team1": "R. Jodar",
       "team2": "Y. Bu"
-     },
-     {
-      "id": "WS-2216",
-      "order": 4,
-      "notBefore": null,
-      "conjunction": null,
-      "comment": null,
-      "status": "scheduled",
-      "eventCode": "WS",
-      "roundName": "Round 2",
-      "team1": "K. Boulter",
-      "team2": "K. Muchova"
      },
      {
       "id": "MS-1228",
@@ -1393,7 +1381,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "live",
+      "status": "suspended",
       "eventCode": "WS",
       "roundName": "Round 2",
       "team1": "O. Selekhmeteva",
