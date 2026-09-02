@@ -835,12 +835,16 @@
   "court": "Stadium 17",
   "courtId": "AD",
   "eventDay": 11,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
-  "upset": false,
+  "epoch": 1788364762000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:48",
+  "setDurations": [
+   38,
+   33,
+   37
+  ],
+  "upset": true,
   "sides": [
    {
     "players": [
@@ -853,8 +857,8 @@
     ],
     "seed": 12,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -867,12 +871,34 @@
     ],
     "seed": null,
     "entryStatus": "LL",
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     1,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     1,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 3,
   "notBefore": "1:00 PM",
   "session": 1,
@@ -1201,7 +1227,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788382800000,
+  "startEpoch": 1788384600000,
   "espnSideIds": [
    "3356",
    "3486"
@@ -6513,9 +6539,16 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpy09v",
+      "name": "Y. Bu",
+      "fullName": "Yunchaokete Bu",
+      "nation": "CHN"
+     }
+    ],
     "seed": null,
-    "entryStatus": null,
+    "entryStatus": "LL",
     "setsWon": null,
     "won": null
    },
@@ -7861,7 +7894,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788386400000,
+  "startEpoch": 1788388200000,
   "espnSideIds": [
    "2622",
    "9992"
@@ -8042,7 +8075,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788381900000,
+  "startEpoch": 1788382200000,
   "espnSideIds": [
    "2860",
    "8814"
@@ -8330,7 +8363,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788386400000,
+  "startEpoch": 1788390000000,
   "espnSideIds": [
    "10105",
    "2964"
@@ -12969,7 +13002,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788382800000,
+  "startEpoch": 1788384600000,
   "espnSideIds": [
    "2346",
    "2195"
@@ -13386,7 +13419,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788382800000,
+  "startEpoch": 1788384600000,
   "espnSideIds": [
    "14311",
    "2672"
@@ -16461,7 +16494,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788391800000,
+  "startEpoch": 1788395400000,
   "espnSideIds": [
    "1797",
    "14146"
