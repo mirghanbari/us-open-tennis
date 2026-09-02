@@ -1091,7 +1091,7 @@
       "notBefore": "12:30 PM",
       "conjunction": null,
       "comment": null,
-      "status": "live",
+      "status": "finished",
       "eventCode": "MS",
       "roundName": "Round 1",
       "team1": "M. Giron",
@@ -1253,7 +1253,7 @@
       "notBefore": "2:00 PM",
       "conjunction": null,
       "comment": null,
-      "status": "live",
+      "status": "finished",
       "eventCode": "WS",
       "roundName": "Round 1",
       "team1": "T. Maria",
@@ -1407,8 +1407,8 @@
   "shortLabel": "Day 5: Thu, Sept 3",
   "displayDate": "Day 5: Thursday, September 3",
   "date": "2026-09-02",
-  "releaseTime": "1:57 PM",
-  "comments": "Ashe and Armstrong ONLY",
+  "releaseTime": "6:24 PM",
+  "comments": null,
   "footerComment": null,
   "courts": [
    {
@@ -1434,7 +1434,7 @@
      {
       "id": "MS-1213",
       "order": 2,
-      "notBefore": null,
+      "notBefore": "1:00 PM",
       "conjunction": null,
       "comment": null,
       "status": "scheduled",
@@ -1544,6 +1544,586 @@
       "roundName": "Round 2",
       "team1": "J. Bouzas Maneiro",
       "team2": "E. Rybakina"
+     }
+    ]
+   },
+   {
+    "court": "Grandstand",
+    "courtId": "AC",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788447600000,
+    "matches": [
+     {
+      "id": "WS-2225",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WS",
+      "roundName": "Round 2",
+      "team1": "I. Swiatek",
+      "team2": "N. Podoroska"
+     },
+     {
+      "id": "WS-2220",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WS",
+      "roundName": "Round 2",
+      "team1": "L. Tagger",
+      "team2": "A. Anisimova"
+     },
+     {
+      "id": "MS-1216",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MS",
+      "roundName": "Round 2",
+      "team1": "T. Schoolkate",
+      "team2": "F. Cobolli"
+     },
+     {
+      "id": "MS-1208",
+      "order": 4,
+      "notBefore": "4:30 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MS",
+      "roundName": "Round 2",
+      "team1": "B. van de Zandschulp",
+      "team2": "A. de Minaur"
+     }
+    ]
+   },
+   {
+    "court": "Stadium 17",
+    "courtId": "AD",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788447600000,
+    "matches": [
+     {
+      "id": "WS-2227",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WS",
+      "roundName": "Round 2",
+      "team1": "M. Keys",
+      "team2": "A. Bondar"
+     },
+     {
+      "id": "MS-1204",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MS",
+      "roundName": "Round 2",
+      "team1": "D. Sweeny",
+      "team2": "L. Musetti"
+     },
+     {
+      "id": "WS-2217",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WS",
+      "roundName": "Round 2",
+      "team1": "M. Andreeva",
+      "team2": "E. Lys"
+     },
+     {
+      "id": "WS-2221",
+      "order": 4,
+      "notBefore": "4:00 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WS",
+      "roundName": "Round 2",
+      "team1": "I. Jovic / M. Frech",
+      "team2": "F. Jones"
+     }
+    ]
+   },
+   {
+    "court": "Court 5",
+    "courtId": "AE",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788447600000,
+    "matches": [
+     {
+      "id": "MS-1214",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MS",
+      "roundName": "Round 2",
+      "team1": "J. Struff",
+      "team2": "F. Cerundolo"
+     },
+     {
+      "id": "MS-1215",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MS",
+      "roundName": "Round 2",
+      "team1": "A. Blockx",
+      "team2": "M. Trungelliti"
+     },
+     {
+      "id": "WS-2231",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WS",
+      "roundName": "Round 2",
+      "team1": "M. Sakkari",
+      "team2": "Y. Starodubtseva"
+     },
+     {
+      "id": "WD-4122",
+      "order": 4,
+      "notBefore": "3:30 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WD",
+      "roundName": "Round 1",
+      "team1": "R. Montgomery / A. Krueger",
+      "team2": "L. Noskova / R. Sramkova"
+     }
+    ]
+   },
+   {
+    "court": "Court 6",
+    "courtId": "AG",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788447600000,
+    "matches": [
+     {
+      "id": "WS-2219",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WS",
+      "roundName": "Round 2",
+      "team1": "A. Potapova",
+      "team2": "L. Jeanjean"
+     },
+     {
+      "id": "WD-4132",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WD",
+      "roundName": "Round 1",
+      "team1": "A. Detiuc / I. Khromacheva",
+      "team2": "G. Dabrowski / L. Stefani"
+     },
+     {
+      "id": "WS-2223",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WS",
+      "roundName": "Round 2",
+      "team1": "C. Bucsa",
+      "team2": "H. Sakatsume"
+     },
+     {
+      "id": "MS-1206",
+      "order": 4,
+      "notBefore": "4:00 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MS",
+      "roundName": "Round 2",
+      "team1": "Z. Svajda",
+      "team2": "A. Gea"
+     }
+    ]
+   },
+   {
+    "court": "Court 7",
+    "courtId": "AH",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788447600000,
+    "matches": [
+     {
+      "id": "WS-2230",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WS",
+      "roundName": "Round 2",
+      "team1": "M. Timofeeva",
+      "team2": "E. Mertens"
+     },
+     {
+      "id": "WD-4113",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WD",
+      "roundName": "Round 1",
+      "team1": "E. Perez / D. Schuurs",
+      "team2": "A. Tikhonova / R. Zarazua"
+     },
+     {
+      "id": "MS-1202",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MS",
+      "roundName": "Round 2",
+      "team1": "A. Popyrin",
+      "team2": "A. Tabilo"
+     },
+     {
+      "id": "MS-1207",
+      "order": 4,
+      "notBefore": "4:00 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MS",
+      "roundName": "Round 2",
+      "team1": "Z. Bergs / C. Taberner",
+      "team2": "J. de Jong / F. Passaro"
+     }
+    ]
+   },
+   {
+    "court": "Court 10",
+    "courtId": "AK",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788447600000,
+    "matches": [
+     {
+      "id": "WD-4115",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WD",
+      "roundName": "Round 1",
+      "team1": "M. Kostyuk / E. Ruse",
+      "team2": "P. Udvardy / L. Pigossi"
+     },
+     {
+      "id": "WD-4121",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WD",
+      "roundName": "Round 1",
+      "team1": "U. Eikeri / Q. Gleason",
+      "team2": "M. Uchijima / X. Wang"
+     },
+     {
+      "id": "WD-4120",
+      "order": 3,
+      "notBefore": "3:00 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WD",
+      "roundName": "Round 1",
+      "team1": "A. Li / C. Tauson",
+      "team2": "E. Routliffe / A. Sutjiadi"
+     },
+     {
+      "id": "WD-4106",
+      "order": 4,
+      "notBefore": "4:00 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WD",
+      "roundName": "Round 1",
+      "team1": "K. Birrell / P. Stearns",
+      "team2": "E. Shibahara / L. Tararudee"
+     }
+    ]
+   },
+   {
+    "court": "Court 11",
+    "courtId": "AL",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788447600000,
+    "matches": [
+     {
+      "id": "WD-4102",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WD",
+      "roundName": "Round 1",
+      "team1": "C. Liu / J. Pareja",
+      "team2": "X. Wang / Y. Xu"
+     },
+     {
+      "id": "WS-2226",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WS",
+      "roundName": "Round 2",
+      "team1": "H. Dart",
+      "team2": "M. Bouzkova"
+     },
+     {
+      "id": "MS-1211",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MS",
+      "roundName": "Round 2",
+      "team1": "J. Mensik",
+      "team2": "J. Rodionov"
+     },
+     {
+      "id": "WD-4110",
+      "order": 4,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WD",
+      "roundName": "Round 1",
+      "team1": "M. Bouzkova / S. Sorribes Tormo",
+      "team2": "M. Kessler / C. McNally"
+     }
+    ]
+   },
+   {
+    "court": "Court 12",
+    "courtId": "AM",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788447600000,
+    "matches": [
+     {
+      "id": "MS-1203",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MS",
+      "roundName": "Round 2",
+      "team1": "L. Darderi",
+      "team2": "D. Svrcina"
+     },
+     {
+      "id": "WS-2228",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WS",
+      "roundName": "Round 2",
+      "team1": "Q. Zheng",
+      "team2": "Y. Putintseva"
+     },
+     {
+      "id": "WD-4101",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WD",
+      "roundName": "Round 1",
+      "team1": "K. Siniakova / T. Townsend",
+      "team2": "R. Brantmeier / S. Broadus"
+     },
+     {
+      "id": "MS-1205",
+      "order": 4,
+      "notBefore": "4:00 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MS",
+      "roundName": "Round 2",
+      "team1": "Y. Bu",
+      "team2": "M. Zheng"
+     }
+    ]
+   },
+   {
+    "court": "Court 13",
+    "courtId": "AN",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788447600000,
+    "matches": [
+     {
+      "id": "WD-4119",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WD",
+      "roundName": "Round 1",
+      "team1": "L. Fernandez / J. Tjen",
+      "team2": "N. Radisic / I. Haverlag"
+     },
+     {
+      "id": "WD-4104",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WD",
+      "roundName": "Round 1",
+      "team1": "D. Bennett / A. Esposito",
+      "team2": "S. Hunter / D. Krawczyk"
+     },
+     {
+      "id": "WS-2218",
+      "order": 3,
+      "notBefore": "2:30 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WS",
+      "roundName": "Round 2",
+      "team1": "N. Bartunkova",
+      "team2": "T. Maria"
+     },
+     {
+      "id": "MS-1210",
+      "order": 4,
+      "notBefore": "4:00 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MS",
+      "roundName": "Round 2",
+      "team1": "B. Bonzi",
+      "team2": "I. Buse"
+     }
+    ]
+   },
+   {
+    "court": "Court 15",
+    "courtId": "AP",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788447600000,
+    "matches": [
+     {
+      "id": "WD-4103",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WD",
+      "roundName": "Round 1",
+      "team1": "M. Kozyreva / M. Ninomiya",
+      "team2": "M. Kempen / A. Panova"
+     },
+     {
+      "id": "WD-4105",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WD",
+      "roundName": "Round 1",
+      "team1": "S. Aoyama / E. Liang",
+      "team2": "I. Neel / G. Olmos"
+     },
+     {
+      "id": "WD-4114",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WD",
+      "roundName": "Round 1",
+      "team1": "K. Piter / A. Siskova",
+      "team2": "E. Pridankina / Q. Tang"
+     },
+     {
+      "id": "WD-4117",
+      "order": 4,
+      "notBefore": "3:00 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WD",
+      "roundName": "Round 1",
+      "team1": "H. Guo / K. Mladenovic",
+      "team2": "M. Chwalinska / M. Linette"
      }
     ]
    }
