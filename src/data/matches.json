@@ -14,11 +14,17 @@
   "court": "Arthur Ashe Stadium",
   "courtId": "AA",
   "eventDay": 10,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788310526000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "4:53",
+  "setDurations": [
+   54,
+   38,
+   70,
+   70,
+   61
+  ],
   "upset": false,
   "sides": [
    {
@@ -32,8 +38,8 @@
     ],
     "seed": 1,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    },
    {
     "players": [
@@ -46,12 +52,51 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     7,
+     9
+    ]
+   },
+   {
+    "games": [
+     7,
+     5
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "espnId": "182660",
   "broadcasts": [
    {
@@ -826,7 +871,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788366600000,
+  "startEpoch": 1788368400000,
   "espnSideIds": [
    "12657",
    "11382"
@@ -979,11 +1024,17 @@
   "court": "Court 6",
   "courtId": "AG",
   "eventDay": 10,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788295894000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "3:06",
+  "setDurations": [
+   30,
+   41,
+   41,
+   40,
+   34
+  ],
   "upset": false,
   "sides": [
    {
@@ -997,8 +1048,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": false
    },
    {
     "players": [
@@ -1011,12 +1062,48 @@
     ],
     "seed": null,
     "entryStatus": "LL",
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     1,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "espnId": "182710",
   "broadcasts": [
    {
@@ -1044,7 +1131,7 @@
   "fedBy": null,
   "court": "Court 12",
   "courtId": "AM",
-  "eventDay": 10,
+  "eventDay": 11,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -1090,7 +1177,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788297600000,
+  "startEpoch": 1788372000000,
   "espnSideIds": [
    "3356",
    "3486"
@@ -1110,7 +1197,7 @@
   "fedBy": null,
   "court": "Court 10",
   "courtId": "AK",
-  "eventDay": 10,
+  "eventDay": 11,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -1156,7 +1243,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788296700000,
+  "startEpoch": 1788372000000,
   "espnSideIds": [
    "3897",
    "3820"
@@ -1823,11 +1910,16 @@
   "court": "Louis Armstrong Stadium",
   "courtId": "AB",
   "eventDay": 10,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788294671000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:22",
+  "setDurations": [
+   37,
+   25,
+   44,
+   36
+  ],
   "upset": false,
   "sides": [
    {
@@ -1841,8 +1933,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -1855,12 +1947,41 @@
     ],
     "seed": null,
     "entryStatus": "WC",
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     1,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     0,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "espnId": "182729",
   "broadcasts": [
    {
@@ -6014,8 +6135,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpz355",
+      "name": "A. Zverev",
+      "fullName": "Alexander Zverev",
+      "nation": "GER"
+     }
+    ],
+    "seed": 1,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -6036,7 +6164,13 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182707",
+  "startEpoch": 1788408000000,
+  "espnSideIds": [
+   "2375",
+   "2362"
+  ]
  },
  {
   "id": "MS-1202",
@@ -6303,9 +6437,16 @@
     "won": null
    },
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpg0ix",
+      "name": "A. Gea",
+      "fullName": "Arthur Gea",
+      "nation": "FRA"
+     }
+    ],
     "seed": null,
-    "entryStatus": null,
+    "entryStatus": "LL",
     "setsWon": null,
     "won": null
    }
@@ -6594,9 +6735,16 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpmc65",
+      "name": "G. Monfils",
+      "fullName": "Gael Monfils",
+      "nation": "FRA"
+     }
+    ],
     "seed": null,
-    "entryStatus": null,
+    "entryStatus": "WC",
     "setsWon": null,
     "won": null
    },
@@ -6616,7 +6764,13 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182756",
+  "startEpoch": 1788408000000,
+  "espnSideIds": [
+   "242",
+   "10386"
+  ]
  },
  {
   "id": "MS-1213",
@@ -6927,6 +7081,12 @@
   "sets": [],
   "winner": null,
   "espnId": "182771",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788361200000,
   "espnSideIds": [
    "2383",
@@ -6990,6 +7150,12 @@
   "sets": [],
   "winner": null,
   "espnId": "182690",
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788361200000,
   "espnSideIds": [
    "2709",
@@ -7011,8 +7177,8 @@
    "MS-1137",
    "MS-1138"
   ],
-  "court": "Court 10",
-  "courtId": "AK",
+  "court": "Court 13",
+  "courtId": "AN",
   "eventDay": 11,
   "epoch": null,
   "status": "scheduled",
@@ -7053,7 +7219,13 @@
   "sets": [],
   "winner": null,
   "espnId": "182693",
-  "startEpoch": 1788379200000,
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
+  "startEpoch": 1788386400000,
   "espnSideIds": [
    "9376",
    "2416"
@@ -7116,6 +7288,12 @@
   "sets": [],
   "winner": null,
   "espnId": "182742",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788390000000,
   "espnSideIds": [
    "13871",
@@ -7179,6 +7357,12 @@
   "sets": [],
   "winner": null,
   "espnId": "182746",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788361200000,
   "espnSideIds": [
    "3774",
@@ -7242,6 +7426,12 @@
   "sets": [],
   "winner": null,
   "espnId": "182748",
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788361200000,
   "espnSideIds": [
    "10239",
@@ -7305,6 +7495,12 @@
   "sets": [],
   "winner": null,
   "espnId": "182714",
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788366600000,
   "espnSideIds": [
    "3739",
@@ -7368,7 +7564,13 @@
   "sets": [],
   "winner": null,
   "espnId": "182720",
-  "startEpoch": 1788373800000,
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
+  "startEpoch": 1788379200000,
   "espnSideIds": [
    "2622",
    "9992"
@@ -7431,6 +7633,12 @@
   "sets": [],
   "winner": null,
   "espnId": "182730",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788368400000,
   "espnSideIds": [
    "9250",
@@ -7494,6 +7702,12 @@
   "sets": [],
   "winner": null,
   "espnId": "182773",
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788373800000,
   "espnSideIds": [
    "2860",
@@ -7557,7 +7771,13 @@
   "sets": [],
   "winner": null,
   "espnId": "182776",
-  "startEpoch": 1788373800000,
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
+  "startEpoch": 1788377400000,
   "espnSideIds": [
    "3754",
    "10645"
@@ -7620,6 +7840,12 @@
   "sets": [],
   "winner": null,
   "espnId": "182775",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788381000000,
   "espnSideIds": [
    "2863",
@@ -7683,6 +7909,12 @@
   "sets": [],
   "winner": null,
   "espnId": "182779",
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788379200000,
   "espnSideIds": [
    "2865",
@@ -7746,7 +7978,13 @@
   "sets": [],
   "winner": null,
   "espnId": "182761",
-  "startEpoch": 1788373800000,
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
+  "startEpoch": 1788377400000,
   "espnSideIds": [
    "10105",
    "2964"
@@ -7809,6 +8047,12 @@
   "sets": [],
   "winner": null,
   "espnId": "182759",
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788373800000,
   "espnSideIds": [
    "1857",
@@ -7872,6 +8116,12 @@
   "sets": [],
   "winner": null,
   "espnId": "182764",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788395400000,
   "espnSideIds": [
    "10219",
@@ -12176,9 +12426,9 @@
   "slot": 35,
   "feedsInto": "WS-2218",
   "fedBy": null,
-  "court": "Court 8",
-  "courtId": "AI",
-  "eventDay": 10,
+  "court": "Court 15",
+  "courtId": "AP",
+  "eventDay": 11,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -12224,7 +12474,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788311100000,
+  "startEpoch": 1788372000000,
   "espnSideIds": [
    "7804",
    "2179"
@@ -12244,7 +12494,7 @@
   "fedBy": null,
   "court": "Court 11",
   "courtId": "AL",
-  "eventDay": 10,
+  "eventDay": 11,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -12290,7 +12540,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788300600000,
+  "startEpoch": 1788372000000,
   "espnSideIds": [
    "2346",
    "2195"
@@ -12395,11 +12645,14 @@
   "court": "Court 4",
   "courtId": "AF",
   "eventDay": 10,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788296687000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:48",
+  "setDurations": [
+   73,
+   35
+  ],
   "upset": false,
   "sides": [
    {
@@ -12413,8 +12666,8 @@
     ],
     "seed": null,
     "entryStatus": "Q",
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -12427,12 +12680,30 @@
     ],
     "seed": null,
     "entryStatus": "WC",
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     6,
+     8
+    ]
+   },
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "espnId": "182649",
   "broadcasts": [
    {
@@ -12631,7 +12902,7 @@
   "fedBy": null,
   "court": "Grandstand",
   "courtId": "AC",
-  "eventDay": 10,
+  "eventDay": 11,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -12677,7 +12948,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788311400000,
+  "startEpoch": 1788372000000,
   "espnSideIds": [
    "14311",
    "2672"
@@ -12697,7 +12968,7 @@
   "fedBy": null,
   "court": "Court 5",
   "courtId": "AE",
-  "eventDay": 10,
+  "eventDay": 11,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -12743,7 +13014,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788311400000,
+  "startEpoch": 1788372000000,
   "espnSideIds": [
    "1649",
    "7815"
@@ -12848,11 +13119,14 @@
   "court": "Louis Armstrong Stadium",
   "courtId": "AB",
   "eventDay": 10,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788300768000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:18",
+  "setDurations": [
+   31,
+   47
+  ],
   "upset": false,
   "sides": [
    {
@@ -12866,8 +13140,8 @@
     ],
     "seed": null,
     "entryStatus": "Q",
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -12880,12 +13154,27 @@
     ],
     "seed": 17,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     1,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "espnId": "182639",
   "broadcasts": [
    {
@@ -12893,7 +13182,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788312600000,
+  "startEpoch": 1788313800000,
   "espnSideIds": [
    "13479",
    "7759"
@@ -13089,7 +13378,7 @@
   "fedBy": null,
   "court": "Stadium 17",
   "courtId": "AD",
-  "eventDay": 10,
+  "eventDay": 11,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -13135,7 +13424,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788300300000,
+  "startEpoch": 1788366600000,
   "espnSideIds": [
    "2191",
    "2731"
@@ -14465,11 +14754,14 @@
   "court": "Court 7",
   "courtId": "AH",
   "eventDay": 10,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788294328000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:17",
+  "setDurations": [
+   35,
+   42
+  ],
   "upset": false,
   "sides": [
    {
@@ -14483,8 +14775,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -14497,12 +14789,27 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "espnId": "182601",
   "broadcasts": [
    {
@@ -14657,6 +14964,12 @@
   "sets": [],
   "winner": null,
   "espnId": "182539",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788390000000,
   "espnSideIds": [
    "3038",
@@ -14678,8 +14991,8 @@
    "WS-2103",
    "WS-2104"
   ],
-  "court": "Court 10",
-  "courtId": "AK",
+  "court": "Court 15",
+  "courtId": "AP",
   "eventDay": 11,
   "epoch": null,
   "status": "scheduled",
@@ -14720,7 +15033,13 @@
   "sets": [],
   "winner": null,
   "espnId": "182569",
-  "startEpoch": 1788373800000,
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
+  "startEpoch": 1788377400000,
   "espnSideIds": [
    "6571",
    "3908"
@@ -14783,6 +15102,12 @@
   "sets": [],
   "winner": null,
   "espnId": "182567",
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788361200000,
   "espnSideIds": [
    "2114",
@@ -14846,6 +15171,12 @@
   "sets": [],
   "winner": null,
   "espnId": "182575",
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788361200000,
   "espnSideIds": [
    "740",
@@ -14909,6 +15240,12 @@
   "sets": [],
   "winner": null,
   "espnId": "182580",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788368400000,
   "espnSideIds": [
    "3382",
@@ -14972,7 +15309,13 @@
   "sets": [],
   "winner": null,
   "espnId": "182587",
-  "startEpoch": 1788373800000,
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
+  "startEpoch": 1788377400000,
   "espnSideIds": [
    "2588",
    "3182"
@@ -15035,6 +15378,12 @@
   "sets": [],
   "winner": null,
   "espnId": "182584",
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788381000000,
   "espnSideIds": [
    "3380",
@@ -15098,6 +15447,12 @@
   "sets": [],
   "winner": null,
   "espnId": "182552",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788397200000,
   "espnSideIds": [
    "6953",
@@ -15161,6 +15516,12 @@
   "sets": [],
   "winner": null,
   "espnId": "182550",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788363000000,
   "espnSideIds": [
    "2113",
@@ -15224,6 +15585,12 @@
   "sets": [],
   "winner": null,
   "espnId": "182558",
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788361200000,
   "espnSideIds": [
    "5613",
@@ -15287,6 +15654,12 @@
   "sets": [],
   "winner": null,
   "espnId": "182561",
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788361200000,
   "espnSideIds": [
    "2615",
@@ -15350,6 +15723,12 @@
   "sets": [],
   "winner": null,
   "espnId": "182544",
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788361200000,
   "espnSideIds": [
    "3332",
@@ -15413,6 +15792,12 @@
   "sets": [],
   "winner": null,
   "espnId": "182546",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788382800000,
   "espnSideIds": [
    "1797",
@@ -15476,6 +15861,12 @@
   "sets": [],
   "winner": null,
   "espnId": "182548",
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788373800000,
   "espnSideIds": [
    "3387",
@@ -15539,6 +15930,12 @@
   "sets": [],
   "winner": null,
   "espnId": "182547",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788368400000
  },
  {
@@ -15598,7 +15995,13 @@
   "sets": [],
   "winner": null,
   "espnId": "182531",
-  "startEpoch": 1788373800000,
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
+  "startEpoch": 1788375600000,
   "espnSideIds": [
    "2054",
    "3039"
@@ -15750,15 +16153,28 @@
     "won": null
    },
    {
-    "players": [],
+    "players": [
+     {
+      "id": "wta320313",
+      "name": "L. Jeanjean",
+      "fullName": "Leolia Jeanjean",
+      "nation": "FRA"
+     }
+    ],
     "seed": null,
-    "entryStatus": null,
+    "entryStatus": "WC",
     "setsWon": null,
     "won": null
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182572",
+  "startEpoch": 1788408000000,
+  "espnSideIds": [
+   "2971",
+   "4453"
+  ]
  },
  {
   "id": "WS-2220",
@@ -15906,15 +16322,28 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta330332",
+      "name": "A. Eala",
+      "fullName": "Alexandra Eala",
+      "nation": "PHI"
+     }
+    ],
+    "seed": 17,
     "entryStatus": null,
     "setsWon": null,
     "won": null
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182556",
+  "startEpoch": 1788408000000,
+  "espnSideIds": [
+   "5705",
+   "7759"
+  ]
  },
  {
   "id": "WS-2223",
@@ -16496,7 +16925,14 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "wta328139",
+      "name": "J. Bouzas Maneiro",
+      "fullName": "Jessica Bouzas Maneiro",
+      "nation": "ESP"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
@@ -16518,7 +16954,13 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182585",
+  "startEpoch": 1788408000000,
+  "espnSideIds": [
+   "6059",
+   "3126"
+  ]
  },
  {
   "id": "WS-2301",
