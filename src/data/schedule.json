@@ -681,7 +681,7 @@
   "shortLabel": "Day 4: Wed, Sept 2",
   "displayDate": "Day 4: Wednesday, September 2",
   "date": "2026-09-02",
-  "releaseTime": "3:19 PM",
+  "releaseTime": "4:31 PM",
   "comments": null,
   "footerComment": null,
   "courts": [
@@ -711,7 +711,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "live",
+      "status": "finished",
       "eventCode": "MS",
       "roundName": "Round 2",
       "team1": "B. Shelton",
@@ -871,7 +871,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "suspended",
+      "status": "live",
       "eventCode": "WS",
       "roundName": "Round 2",
       "team1": "E. Navarro",
@@ -1011,7 +1011,7 @@
       "notBefore": "2:00 PM",
       "conjunction": null,
       "comment": null,
-      "status": "suspended",
+      "status": "live",
       "eventCode": "WS",
       "roundName": "Round 1",
       "team1": "M. Linette",
@@ -1028,6 +1028,28 @@
       "roundName": "Round 2",
       "team1": "J. Lehecka",
       "team2": "T. Samuel"
+     }
+    ]
+   },
+   {
+    "court": "Court 4",
+    "courtId": "AF",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "5:30 PM",
+    "startEpoch": 1788384600000,
+    "matches": [
+     {
+      "id": "MS-1114",
+      "order": 1,
+      "notBefore": "5:30 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "suspended",
+      "eventCode": "MS",
+      "roundName": "Round 1",
+      "team1": "J. de Jong",
+      "team2": "F. Passaro"
      }
     ]
    },
@@ -1103,7 +1125,7 @@
       "notBefore": "12:30 PM",
       "conjunction": null,
       "comment": null,
-      "status": "suspended",
+      "status": "live",
       "eventCode": "MS",
       "roundName": "Round 1",
       "team1": "Z. Svajda",
@@ -1161,23 +1183,11 @@
       "notBefore": "12:30 PM",
       "conjunction": null,
       "comment": null,
-      "status": "suspended",
+      "status": "live",
       "eventCode": "MS",
       "roundName": "Round 1",
       "team1": "F. Marozsan",
       "team2": "M. Zheng"
-     },
-     {
-      "id": "MS-1114",
-      "order": 3,
-      "notBefore": "2:00 PM",
-      "conjunction": null,
-      "comment": null,
-      "status": "suspended",
-      "eventCode": "MS",
-      "roundName": "Round 1",
-      "team1": "J. de Jong",
-      "team2": "F. Passaro"
      }
     ]
    },
@@ -1207,7 +1217,7 @@
       "notBefore": "12:30 PM",
       "conjunction": null,
       "comment": null,
-      "status": "suspended",
+      "status": "live",
       "eventCode": "MS",
       "roundName": "Round 1",
       "team1": "A. Guerrieri",
