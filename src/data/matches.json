@@ -1243,7 +1243,7 @@
   "courtId": "AK",
   "eventDay": 11,
   "epoch": null,
-  "status": "suspended",
+  "status": "scheduled",
   "statusCode": "B",
   "duration": null,
   "setDurations": [],
@@ -1290,7 +1290,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788388200000,
+  "startEpoch": 1788387900000,
   "espnSideIds": [
    "3356",
    "3486"
@@ -7599,7 +7599,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788390000000,
+  "startEpoch": 1788390900000,
   "espnSideIds": [
    "9376",
    "2416"
@@ -8022,7 +8022,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788391800000,
+  "startEpoch": 1788390000000,
   "espnSideIds": [
    "2622",
    "9992"
@@ -8563,7 +8563,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788388800000,
+  "startEpoch": 1788390000000,
   "espnSideIds": [
    "1857",
    "2875"
@@ -13547,7 +13547,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788387000000,
+  "startEpoch": 1788387300000,
   "espnSideIds": [
    "14311",
    "2672"
@@ -16162,7 +16162,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788388200000,
+  "startEpoch": 1788390000000,
   "espnSideIds": [
    "3380",
    "2040"
