@@ -206,8 +206,6 @@ function OrderOfPlay({
 
   return (
     <>
-      {official.comments && <div className="op-notice">{official.comments}</div>}
-
       {courts.map((c) => (
         <div key={`${c.court}-${c.session ?? 1}`} className="op-court">
           <div className="op-head">
@@ -268,14 +266,6 @@ function OrderOfPlay({
           </div>
         </div>
       ))}
-
-      {official.footerComment && (
-        <div className="provenance">
-          {official.footerComment.split("|").map((t, i) => (
-            <div key={i}>{t.trim()}</div>
-          ))}
-        </div>
-      )}
     </>
   );
 }

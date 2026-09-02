@@ -1,0 +1,26 @@
+# Cloudflare Worker that drives the "Update US Open data" workflow's cadence.
+# GitHub throttles its own `schedule:` cron heavily (measured gaps of 71-318
+# minutes against a */20 request); workflow_dispatch via the REST API is not
+# throttled. See src/index.js and README.md.
+#
+# Deploy: see README.md (set the GH_TOKEN secret first).
+name = "uso-data-trigger"
+main = "src/index.js"
+compatibility_date = "2026-09-02"
+
+# Wakes every minute (free); src/index.js decides when to actually dispatch.
+[triggers]
+crons = ["* * * * *"]
+
+# Non-secret config. The GitHub token is NOT here — it is a secret, set with
+# `wrangler secret put GH_TOKEN`.
+[vars]
+OWNER = "mirghanbari"
+REPO = "us-open-tennis"
+WORKFLOW = "update-data.yml"
+REF = "main"
+META_URL = "https://raw.githubusercontent.com/mirghanbari/us-open-tennis/main/src/data/meta.json"
+LIVE_EVERY_MIN = "10"   # dispatch cadence during the daily play window
+IDLE_EVERY_MIN = "60"   # overnight / out of tournament
+PLAY_START_HOUR = "10"  # New York time
+PLAY_END_HOUR = "2"

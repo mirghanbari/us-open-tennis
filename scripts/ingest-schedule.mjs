@@ -13,7 +13,9 @@
 //   - each match's ORDER on its court, plus "not before" times
 //   - an in-progress status, and crucially SUSPENDED — a match stopped for
 //     rain or darkness, which no other source we use exposes
-//   - the day's notices (sign-in deadlines and the like)
+//   - the day's notices (kept in the data but NOT rendered: they are addressed
+//     to players and their teams — lucky-loser and on-site doubles sign-in
+//     deadlines, where the referee's office is — not to spectators)
 //
 // Live SCORES are not here and are not in any JSON feed: the site streams them
 // over MQTT/SSE from scores.usopen.org with encoded, compressed topics. ESPN

@@ -714,12 +714,4 @@ input[type="search"] {
   color: var(--ink-faint);
   font-variant-numeric: tabular-nums;
 }
-.op-notice {
-  background: #fff8e6;
-  border: 1px solid #f2e2b6;
-  border-radius: var(--radius-sm);
-  padding: 10px 14px;
-  font-size: 0.85rem;
-  color: #6b5416;
-  margin-bottom: 16px;
-}
+

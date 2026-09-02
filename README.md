@@ -200,10 +200,18 @@ servers and cannot see "30–40 on serve".
 
 ## Refreshing the data
 
-`.github/workflows/update-data.yml` runs the ingest and rebuilds the model every
-20 minutes during the tournament, committing any changed JSON, which triggers a
-redeploy. It does **not** poll every minute — it doesn't need to, because live
-scores come from the browser.
+`.github/workflows/update-data.yml` runs the ingest and rebuilds the model,
+committing any changed JSON, which triggers a redeploy.
+
+**Its cadence is driven by a Cloudflare Worker, not by its own `schedule:`.**
+GitHub throttles scheduled cron hard — the workflow asks for `*/20` and measured
+gaps between actual scheduled runs were 71, 77, 169, 318 and 302 minutes, which
+left the bracket, suspended status, order of play and title odds hours behind.
+`workflow_dispatch` is not throttled, so `cron-trigger/` fires it every 10
+minutes during play and hourly otherwise; the repo's `schedule:` stays as a
+backstop. See [`cron-trigger/README.md`](cron-trigger/README.md).
+
+Live scores are unaffected either way — they go browser → ESPN directly.
 
 The model rebuilds on *every* refresh rather than a slower schedule of its own:
 title odds are produced by replaying real results forward through the draw, so a
