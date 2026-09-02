@@ -1201,7 +1201,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788375600000,
+  "startEpoch": 1788377400000,
   "espnSideIds": [
    "3356",
    "3486"
@@ -1291,11 +1291,15 @@
   "court": "Court 5",
   "courtId": "AE",
   "eventDay": 11,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788356511000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:59",
+  "setDurations": [
+   38,
+   26,
+   55
+  ],
   "upset": false,
   "sides": [
    {
@@ -1309,8 +1313,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -1323,12 +1327,37 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     1,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     5,
+     7
+    ]
+   }
+  ],
+  "winner": 2,
   "courtOrder": 2,
   "notBefore": "12:30 PM",
   "session": 1,
@@ -1621,11 +1650,16 @@
   "court": "Court 13",
   "courtId": "AN",
   "eventDay": 11,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788356997000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:23",
+  "setDurations": [
+   38,
+   37,
+   36,
+   32
+  ],
   "upset": false,
   "sides": [
    {
@@ -1639,8 +1673,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -1653,12 +1687,41 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 1,
   "notBefore": "12:30 PM",
   "session": 1,
@@ -6586,7 +6649,14 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpv812",
+      "name": "B. van de Zandschulp",
+      "fullName": "Botic van de Zandschulp",
+      "nation": "NED"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
@@ -6695,7 +6765,14 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpbm95",
+      "name": "B. Bonzi",
+      "fullName": "Benjamin Bonzi",
+      "nation": "FRA"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
@@ -7784,7 +7861,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788379200000,
+  "startEpoch": 1788381000000,
   "espnSideIds": [
    "2622",
    "9992"
@@ -7928,7 +8005,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788374700000,
+  "startEpoch": 1788375600000,
   "espnSideIds": [
    "2860",
    "8814"
@@ -8000,7 +8077,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788378300000,
+  "startEpoch": 1788378900000,
   "espnSideIds": [
    "3754",
    "10645"
@@ -8288,7 +8365,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788375600000,
+  "startEpoch": 1788377400000,
   "espnSideIds": [
    "1857",
    "2875"
@@ -13265,7 +13342,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788375000000,
+  "startEpoch": 1788376200000,
   "espnSideIds": [
    "14311",
    "2672"
@@ -13287,7 +13364,7 @@
   "courtId": "AE",
   "eventDay": 11,
   "epoch": null,
-  "status": "suspended",
+  "status": "scheduled",
   "statusCode": "B",
   "duration": null,
   "setDurations": [],
@@ -13334,7 +13411,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788374700000,
+  "startEpoch": 1788375300000,
   "espnSideIds": [
    "1649",
    "7815"
@@ -16534,7 +16611,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788375600000,
+  "startEpoch": 1788377400000,
   "espnSideIds": [
    "2054",
    "3039"
