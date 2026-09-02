@@ -390,36 +390,6 @@
   },
   "meetings": []
  },
- "MS-1218": {
-  "player1": {
-   "id": "atpmu94",
-   "name": "Jaume Munar",
-   "wins": 1
-  },
-  "player2": {
-   "id": "atprc91",
-   "name": "Arthur Rinderknech",
-   "wins": 1
-  },
-  "meetings": [
-   {
-    "year": 2025,
-    "tournament": "Miami",
-    "surface": "Hard",
-    "round": "R1",
-    "winner": "1",
-    "score": "6-3, 7-6"
-   },
-   {
-    "year": 2022,
-    "tournament": "Metz",
-    "surface": "Hard",
-    "round": "R1",
-    "winner": "2",
-    "score": "6-2, 2-6, 7-5"
-   }
-  ]
- },
  "MS-1219": {
   "player1": {
    "id": "atpva25",
@@ -626,6 +596,36 @@
    "wins": 0
   },
   "meetings": []
+ },
+ "MS-1309": {
+  "player1": {
+   "id": "atpmm58",
+   "name": "Daniil Medvedev",
+   "wins": 1
+  },
+  "player2": {
+   "id": "atprc91",
+   "name": "Arthur Rinderknech",
+   "wins": 1
+  },
+  "meetings": [
+   {
+    "year": 2025,
+    "tournament": "Shanghai",
+    "surface": "Hard",
+    "round": "SF",
+    "winner": "2",
+    "score": "4-6, 6-2, 6-4"
+   },
+   {
+    "year": 2022,
+    "tournament": "US Open",
+    "surface": "Hard",
+    "round": "R2",
+    "winner": "1",
+    "score": "6-2, 7-5, 6-3"
+   }
+  ]
  },
  "MS-1311": {
   "player1": {
