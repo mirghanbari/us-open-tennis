@@ -681,7 +681,7 @@
   "shortLabel": "Day 4: Wed, Sept 2",
   "displayDate": "Day 4: Wednesday, September 2",
   "date": "2026-09-02",
-  "releaseTime": "6:09 PM",
+  "releaseTime": "6:50 PM",
   "comments": null,
   "footerComment": null,
   "courts": [
@@ -1045,23 +1045,11 @@
       "notBefore": "5:30 PM",
       "conjunction": null,
       "comment": null,
-      "status": "live",
+      "status": "finished",
       "eventCode": "MS",
       "roundName": "Round 1",
       "team1": "J. de Jong",
       "team2": "F. Passaro"
-     },
-     {
-      "id": "MS-1219",
-      "order": 2,
-      "notBefore": "7:15 PM",
-      "conjunction": null,
-      "comment": null,
-      "status": "scheduled",
-      "eventCode": "MS",
-      "roundName": "Round 2",
-      "team1": "V. Vacherot",
-      "team2": "K. Majchrzak"
      }
     ]
    },
@@ -1207,11 +1195,23 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "live",
+      "status": "finished",
       "eventCode": "MS",
       "roundName": "Round 1",
       "team1": "Z. Bergs",
       "team2": "C. Taberner"
+     },
+     {
+      "id": "MS-1219",
+      "order": 4,
+      "notBefore": "7:15 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MS",
+      "roundName": "Round 2",
+      "team1": "V. Vacherot",
+      "team2": "K. Majchrzak"
      }
     ]
    },
@@ -1299,7 +1299,7 @@
       "notBefore": "6:45 PM",
       "conjunction": null,
       "comment": null,
-      "status": "scheduled",
+      "status": "live",
       "eventCode": "MS",
       "roundName": "Round 2",
       "team1": "M. Berrettini",
@@ -1832,8 +1832,8 @@
       "status": "scheduled",
       "eventCode": "MS",
       "roundName": "Round 2",
-      "team1": "Z. Bergs / C. Taberner",
-      "team2": "J. de Jong / F. Passaro"
+      "team1": "Z. Bergs",
+      "team2": "J. de Jong"
      }
     ]
    },

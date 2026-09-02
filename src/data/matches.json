@@ -1242,11 +1242,16 @@
   "court": "Court 10",
   "courtId": "AK",
   "eventDay": 11,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788371347000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:51",
+  "setDurations": [
+   32,
+   42,
+   47,
+   50
+  ],
   "upset": false,
   "sides": [
    {
@@ -1260,8 +1265,8 @@
     ],
     "seed": 31,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    },
    {
     "players": [
@@ -1274,12 +1279,41 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 3,
   "notBefore": null,
   "session": 1,
@@ -1311,11 +1345,17 @@
   "court": "Court 4",
   "courtId": "AF",
   "eventDay": 11,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788371158000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "3:51",
+  "setDurations": [
+   35,
+   48,
+   59,
+   59,
+   30
+  ],
   "upset": false,
   "sides": [
    {
@@ -1329,8 +1369,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    },
    {
     "players": [
@@ -1343,12 +1383,48 @@
     ],
     "seed": null,
     "entryStatus": "Q",
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 1,
   "notBefore": "5:30 PM",
   "session": 1,
@@ -6814,14 +6890,28 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpbu13",
+      "name": "Z. Bergs",
+      "fullName": "Zizou Bergs",
+      "nation": "BEL"
+     }
+    ],
+    "seed": 31,
     "entryStatus": null,
     "setsWon": null,
     "won": null
    },
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpd0c1",
+      "name": "J. de Jong",
+      "fullName": "Jesper de Jong",
+      "nation": "NED"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
@@ -6832,7 +6922,13 @@
   "winner": null,
   "courtOrder": 4,
   "notBefore": "4:00 PM",
-  "session": 1
+  "session": 1,
+  "espnId": "182695",
+  "startEpoch": 1788465600000,
+  "espnSideIds": [
+   "3356",
+   "3897"
+  ]
  },
  {
   "id": "MS-1208",
@@ -7642,8 +7738,8 @@
    "MS-1137",
    "MS-1138"
   ],
-  "court": "Court 4",
-  "courtId": "AF",
+  "court": "Court 10",
+  "courtId": "AK",
   "eventDay": 11,
   "epoch": null,
   "status": "scheduled",
@@ -7683,7 +7779,7 @@
   ],
   "sets": [],
   "winner": null,
-  "courtOrder": 2,
+  "courtOrder": 4,
   "notBefore": "7:15 PM",
   "session": 1,
   "espnId": "182693",
@@ -7693,7 +7789,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788390900000,
+  "startEpoch": 1788390000000,
   "espnSideIds": [
    "9376",
    "2416"
