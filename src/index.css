@@ -655,3 +655,10 @@ input[type="search"] {
   vertical-align: middle;
   min-width: 2px;
 }
+
+/* Weather strip sits between the page head and the first row of cards, so it
+   needs breathing room on BOTH sides — an inline margin-top alone left it
+   crowding the grid below it on every breakpoint. */
+.weather {
+  margin: 14px 0 22px;
+}

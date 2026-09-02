@@ -12,7 +12,7 @@ export function WeatherStrip() {
   const rainy = wet || (w.rainChance6h != null && w.rainChance6h >= 40);
 
   return (
-    <div className="card card-pad weather" style={{ marginTop: 14 }}>
+    <div className="card card-pad weather">
       <div className="row" style={{ justifyContent: "space-between" }}>
         <div className="row">
           <strong>{w.tempF}°F</strong>

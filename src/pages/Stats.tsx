@@ -233,7 +233,20 @@ export function Stats() {
 
 type Metric = "aces" | "acesPerMatch" | "doubleFaults" | "firstServePct" | "bpSavedPct";
 
-const METRICS: { key: Metric; label: string; format: (r: any) => string; min?: number }[] = [
+/**
+ * `qualify` guards rate metrics against meaningless small samples. It gates on
+ * the DENOMINATOR, not on matches played: early in a tournament every player
+ * has exactly one match, so a matches-played threshold empties the board
+ * entirely, while "100% break points saved" off a single break point faced is
+ * noise either way. Counting stats need no guard.
+ */
+const METRICS: {
+  key: Metric;
+  label: string;
+  format: (r: any) => string;
+  qualify?: (r: any) => boolean;
+  note?: string;
+}[] = [
   { key: "aces", label: "Aces", format: (r) => String(r.aces) },
   {
     key: "acesPerMatch",
@@ -245,14 +258,15 @@ const METRICS: { key: Metric; label: string; format: (r: any) => string; min?: n
     key: "firstServePct",
     label: "1st serve %",
     format: (r) => (r.firstServePct != null ? `${r.firstServePct}%` : "—"),
-    // A single match is too small a sample for a percentage leaderboard.
-    min: 2,
+    qualify: (r) => r.servePoints >= 50,
+    note: "minimum 50 service points",
   },
   {
     key: "bpSavedPct",
     label: "Break points saved",
     format: (r) => (r.bpSavedPct != null ? `${r.bpSavedPct}%` : "—"),
-    min: 2,
+    qualify: (r) => r.bpFaced >= 5,
+    note: "minimum 5 break points faced",
   },
 ];
 
@@ -292,9 +306,10 @@ function ServeLeaders() {
   ];
   const context = CONTEXT.filter((c) => c.key !== metric);
 
-  const rows = totals
-    .filter((r) => r.matches >= (spec.min ?? 1))
-    .filter((r) => (r as any)[metric] != null)
+  const eligible = totals
+    .filter((r) => (spec.qualify ? spec.qualify(r) : true))
+    .filter((r) => (r as any)[metric] != null);
+  const rows = eligible
     .sort((a, b) => ((b as any)[metric] as number) - ((a as any)[metric] as number))
     .slice(0, 15);
 
@@ -302,7 +317,9 @@ function ServeLeaders() {
     <>
       <div className="section-head">
         <h2>Serve leaders</h2>
-        <span className="tiny faint">{totals.length} players with published stats</span>
+        <span className="tiny faint">
+          {spec.note ? `${eligible.length} qualify · ${spec.note}` : `${totals.length} players`}
+        </span>
       </div>
       <div className="filters">
         {METRICS.map((m) => (
@@ -315,6 +332,11 @@ function ServeLeaders() {
           </button>
         ))}
       </div>
+      {rows.length === 0 ? (
+        <div className="empty">
+          No player meets the {spec.note} threshold yet.
+        </div>
+      ) : (
       <div className="table-wrap">
         <table>
           <thead>
@@ -356,10 +378,11 @@ function ServeLeaders() {
           </tbody>
         </table>
       </div>
+      )}
       <div className="provenance">
         From Tennismylife (Sackmann schema), updated roughly daily — a match that finished in the
         last few hours is usually not counted yet. Percentages are computed from summed counts,
-        not by averaging per-match rates. Percentage boards require at least two matches played.
+        not by averaging per-match rates. Rate boards carry a minimum sample so a single break point can't top the table.
       </div>
     </>
   );
