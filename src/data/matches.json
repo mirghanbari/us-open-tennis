@@ -836,7 +836,7 @@
   "courtId": "AD",
   "eventDay": 11,
   "epoch": null,
-  "status": "scheduled",
+  "status": "suspended",
   "statusCode": "B",
   "duration": null,
   "setDurations": [],
@@ -905,7 +905,7 @@
   "courtId": "AK",
   "eventDay": 11,
   "epoch": null,
-  "status": "scheduled",
+  "status": "suspended",
   "statusCode": "B",
   "duration": null,
   "setDurations": [],
@@ -974,7 +974,7 @@
   "courtId": "AH",
   "eventDay": 11,
   "epoch": null,
-  "status": "scheduled",
+  "status": "suspended",
   "statusCode": "B",
   "duration": null,
   "setDurations": [],
@@ -1390,7 +1390,7 @@
   "courtId": "AL",
   "eventDay": 11,
   "epoch": null,
-  "status": "scheduled",
+  "status": "suspended",
   "statusCode": "B",
   "duration": null,
   "setDurations": [],
@@ -1754,7 +1754,7 @@
   "courtId": "AG",
   "eventDay": 11,
   "epoch": null,
-  "status": "scheduled",
+  "status": "suspended",
   "statusCode": "B",
   "duration": null,
   "setDurations": [],
@@ -7742,7 +7742,7 @@
   "courtId": "AM",
   "eventDay": 11,
   "epoch": null,
-  "status": "scheduled",
+  "status": "suspended",
   "statusCode": "B",
   "duration": null,
   "setDurations": [],
@@ -8005,7 +8005,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788375600000,
+  "startEpoch": 1788375900000,
   "espnSideIds": [
    "2860",
    "8814"
@@ -8221,7 +8221,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788379200000,
+  "startEpoch": 1788381000000,
   "espnSideIds": [
    "2865",
    "1266"
@@ -8293,7 +8293,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788379200000,
+  "startEpoch": 1788382800000,
   "espnSideIds": [
    "10105",
    "2964"
@@ -13342,7 +13342,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788376200000,
+  "startEpoch": 1788377400000,
   "espnSideIds": [
    "14311",
    "2672"
@@ -13364,7 +13364,7 @@
   "courtId": "AE",
   "eventDay": 11,
   "epoch": null,
-  "status": "scheduled",
+  "status": "suspended",
   "statusCode": "B",
   "duration": null,
   "setDurations": [],
@@ -16399,7 +16399,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788382800000,
+  "startEpoch": 1788390000000,
   "espnSideIds": [
    "1797",
    "14146"
@@ -16471,7 +16471,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788375600000,
+  "startEpoch": 1788377400000,
   "espnSideIds": [
    "3387",
    "2977"
@@ -16496,7 +16496,7 @@
   "courtId": "AC",
   "eventDay": 11,
   "epoch": null,
-  "status": "scheduled",
+  "status": "suspended",
   "statusCode": "B",
   "duration": null,
   "setDurations": [],
