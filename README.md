@@ -20,6 +20,7 @@ which it borrows its structure from.
 | **Players** (`/players`) | Everyone in the published draws, sortable |
 | **Player detail** (`/players/:id`) | Bio, ranking, record here, prize money, matches |
 | **Stats** (`/stats`) | Serve leaders, seeds alive/out, prize money, longest matches, nations, upsets, retirements |
+| **Predictions** (`/predictions`) | Title odds, live win probability, per-match probabilities, and the model's measured accuracy |
 | **My players** (`/favorites`) | Starred players with their live or next match |
 
 Routing uses `HashRouter` so deep links work on GitHub Pages without server config.
@@ -40,6 +41,8 @@ npm run ingest:usopen  # official draws (run first — the others enrich its out
 npm run ingest:espn    # TV listings, start times, rankings, bios
 npm run ingest:h2h     # head-to-head for upcoming matches
 npm run ingest:tml     # serve statistics
+npm run model          # retrain + simulate the draw -> model.json
+npm run backtest       # re-measure accuracy -> backtest.json
 ```
 
 Weather is **not** ingested: it changes every few minutes, so committing it would
@@ -133,12 +136,64 @@ The UI labels provenance rather than inventing values. Known gaps:
   picks it up automatically once it appears.
 - ESPN's season stats for a player are only W/L, titles and prize money.
 
+## The predictive model
+
+A surface-weighted **Elo** blended with a **serve-based point model**, trained on
+~152,000 matches (2000–present, both tours) from Tennismylife's per-year
+archives, then Monte-Carlo simulated through the draw 10,000 times for title
+odds.
+
+- **Elo** updates chronologically with a decaying K-factor, plus a separate
+  hard-court rating blended in once both players have a hard-court record.
+- **The serve model** takes each player's serve- and return-points-won rates
+  (one-year half-life decay, shrunk toward the tour average), adjusts each
+  player's serve rate by how well the opponent returns, and feeds the standard
+  point → game → set → match hierarchy, which has an exact closed form.
+- **The blend** is 60% Elo / 40% serve, chosen on 2024 as a validation year and
+  evaluated on 2025-01-01 onward as a held-out test set.
+
+### Measured accuracy
+
+Every backtest prediction is made *before* that match updates the ratings, so
+nothing leaks. Metrics are computed as P(the actual winner wins), so the model
+never sees the label and no orientation randomisation is needed.
+
+| Test set | Blend | Elo only | Ranking baseline |
+| --- | --- | --- | --- |
+| **Grand Slams** (n=1,778) | **69.4%**, logloss 0.5644 | 69.1%, 0.5785 | 69.0%, 0.5767 |
+| All levels (n=9,480) | 64.1%, logloss 0.6243 | 64.2%, 0.6343 | 63.6%, 0.6370 |
+
+Slams are what this dashboard predicts, and the model is meaningfully better
+calibrated there than the ranking baseline. Across *all* tiers it is much
+weaker — ATP 250s and lower draws are far less predictable — and the Predictions
+page shows both numbers rather than only the flattering one.
+
+A useful independent check: the engine's learned tour averages come out at
+**63.2% (ATP)** and **56.2% (WTA)** serve points won, matching the real-world
+figures.
+
+### Limits
+
+No injury, fatigue, travel or weather input. Head-to-head is displayed but not
+modelled. A player with no tour-level history falls back to Elo's newcomer prior
+rather than a measured rating, and is flagged. Doubles are not modelled.
+
+**Live win probability** is computed at *game* granularity: no free feed says who
+is serving or what the game score is, so it averages over the two possible
+servers and cannot see "30–40 on serve".
+
 ## Refreshing the data
 
-`.github/workflows/update-data.yml` runs `npm run ingest` every 20 minutes during
-the tournament and commits any changed JSON, which triggers a redeploy. It does
-**not** poll every minute — it doesn't need to, because live scores come from the
-browser.
+`.github/workflows/update-data.yml` runs the ingest and rebuilds the model every
+20 minutes during the tournament, committing any changed JSON, which triggers a
+redeploy. It does **not** poll every minute — it doesn't need to, because live
+scores come from the browser.
+
+The model rebuilds on *every* refresh rather than a slower schedule of its own:
+title odds are produced by replaying real results forward through the draw, so a
+draw that has moved on would otherwise leave a beaten player still showing odds.
+The 2000–2025 archives are cached in Actions (they never change; the current year
+is always re-fetched), which keeps each run to two small downloads.
 
 ## Deploying
 

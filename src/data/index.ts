@@ -9,12 +9,16 @@ import drawsJson from "./draws.json";
 import metaJson from "./meta.json";
 import h2hJson from "./headtohead.json";
 import statsJson from "./stats.json";
+import modelJson from "./model.json";
 import type {
   DrawMeta,
   EventCode,
   HeadToHead,
   Match,
   MatchStats,
+  Model,
+  Rating,
+  TitleOdds,
   MatchSide,
   Meta,
   Player,
@@ -27,6 +31,22 @@ export const DRAWS = drawsJson as unknown as DrawMeta[];
 export const META = metaJson as unknown as Meta;
 export const HEAD_TO_HEAD = h2hJson as unknown as Record<string, HeadToHead>;
 export const MATCH_STATS = statsJson as unknown as Record<string, MatchStats>;
+export const MODEL = modelJson as unknown as Model;
+
+/** Model rating for a player, if they were in the training archive. */
+export function ratingFor(playerId: string): Rating | undefined {
+  return MODEL.ratings[playerId];
+}
+
+/** Modelled probability that side 1 wins an upcoming match. */
+export function matchOdds(matchId: string) {
+  return MODEL.matches[matchId];
+}
+
+/** Monte Carlo title odds for an event, most likely champion first. */
+export function titleOdds(code: EventCode): TitleOdds[] {
+  return MODEL.odds[code] ?? [];
+}
 
 /** Serve statistics for a match, when Tennismylife has published them yet. */
 export function matchStats(matchId: string): MatchStats | undefined {

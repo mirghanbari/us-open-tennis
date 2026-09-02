@@ -1,0 +1,65 @@
+{
+ "generated": "2026-09-02T14:23:21.063Z",
+ "trainedFrom": 2000,
+ "validationYear": 2024,
+ "testFrom": "2025-01-01",
+ "eloWeight": 0.6,
+ "overall": {
+  "blend": {
+   "n": 9480,
+   "accuracy": 0.6412,
+   "logLoss": 0.6243,
+   "brier": 0.2179
+  },
+  "elo": {
+   "n": 9480,
+   "accuracy": 0.6423,
+   "logLoss": 0.6343,
+   "brier": 0.2213
+  },
+  "serve": {
+   "n": 9480,
+   "accuracy": 0.6127,
+   "logLoss": 0.6419,
+   "brier": 0.226
+  },
+  "rank": {
+   "n": 9395,
+   "accuracy": 0.6363,
+   "logLoss": 0.637,
+   "brier": 0.2224
+  }
+ },
+ "grandSlam": {
+  "blend": {
+   "n": 1778,
+   "accuracy": 0.694,
+   "logLoss": 0.5644,
+   "brier": 0.1921
+  },
+  "elo": {
+   "n": 1778,
+   "accuracy": 0.6907,
+   "logLoss": 0.5785,
+   "brier": 0.1969
+  },
+  "rank": {
+   "n": 1772,
+   "accuracy": 0.6896,
+   "logLoss": 0.5767,
+   "brier": 0.1964
+  },
+  "atp": {
+   "n": 889,
+   "accuracy": 0.6862,
+   "logLoss": 0.5687,
+   "brier": 0.1943
+  },
+  "wta": {
+   "n": 889,
+   "accuracy": 0.7019,
+   "logLoss": 0.5601,
+   "brier": 0.1899
+  }
+ }
+}

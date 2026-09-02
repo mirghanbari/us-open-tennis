@@ -12,6 +12,7 @@ import { Players } from "./pages/Players";
 import { PlayerDetail } from "./pages/PlayerDetail";
 import { Stats } from "./pages/Stats";
 import { Favorites } from "./pages/Favorites";
+import { Predictions } from "./pages/Predictions";
 import "./index.css";
 
 // HashRouter so deep links work on GitHub Pages without server rewrites —
@@ -32,6 +33,7 @@ createRoot(document.getElementById("root")!).render(
           <Route path="players/:id" element={<PlayerDetail />} />
           <Route path="stats" element={<Stats />} />
           <Route path="favorites" element={<Favorites />} />
+          <Route path="predictions" element={<Predictions />} />
         </Route>
       </Routes>
     </HashRouter>

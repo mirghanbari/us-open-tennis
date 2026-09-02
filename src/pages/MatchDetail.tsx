@@ -11,6 +11,7 @@ import {
   useLiveMatches,
 } from "../data";
 import { ServeStatsTable } from "../components/ServeStatsTable";
+import { WinProbBar } from "../components/WinProbBar";
 import { dateET, duration, roundLabel, sideTag, timeET } from "../format";
 
 export function MatchDetail() {
@@ -113,6 +114,8 @@ export function MatchDetail() {
           Set durations: {m.setDurations.map((d) => `${d}m`).join(" · ")}
         </div>
       )}
+      <WinProbBar m={m} />
+
       {(() => {
         const stats = matchStats(m.id);
         if (stats) {

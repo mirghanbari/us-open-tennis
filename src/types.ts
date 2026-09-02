@@ -211,3 +211,61 @@ export interface MatchStats {
   minutes: number | null;
   sides: [ServeStats, ServeStats];
 }
+
+/** A player's current rating, from the model build. */
+export interface Rating {
+  elo: number;
+  hardElo: number;
+  matches: number;
+  /** Serve points won rate, shrunk toward the tour mean. */
+  spw: number;
+  /** Return points won rate, shrunk toward the tour mean. */
+  rpw: number;
+  servePoints: number;
+  /** false = no tour-level history; this is Elo's newcomer prior, not a measurement. */
+  rated: boolean;
+}
+
+export interface MatchOdds {
+  /** Probability that side 1 wins. */
+  p: number;
+  /** false when either player has no tour history behind their rating. */
+  rated: boolean;
+}
+
+export interface TitleOdds {
+  playerId: string;
+  title: number;
+  final: number;
+  semi: number;
+  quarter: number;
+}
+
+export interface BacktestBlock {
+  n: number;
+  accuracy: number;
+  logLoss: number;
+  brier: number;
+}
+
+export interface Model {
+  generated: string;
+  tourMeans: Record<Tour, { meanSpw: number; meanRpw: number }>;
+  sims: number;
+  eloWeight: number;
+  trainedFrom: number;
+  trainedThrough: string;
+  historyMatches: number;
+  ratings: Record<string, Rating>;
+  matches: Record<string, MatchOdds>;
+  odds: Record<string, TitleOdds[]>;
+  backtest: {
+    generated: string;
+    trainedFrom: number;
+    validationYear: number;
+    testFrom: string;
+    eloWeight: number;
+    overall: Record<string, BacktestBlock>;
+    grandSlam: Record<string, BacktestBlock>;
+  };
+}

@@ -14,7 +14,8 @@
     "ingest:espn": "node scripts/ingest-espn.mjs",
     "ingest:h2h": "node scripts/ingest-h2h.mjs",
     "ingest:tml": "node scripts/ingest-tml.mjs",
-    "model": "node scripts/build-model.mjs"
+    "model": "node scripts/build-model.mjs",
+    "backtest": "node scripts/backtest.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",

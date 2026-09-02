@@ -36,6 +36,17 @@ jobs:
           cache: npm
       - run: npm ci
 
+      # The model trains on ~25MB of match archives spanning 2000-2025. Those
+      # years never change, so cache them: loadHistory always re-fetches the
+      # CURRENT year regardless, so a warm cache still picks up new results
+      # while sparing a free community server 70+ full downloads a day.
+      - name: Cache historical match archives
+        uses: actions/cache@v4
+        with:
+          path: .cache/tml
+          key: tml-history-${{ github.run_id }}
+          restore-keys: tml-history-
+
       - name: Refresh draws from the official US Open feed
         # Non-fatal: a transient outage should leave the data unchanged for this
         # tick, not red the whole run. The script itself exits non-zero only if
@@ -55,6 +66,14 @@ jobs:
         # this is a third-party mirror and the rest of the site works without it.
         continue-on-error: true
         run: npm run ingest:tml
+
+      - name: Rebuild the predictive model
+        # Must run on every refresh, not on a slower schedule of its own: title
+        # odds are computed by replaying the real results forward, so a draw
+        # that has moved on leaves a beaten player still showing odds.
+        # Non-fatal — a stale model.json is better than a red run.
+        continue-on-error: true
+        run: npm run model
 
       - name: Commit refreshed data
         run: |

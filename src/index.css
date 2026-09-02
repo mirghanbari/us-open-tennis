@@ -619,3 +619,39 @@ input[type="search"] {
     position: relative;
   }
 }
+
+/* ---------------- Win probability ---------------- */
+.winprob {
+  margin-top: 10px;
+}
+.winprob-bar {
+  height: 8px;
+  border-radius: 999px;
+  background: var(--line);
+  overflow: hidden;
+}
+.winprob-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--court-deep), var(--court));
+  transition: width 0.4s ease;
+}
+.winprob-labels {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 4px;
+  color: var(--ink-soft);
+}
+.winprob.is-compact .winprob-bar {
+  height: 6px;
+}
+
+/* Odds table bars */
+.odds-bar {
+  display: inline-block;
+  height: 8px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--court-deep), var(--court));
+  vertical-align: middle;
+  min-width: 2px;
+}

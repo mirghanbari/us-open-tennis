@@ -9,6 +9,7 @@ const LINKS = [
   { to: "/matches", label: "Matches", end: false },
   { to: "/players", label: "Players", end: false },
   { to: "/stats", label: "Stats", end: false },
+  { to: "/predictions", label: "Predictions", end: false },
   { to: "/favorites", label: "★", end: false },
 ];
 
