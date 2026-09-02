@@ -622,28 +622,6 @@
   },
   "meetings": []
  },
- "WS-2206": {
-  "player1": {
-   "id": "wta320728",
-   "name": "Kimberly Birrell",
-   "wins": 0
-  },
-  "player2": {
-   "id": "wta319007",
-   "name": "Ekaterina Alexandrova",
-   "wins": 1
-  },
-  "meetings": [
-   {
-    "year": 2023,
-    "tournament": "S'hertogenbosch",
-    "surface": "Grass",
-    "round": "R2",
-    "winner": "2",
-    "score": "6-4, 7-6"
-   }
-  ]
- },
  "WS-2207": {
   "player1": {
    "id": "wta326096",
@@ -1103,6 +1081,36 @@
    "wins": 0
   },
   "meetings": []
+ },
+ "WS-2303": {
+  "player1": {
+   "id": "wta326482",
+   "name": "Marta Kostyuk",
+   "wins": 0
+  },
+  "player2": {
+   "id": "wta319007",
+   "name": "Ekaterina Alexandrova",
+   "wins": 2
+  },
+  "meetings": [
+   {
+    "year": 2022,
+    "tournament": "Portoroz",
+    "surface": "Hard",
+    "round": "R1",
+    "winner": "2",
+    "score": "7-6, 5-7, 7-5"
+   },
+   {
+    "year": 2021,
+    "tournament": "Rome",
+    "surface": "Clay",
+    "round": "R1",
+    "winner": "2",
+    "score": "6-3, 6-1"
+   }
+  ]
  },
  "WS-2305": {
   "player1": {

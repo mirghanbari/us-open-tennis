@@ -8672,7 +8672,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788392100000,
+  "startEpoch": 1788392400000,
   "espnSideIds": [
    "2865",
    "1266"
@@ -8744,7 +8744,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788392400000,
+  "startEpoch": 1788392700000,
   "espnSideIds": [
    "10105",
    "2964"
@@ -16359,11 +16359,15 @@
   "court": "Court 15",
   "courtId": "AP",
   "eventDay": 11,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788374525000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:39",
+  "setDurations": [
+   24,
+   30,
+   45
+  ],
   "upset": false,
   "sides": [
    {
@@ -16377,8 +16381,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -16391,12 +16395,34 @@
     ],
     "seed": 18,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     1,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 3,
   "notBefore": "5:40 PM",
   "session": 1,
@@ -18454,15 +18480,28 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta319007",
+      "name": "E. Alexandrova",
+      "fullName": "Ekaterina Alexandrova",
+      "nation": "RUS"
+     }
+    ],
+    "seed": 18,
     "entryStatus": null,
     "setsWon": null,
     "won": null
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182564",
+  "startEpoch": 1788494400000,
+  "espnSideIds": [
+   "3382",
+   "3182"
+  ]
  },
  {
   "id": "WS-2304",
