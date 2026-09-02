@@ -96,6 +96,49 @@
   ]
  },
  {
+  "eventCode": "MD",
+  "eventName": "Men's Doubles",
+  "drawSize": 64,
+  "totalRounds": 6,
+  "prizeMoney": [
+   {
+    "roundCode": "1",
+    "roundName": "Round 1",
+    "amount": 35000
+   },
+   {
+    "roundCode": "2",
+    "roundName": "Round 2",
+    "amount": 50000
+   },
+   {
+    "roundCode": "3",
+    "roundName": "Round 3",
+    "amount": 80000
+   },
+   {
+    "roundCode": "Q",
+    "roundName": "Quarter-Finals",
+    "amount": 125000
+   },
+   {
+    "roundCode": "S",
+    "roundName": "Semi-Finals",
+    "amount": 250000
+   },
+   {
+    "roundCode": "F",
+    "roundName": "Final",
+    "amount": 500000
+   },
+   {
+    "roundCode": "W",
+    "roundName": "Winner",
+    "amount": 1000000
+   }
+  ]
+ },
+ {
   "eventCode": "WD",
   "eventName": "Women's Doubles",
   "drawSize": 64,
