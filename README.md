@@ -219,6 +219,28 @@ draw that has moved on would otherwise leave a beaten player still showing odds.
 The 2000–2025 archives are cached in Actions (they never change; the current year
 is always re-fetched), which keeps each run to two small downloads.
 
+## Status
+
+Built and deployed: draws, live scores, order of play, court board, players,
+stats, favourites with on-court notifications, weather, and the predictive model.
+
+**Deliberately not built — the bracket pool.** A pool (porting world-cup's Apps
+Script + Sheets backend) is only worth playing from the start of a tournament,
+and this was picked up after round one. Better aimed at a tournament from day
+one.
+
+**Known open items**
+
+- **Men's doubles (`MD.json`) has never published.** The ingest skips it and will
+  pick it up automatically if it appears; it is the only entry reporting `false`
+  in `meta.sources`.
+- **Live win probability is game granularity, not point** — see the limits note
+  above. There is no free source for the server or game score, and the official
+  JSON feeds carry no live data to proxy.
+- Feeds listed in the site's `config_web.json` that aren't used yet:
+  `extrastats/stats_<gender>`, `seeds_results_all`, `players/details/<id>`,
+  `players/stats_chart/<id>_stats`, `country/scoreboard`.
+
 ## Deploying
 
 Live at **https://mirghanbari.github.io/us-open-tennis/**
