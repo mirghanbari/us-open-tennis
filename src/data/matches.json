@@ -836,7 +836,7 @@
   "courtId": "AD",
   "eventDay": 11,
   "epoch": null,
-  "status": "suspended",
+  "status": "scheduled",
   "statusCode": "B",
   "duration": null,
   "setDurations": [],
@@ -1754,7 +1754,7 @@
   "courtId": "AG",
   "eventDay": 11,
   "epoch": null,
-  "status": "suspended",
+  "status": "scheduled",
   "statusCode": "B",
   "duration": null,
   "setDurations": [],
@@ -7742,7 +7742,7 @@
   "courtId": "AM",
   "eventDay": 11,
   "epoch": null,
-  "status": "suspended",
+  "status": "scheduled",
   "statusCode": "B",
   "duration": null,
   "setDurations": [],
@@ -8042,7 +8042,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788381600000,
+  "startEpoch": 1788381900000,
   "espnSideIds": [
    "2860",
    "8814"
@@ -8186,7 +8186,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788382800000,
+  "startEpoch": 1788383700000,
   "espnSideIds": [
    "2863",
    "2869"
@@ -8258,7 +8258,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788385500000,
+  "startEpoch": 1788388200000,
   "espnSideIds": [
    "2865",
    "1266"
@@ -8402,7 +8402,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788381900000,
+  "startEpoch": 1788384600000,
   "espnSideIds": [
    "1857",
    "2875"
@@ -13455,7 +13455,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788381600000,
+  "startEpoch": 1788381900000,
   "espnSideIds": [
    "1649",
    "7815"
@@ -15493,7 +15493,7 @@
   "courtId": "AP",
   "eventDay": 11,
   "epoch": null,
-  "status": "suspended",
+  "status": "scheduled",
   "statusCode": "B",
   "duration": null,
   "setDurations": [],
@@ -16533,7 +16533,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788381900000,
+  "startEpoch": 1788384600000,
   "espnSideIds": [
    "3387",
    "2977"
