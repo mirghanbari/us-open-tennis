@@ -390,19 +390,6 @@
   },
   "meetings": []
  },
- "MS-1217": {
-  "player1": {
-   "id": "atpmm58",
-   "name": "Daniil Medvedev",
-   "wins": 0
-  },
-  "player2": {
-   "id": "atpg0jj",
-   "name": "Sebastian Gorzny",
-   "wins": 0
-  },
-  "meetings": []
- },
  "MS-1218": {
   "player1": {
    "id": "atpmu94",
@@ -455,19 +442,6 @@
   "player2": {
    "id": "atptd51",
    "name": "Frances Tiafoe",
-   "wins": 0
-  },
-  "meetings": []
- },
- "MS-1221": {
-  "player1": {
-   "id": "atpn0ae",
-   "name": "Brandon Nakashima",
-   "wins": 0
-  },
-  "player2": {
-   "id": "atpm0qi",
-   "name": "Alex Michelsen",
    "wins": 0
   },
   "meetings": []
@@ -845,19 +819,6 @@
   "player2": {
    "id": "wta329668",
    "name": "Linda Noskova",
-   "wins": 0
-  },
-  "meetings": []
- },
- "WS-2212": {
-  "player1": {
-   "id": "wta327077",
-   "name": "Diane Parry",
-   "wins": 0
-  },
-  "player2": {
-   "id": "wta312469",
-   "name": "Sorana Cirstea",
    "wins": 0
   },
   "meetings": []
@@ -1364,6 +1325,44 @@
     "round": "QF",
     "winner": "1",
     "score": "7-5, 6-7, 7-6"
+   }
+  ]
+ },
+ "WS-2306": {
+  "player1": {
+   "id": "wta319280",
+   "name": "Jasmine Paolini",
+   "wins": 3
+  },
+  "player2": {
+   "id": "wta312469",
+   "name": "Sorana Cirstea",
+   "wins": 0
+  },
+  "meetings": [
+   {
+    "year": 2024,
+    "tournament": "Dubai",
+    "surface": "Hard",
+    "round": "SF",
+    "winner": "1",
+    "score": "6-2, 7-6"
+   },
+   {
+    "year": 2023,
+    "tournament": "Roland Garros",
+    "surface": "Clay",
+    "round": "R1",
+    "winner": "1",
+    "score": "7-5, 2-6, 6-2"
+   },
+   {
+    "year": 2021,
+    "tournament": "Portoroz",
+    "surface": "Hard",
+    "round": "QF",
+    "winner": "1",
+    "score": "6-4, 4-6, 6-1"
    }
   ]
  }

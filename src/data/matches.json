@@ -883,7 +883,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788368400000,
+  "startEpoch": 1788369600000,
   "espnSideIds": [
    "12657",
    "11382"
@@ -952,7 +952,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788370200000,
+  "startEpoch": 1788371100000,
   "espnSideIds": [
    "9213",
    "12932"
@@ -1408,7 +1408,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788370200000,
+  "startEpoch": 1788372000000,
   "espnSideIds": [
    "11636",
    "2651"
@@ -7102,11 +7102,15 @@
   "court": "Louis Armstrong Stadium",
   "courtId": "AB",
   "eventDay": 11,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788351376000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:07",
+  "setDurations": [
+   21,
+   36,
+   70
+  ],
   "upset": false,
   "sides": [
    {
@@ -7120,8 +7124,8 @@
     ],
     "seed": 7,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    },
    {
     "players": [
@@ -7134,12 +7138,34 @@
     ],
     "seed": null,
     "entryStatus": "WC",
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     1
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     7,
+     5
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1,
@@ -7390,11 +7416,15 @@
   "court": "Grandstand",
   "courtId": "AC",
   "eventDay": 11,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788350700000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:55",
+  "setDurations": [
+   42,
+   33,
+   40
+  ],
   "upset": false,
   "sides": [
    {
@@ -7408,8 +7438,8 @@
     ],
     "seed": 16,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -7422,12 +7452,34 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1,
@@ -7582,7 +7634,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788369000000,
+  "startEpoch": 1788369600000,
   "espnSideIds": [
    "3739",
    "11685"
@@ -7726,7 +7778,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788368400000,
+  "startEpoch": 1788369000000,
   "espnSideIds": [
    "9250",
    "2726"
@@ -8606,8 +8658,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpmm58",
+      "name": "D. Medvedev",
+      "fullName": "Daniil Medvedev",
+      "nation": "RUS"
+     }
+    ],
+    "seed": 7,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -8692,7 +8751,14 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpm0qi",
+      "name": "A. Michelsen",
+      "fullName": "Alex Michelsen",
+      "nation": "USA"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
@@ -12660,7 +12726,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788373800000,
+  "startEpoch": 1788375600000,
   "espnSideIds": [
    "2346",
    "2195"
@@ -15486,7 +15552,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788369600000,
+  "startEpoch": 1788370200000,
   "espnSideIds": [
    "3382",
    "1472"
@@ -15558,7 +15624,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788377400000,
+  "startEpoch": 1788379200000,
   "espnSideIds": [
    "2588",
    "3182"
@@ -15996,11 +16062,14 @@
   "court": "Court 12",
   "courtId": "AM",
   "eventDay": 11,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788350406000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:51",
+  "setDurations": [
+   39,
+   72
+  ],
   "upset": false,
   "sides": [
    {
@@ -16014,8 +16083,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -16028,12 +16097,27 @@
     ],
     "seed": 16,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     5,
+     7
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1,
@@ -16260,7 +16344,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788369300000
+  "startEpoch": 1788369600000
  },
  {
   "id": "WS-2216",
@@ -17597,15 +17681,28 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta312469",
+      "name": "S. Cirstea",
+      "fullName": "Sorana Cirstea",
+      "nation": "ROU"
+     }
+    ],
+    "seed": 16,
     "entryStatus": null,
     "setsWon": null,
     "won": null
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182549",
+  "startEpoch": 1788494400000,
+  "espnSideIds": [
+   "2615",
+   "1774"
+  ]
  },
  {
   "id": "WS-2307",
