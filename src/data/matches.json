@@ -6597,11 +6597,16 @@
   "court": "Court 12",
   "courtId": "AM",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788443660000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "3:44",
+  "setDurations": [
+   45,
+   69,
+   52,
+   58
+  ],
   "upset": false,
   "sides": [
    {
@@ -6615,8 +6620,8 @@
     ],
     "seed": 21,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    },
    {
     "players": [
@@ -6629,12 +6634,44 @@
     ],
     "seed": null,
     "entryStatus": "Q",
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     5,
+     7
+    ]
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1,
@@ -6861,7 +6898,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788465600000,
+  "startEpoch": 1788466200000,
   "espnSideIds": [
    "3953",
    "10427"
@@ -7546,7 +7583,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788461700000,
+  "startEpoch": 1788462900000,
   "espnSideIds": [
    "11757",
    "2278"
@@ -9352,8 +9389,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpd0fj",
+      "name": "L. Darderi",
+      "fullName": "Luciano Darderi",
+      "nation": "ITA"
+     }
+    ],
+    "seed": 21,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -18409,7 +18453,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788462000000,
+  "startEpoch": 1788462600000,
   "espnSideIds": [
    "3157",
    "11317"
@@ -18834,7 +18878,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788462000000,
+  "startEpoch": 1788462300000,
   "espnSideIds": [
    "6048",
    "1802"
@@ -19097,7 +19141,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788465600000,
+  "startEpoch": 1788467400000,
   "espnSideIds": [
    "3018",
    "13478"
@@ -26442,11 +26486,14 @@
   "court": "Court 6",
   "courtId": "AG",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788444008000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:26",
+  "setDurations": [
+   33,
+   53
+  ],
   "upset": false,
   "sides": [
    {
@@ -26466,8 +26513,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -26486,12 +26533,27 @@
     ],
     "seed": 2,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     1,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1
@@ -27265,8 +27327,21 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta314445",
+      "name": "G. Dabrowski",
+      "fullName": "Gabriela Dabrowski",
+      "nation": "CAN"
+     },
+     {
+      "id": "wta321047",
+      "name": "L. Stefani",
+      "fullName": "Luisa Stefani",
+      "nation": "BRA"
+     }
+    ],
+    "seed": 2,
     "entryStatus": null,
     "setsWon": null,
     "won": null
