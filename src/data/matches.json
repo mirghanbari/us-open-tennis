@@ -7076,7 +7076,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788472800000,
+  "startEpoch": 1788473100000,
   "espnSideIds": [
    "3310",
    "2651"
@@ -19094,11 +19094,15 @@
   "court": "Court 12",
   "courtId": "AM",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788454420000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:37",
+  "setDurations": [
+   64,
+   51,
+   42
+  ],
   "upset": false,
   "sides": [
    {
@@ -19112,8 +19116,8 @@
     ],
     "seed": null,
     "entryStatus": "Q",
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -19126,12 +19130,34 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     1
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1,
@@ -20320,15 +20346,28 @@
     "won": null
    },
    {
-    "players": [],
+    "players": [
+     {
+      "id": "wta328120",
+      "name": "Q. Zheng",
+      "fullName": "Qinwen Zheng",
+      "nation": "CHN"
+     }
+    ],
     "seed": null,
-    "entryStatus": null,
+    "entryStatus": "Q",
     "setsWon": null,
     "won": null
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182560",
+  "startEpoch": 1788580800000,
+  "espnSideIds": [
+   "1556",
+   "6048"
+  ]
  },
  {
   "id": "WS-2315",
