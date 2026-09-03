@@ -681,7 +681,7 @@
   "shortLabel": "Day 4: Wed, Sept 2",
   "displayDate": "Day 4: Wednesday, September 2",
   "date": "2026-09-02",
-  "releaseTime": "7:15 PM",
+  "releaseTime": "7:56 PM",
   "comments": null,
   "footerComment": null,
   "courts": [
@@ -900,18 +900,6 @@
       "roundName": "Round 2",
       "team1": "D. Prizmic",
       "team2": "T. Paul"
-     },
-     {
-      "id": "WS-2213",
-      "order": 5,
-      "notBefore": "5:00 PM",
-      "conjunction": null,
-      "comment": null,
-      "status": "scheduled",
-      "eventCode": "WS",
-      "roundName": "Round 2",
-      "team1": "E. Svitolina",
-      "team2": "M. Joint"
      }
     ]
    },
@@ -1023,11 +1011,23 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "live",
+      "status": "finished",
       "eventCode": "MS",
       "roundName": "Round 2",
       "team1": "J. Lehecka",
       "team2": "T. Samuel"
+     },
+     {
+      "id": "WS-2213",
+      "order": 5,
+      "notBefore": "5:00 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WS",
+      "roundName": "Round 2",
+      "team1": "E. Svitolina",
+      "team2": "M. Joint"
      }
     ]
    },
@@ -1137,7 +1137,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "live",
+      "status": "finished",
       "eventCode": "WS",
       "roundName": "Round 2",
       "team1": "X. Wang",

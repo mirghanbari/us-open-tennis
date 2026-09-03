@@ -408,19 +408,6 @@
    }
   ]
  },
- "MS-1227": {
-  "player1": {
-   "id": "atpl0bv",
-   "name": "Jiri Lehecka",
-   "wins": 0
-  },
-  "player2": {
-   "id": "atps0tm",
-   "name": "Toby Samuel",
-   "wins": 0
-  },
-  "meetings": []
- },
  "MS-1228": {
   "player1": {
    "id": "atphg86",
@@ -669,36 +656,6 @@
    "wins": 0
   },
   "meetings": []
- },
- "WS-2214": {
-  "player1": {
-   "id": "wta326376",
-   "name": "Xinyu Wang",
-   "wins": 1
-  },
-  "player2": {
-   "id": "wta323942",
-   "name": "Anna Kalinskaya",
-   "wins": 1
-  },
-  "meetings": [
-   {
-    "year": 2024,
-    "tournament": "Strasbourg",
-    "surface": "Clay",
-    "round": "R1",
-    "winner": "1",
-    "score": "6-4, 7-6"
-   },
-   {
-    "year": 2022,
-    "tournament": "Guadalajara",
-    "surface": "Hard",
-    "round": "R2",
-    "winner": "2",
-    "score": "6-4, 0-6, 6-4"
-   }
-  ]
  },
  "WS-2217": {
   "player1": {
