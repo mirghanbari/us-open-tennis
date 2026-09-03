@@ -6789,7 +6789,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788468600000,
+  "startEpoch": 1788469200000,
   "espnSideIds": [
    "11382",
    "12932"
@@ -7546,7 +7546,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788461100000,
+  "startEpoch": 1788461700000,
   "espnSideIds": [
    "11757",
    "2278"
@@ -7618,7 +7618,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788461400000,
+  "startEpoch": 1788462000000,
   "espnSideIds": [
    "4029",
    "7602"
@@ -18119,11 +18119,15 @@
   "court": "Grandstand",
   "courtId": "AC",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788442916000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:01",
+  "setDurations": [
+   31,
+   46,
+   44
+  ],
   "upset": false,
   "sides": [
    {
@@ -18137,8 +18141,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -18151,12 +18155,34 @@
     ],
     "seed": 10,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     1,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1,
@@ -18383,7 +18409,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788461100000,
+  "startEpoch": 1788462000000,
   "espnSideIds": [
    "3157",
    "11317"
@@ -18808,7 +18834,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788461400000,
+  "startEpoch": 1788462000000,
   "espnSideIds": [
    "6048",
    "1802"
@@ -19071,7 +19097,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788464700000,
+  "startEpoch": 1788465600000,
   "espnSideIds": [
    "3018",
    "13478"
@@ -19760,15 +19786,28 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta326384",
+      "name": "A. Anisimova",
+      "fullName": "Amanda Anisimova",
+      "nation": "USA"
+     }
+    ],
+    "seed": 10,
     "entryStatus": null,
     "setsWon": null,
     "won": null
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182540",
+  "startEpoch": 1788580800000,
+  "espnSideIds": [
+   "2971",
+   "3221"
+  ]
  },
  {
   "id": "WS-2311",
