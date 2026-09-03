@@ -16663,11 +16663,15 @@
   "court": "Court 13",
   "courtId": "AN",
   "eventDay": 11,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788383797000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:44",
+  "setDurations": [
+   51,
+   65,
+   48
+  ],
   "upset": false,
   "sides": [
    {
@@ -16681,8 +16685,8 @@
     ],
     "seed": 29,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -16695,12 +16699,37 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     5,
+     7
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     7,
+     4
+    ]
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 3,
   "notBefore": null,
   "session": 1,
@@ -18774,8 +18803,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta326096",
+      "name": "A. Li",
+      "fullName": "Ann Li",
+      "nation": "USA"
+     }
+    ],
+    "seed": 29,
     "entryStatus": null,
     "setsWon": null,
     "won": null
