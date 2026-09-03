@@ -6573,7 +6573,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788459600000,
+  "startEpoch": 1788460200000,
   "espnSideIds": [
    "2862",
    "2970"
@@ -6717,7 +6717,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788459000000,
+  "startEpoch": 1788459600000,
   "espnSideIds": [
    "4030",
    "3764"
@@ -7221,7 +7221,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788459000000,
+  "startEpoch": 1788459600000,
   "espnSideIds": [
    "10319",
    "3204"
@@ -7581,7 +7581,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788459300000,
+  "startEpoch": 1788460200000,
   "espnSideIds": [
    "4029",
    "7602"
@@ -17857,7 +17857,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788462600000,
+  "startEpoch": 1788463800000,
   "espnSideIds": [
    "9820",
    "5260"
@@ -18171,7 +18171,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788466200000,
+  "startEpoch": 1788467400000,
   "espnSideIds": [
    "14311",
    "7815"
@@ -18501,11 +18501,14 @@
   "court": "Court 11",
   "courtId": "AL",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788441001000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:17",
+  "setDurations": [
+   34,
+   43
+  ],
   "upset": false,
   "sides": [
    {
@@ -18519,8 +18522,8 @@
     ],
     "seed": null,
     "entryStatus": "Q",
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -18533,12 +18536,27 @@
     ],
     "seed": 25,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1,
@@ -18573,11 +18591,15 @@
   "court": "Stadium 17",
   "courtId": "AD",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788440818000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:58",
+  "setDurations": [
+   52,
+   49,
+   77
+  ],
   "upset": false,
   "sides": [
    {
@@ -18591,8 +18613,8 @@
     ],
     "seed": 22,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -18605,12 +18627,37 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     5,
+     7
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     10,
+     5
+    ]
+   }
+  ],
+  "winner": 1,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1,
@@ -19757,8 +19804,15 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta320983",
+      "name": "M. Bouzkova",
+      "fullName": "Marie Bouzkova",
+      "nation": "CZE"
+     }
+    ],
+    "seed": 25,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -19793,8 +19847,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta316959",
+      "name": "M. Keys",
+      "fullName": "Madison Keys",
+      "nation": "USA"
+     }
+    ],
+    "seed": 22,
     "entryStatus": null,
     "setsWon": null,
     "won": null
