@@ -731,7 +731,7 @@
   "shortLabel": "Day 5: Thu, Sept 3",
   "displayDate": "Day 5: Thursday, September 3",
   "date": "2026-09-03",
-  "releaseTime": "4:52 PM",
+  "releaseTime": "5:44 PM",
   "comments": null,
   "footerComment": null,
   "courts": [
@@ -933,7 +933,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "live",
+      "status": "finished",
       "eventCode": "MS",
       "roundName": "Round 2",
       "team1": "T. Schoolkate",
@@ -1054,18 +1054,6 @@
       "roundName": "Round 2",
       "team1": "M. Sakkari",
       "team2": "Y. Starodubtseva"
-     },
-     {
-      "id": "WD-4122",
-      "order": 4,
-      "notBefore": "5:30 PM",
-      "conjunction": null,
-      "comment": null,
-      "status": "scheduled",
-      "eventCode": "WD",
-      "roundName": "Round 1",
-      "team1": "R. Montgomery / A. Krueger",
-      "team2": "L. Noskova / R. Sramkova"
      }
     ]
    },
@@ -1472,6 +1460,18 @@
       "roundName": "Round 1",
       "team1": "H. Guo / K. Mladenovic",
       "team2": "M. Chwalinska / M. Linette"
+     },
+     {
+      "id": "WD-4122",
+      "order": 5,
+      "notBefore": "5:30 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WD",
+      "roundName": "Round 1",
+      "team1": "R. Montgomery / A. Krueger",
+      "team2": "L. Noskova / R. Sramkova"
      }
     ]
    },
