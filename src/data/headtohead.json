@@ -829,44 +829,6 @@
    }
   ]
  },
- "WS-2229": {
-  "player1": {
-   "id": "wta319998",
-   "name": "Naomi Osaka",
-   "wins": 2
-  },
-  "player2": {
-   "id": "wta320301",
-   "name": "Katerina Siniakova",
-   "wins": 1
-  },
-  "meetings": [
-   {
-    "year": 2025,
-    "tournament": "Wimbledon",
-    "surface": "Grass",
-    "round": "R2",
-    "winner": "1",
-    "score": "6-3, 6-2"
-   },
-   {
-    "year": 2019,
-    "tournament": "Roland Garros",
-    "surface": "Clay",
-    "round": "R3",
-    "winner": "2",
-    "score": "6-4, 6-2"
-   },
-   {
-    "year": 2018,
-    "tournament": "Doha",
-    "surface": "Hard",
-    "round": "R1",
-    "winner": "1",
-    "score": "6-4, 6-0"
-   }
-  ]
- },
  "WS-2231": {
   "player1": {
    "id": "wta318312",
@@ -1155,5 +1117,91 @@
    "wins": 0
   },
   "meetings": []
+ },
+ "WS-2315": {
+  "player1": {
+   "id": "wta319998",
+   "name": "Naomi Osaka",
+   "wins": 6
+  },
+  "player2": {
+   "id": "wta317964",
+   "name": "Elise Mertens",
+   "wins": 3
+  },
+  "meetings": [
+   {
+    "year": 2026,
+    "tournament": "Bad Homburg",
+    "surface": "Grass",
+    "round": "R2",
+    "winner": "1",
+    "score": "6-3, 6-3"
+   },
+   {
+    "year": 2026,
+    "tournament": "Toronto",
+    "surface": "Hard",
+    "round": "R3",
+    "winner": "1",
+    "score": "6-1, 6-2"
+   },
+   {
+    "year": 2024,
+    "tournament": "Indian Wells",
+    "surface": "Hard",
+    "round": "R3",
+    "winner": "2",
+    "score": "7-5, 6-4"
+   },
+   {
+    "year": 2024,
+    "tournament": "'s-Hertogenbosch",
+    "surface": "Grass",
+    "round": "R1",
+    "winner": "1",
+    "score": "6-2, 6-4"
+   },
+   {
+    "year": 2024,
+    "tournament": "Toronto",
+    "surface": "Hard",
+    "round": "R2",
+    "winner": "2",
+    "score": "6-3, 6-4"
+   },
+   {
+    "year": 2021,
+    "tournament": "Miami",
+    "surface": "Hard",
+    "round": "R4",
+    "winner": "1",
+    "score": "6-3, 6-3"
+   },
+   {
+    "year": 2020,
+    "tournament": "New York",
+    "surface": "Hard",
+    "round": "SF",
+    "winner": "1",
+    "score": "6-2, 7-6"
+   },
+   {
+    "year": 2019,
+    "tournament": "Osaka",
+    "surface": "Hard",
+    "round": "SF",
+    "winner": "1",
+    "score": "6-4, 6-1"
+   },
+   {
+    "year": 2017,
+    "tournament": "Wuhan",
+    "surface": "Hard",
+    "round": "R1",
+    "winner": "2",
+    "score": "6-4, 1-6, 6-4"
+   }
+  ]
  }
 }
