@@ -6789,7 +6789,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788467400000,
+  "startEpoch": 1788468600000,
   "espnSideIds": [
    "11382",
    "12932"
@@ -7029,11 +7029,16 @@
   "court": "Louis Armstrong Stadium",
   "courtId": "AB",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788442006000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "3:17",
+  "setDurations": [
+   62,
+   50,
+   43,
+   42
+  ],
   "upset": false,
   "sides": [
    {
@@ -7047,8 +7052,8 @@
     ],
     "seed": 3,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -7061,12 +7066,44 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     7,
+     5
+    ]
+   },
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1,
@@ -7581,7 +7618,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788460200000,
+  "startEpoch": 1788460800000,
   "espnSideIds": [
    "4029",
    "7602"
@@ -9444,7 +9481,14 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpke29",
+      "name": "K. Khachanov",
+      "fullName": "Karen Khachanov",
+      "nation": "RUS"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
@@ -9605,7 +9649,7 @@
    "MS-1217",
    "MS-1218"
   ],
-  "court": "",
+  "court": "Grandstand",
   "courtId": "",
   "eventDay": null,
   "epoch": null,
@@ -9646,6 +9690,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 2,
+  "notBefore": null,
+  "session": 1,
   "espnId": "182687",
   "startEpoch": 1788494400000,
   "espnSideIds": [
@@ -9668,7 +9715,7 @@
    "MS-1219",
    "MS-1220"
   ],
-  "court": "",
+  "court": "Louis Armstrong Stadium",
   "courtId": "",
   "eventDay": null,
   "epoch": null,
@@ -9709,6 +9756,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 1,
+  "notBefore": null,
+  "session": 2,
   "espnId": "182691",
   "startEpoch": 1788494400000,
   "espnSideIds": [
@@ -9731,7 +9781,7 @@
    "MS-1221",
    "MS-1222"
   ],
-  "court": "",
+  "court": "Stadium 17",
   "courtId": "",
   "eventDay": null,
   "epoch": null,
@@ -9772,6 +9822,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 4,
+  "notBefore": "4:30 PM",
+  "session": 1,
   "espnId": "182689",
   "startEpoch": 1788494400000,
   "espnSideIds": [
@@ -9794,7 +9847,7 @@
    "MS-1223",
    "MS-1224"
   ],
-  "court": "",
+  "court": "Court 11",
   "courtId": "",
   "eventDay": null,
   "epoch": null,
@@ -9835,6 +9888,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 4,
+  "notBefore": "4:00 PM",
+  "session": 1,
   "espnId": "182740",
   "startEpoch": 1788494400000,
   "espnSideIds": [
@@ -9857,7 +9913,7 @@
    "MS-1225",
    "MS-1226"
   ],
-  "court": "",
+  "court": "Arthur Ashe Stadium",
   "courtId": "",
   "eventDay": null,
   "epoch": null,
@@ -9898,6 +9954,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 2,
+  "notBefore": null,
+  "session": 2,
   "espnId": "182745",
   "startEpoch": 1788494400000,
   "espnSideIds": [
@@ -9920,7 +9979,7 @@
    "MS-1227",
    "MS-1228"
   ],
-  "court": "",
+  "court": "Grandstand",
   "courtId": "",
   "eventDay": null,
   "epoch": null,
@@ -9961,6 +10020,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 4,
+  "notBefore": "5:00 PM",
+  "session": 1,
   "espnId": "182747",
   "startEpoch": 1788494400000,
   "espnSideIds": [
@@ -9983,7 +10045,7 @@
    "MS-1229",
    "MS-1230"
   ],
-  "court": "",
+  "court": "Louis Armstrong Stadium",
   "courtId": "",
   "eventDay": null,
   "epoch": null,
@@ -10024,6 +10086,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 2,
+  "notBefore": null,
+  "session": 1,
   "espnId": "182719",
   "startEpoch": 1788494400000,
   "espnSideIds": [
@@ -10046,7 +10111,7 @@
    "MS-1231",
    "MS-1232"
   ],
-  "court": "",
+  "court": "Arthur Ashe Stadium",
   "courtId": "",
   "eventDay": null,
   "epoch": null,
@@ -10087,6 +10152,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 2,
+  "notBefore": "1:00 PM",
+  "session": 1,
   "espnId": "182723",
   "startEpoch": 1788494400000,
   "espnSideIds": [
@@ -17929,7 +17997,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788460200000,
+  "startEpoch": 1788460500000,
   "espnSideIds": [
    "7804",
    "2346"
@@ -18243,7 +18311,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788460200000,
+  "startEpoch": 1788460800000,
   "espnSideIds": [
    "5705",
    "7759"
@@ -18740,7 +18808,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788460200000,
+  "startEpoch": 1788461400000,
   "espnSideIds": [
    "6048",
    "1802"
@@ -19096,7 +19164,7 @@
    "WS-2201",
    "WS-2202"
   ],
-  "court": "",
+  "court": "Louis Armstrong Stadium",
   "courtId": "",
   "eventDay": null,
   "epoch": null,
@@ -19137,6 +19205,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 1,
+  "notBefore": null,
+  "session": 1,
   "espnId": "182554",
   "startEpoch": 1788494400000,
   "espnSideIds": [
@@ -19159,7 +19230,7 @@
    "WS-2203",
    "WS-2204"
   ],
-  "court": "",
+  "court": "Stadium 17",
   "courtId": "",
   "eventDay": null,
   "epoch": null,
@@ -19200,6 +19271,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 2,
+  "notBefore": "12:30 PM",
+  "session": 1,
   "espnId": "182565",
   "startEpoch": 1788494400000,
   "espnSideIds": [
@@ -19222,7 +19296,7 @@
    "WS-2205",
    "WS-2206"
   ],
-  "court": "",
+  "court": "Grandstand",
   "courtId": "",
   "eventDay": null,
   "epoch": null,
@@ -19263,6 +19337,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 1,
+  "notBefore": null,
+  "session": 1,
   "espnId": "182564",
   "startEpoch": 1788494400000,
   "espnSideIds": [
@@ -19285,7 +19362,7 @@
    "WS-2207",
    "WS-2208"
   ],
-  "court": "",
+  "court": "Stadium 17",
   "courtId": "",
   "eventDay": null,
   "epoch": null,
@@ -19326,6 +19403,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 3,
+  "notBefore": null,
+  "session": 1,
   "espnId": "182543",
   "startEpoch": 1788494400000,
   "espnSideIds": [
@@ -19348,7 +19428,7 @@
    "WS-2209",
    "WS-2210"
   ],
-  "court": "",
+  "court": "Arthur Ashe Stadium",
   "courtId": "",
   "eventDay": null,
   "epoch": null,
@@ -19389,6 +19469,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 1,
+  "notBefore": null,
+  "session": 1,
   "espnId": "182545",
   "startEpoch": 1788494400000,
   "espnSideIds": [
@@ -19411,7 +19494,7 @@
    "WS-2211",
    "WS-2212"
   ],
-  "court": "",
+  "court": "Stadium 17",
   "courtId": "",
   "eventDay": null,
   "epoch": null,
@@ -19452,6 +19535,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 1,
+  "notBefore": null,
+  "session": 1,
   "espnId": "182549",
   "startEpoch": 1788494400000,
   "espnSideIds": [
@@ -19474,7 +19560,7 @@
    "WS-2213",
    "WS-2214"
   ],
-  "court": "",
+  "court": "Louis Armstrong Stadium",
   "courtId": "",
   "eventDay": null,
   "epoch": null,
@@ -19515,6 +19601,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 2,
+  "notBefore": null,
+  "session": 2,
   "espnId": "182529",
   "startEpoch": 1788494400000,
   "espnSideIds": [
@@ -19537,7 +19626,7 @@
    "WS-2215",
    "WS-2216"
   ],
-  "court": "",
+  "court": "Grandstand",
   "courtId": "",
   "eventDay": null,
   "epoch": null,
@@ -19578,6 +19667,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 3,
+  "notBefore": null,
+  "session": 1,
   "espnId": "182537",
   "startEpoch": 1788494400000,
   "espnSideIds": [
@@ -24907,9 +24999,9 @@
   "slot": 12,
   "feedsInto": "WD-4206",
   "fedBy": null,
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Arthur Ashe Stadium",
+  "courtId": "AA",
+  "eventDay": 13,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -24959,7 +25051,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 1,
+  "notBefore": null,
+  "session": 2
  },
  {
   "id": "WD-4113",
@@ -24976,11 +25071,14 @@
   "court": "Court 7",
   "courtId": "AH",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788442073000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:15",
+  "setDurations": [
+   29,
+   46
+  ],
   "upset": false,
   "sides": [
    {
@@ -25000,8 +25098,8 @@
     ],
     "seed": 10,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -25020,12 +25118,27 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     1
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1
@@ -26680,8 +26793,21 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta319960",
+      "name": "E. Perez",
+      "fullName": "Ellen Perez",
+      "nation": "AUS"
+     },
+     {
+      "id": "wta317462",
+      "name": "D. Schuurs",
+      "fullName": "Demi Schuurs",
+      "nation": "NED"
+     }
+    ],
+    "seed": 10,
     "entryStatus": null,
     "setsWon": null,
     "won": null
