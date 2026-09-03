@@ -6970,7 +6970,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788465600000,
+  "startEpoch": 1788467400000,
   "espnSideIds": [
    "3356",
    "3897"
@@ -7223,7 +7223,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788466500000,
+  "startEpoch": 1788467100000,
   "espnSideIds": [
    "2355",
    "11226"
@@ -18057,7 +18057,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788466500000,
+  "startEpoch": 1788467400000,
   "espnSideIds": [
    "9820",
    "5260"
@@ -18397,7 +18397,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788470100000,
+  "startEpoch": 1788471000000,
   "espnSideIds": [
    "14311",
    "7815"
@@ -18421,11 +18421,14 @@
   "court": "Louis Armstrong Stadium",
   "courtId": "AB",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788447275000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:04",
+  "setDurations": [
+   23,
+   41
+  ],
   "upset": false,
   "sides": [
    {
@@ -18439,8 +18442,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -18453,12 +18456,27 @@
     ],
     "seed": 17,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     1,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1,
@@ -19974,8 +19992,15 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta330332",
+      "name": "A. Eala",
+      "fullName": "Alexandra Eala",
+      "nation": "PHI"
+     }
+    ],
+    "seed": 17,
     "entryStatus": null,
     "setsWon": null,
     "won": null
