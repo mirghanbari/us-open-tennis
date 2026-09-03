@@ -6706,11 +6706,16 @@
   "court": "Stadium 17",
   "courtId": "AD",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788451417000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:36",
+  "setDurations": [
+   39,
+   30,
+   53,
+   34
+  ],
   "upset": false,
   "sides": [
    {
@@ -6724,8 +6729,8 @@
     ],
     "seed": null,
     "entryStatus": "WC",
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    },
    {
     "players": [
@@ -6738,12 +6743,41 @@
     ],
     "seed": 13,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     1
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1,
@@ -6898,7 +6932,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788469800000,
+  "startEpoch": 1788470400000,
   "espnSideIds": [
    "3953",
    "10427"
@@ -9505,15 +9539,28 @@
     "won": null
    },
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atps0ia",
+      "name": "D. Sweeny",
+      "fullName": "Dane Sweeny",
+      "nation": "AUS"
+     }
+    ],
     "seed": null,
-    "entryStatus": null,
+    "entryStatus": "WC",
     "setsWon": null,
     "won": null
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182737",
+  "startEpoch": 1788580800000,
+  "espnSideIds": [
+   "7833",
+   "4030"
+  ]
  },
  {
   "id": "MS-1303",
