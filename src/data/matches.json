@@ -6826,7 +6826,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788472800000,
+  "startEpoch": 1788474600000,
   "espnSideIds": [
    "11382",
    "12932"
@@ -6898,7 +6898,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788469200000,
+  "startEpoch": 1788469800000,
   "espnSideIds": [
    "3953",
    "10427"
@@ -6970,7 +6970,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788469200000,
+  "startEpoch": 1788470400000,
   "espnSideIds": [
    "3356",
    "3897"
@@ -7042,7 +7042,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788469200000,
+  "startEpoch": 1788471000000,
   "espnSideIds": [
    "3310",
    "2651"
@@ -7223,7 +7223,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788469200000,
+  "startEpoch": 1788469500000,
   "espnSideIds": [
    "2355",
    "11226"
@@ -7247,11 +7247,16 @@
   "court": "Court 11",
   "courtId": "AL",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788451095000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:31",
+  "setDurations": [
+   40,
+   37,
+   40,
+   34
+  ],
   "upset": false,
   "sides": [
    {
@@ -7265,8 +7270,8 @@
     ],
     "seed": 17,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    },
    {
     "players": [
@@ -7279,12 +7284,41 @@
     ],
     "seed": null,
     "entryStatus": "Q",
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 3,
   "notBefore": null,
   "session": 1,
@@ -9643,8 +9677,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpm0ni",
+      "name": "J. Mensik",
+      "fullName": "Jakub Mensik",
+      "nation": "CZE"
+     }
+    ],
+    "seed": 17,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -18057,7 +18098,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788469200000,
+  "startEpoch": 1788470100000,
   "espnSideIds": [
    "9820",
    "5260"
@@ -18426,7 +18467,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788472800000,
+  "startEpoch": 1788474600000,
   "espnSideIds": [
    "14311",
    "7815"
@@ -19276,7 +19317,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788469200000,
+  "startEpoch": 1788471000000,
   "espnSideIds": [
    "3018",
    "13478"
@@ -26085,7 +26126,7 @@
   "sets": [],
   "winner": null,
   "courtOrder": 4,
-  "notBefore": "3:30 PM",
+  "notBefore": "5:30 PM",
   "session": 1
  },
  {
