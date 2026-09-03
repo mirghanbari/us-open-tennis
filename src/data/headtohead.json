@@ -590,19 +590,6 @@
    }
   ]
  },
- "WS-2208": {
-  "player1": {
-   "id": "wta329651",
-   "name": "Lanlana Tararudee",
-   "wins": 0
-  },
-  "player2": {
-   "id": "wta329668",
-   "name": "Linda Noskova",
-   "wins": 0
-  },
-  "meetings": []
- },
  "WS-2217": {
   "player1": {
    "id": "wta331809",
@@ -1050,6 +1037,28 @@
     "round": "R1",
     "winner": "2",
     "score": "6-3, 6-1"
+   }
+  ]
+ },
+ "WS-2304": {
+  "player1": {
+   "id": "wta326096",
+   "name": "Ann Li",
+   "wins": 0
+  },
+  "player2": {
+   "id": "wta329668",
+   "name": "Linda Noskova",
+   "wins": 1
+  },
+  "meetings": [
+   {
+    "year": 2026,
+    "tournament": "Dubai",
+    "surface": "Hard",
+    "round": "R1",
+    "winner": "2",
+    "score": "6-3, 5-7, 6-4"
    }
   ]
  },

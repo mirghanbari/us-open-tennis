@@ -16958,11 +16958,14 @@
   "court": "Louis Armstrong Stadium",
   "courtId": "AB",
   "eventDay": 11,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788388165000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:18",
+  "setDurations": [
+   42,
+   36
+  ],
   "upset": false,
   "sides": [
    {
@@ -16976,8 +16979,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -16990,12 +16993,27 @@
     ],
     "seed": 6,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 2,
   "notBefore": null,
   "session": 2,
@@ -19040,15 +19058,28 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta329668",
+      "name": "L. Noskova",
+      "fullName": "Linda Noskova",
+      "nation": "CZE"
+     }
+    ],
+    "seed": 6,
     "entryStatus": null,
     "setsWon": null,
     "won": null
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182543",
+  "startEpoch": 1788494400000,
+  "espnSideIds": [
+   "3380",
+   "6970"
+  ]
  },
  {
   "id": "WS-2305",
