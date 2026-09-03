@@ -5722,5 +5722,41 @@
     "bpSavedPct": 0
    }
   ]
+ },
+ "WS-2219": {
+  "tour": "wta",
+  "minutes": 131,
+  "sides": [
+   {
+    "aces": 4,
+    "doubleFaults": 9,
+    "servePoints": 97,
+    "firstIn": 52,
+    "firstWon": 37,
+    "secondWon": 19,
+    "serveGames": 13,
+    "bpSaved": 7,
+    "bpFaced": 11,
+    "firstServePct": 54,
+    "firstWonPct": 71,
+    "secondWonPct": 42,
+    "bpSavedPct": 64
+   },
+   {
+    "aces": 2,
+    "doubleFaults": 9,
+    "servePoints": 85,
+    "firstIn": 43,
+    "firstWon": 27,
+    "secondWon": 20,
+    "serveGames": 14,
+    "bpSaved": 4,
+    "bpFaced": 9,
+    "firstServePct": 51,
+    "firstWonPct": 63,
+    "secondWonPct": 48,
+    "bpSavedPct": 44
+   }
+  ]
  }
 }
