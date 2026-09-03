@@ -6525,11 +6525,16 @@
   "court": "Court 7",
   "courtId": "AH",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788455255000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "3:22",
+  "setDurations": [
+   37,
+   56,
+   65,
+   44
+  ],
   "upset": false,
   "sides": [
    {
@@ -6543,8 +6548,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -6557,12 +6562,47 @@
     ],
     "seed": 25,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     4,
+     7
+    ]
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     3,
+     7
+    ]
+   },
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 3,
   "notBefore": null,
   "session": 1,
@@ -6851,7 +6891,7 @@
   "sets": [],
   "winner": null,
   "courtOrder": 4,
-  "notBefore": "4:00 PM",
+  "notBefore": "6:40 PM",
   "session": 1,
   "espnId": "182686",
   "broadcasts": [
@@ -6932,7 +6972,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788473400000,
+  "startEpoch": 1788474000000,
   "espnSideIds": [
    "3953",
    "10427"
@@ -7004,7 +7044,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788473400000,
+  "startEpoch": 1788474000000,
   "espnSideIds": [
    "3356",
    "3897"
@@ -7671,11 +7711,16 @@
   "court": "Court 5",
   "courtId": "AE",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788455064000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:41",
+  "setDurations": [
+   37,
+   34,
+   55,
+   35
+  ],
   "upset": false,
   "sides": [
    {
@@ -7689,8 +7734,8 @@
     ],
     "seed": 28,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    },
    {
     "players": [
@@ -7703,12 +7748,41 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     1
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1,
@@ -9523,8 +9597,15 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpte30",
+      "name": "A. Tabilo",
+      "fullName": "Alejandro Tabilo",
+      "nation": "CHI"
+     }
+    ],
+    "seed": 25,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -9871,8 +9952,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpb0pg",
+      "name": "A. Blockx",
+      "fullName": "Alexander Blockx",
+      "nation": "BEL"
+     }
+    ],
+    "seed": 28,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -9893,7 +9981,13 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182731",
+  "startEpoch": 1788580800000,
+  "espnSideIds": [
+   "11757",
+   "7602"
+  ]
  },
  {
   "id": "MS-1309",
@@ -25798,11 +25892,15 @@
   "court": "Court 15",
   "courtId": "AP",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788454943000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:33",
+  "setDurations": [
+   57,
+   46,
+   50
+  ],
   "upset": false,
   "sides": [
    {
@@ -25822,8 +25920,8 @@
     ],
     "seed": 5,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -25842,12 +25940,37 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     7,
+     5
+    ]
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 4,
   "notBefore": "3:00 PM",
   "session": 1
@@ -26199,8 +26322,8 @@
   "slot": 22,
   "feedsInto": "WD-4211",
   "fedBy": null,
-  "court": "Court 5",
-  "courtId": "AE",
+  "court": "Court 15",
+  "courtId": "AP",
   "eventDay": 12,
   "epoch": null,
   "status": "scheduled",
@@ -27398,7 +27521,20 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "wta325639",
+      "name": "M. Chwalinska",
+      "fullName": "Maja Chwalinska",
+      "nation": "POL"
+     },
+     {
+      "id": "wta315130",
+      "name": "M. Linette",
+      "fullName": "Magda Linette",
+      "nation": "POL"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
