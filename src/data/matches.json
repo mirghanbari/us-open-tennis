@@ -18232,11 +18232,14 @@
   "court": "Stadium 17",
   "courtId": "AD",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788456771000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:03",
+  "setDurations": [
+   20,
+   43
+  ],
   "upset": false,
   "sides": [
    {
@@ -18250,8 +18253,8 @@
     ],
     "seed": 5,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -18264,12 +18267,27 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     0
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 3,
   "notBefore": null,
   "session": 1,
@@ -18645,7 +18663,7 @@
   "espnId": "182583",
   "broadcasts": [
    {
-    "name": "ESPN",
+    "name": "ESPN Unlmtd",
     "type": "tv"
    }
   ],
@@ -20192,8 +20210,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta331809",
+      "name": "M. Andreeva",
+      "fullName": "Mirra Andreeva",
+      "nation": "RUS"
+     }
+    ],
+    "seed": 5,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -20214,7 +20239,13 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182536",
+  "startEpoch": 1788580800000,
+  "espnSideIds": [
+   "9820",
+   "7804"
+  ]
  },
  {
   "id": "WS-2310",
