@@ -344,19 +344,6 @@
   },
   "meetings": []
  },
- "MS-1232": {
-  "player1": {
-   "id": "atpf0f2",
-   "name": "Jaime Faria",
-   "wins": 0
-  },
-  "player2": {
-   "id": "atpa0e2",
-   "name": "Carlos Alcaraz",
-   "wins": 0
-  },
-  "meetings": []
- },
  "MS-1309": {
   "player1": {
    "id": "atpmm58",
@@ -578,6 +565,28 @@
     "round": "R2",
     "winner": "2",
     "score": "6-7, 6-3, 6-1"
+   }
+  ]
+ },
+ "MS-1316": {
+  "player1": {
+   "id": "atpwb32",
+   "name": "Yibing Wu",
+   "wins": 0
+  },
+  "player2": {
+   "id": "atpa0e2",
+   "name": "Carlos Alcaraz",
+   "wins": 1
+  },
+  "meetings": [
+   {
+    "year": 2024,
+    "tournament": "Shanghai",
+    "surface": "Hard",
+    "round": "R3",
+    "winner": "2",
+    "score": "7-6, 6-3"
    }
   ]
  },
