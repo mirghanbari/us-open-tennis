@@ -18073,7 +18073,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788453000000,
+  "startEpoch": 1788453300000,
   "espnSideIds": [
    "10830",
    "3221"
@@ -24059,11 +24059,14 @@
   "court": "Court 15",
   "courtId": "AP",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788434806000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:19",
+  "setDurations": [
+   41,
+   38
+  ],
   "upset": false,
   "sides": [
    {
@@ -24083,8 +24086,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -24103,12 +24106,27 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1
@@ -24872,11 +24890,14 @@
   "court": "Court 10",
   "courtId": "AK",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788434476000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:11",
+  "setDurations": [
+   33,
+   38
+  ],
   "upset": false,
   "sides": [
    {
@@ -24896,8 +24917,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -24916,12 +24937,27 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1
@@ -26153,7 +26189,20 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "wta320501",
+      "name": "M. Kempen",
+      "fullName": "Magali Kempen",
+      "nation": "BEL"
+     },
+     {
+      "id": "wta311956",
+      "name": "A. Panova",
+      "fullName": "Alexandra Panova",
+      "nation": "RUS"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
@@ -26411,7 +26460,20 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "wta326482",
+      "name": "M. Kostyuk",
+      "fullName": "Marta Kostyuk",
+      "nation": "UKR"
+     },
+     {
+      "id": "wta320408",
+      "name": "E. Ruse",
+      "fullName": "Elena-Gabriela Ruse",
+      "nation": "ROU"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
