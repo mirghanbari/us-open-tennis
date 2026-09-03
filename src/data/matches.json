@@ -18073,7 +18073,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788453300000,
+  "startEpoch": 1788453600000,
   "espnSideIds": [
    "10830",
    "3221"
@@ -18523,7 +18523,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788453600000,
+  "startEpoch": 1788453900000,
   "espnSideIds": [
    "2200",
    "2392"
@@ -23990,11 +23990,14 @@
   "court": "Court 11",
   "courtId": "AL",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788435380000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:28",
+  "setDurations": [
+   33,
+   55
+  ],
   "upset": false,
   "sides": [
    {
@@ -24014,8 +24017,8 @@
     ],
     "seed": null,
     "entryStatus": "WC",
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -24034,12 +24037,30 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     4,
+     7
+    ]
+   }
+  ],
+  "winner": 2,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1
@@ -26153,7 +26174,20 @@
     "won": null
    },
    {
-    "players": [],
+    "players": [
+     {
+      "id": "wta326160",
+      "name": "X. Wang",
+      "fullName": "Xiyu Wang",
+      "nation": "CHN"
+     },
+     {
+      "id": "wta312280",
+      "name": "Y. Xu",
+      "fullName": "Yifan Xu",
+      "nation": "CHN"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
