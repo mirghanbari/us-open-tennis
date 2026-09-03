@@ -1281,7 +1281,7 @@
       "notBefore": "3:45 PM",
       "conjunction": null,
       "comment": null,
-      "status": "live",
+      "status": "finished",
       "eventCode": "WD",
       "roundName": "Round 1",
       "team1": "M. Bouzkova / S. Sorribes Tormo",
@@ -1327,7 +1327,7 @@
       "notBefore": "3:30 PM",
       "conjunction": null,
       "comment": null,
-      "status": "live",
+      "status": "finished",
       "eventCode": "WD",
       "roundName": "Round 1",
       "team1": "K. Siniakova / T. Townsend",
@@ -1947,7 +1947,7 @@
   "shortLabel": "Day 6: Fri, Sept 4",
   "displayDate": "Day 6: Friday, September 4",
   "date": "2026-09-03",
-  "releaseTime": "6:50 PM",
+  "releaseTime": "7:16 PM",
   "comments": null,
   "footerComment": null,
   "courts": [
@@ -2664,6 +2664,278 @@
       "roundName": "Round 1",
       "team1": "M. Kato / F. Wu",
       "team2": "T. Mihalikova / O. Nicholls"
+     }
+    ]
+   },
+   {
+    "court": "Cary Leeds Stadium Court 1",
+    "courtId": "CA",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "10:00 AM",
+    "startEpoch": 1788530400000,
+    "matches": [
+     {
+      "id": "GQ-26204",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GQ",
+      "roundName": "Round 2",
+      "team1": "S. Fagan",
+      "team2": "I. O'Brien"
+     },
+     {
+      "id": "BQ-25202",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BQ",
+      "roundName": "Round 2",
+      "team1": "N. Raguin",
+      "team2": "I. Ahmad"
+     }
+    ]
+   },
+   {
+    "court": "Cary Leeds Stadium Court 2",
+    "courtId": "CB",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "10:00 AM",
+    "startEpoch": 1788530400000,
+    "matches": [
+     {
+      "id": "GQ-26208",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GQ",
+      "roundName": "Round 2",
+      "team1": "Y. Saffar",
+      "team2": "C. Hoo"
+     },
+     {
+      "id": "BQ-25205",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BQ",
+      "roundName": "Round 2",
+      "team1": "D. Malacek",
+      "team2": "J. Adamson"
+     }
+    ]
+   },
+   {
+    "court": "Cary Leeds Match Court 1",
+    "courtId": "CC",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "10:00 AM",
+    "startEpoch": 1788530400000,
+    "matches": [
+     {
+      "id": "GQ-26201",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GQ",
+      "roundName": "Round 2",
+      "team1": "N. Poznick",
+      "team2": "K. Ishii"
+     },
+     {
+      "id": "BQ-25208",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BQ",
+      "roundName": "Round 2",
+      "team1": "F. Fontes D'Amorim",
+      "team2": "T. Lee"
+     }
+    ]
+   },
+   {
+    "court": "Cary Leeds Match Court 3",
+    "courtId": "CD",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "10:00 AM",
+    "startEpoch": 1788530400000,
+    "matches": [
+     {
+      "id": "GQ-26206",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GQ",
+      "roundName": "Round 2",
+      "team1": "C. Mercier",
+      "team2": "R. Wakana"
+     },
+     {
+      "id": "BQ-25201",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BQ",
+      "roundName": "Round 2",
+      "team1": "F. Roussel",
+      "team2": "O. Ogunsakin"
+     }
+    ]
+   },
+   {
+    "court": "Cary Leeds Match Court 5",
+    "courtId": "CE",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "10:00 AM",
+    "startEpoch": 1788530400000,
+    "matches": [
+     {
+      "id": "GQ-26207",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GQ",
+      "roundName": "Round 2",
+      "team1": "A. Malygina",
+      "team2": "M. Angel"
+     },
+     {
+      "id": "BQ-25203",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BQ",
+      "roundName": "Round 2",
+      "team1": "B. Azar",
+      "team2": "F. Vazquez"
+     }
+    ]
+   },
+   {
+    "court": "Cary Leeds Match Court 6",
+    "courtId": "CF",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "10:00 AM",
+    "startEpoch": 1788530400000,
+    "matches": [
+     {
+      "id": "GQ-26203",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GQ",
+      "roundName": "Round 2",
+      "team1": "D. Popovski",
+      "team2": "P. Sviglerova"
+     },
+     {
+      "id": "BQ-25207",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BQ",
+      "roundName": "Round 2",
+      "team1": "R. Neimanis",
+      "team2": "K. Nara"
+     }
+    ]
+   },
+   {
+    "court": "Cary Leeds Match Court 8",
+    "courtId": "CG",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "10:00 AM",
+    "startEpoch": 1788530400000,
+    "matches": [
+     {
+      "id": "GQ-26205",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GQ",
+      "roundName": "Round 2",
+      "team1": "R. Yoshida",
+      "team2": "N. Kha"
+     },
+     {
+      "id": "BQ-25204",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BQ",
+      "roundName": "Round 2",
+      "team1": "Y. Sakurai",
+      "team2": "A. Rubini"
+     }
+    ]
+   },
+   {
+    "court": "Cary Leeds Match Court 10",
+    "courtId": "CH",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "10:00 AM",
+    "startEpoch": 1788530400000,
+    "matches": [
+     {
+      "id": "GQ-26202",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GQ",
+      "roundName": "Round 2",
+      "team1": "S. Sim",
+      "team2": "M. Lauva"
+     },
+     {
+      "id": "BQ-25206",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BQ",
+      "roundName": "Round 2",
+      "team1": "M. Chelemen",
+      "team2": "A. Gabet"
      }
     ]
    }
