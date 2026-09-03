@@ -344,32 +344,6 @@
   },
   "meetings": []
  },
- "MS-1219": {
-  "player1": {
-   "id": "atpva25",
-   "name": "Valentin Vacherot",
-   "wins": 0
-  },
-  "player2": {
-   "id": "atpmq75",
-   "name": "Kamil Majchrzak",
-   "wins": 0
-  },
-  "meetings": []
- },
- "MS-1230": {
-  "player1": {
-   "id": "atpp0hw",
-   "name": "Dino Prizmic",
-   "wins": 0
-  },
-  "player2": {
-   "id": "atppl56",
-   "name": "Tommy Paul",
-   "wins": 0
-  },
-  "meetings": []
- },
  "MS-1232": {
   "player1": {
    "id": "atpf0f2",
@@ -412,6 +386,19 @@
     "score": "6-2, 7-5, 6-3"
    }
   ]
+ },
+ "MS-1310": {
+  "player1": {
+   "id": "atpva25",
+   "name": "Valentin Vacherot",
+   "wins": 0
+  },
+  "player2": {
+   "id": "atptd51",
+   "name": "Frances Tiafoe",
+   "wins": 0
+  },
+  "meetings": []
  },
  "MS-1311": {
   "player1": {
@@ -545,6 +532,52 @@
     "round": "SF",
     "winner": "2",
     "score": "4-6, 6-4, 6-2"
+   }
+  ]
+ },
+ "MS-1315": {
+  "player1": {
+   "id": "atpbk92",
+   "name": "Alexander Bublik",
+   "wins": 1
+  },
+  "player2": {
+   "id": "atppl56",
+   "name": "Tommy Paul",
+   "wins": 3
+  },
+  "meetings": [
+   {
+    "year": 2025,
+    "tournament": "Miami",
+    "surface": "Hard",
+    "round": "R2",
+    "winner": "2",
+    "score": "5-7, 7-5, 6-4"
+   },
+   {
+    "year": 2025,
+    "tournament": "US Open",
+    "surface": "Hard",
+    "round": "R3",
+    "winner": "1",
+    "score": "7-6, 6-7, 6-3, 6-7, 6-1"
+   },
+   {
+    "year": 2024,
+    "tournament": "Wimbledon",
+    "surface": "Grass",
+    "round": "R3",
+    "winner": "2",
+    "score": "6-3, 6-4, 6-2"
+   },
+   {
+    "year": 2021,
+    "tournament": "Rotterdam",
+    "surface": "Hard",
+    "round": "R2",
+    "winner": "2",
+    "score": "6-7, 6-3, 6-1"
    }
   ]
  },
