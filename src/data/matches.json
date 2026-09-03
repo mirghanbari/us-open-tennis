@@ -25816,11 +25816,14 @@
   "court": "Court 10",
   "courtId": "AK",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788449507000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:06",
+  "setDurations": [
+   32,
+   34
+  ],
   "upset": false,
   "sides": [
    {
@@ -25840,8 +25843,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -25860,12 +25863,27 @@
     ],
     "seed": 9,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 3,
   "notBefore": "3:00 PM",
   "session": 1
@@ -27239,8 +27257,21 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta317299",
+      "name": "E. Routliffe",
+      "fullName": "Erin Routliffe",
+      "nation": "NZL"
+     },
+     {
+      "id": "wta318390",
+      "name": "A. Sutjiadi",
+      "fullName": "Aldila Sutjiadi",
+      "nation": "INA"
+     }
+    ],
+    "seed": 9,
     "entryStatus": null,
     "setsWon": null,
     "won": null
