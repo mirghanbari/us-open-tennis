@@ -206,28 +206,6 @@
    }
   ]
  },
- "MS-1213": {
-  "player1": {
-   "id": "atpfb98",
-   "name": "Taylor Fritz",
-   "wins": 1
-  },
-  "player2": {
-   "id": "atpb0gg",
-   "name": "Mattia Bellucci",
-   "wins": 0
-  },
-  "meetings": [
-   {
-    "year": 2026,
-    "tournament": "Stuttgart",
-    "surface": "Grass",
-    "round": "QF",
-    "winner": "1",
-    "score": "5-7, 7-5, 7-5"
-   }
-  ]
- },
  "MS-1215": {
   "player1": {
    "id": "atpb0pg",
@@ -253,6 +231,36 @@
    "wins": 0
   },
   "meetings": []
+ },
+ "MS-1307": {
+  "player1": {
+   "id": "atpfb98",
+   "name": "Taylor Fritz",
+   "wins": 1
+  },
+  "player2": {
+   "id": "atpc0au",
+   "name": "Francisco Cerundolo",
+   "wins": 1
+  },
+  "meetings": [
+   {
+    "year": 2024,
+    "tournament": "Madrid",
+    "surface": "Clay",
+    "round": "QF",
+    "winner": "1",
+    "score": "6-1, 3-6, 6-3"
+   },
+   {
+    "year": 2023,
+    "tournament": "Roland Garros",
+    "surface": "Clay",
+    "round": "R3",
+    "winner": "2",
+    "score": "3-6, 6-3, 6-4, 7-5"
+   }
+  ]
  },
  "MS-1309": {
   "player1": {

@@ -7223,7 +7223,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788465600000,
+  "startEpoch": 1788466500000,
   "espnSideIds": [
    "2355",
    "11226"
@@ -7391,11 +7391,15 @@
   "court": "Arthur Ashe Stadium",
   "courtId": "AA",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788446897000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:38",
+  "setDurations": [
+   35,
+   33,
+   30
+  ],
   "upset": false,
   "sides": [
    {
@@ -7409,8 +7413,8 @@
     ],
     "seed": 9,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    },
    {
     "players": [
@@ -7423,12 +7427,34 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     0
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     1
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     1
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 2,
   "notBefore": "1:00 PM",
   "session": 1,
@@ -9660,8 +9686,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpfb98",
+      "name": "T. Fritz",
+      "fullName": "Taylor Fritz",
+      "nation": "USA"
+     }
+    ],
+    "seed": 9,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -9682,7 +9715,13 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182727",
+  "startEpoch": 1788580800000,
+  "espnSideIds": [
+   "2946",
+   "3700"
+  ]
  },
  {
   "id": "MS-1308",
@@ -18018,7 +18057,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788465600000,
+  "startEpoch": 1788466500000,
   "espnSideIds": [
    "9820",
    "5260"
@@ -18358,7 +18397,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788469200000,
+  "startEpoch": 1788470100000,
   "espnSideIds": [
    "14311",
    "7815"
