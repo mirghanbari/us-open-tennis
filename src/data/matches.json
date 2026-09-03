@@ -8578,11 +8578,16 @@
   "court": "Stadium 17",
   "courtId": "AD",
   "eventDay": 11,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788378721000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "3:27",
+  "setDurations": [
+   52,
+   43,
+   64,
+   48
+  ],
   "upset": false,
   "sides": [
    {
@@ -8596,8 +8601,8 @@
     ],
     "seed": null,
     "entryStatus": "Q",
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -8610,12 +8615,47 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     7,
+     1
+    ]
+   },
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     4,
+     7
+    ]
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 4,
   "notBefore": "5:00 PM",
   "session": 1,
@@ -9612,7 +9652,14 @@
     "won": null
    },
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpte51",
+      "name": "S. Tsitsipas",
+      "fullName": "Stefanos Tsitsipas",
+      "nation": "GRE"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
@@ -9620,7 +9667,13 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182747",
+  "startEpoch": 1788494400000,
+  "espnSideIds": [
+   "3754",
+   "2869"
+  ]
  },
  {
   "id": "MS-1315",
