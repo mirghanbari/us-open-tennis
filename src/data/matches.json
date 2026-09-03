@@ -6573,7 +6573,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788458400000,
+  "startEpoch": 1788459000000,
   "espnSideIds": [
    "2862",
    "2970"
@@ -6717,7 +6717,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788454800000,
+  "startEpoch": 1788456600000,
   "espnSideIds": [
    "4030",
    "3764"
@@ -7365,7 +7365,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788454800000,
+  "startEpoch": 1788455700000,
   "espnSideIds": [
    "2946",
    "10153"
@@ -17857,7 +17857,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788460200000,
+  "startEpoch": 1788462000000,
   "espnSideIds": [
    "9820",
    "5260"
@@ -18217,7 +18217,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788454800000,
+  "startEpoch": 1788456600000,
   "espnSideIds": [
    "5705",
    "7759"
@@ -18667,7 +18667,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788454800000,
+  "startEpoch": 1788456600000,
   "espnSideIds": [
    "6048",
    "1802"
@@ -18763,11 +18763,14 @@
   "court": "Court 7",
   "courtId": "AH",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788436460000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:48",
+  "setDurations": [
+   34,
+   74
+  ],
   "upset": false,
   "sides": [
    {
@@ -18781,8 +18784,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -18795,12 +18798,30 @@
     ],
     "seed": 23,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     5,
+     7
+    ]
+   }
+  ],
+  "winner": 2,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1,
@@ -19763,8 +19784,15 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta317964",
+      "name": "E. Mertens",
+      "fullName": "Elise Mertens",
+      "nation": "BEL"
+     }
+    ],
+    "seed": 23,
     "entryStatus": null,
     "setsWon": null,
     "won": null
