@@ -6717,7 +6717,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788456600000,
+  "startEpoch": 1788457500000,
   "espnSideIds": [
    "4030",
    "3764"
@@ -7365,7 +7365,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788457200000,
+  "startEpoch": 1788458400000,
   "espnSideIds": [
    "2946",
    "10153"
@@ -7509,7 +7509,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788456600000,
+  "startEpoch": 1788457500000,
   "espnSideIds": [
    "11757",
    "2278"
@@ -18243,7 +18243,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788456600000,
+  "startEpoch": 1788458400000,
   "espnSideIds": [
    "5705",
    "7759"
@@ -18693,7 +18693,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788456600000,
+  "startEpoch": 1788457800000,
   "espnSideIds": [
    "6048",
    "1802"
@@ -24228,11 +24228,14 @@
   "court": "Court 13",
   "courtId": "AN",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788438092000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:07",
+  "setDurations": [
+   25,
+   42
+  ],
   "upset": false,
   "sides": [
    {
@@ -24252,8 +24255,8 @@
     ],
     "seed": null,
     "entryStatus": "WC",
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -24272,12 +24275,27 @@
     ],
     "seed": 13,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     0,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1
@@ -26304,8 +26322,21 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta317810",
+      "name": "S. Hunter",
+      "fullName": "Storm Hunter",
+      "nation": "AUS"
+     },
+     {
+      "id": "wta317888",
+      "name": "D. Krawczyk",
+      "fullName": "Desirae Krawczyk",
+      "nation": "USA"
+     }
+    ],
+    "seed": 13,
     "entryStatus": null,
     "setsWon": null,
     "won": null
