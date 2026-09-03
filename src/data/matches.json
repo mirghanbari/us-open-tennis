@@ -8690,11 +8690,15 @@
   "court": "Court 11",
   "courtId": "AL",
   "eventDay": 11,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788379320000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:20",
+  "setDurations": [
+   29,
+   27,
+   24
+  ],
   "upset": false,
   "sides": [
    {
@@ -8708,8 +8712,8 @@
     ],
     "seed": 15,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    },
    {
     "players": [
@@ -8722,12 +8726,34 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     1
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     1
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 4,
   "notBefore": "7:30 PM",
   "session": 1,
@@ -9701,8 +9727,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpbk92",
+      "name": "A. Bublik",
+      "fullName": "Alexander Bublik",
+      "nation": "KAZ"
+     }
+    ],
+    "seed": 15,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -16714,7 +16747,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788397200000,
+  "startEpoch": 1788399000000,
   "espnSideIds": [
    "6953",
    "6970"
