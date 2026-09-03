@@ -114,28 +114,6 @@
    }
   ]
  },
- "MS-1210": {
-  "player1": {
-   "id": "atpbm95",
-   "name": "Benjamin Bonzi",
-   "wins": 0
-  },
-  "player2": {
-   "id": "atpb0id",
-   "name": "Ignacio Buse",
-   "wins": 1
-  },
-  "meetings": [
-   {
-    "year": 2026,
-    "tournament": "Winston-Salem",
-    "surface": "Hard",
-    "round": "SF",
-    "winner": "2",
-    "score": "6-2, 4-6, 6-1"
-   }
-  ]
- },
  "MS-1212": {
   "player1": {
    "id": "atpmc65",
@@ -170,6 +148,36 @@
    "wins": 0
   },
   "meetings": []
+ },
+ "MS-1305": {
+  "player1": {
+   "id": "atpke29",
+   "name": "Karen Khachanov",
+   "wins": 2
+  },
+  "player2": {
+   "id": "atpbm95",
+   "name": "Benjamin Bonzi",
+   "wins": 0
+  },
+  "meetings": [
+   {
+    "year": 2022,
+    "tournament": "Australian Open",
+    "surface": "Hard",
+    "round": "R2",
+    "winner": "1",
+    "score": "6-4, 6-0, 7-5"
+   },
+   {
+    "year": 2021,
+    "tournament": "Lyon",
+    "surface": "Clay",
+    "round": "R1",
+    "winner": "1",
+    "score": "6-1, 4-6, 7-6"
+   }
+  ]
  },
  "MS-1307": {
   "player1": {

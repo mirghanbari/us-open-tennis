@@ -7249,11 +7249,15 @@
   "court": "Court 13",
   "courtId": "AN",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788458608000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:57",
+  "setDurations": [
+   36,
+   56,
+   25
+  ],
   "upset": false,
   "sides": [
    {
@@ -7267,8 +7271,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    },
    {
     "players": [
@@ -7281,12 +7285,37 @@
     ],
     "seed": 32,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     7,
+     4
+    ]
+   },
+   {
+    "games": [
+     6,
+     0
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 4,
   "notBefore": "4:00 PM",
   "session": 1,
@@ -9803,7 +9832,14 @@
     "won": null
    },
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpbm95",
+      "name": "B. Bonzi",
+      "fullName": "Benjamin Bonzi",
+      "nation": "FRA"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
@@ -9811,7 +9847,13 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182716",
+  "startEpoch": 1788580800000,
+  "espnSideIds": [
+   "2367",
+   "2355"
+  ]
  },
  {
   "id": "MS-1306",
@@ -18936,7 +18978,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788476700000,
+  "startEpoch": 1788477000000,
   "espnSideIds": [
    "2731",
    "3626"
@@ -19782,7 +19824,7 @@
   "notBefore": "1:00 PM",
   "session": 1,
   "espnId": "182565",
-  "startEpoch": 1788539400000,
+  "startEpoch": 1788541200000,
   "espnSideIds": [
    "2114",
    "8017"
@@ -19914,7 +19956,7 @@
   "notBefore": null,
   "session": 1,
   "espnId": "182543",
-  "startEpoch": 1788544800000,
+  "startEpoch": 1788546600000,
   "espnSideIds": [
    "3380",
    "6970"
