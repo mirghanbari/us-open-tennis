@@ -6972,7 +6972,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788474000000,
+  "startEpoch": 1788474600000,
   "espnSideIds": [
    "3953",
    "10427"
@@ -7044,7 +7044,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788474000000,
+  "startEpoch": 1788474300000,
   "espnSideIds": [
    "3356",
    "3897"
@@ -18649,7 +18649,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788474600000,
+  "startEpoch": 1788475500000,
   "espnSideIds": [
    "14311",
    "7815"
@@ -18763,11 +18763,15 @@
   "court": "Court 6",
   "courtId": "AG",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788455828000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "3:01",
+  "setDurations": [
+   54,
+   55,
+   72
+  ],
   "upset": false,
   "sides": [
    {
@@ -18781,8 +18785,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -18795,12 +18799,43 @@
     ],
     "seed": null,
     "entryStatus": "Q",
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     8,
+     6
+    ]
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     0,
+     7
+    ]
+   },
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     10,
+     6
+    ]
+   }
+  ],
+  "winner": 1,
   "courtOrder": 3,
   "notBefore": null,
   "session": 1,
@@ -20320,7 +20355,14 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "wta321158",
+      "name": "C. Bucsa",
+      "fullName": "Cristina Bucsa",
+      "nation": "ESP"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
