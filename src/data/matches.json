@@ -8227,11 +8227,16 @@
   "court": "Court 12",
   "courtId": "AM",
   "eventDay": 11,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788384282000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "3:29",
+  "setDurations": [
+   37,
+   40,
+   57,
+   75
+  ],
   "upset": false,
   "sides": [
    {
@@ -8245,8 +8250,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -8259,12 +8264,44 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     4,
+     7
+    ]
+   }
+  ],
+  "winner": 2,
   "courtOrder": 4,
   "notBefore": "6:45 PM",
   "session": 1,
@@ -9601,7 +9638,14 @@
     "won": null
    },
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpn0bs",
+      "name": "M. Navone",
+      "fullName": "Mariano Navone",
+      "nation": "ARG"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
@@ -9609,7 +9653,13 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182740",
+  "startEpoch": 1788494400000,
+  "espnSideIds": [
+   "3739",
+   "9992"
+  ]
  },
  {
   "id": "MS-1313",
@@ -17196,11 +17246,15 @@
   "court": "Court 5",
   "courtId": "AE",
   "eventDay": 11,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788384053000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:09",
+  "setDurations": [
+   27,
+   56,
+   46
+  ],
   "upset": false,
   "sides": [
    {
@@ -17214,8 +17268,8 @@
     ],
     "seed": 9,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -17228,12 +17282,37 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     6,
+     8
+    ]
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 5,
   "notBefore": "5:00 PM",
   "session": 1,
@@ -18979,8 +19058,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta316738",
+      "name": "E. Svitolina",
+      "fullName": "Elina Svitolina",
+      "nation": "UKR"
+     }
+    ],
+    "seed": 9,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -19001,7 +19087,13 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182529",
+  "startEpoch": 1788494400000,
+  "espnSideIds": [
+   "1797",
+   "2977"
+  ]
  },
  {
   "id": "WS-2308",

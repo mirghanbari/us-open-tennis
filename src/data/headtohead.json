@@ -357,44 +357,6 @@
   },
   "meetings": []
  },
- "MS-1224": {
-  "player1": {
-   "id": "atpbk40",
-   "name": "Matteo Berrettini",
-   "wins": 2
-  },
-  "player2": {
-   "id": "atpn0bs",
-   "name": "Mariano Navone",
-   "wins": 1
-  },
-  "meetings": [
-   {
-    "year": 2026,
-    "tournament": "Canada",
-    "surface": "Hard",
-    "round": "R1",
-    "winner": "2",
-    "score": "6-3, 6-7, 6-3"
-   },
-   {
-    "year": 2025,
-    "tournament": "Monte-Carlo",
-    "surface": "Clay",
-    "round": "R1",
-    "winner": "1",
-    "score": "6-4, 6-4"
-   },
-   {
-    "year": 2024,
-    "tournament": "Marrakech",
-    "surface": "Clay",
-    "round": "SF",
-    "winner": "1",
-    "score": "6-7, 6-3, 6-2"
-   }
-  ]
- },
  "MS-1230": {
   "player1": {
    "id": "atpp0hw",
@@ -480,6 +442,19 @@
     "score": "6-4, 6-7, 6-1"
    }
   ]
+ },
+ "MS-1312": {
+  "player1": {
+   "id": "atpea24",
+   "name": "Tomas Martin Etcheverry",
+   "wins": 0
+  },
+  "player2": {
+   "id": "atpn0bs",
+   "name": "Mariano Navone",
+   "wins": 0
+  },
+  "meetings": []
  },
  "MS-1313": {
   "player1": {
@@ -582,19 +557,6 @@
   "player2": {
    "id": "wta329668",
    "name": "Linda Noskova",
-   "wins": 0
-  },
-  "meetings": []
- },
- "WS-2213": {
-  "player1": {
-   "id": "wta316738",
-   "name": "Elina Svitolina",
-   "wins": 0
-  },
-  "player2": {
-   "id": "wta330544",
-   "name": "Maya Joint",
    "wins": 0
   },
   "meetings": []
@@ -1130,6 +1092,60 @@
     "round": "QF",
     "winner": "1",
     "score": "6-4, 4-6, 6-1"
+   }
+  ]
+ },
+ "WS-2307": {
+  "player1": {
+   "id": "wta316738",
+   "name": "Elina Svitolina",
+   "wins": 4
+  },
+  "player2": {
+   "id": "wta323942",
+   "name": "Anna Kalinskaya",
+   "wins": 1
+  },
+  "meetings": [
+   {
+    "year": 2026,
+    "tournament": "Doha",
+    "surface": "Hard",
+    "round": "R3",
+    "winner": "2",
+    "score": "6-4, 6-3"
+   },
+   {
+    "year": 2026,
+    "tournament": "Berlin",
+    "surface": "Grass",
+    "round": "R1",
+    "winner": "1",
+    "score": "6-1, 4-1 RET"
+   },
+   {
+    "year": 2025,
+    "tournament": "Dubai",
+    "surface": "Hard",
+    "round": "R1",
+    "winner": "1",
+    "score": "6-1, 6-2"
+   },
+   {
+    "year": 2025,
+    "tournament": "Montreal",
+    "surface": "Hard",
+    "round": "R3",
+    "winner": "1",
+    "score": "6-1, 6-1"
+   },
+   {
+    "year": 2024,
+    "tournament": "Rome",
+    "surface": "Clay",
+    "round": "R3",
+    "winner": "1",
+    "score": "6-3, 6-3"
    }
   ]
  },
