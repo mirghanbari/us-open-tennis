@@ -10487,7 +10487,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788554400000,
+  "startEpoch": 1788555000000,
   "espnSideIds": [
    "11400",
    "10239"
@@ -20130,11 +20130,15 @@
   "court": "Stadium 17",
   "courtId": "AD",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788532568000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:28",
+  "setDurations": [
+   31,
+   70,
+   47
+  ],
   "upset": false,
   "sides": [
    {
@@ -20148,8 +20152,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -20162,12 +20166,37 @@
     ],
     "seed": 15,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     3,
+     7
+    ]
+   },
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 2,
   "notBefore": "1:00 PM",
   "session": 1,
@@ -20340,7 +20369,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788550800000,
+  "startEpoch": 1788551400000,
   "espnSideIds": [
    "3380",
    "6970"
@@ -21246,7 +21275,14 @@
     "won": null
    },
    {
-    "players": [],
+    "players": [
+     {
+      "id": "wta318609",
+      "name": "T. Townsend",
+      "fullName": "Taylor Townsend",
+      "nation": "USA"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
@@ -21254,7 +21290,13 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182541",
+  "startEpoch": 1788667200000,
+  "espnSideIds": [
+   "3038",
+   "2114"
+  ]
  },
  {
   "id": "WS-2402",
@@ -22071,9 +22113,9 @@
   "slot": 3,
   "feedsInto": "MD-3202",
   "fedBy": null,
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 5",
+  "courtId": "AE",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -22123,7 +22165,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 1,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "MD-3104",
@@ -22137,9 +22182,9 @@
   "slot": 4,
   "feedsInto": "MD-3202",
   "fedBy": null,
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 7",
+  "courtId": "AH",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -22189,7 +22234,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 3,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "MD-3105",
@@ -22394,9 +22442,9 @@
   "slot": 7,
   "feedsInto": "MD-3204",
   "fedBy": null,
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 12",
+  "courtId": "AM",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -22446,7 +22494,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 2,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "MD-3108",
@@ -22460,9 +22511,9 @@
   "slot": 8,
   "feedsInto": "MD-3204",
   "fedBy": null,
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 10",
+  "courtId": "AK",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -22512,7 +22563,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 2,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "MD-3109",
@@ -22664,9 +22718,9 @@
   "slot": 11,
   "feedsInto": "MD-3206",
   "fedBy": null,
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 11",
+  "courtId": "AL",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -22716,7 +22770,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 1,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "MD-3112",
@@ -22730,9 +22787,9 @@
   "slot": 12,
   "feedsInto": "MD-3206",
   "fedBy": null,
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 12",
+  "courtId": "AM",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -22782,7 +22839,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 1,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "MD-3113",
@@ -22796,9 +22856,9 @@
   "slot": 13,
   "feedsInto": "MD-3207",
   "fedBy": null,
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 13",
+  "courtId": "AN",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -22848,7 +22908,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 2,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "MD-3114",
@@ -22862,9 +22925,9 @@
   "slot": 14,
   "feedsInto": "MD-3207",
   "fedBy": null,
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 13",
+  "courtId": "AN",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -22914,7 +22977,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 1,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "MD-3115",
@@ -22997,9 +23063,9 @@
   "slot": 16,
   "feedsInto": "MD-3208",
   "fedBy": null,
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 5",
+  "courtId": "AE",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -23049,7 +23115,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 2,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "MD-3117",
@@ -23066,11 +23135,15 @@
   "court": "Court 5",
   "courtId": "AE",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788532411000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:09",
+  "setDurations": [
+   51,
+   46,
+   32
+  ],
   "upset": false,
   "sides": [
    {
@@ -23090,8 +23163,8 @@
     ],
     "seed": 6,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -23110,12 +23183,40 @@
     ],
     "seed": null,
     "entryStatus": "A",
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     8,
+     6
+    ]
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     3,
+     7
+    ]
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1
@@ -23225,9 +23326,9 @@
   "slot": 19,
   "feedsInto": "MD-3210",
   "fedBy": null,
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 7",
+  "courtId": "AH",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -23277,7 +23378,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 4,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "MD-3120",
@@ -23291,9 +23395,9 @@
   "slot": 20,
   "feedsInto": "MD-3210",
   "fedBy": null,
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 11",
+  "courtId": "AL",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -23343,7 +23447,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 5,
+  "notBefore": "5:30 PM",
+  "session": 1
  },
  {
   "id": "MD-3121",
@@ -23534,9 +23641,9 @@
   "slot": 23,
   "feedsInto": "MD-3212",
   "fedBy": null,
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 12",
+  "courtId": "AM",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -23586,7 +23693,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 4,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "MD-3124",
@@ -23600,9 +23710,9 @@
   "slot": 24,
   "feedsInto": "MD-3212",
   "fedBy": null,
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 6",
+  "courtId": "AG",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -23652,7 +23762,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 2,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "MD-3125",
@@ -23928,9 +24041,9 @@
   "slot": 28,
   "feedsInto": "MD-3214",
   "fedBy": null,
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 12",
+  "courtId": "AM",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -23980,7 +24093,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 5,
+  "notBefore": "5:00 PM",
+  "session": 1
  },
  {
   "id": "MD-3129",
@@ -24161,9 +24277,9 @@
   "slot": 31,
   "feedsInto": "MD-3216",
   "fedBy": null,
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 10",
+  "courtId": "AK",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -24213,7 +24329,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 3,
+  "notBefore": "2:00 PM",
+  "session": 1
  },
  {
   "id": "MD-3132",
@@ -24227,9 +24346,9 @@
   "slot": 32,
   "feedsInto": "MD-3216",
   "fedBy": null,
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 7",
+  "courtId": "AH",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -24279,7 +24398,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 1,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "MD-3201",
@@ -24703,8 +24825,21 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpkb92",
+      "name": "K. Krawietz",
+      "fullName": "Kevin Krawietz",
+      "nation": "GER"
+     },
+     {
+      "id": "atppc68",
+      "name": "T. Puetz",
+      "fullName": "Tim Puetz",
+      "nation": "GER"
+     }
+    ],
+    "seed": 6,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -27918,11 +28053,15 @@
   "court": "Court 13",
   "courtId": "AN",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788532369000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:53",
+  "setDurations": [
+   39,
+   39,
+   35
+  ],
   "upset": false,
   "sides": [
    {
@@ -27942,8 +28081,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -27962,12 +28101,34 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 2,
   "notBefore": "12:30 PM",
   "session": 1
@@ -28368,9 +28529,9 @@
    "WD-4101",
    "WD-4102"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 11",
+  "courtId": "AL",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -28420,7 +28581,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 2,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "WD-4202",
@@ -28437,9 +28601,9 @@
    "WD-4103",
    "WD-4104"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 12",
+  "courtId": "AM",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -28489,7 +28653,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 3,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "WD-4203",
@@ -28506,9 +28673,9 @@
    "WD-4105",
    "WD-4106"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 6",
+  "courtId": "AG",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -28558,7 +28725,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 1,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "WD-4204",
@@ -28730,9 +28900,9 @@
    "WD-4113",
    "WD-4114"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 10",
+  "courtId": "AK",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -28782,7 +28952,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 1,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "WD-4208",
@@ -28855,9 +29028,9 @@
    "WD-4117",
    "WD-4118"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 7",
+  "courtId": "AH",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -28894,7 +29067,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 2,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "WD-4210",
@@ -28911,9 +29087,9 @@
    "WD-4119",
    "WD-4120"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Stadium 17",
+  "courtId": "AD",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -28963,7 +29139,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 1,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "WD-4211",
@@ -28980,9 +29159,9 @@
    "WD-4121",
    "WD-4122"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 11",
+  "courtId": "AL",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -29032,7 +29211,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 3,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "WD-4212",
@@ -29172,7 +29354,20 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "wta314701",
+      "name": "L. Kichenok",
+      "fullName": "Lyudmyla Kichenok",
+      "nation": "UKR"
+     },
+     {
+      "id": "wta314704",
+      "name": "N. Kichenok",
+      "fullName": "Nadiia Kichenok",
+      "nation": "UKR"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
@@ -29260,9 +29455,9 @@
    "WD-4131",
    "WD-4132"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 11",
+  "courtId": "AL",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -29299,7 +29494,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 4,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "WD-4301",

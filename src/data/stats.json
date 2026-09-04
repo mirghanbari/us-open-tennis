@@ -6982,5 +6982,149 @@
     "bpSavedPct": 0
    }
   ]
+ },
+ "WS-2136": {
+  "tour": "wta",
+  "minutes": 131,
+  "sides": [
+   {
+    "aces": 9,
+    "doubleFaults": 5,
+    "servePoints": 95,
+    "firstIn": 53,
+    "firstWon": 40,
+    "secondWon": 17,
+    "serveGames": 13,
+    "bpSaved": 2,
+    "bpFaced": 5,
+    "firstServePct": 56,
+    "firstWonPct": 75,
+    "secondWonPct": 40,
+    "bpSavedPct": 40
+   },
+   {
+    "aces": 4,
+    "doubleFaults": 15,
+    "servePoints": 72,
+    "firstIn": 35,
+    "firstWon": 23,
+    "secondWon": 13,
+    "serveGames": 12,
+    "bpSaved": 6,
+    "bpFaced": 12,
+    "firstServePct": 49,
+    "firstWonPct": 66,
+    "secondWonPct": 35,
+    "bpSavedPct": 50
+   }
+  ]
+ },
+ "WS-2141": {
+  "tour": "wta",
+  "minutes": 132,
+  "sides": [
+   {
+    "aces": 5,
+    "doubleFaults": 4,
+    "servePoints": 71,
+    "firstIn": 40,
+    "firstWon": 31,
+    "secondWon": 10,
+    "serveGames": 11,
+    "bpSaved": 7,
+    "bpFaced": 11,
+    "firstServePct": 56,
+    "firstWonPct": 78,
+    "secondWonPct": 32,
+    "bpSavedPct": 64
+   },
+   {
+    "aces": 1,
+    "doubleFaults": 2,
+    "servePoints": 75,
+    "firstIn": 38,
+    "firstWon": 15,
+    "secondWon": 20,
+    "serveGames": 10,
+    "bpSaved": 9,
+    "bpFaced": 15,
+    "firstServePct": 51,
+    "firstWonPct": 39,
+    "secondWonPct": 54,
+    "bpSavedPct": 60
+   }
+  ]
+ },
+ "WS-2142": {
+  "tour": "wta",
+  "minutes": 122,
+  "sides": [
+   {
+    "aces": 7,
+    "doubleFaults": 4,
+    "servePoints": 78,
+    "firstIn": 41,
+    "firstWon": 30,
+    "secondWon": 17,
+    "serveGames": 13,
+    "bpSaved": 0,
+    "bpFaced": 4,
+    "firstServePct": 53,
+    "firstWonPct": 73,
+    "secondWonPct": 46,
+    "bpSavedPct": 0
+   },
+   {
+    "aces": 1,
+    "doubleFaults": 3,
+    "servePoints": 72,
+    "firstIn": 46,
+    "firstWon": 28,
+    "secondWon": 16,
+    "serveGames": 13,
+    "bpSaved": 4,
+    "bpFaced": 8,
+    "firstServePct": 64,
+    "firstWonPct": 61,
+    "secondWonPct": 62,
+    "bpSavedPct": 50
+   }
+  ]
+ },
+ "WS-2302": {
+  "tour": "wta",
+  "minutes": 148,
+  "sides": [
+   {
+    "aces": 5,
+    "doubleFaults": 2,
+    "servePoints": 107,
+    "firstIn": 68,
+    "firstWon": 47,
+    "secondWon": 20,
+    "serveGames": 15,
+    "bpSaved": 10,
+    "bpFaced": 12,
+    "firstServePct": 64,
+    "firstWonPct": 69,
+    "secondWonPct": 51,
+    "bpSavedPct": 83
+   },
+   {
+    "aces": 5,
+    "doubleFaults": 5,
+    "servePoints": 90,
+    "firstIn": 58,
+    "firstWon": 36,
+    "secondWon": 15,
+    "serveGames": 14,
+    "bpSaved": 3,
+    "bpFaced": 8,
+    "firstServePct": 64,
+    "firstWonPct": 62,
+    "secondWonPct": 47,
+    "bpSavedPct": 38
+   }
+  ]
  }
 }
