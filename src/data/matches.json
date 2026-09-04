@@ -10821,7 +10821,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788544800000,
+  "startEpoch": 1788545400000,
   "espnSideIds": [
    "2875",
    "3782"
@@ -22206,11 +22206,15 @@
   "court": "Court 10",
   "courtId": "AK",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788527371000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:56",
+  "setDurations": [
+   36,
+   62,
+   78
+  ],
   "upset": false,
   "sides": [
    {
@@ -22230,8 +22234,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -22250,12 +22254,40 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     7,
+     9
+    ]
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     10,
+     12
+    ]
+   }
+  ],
+  "winner": 2,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1
@@ -23238,11 +23270,14 @@
   "court": "Court 12",
   "courtId": "AM",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788527070000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:32",
+  "setDurations": [
+   48,
+   44
+  ],
   "upset": false,
   "sides": [
    {
@@ -23262,8 +23297,8 @@
     ],
     "seed": 13,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -23282,12 +23317,27 @@
     ],
     "seed": null,
     "entryStatus": "WC",
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     7,
+     5
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1
@@ -24260,7 +24310,20 @@
     "won": null
    },
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpn558",
+      "name": "N. Balaji",
+      "fullName": "N.Sriram Balaji",
+      "nation": "IND"
+     },
+     {
+      "id": "atpkb37",
+      "name": "E. King",
+      "fullName": "Evan King",
+      "nation": "USA"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
@@ -24610,8 +24673,21 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpmo55",
+      "name": "L. Miedler",
+      "fullName": "Lucas Miedler",
+      "nation": "AUT"
+     },
+     {
+      "id": "atppg94",
+      "name": "M. Polmans",
+      "fullName": "Marc Polmans",
+      "nation": "AUS"
+     }
+    ],
+    "seed": 13,
     "entryStatus": null,
     "setsWon": null,
     "won": null
