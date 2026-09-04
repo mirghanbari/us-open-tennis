@@ -27762,11 +27762,14 @@
   "court": "Court 10",
   "courtId": "AK",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788531755000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "0:56",
+  "setDurations": [
+   26,
+   30
+  ],
   "upset": false,
   "sides": [
    {
@@ -27786,8 +27789,8 @@
     ],
     "seed": 7,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -27806,12 +27809,27 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     1
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1
@@ -29098,8 +29116,21 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta322931",
+      "name": "X. Jiang",
+      "fullName": "Xinyu Jiang",
+      "nation": "CHN"
+     },
+     {
+      "id": "wta311779",
+      "name": "S. Zhang",
+      "fullName": "Shuai Zhang",
+      "nation": "CHN"
+     }
+    ],
+    "seed": 7,
     "entryStatus": null,
     "setsWon": null,
     "won": null
