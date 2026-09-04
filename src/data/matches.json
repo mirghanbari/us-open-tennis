@@ -6501,7 +6501,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788483000000,
+  "startEpoch": 1788483600000,
   "espnSideIds": [
    "2375",
    "2362"
@@ -7068,11 +7068,15 @@
   "court": "Grandstand",
   "courtId": "AC",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788464950000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:43",
+  "setDurations": [
+   46,
+   60,
+   57
+  ],
   "upset": false,
   "sides": [
    {
@@ -7086,8 +7090,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    },
    {
     "players": [
@@ -7100,12 +7104,34 @@
     ],
     "seed": 6,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     7,
+     5
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 4,
   "notBefore": "4:30 PM",
   "session": 1,
@@ -9782,7 +9808,14 @@
     "won": null
    },
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpv812",
+      "name": "B. van de Zandschulp",
+      "fullName": "Botic van de Zandschulp",
+      "nation": "NED"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
@@ -19692,7 +19725,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788483600000,
+  "startEpoch": 1788485400000,
   "espnSideIds": [
    "6059",
    "3126"
