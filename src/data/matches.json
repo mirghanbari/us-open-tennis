@@ -10821,7 +10821,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788544200000,
+  "startEpoch": 1788544800000,
   "espnSideIds": [
    "2875",
    "3782"
@@ -23490,11 +23490,15 @@
   "court": "Court 7",
   "courtId": "AH",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788526021000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:36",
+  "setDurations": [
+   38,
+   59,
+   59
+  ],
   "upset": false,
   "sides": [
    {
@@ -23514,8 +23518,8 @@
     ],
     "seed": 8,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -23534,12 +23538,37 @@
     ],
     "seed": null,
     "entryStatus": "WC",
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     5,
+     7
+    ]
+   },
+   {
+    "games": [
+     5,
+     7
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1
@@ -24641,9 +24670,22 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpc0oj",
+      "name": "B. Carpico",
+      "fullName": "Brandon Carpico",
+      "nation": "USA"
+     },
+     {
+      "id": "atpf0hz",
+      "name": "N. Filin",
+      "fullName": "Nikita Samuel Filin",
+      "nation": "USA"
+     }
+    ],
     "seed": null,
-    "entryStatus": null,
+    "entryStatus": "WC",
     "setsWon": null,
     "won": null
    },
