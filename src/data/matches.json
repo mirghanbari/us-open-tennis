@@ -10535,7 +10535,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788555000000,
+  "startEpoch": 1788556200000,
   "espnSideIds": [
    "11400",
    "10239"
@@ -10607,7 +10607,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788555000000,
+  "startEpoch": 1788556800000,
   "espnSideIds": [
    "3739",
    "9992"
@@ -10892,11 +10892,15 @@
   "court": "Arthur Ashe Stadium",
   "courtId": "AA",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788536506000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:20",
+  "setDurations": [
+   42,
+   60,
+   38
+  ],
   "upset": false,
   "sides": [
    {
@@ -10910,8 +10914,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -10924,12 +10928,34 @@
     ],
     "seed": 2,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     1,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 2,
   "notBefore": "1:00 PM",
   "session": 1,
@@ -11294,15 +11320,28 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpa0e2",
+      "name": "C. Alcaraz",
+      "fullName": "Carlos Alcaraz",
+      "nation": "ESP"
+     }
+    ],
+    "seed": 2,
     "entryStatus": null,
     "setsWon": null,
     "won": null
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182724",
+  "startEpoch": 1788667200000,
+  "espnSideIds": [
+   "2964",
+   "3782"
+  ]
  },
  {
   "id": "MS-1501",
@@ -26662,11 +26701,14 @@
   "court": "Court 6",
   "courtId": "AG",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788536957000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:23",
+  "setDurations": [
+   43,
+   40
+  ],
   "upset": false,
   "sides": [
    {
@@ -26686,8 +26728,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -26706,12 +26748,27 @@
     ],
     "seed": 6,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 3,
   "notBefore": "2:00 PM",
   "session": 1
@@ -27886,11 +27943,14 @@
   "court": "Court 15",
   "courtId": "AP",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788536924000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:39",
+  "setDurations": [
+   35,
+   64
+  ],
   "upset": false,
   "sides": [
    {
@@ -27910,8 +27970,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -27930,12 +27990,30 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     7,
+     4
+    ]
+   }
+  ],
+  "winner": 1,
   "courtOrder": 3,
   "notBefore": "2:00 PM",
   "session": 1
@@ -28924,8 +29002,21 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta321158",
+      "name": "C. Bucsa",
+      "fullName": "Cristina Bucsa",
+      "nation": "ESP"
+     },
+     {
+      "id": "wta316713",
+      "name": "N. Melichar-Martinez",
+      "fullName": "Nicole Melichar-Martinez",
+      "nation": "USA"
+     }
+    ],
+    "seed": 6,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -29390,7 +29481,20 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "wta310440",
+      "name": "T. Maria",
+      "fullName": "Tatjana Maria",
+      "nation": "GER"
+     },
+     {
+      "id": "wta326907",
+      "name": "Z. Sonmez",
+      "fullName": "Zeynep Sonmez",
+      "nation": "TUR"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
