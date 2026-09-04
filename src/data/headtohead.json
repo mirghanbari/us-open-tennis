@@ -470,52 +470,6 @@
    }
   ]
  },
- "WS-2305": {
-  "player1": {
-   "id": "wta316956",
-   "name": "Jessica Pegula",
-   "wins": 3
-  },
-  "player2": {
-   "id": "wta326735",
-   "name": "Leylah Fernandez",
-   "wins": 1
-  },
-  "meetings": [
-   {
-    "year": 2026,
-    "tournament": "Miami",
-    "surface": "Hard",
-    "round": "R3",
-    "winner": "1",
-    "score": "6-2, 6-2"
-   },
-   {
-    "year": 2025,
-    "tournament": "Washington Dc",
-    "surface": "Hard",
-    "round": "R2",
-    "winner": "2",
-    "score": "6-3, 1-6, 7-5"
-   },
-   {
-    "year": 2024,
-    "tournament": "Miami",
-    "surface": "Hard",
-    "round": "R3",
-    "winner": "1",
-    "score": "7-5, 6-4"
-   },
-   {
-    "year": 2024,
-    "tournament": "Cincinnati",
-    "surface": "Hard",
-    "round": "QF",
-    "winner": "1",
-    "score": "7-5, 6-7, 7-6"
-   }
-  ]
- },
  "WS-2307": {
   "player1": {
    "id": "wta316738",
@@ -834,6 +788,36 @@
     "round": "R2",
     "winner": "1",
     "score": "3-6, 6-1, 7-6"
+   }
+  ]
+ },
+ "WS-2403": {
+  "player1": {
+   "id": "wta316956",
+   "name": "Jessica Pegula",
+   "wins": 2
+  },
+  "player2": {
+   "id": "wta312469",
+   "name": "Sorana Cirstea",
+   "wins": 0
+  },
+  "meetings": [
+   {
+    "year": 2026,
+    "tournament": "Cincinnati",
+    "surface": "Hard",
+    "round": "R4",
+    "winner": "1",
+    "score": "6-2, 4-6, 7-5"
+   },
+   {
+    "year": 2021,
+    "tournament": "Madrid",
+    "surface": "Clay",
+    "round": "R1",
+    "winner": "1",
+    "score": "7-6, 6-3"
    }
   ]
  }
