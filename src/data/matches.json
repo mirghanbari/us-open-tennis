@@ -10725,7 +10725,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788540600000,
+  "startEpoch": 1788541200000,
   "espnSideIds": [
    "2865",
    "2964"
@@ -23196,11 +23196,14 @@
   "court": "Court 6",
   "courtId": "AG",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788523062000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:48",
+  "setDurations": [
+   55,
+   53
+  ],
   "upset": false,
   "sides": [
    {
@@ -23220,8 +23223,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -23240,12 +23243,30 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     4,
+     7
+    ]
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1
@@ -23466,11 +23487,15 @@
   "court": "Court 15",
   "courtId": "AP",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788522635000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:41",
+  "setDurations": [
+   28,
+   35,
+   38
+  ],
   "upset": false,
   "sides": [
    {
@@ -23490,8 +23515,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -23510,12 +23535,34 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     5,
+     7
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1
@@ -24388,7 +24435,20 @@
     "won": null
    },
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpc0e0",
+      "name": "R. Cash",
+      "fullName": "Robert Cash",
+      "nation": "USA"
+     },
+     {
+      "id": "atpe928",
+      "name": "A. Erler",
+      "fullName": "Alexander Erler",
+      "nation": "AUT"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
@@ -24474,7 +24534,20 @@
     "won": null
    },
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpm919",
+      "name": "M. Melo",
+      "fullName": "Marcelo Melo",
+      "nation": "BRA"
+     },
+     {
+      "id": "atppc96",
+      "name": "J. Peers",
+      "fullName": "John Peers",
+      "nation": "AUS"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
