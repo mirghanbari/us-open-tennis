@@ -1221,7 +1221,7 @@
   "shortLabel": "Day 6: Fri, Sept 4",
   "displayDate": "Day 6: Friday, September 4",
   "date": "2026-09-04",
-  "releaseTime": "10:04 AM",
+  "releaseTime": "10:29 AM",
   "comments": null,
   "footerComment": null,
   "courts": [
@@ -1824,8 +1824,20 @@
       "team2": "B. Nakashima / B. Nakashima"
      },
      {
-      "id": "MD-3109",
+      "id": "WD-4131",
       "order": 3,
+      "notBefore": "4:00 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WD",
+      "roundName": "Round 1",
+      "team1": "S. Errani / L. Tagger",
+      "team2": "A. Penickova / K. Penickova"
+     },
+     {
+      "id": "MD-3109",
+      "order": 4,
       "notBefore": "5:30 PM",
       "conjunction": null,
       "comment": null,
@@ -1834,18 +1846,6 @@
       "roundName": "Round 1",
       "team1": "S. Bolelli / A. Vavassori",
       "team2": "Q. Halys / P. Herbert"
-     },
-     {
-      "id": "WD-4131",
-      "order": 4,
-      "notBefore": null,
-      "conjunction": null,
-      "comment": null,
-      "status": "scheduled",
-      "eventCode": "WD",
-      "roundName": "Round 1",
-      "team1": "S. Errani / L. Tagger",
-      "team2": "A. Penickova / K. Penickova"
      }
     ]
    },
