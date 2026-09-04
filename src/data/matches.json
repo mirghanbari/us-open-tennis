@@ -6852,11 +6852,16 @@
   "court": "Court 12",
   "courtId": "AM",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788469602000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:33",
+  "setDurations": [
+   49,
+   36,
+   31,
+   37
+  ],
   "upset": false,
   "sides": [
    {
@@ -6870,8 +6875,8 @@
     ],
     "seed": null,
     "entryStatus": "LL",
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -6884,12 +6889,41 @@
     ],
     "seed": null,
     "entryStatus": "WC",
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 4,
   "notBefore": "6:40 PM",
   "session": 1,
@@ -9855,9 +9889,16 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpz0bz",
+      "name": "M. Zheng",
+      "fullName": "Michael Zheng",
+      "nation": "USA"
+     }
+    ],
     "seed": null,
-    "entryStatus": null,
+    "entryStatus": "WC",
     "setsWon": null,
     "won": null
    },
@@ -9877,7 +9918,13 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182749",
+  "startEpoch": 1788580800000,
+  "espnSideIds": [
+   "12932",
+   "10427"
+  ]
  },
  {
   "id": "MS-1304",
@@ -9934,7 +9981,13 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182757",
+  "startEpoch": 1788580800000,
+  "espnSideIds": [
+   "3356",
+   "3310"
+  ]
  },
  {
   "id": "MS-1305",
