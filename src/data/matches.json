@@ -22837,11 +22837,14 @@
   "court": "Court 12",
   "courtId": "AM",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788546600000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:15",
+  "setDurations": [
+   32,
+   43
+  ],
   "upset": false,
   "sides": [
    {
@@ -22861,8 +22864,8 @@
     ],
     "seed": 4,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -22881,12 +22884,27 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     7,
+     5
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 4,
   "notBefore": "5:30 PM",
   "session": 1
@@ -25005,8 +25023,21 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpba98",
+      "name": "S. Bolelli",
+      "fullName": "Simone Bolelli",
+      "nation": "ITA"
+     },
+     {
+      "id": "atpva08",
+      "name": "A. Vavassori",
+      "fullName": "Andrea Vavassori",
+      "nation": "ITA"
+     }
+    ],
+    "seed": 4,
     "entryStatus": null,
     "setsWon": null,
     "won": null
