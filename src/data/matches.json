@@ -22188,11 +22188,14 @@
   "court": "Court 6",
   "courtId": "AG",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788530951000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:48",
+  "setDurations": [
+   52,
+   56
+  ],
   "upset": false,
   "sides": [
    {
@@ -22212,8 +22215,8 @@
     ],
     "seed": 12,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -22232,12 +22235,30 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     7,
+     4
+    ]
+   },
+   {
+    "games": [
+     7,
+     5
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1
@@ -24367,8 +24388,21 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpn670",
+      "name": "H. Nys",
+      "fullName": "Hugo Nys",
+      "nation": "MON"
+     },
+     {
+      "id": "atpr613",
+      "name": "E. Roger-Vasselin",
+      "fullName": "Edouard Roger-Vasselin",
+      "nation": "FRA"
+     }
+    ],
+    "seed": 12,
     "entryStatus": null,
     "setsWon": null,
     "won": null
