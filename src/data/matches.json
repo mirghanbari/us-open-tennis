@@ -10535,7 +10535,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788557400000,
+  "startEpoch": 1788558000000,
   "espnSideIds": [
    "11400",
    "10239"
@@ -10607,7 +10607,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788557400000,
+  "startEpoch": 1788557700000,
   "espnSideIds": [
    "3739",
    "9992"
@@ -22864,11 +22864,14 @@
   "court": "Court 13",
   "courtId": "AN",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788538889000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:27",
+  "setDurations": [
+   53,
+   34
+  ],
   "upset": false,
   "sides": [
    {
@@ -22888,8 +22891,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -22908,12 +22911,30 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     4,
+     7
+    ]
+   },
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 3,
   "notBefore": null,
   "session": 1
@@ -24896,7 +24917,20 @@
     "won": null
    },
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpgd32",
+      "name": "S. Gille",
+      "fullName": "Sander Gille",
+      "nation": "BEL"
+     },
+     {
+      "id": "atpv09l",
+      "name": "S. Verbeek",
+      "fullName": "Sem Verbeek",
+      "nation": "NED"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
@@ -28272,11 +28306,14 @@
   "court": "Court 5",
   "courtId": "AE",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788538911000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:34",
+  "setDurations": [
+   46,
+   48
+  ],
   "upset": false,
   "sides": [
    {
@@ -28296,8 +28333,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -28316,12 +28353,27 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 3,
   "notBefore": "2:00 PM",
   "session": 1
@@ -28505,11 +28557,15 @@
   "court": "Court 7",
   "courtId": "AH",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788539188000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:51",
+  "setDurations": [
+   36,
+   36,
+   39
+  ],
   "upset": false,
   "sides": [
    {
@@ -28529,8 +28585,8 @@
     ],
     "seed": 16,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -28549,12 +28605,34 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 3,
   "notBefore": null,
   "session": 1
@@ -29632,7 +29710,20 @@
     "won": null
    },
    {
-    "players": [],
+    "players": [
+     {
+      "id": "wta319438",
+      "name": "E. Chong",
+      "fullName": "Eudice Chong",
+      "nation": "HKG"
+     },
+     {
+      "id": "wta317547",
+      "name": "Z. Yang",
+      "fullName": "Zhaoxuan Yang",
+      "nation": "CHN"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
@@ -29724,8 +29815,21 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta313919",
+      "name": "A. Muhammad",
+      "fullName": "Asia Muhammad",
+      "nation": "USA"
+     },
+     {
+      "id": "wta323231",
+      "name": "F. Stollar",
+      "fullName": "Fanny Stollar",
+      "nation": "HUN"
+     }
+    ],
+    "seed": 16,
     "entryStatus": null,
     "setsWon": null,
     "won": null
