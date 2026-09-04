@@ -426,84 +426,6 @@
    }
   ]
  },
- "WS-2224": {
-  "player1": {
-   "id": "wta320124",
-   "name": "Paula Badosa",
-   "wins": 5
-  },
-  "player2": {
-   "id": "wta328560",
-   "name": "Coco Gauff",
-   "wins": 3
-  },
-  "meetings": [
-   {
-    "year": 2026,
-    "tournament": "Berlin",
-    "surface": "Grass",
-    "round": "R2",
-    "winner": "1",
-    "score": "1-6, 6-3, 6-2"
-   },
-   {
-    "year": 2025,
-    "tournament": "Australian Open",
-    "surface": "Hard",
-    "round": "QF",
-    "winner": "1",
-    "score": "7-5, 6-4"
-   },
-   {
-    "year": 2024,
-    "tournament": "Rome",
-    "surface": "Clay",
-    "round": "R4",
-    "winner": "2",
-    "score": "5-7, 6-4, 6-1"
-   },
-   {
-    "year": 2024,
-    "tournament": "Beijing",
-    "surface": "Hard",
-    "round": "SF",
-    "winner": "2",
-    "score": "4-6, 6-4, 6-2"
-   },
-   {
-    "year": 2023,
-    "tournament": "Madrid",
-    "surface": "Clay",
-    "round": "R3",
-    "winner": "1",
-    "score": "6-3, 6-0"
-   },
-   {
-    "year": 2022,
-    "tournament": "Doha",
-    "surface": "Hard",
-    "round": "R3",
-    "winner": "2",
-    "score": "6-2, 6-3"
-   },
-   {
-    "year": 2022,
-    "tournament": "San Jose",
-    "surface": "Hard",
-    "round": "QF",
-    "winner": "1",
-    "score": "7-6, 6-2"
-   },
-   {
-    "year": 2021,
-    "tournament": "Indian Wells",
-    "surface": "Hard",
-    "round": "R3",
-    "winner": "1",
-    "score": "6-2, 6-2"
-   }
-  ]
- },
  "WS-2232": {
   "player1": {
    "id": "wta328139",
@@ -833,6 +755,28 @@
     "round": "R2",
     "winner": "1",
     "score": "6-2, 6-2"
+   }
+  ]
+ },
+ "WS-2312": {
+  "player1": {
+   "id": "wta321158",
+   "name": "Cristina Bucsa",
+   "wins": 0
+  },
+  "player2": {
+   "id": "wta328560",
+   "name": "Coco Gauff",
+   "wins": 1
+  },
+  "meetings": [
+   {
+    "year": 2023,
+    "tournament": "Indian Wells",
+    "surface": "Hard",
+    "round": "R2",
+    "winner": "2",
+    "score": "6-2, 6-4"
    }
   ]
  },

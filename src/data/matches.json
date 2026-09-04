@@ -6501,7 +6501,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788484800000,
+  "startEpoch": 1788485400000,
   "espnSideIds": [
    "2375",
    "2362"
@@ -10561,6 +10561,12 @@
   "notBefore": null,
   "session": 1,
   "espnId": "182719",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788539400000,
   "espnSideIds": [
    "2865",
@@ -10627,6 +10633,12 @@
   "notBefore": "1:00 PM",
   "session": 1,
   "espnId": "182723",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788541200000,
   "espnSideIds": [
    "2875",
@@ -19022,11 +19034,14 @@
   "court": "Arthur Ashe Stadium",
   "courtId": "AA",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788466526000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:00",
+  "setDurations": [
+   52,
+   68
+  ],
   "upset": false,
   "sides": [
    {
@@ -19040,8 +19055,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -19054,12 +19069,30 @@
     ],
     "seed": 4,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     5,
+     7
+    ]
+   }
+  ],
+  "winner": 2,
   "courtOrder": 1,
   "notBefore": null,
   "session": 2,
@@ -19879,6 +19912,12 @@
   "notBefore": null,
   "session": 1,
   "espnId": "182554",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788534000000,
   "espnSideIds": [
    "3038",
@@ -20143,6 +20182,12 @@
   "notBefore": null,
   "session": 1,
   "espnId": "182545",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788535800000,
   "espnSideIds": [
    "2113",
@@ -20341,6 +20386,12 @@
   "notBefore": null,
   "session": 1,
   "espnId": "182537",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788546600000,
   "espnSideIds": [
    "3785",
@@ -20576,15 +20627,28 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta328560",
+      "name": "C. Gauff",
+      "fullName": "Coco Gauff",
+      "nation": "USA"
+     }
+    ],
+    "seed": 4,
     "entryStatus": null,
     "setsWon": null,
     "won": null
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182581",
+  "startEpoch": 1788580800000,
+  "espnSideIds": [
+   "3157",
+   "3626"
+  ]
  },
  {
   "id": "WS-2313",
@@ -23474,20 +23538,20 @@
    {
     "players": [
      {
-      "id": "atpb0id",
-      "name": "I. Buse",
-      "fullName": "Ignacio Buse",
-      "nation": "PER"
+      "id": "atpe661",
+      "name": "G. Escobar",
+      "fullName": "Gonzalo Escobar",
+      "nation": "ECU"
      },
      {
-      "id": "atpta29",
-      "name": "M. Trungelliti",
-      "fullName": "Marco Trungelliti",
-      "nation": "ARG"
+      "id": "atpkh77",
+      "name": "N. Kaliyanda Poonacha",
+      "fullName": "Niki Kaliyanda Poonacha",
+      "nation": "IND"
      }
     ],
     "seed": null,
-    "entryStatus": null,
+    "entryStatus": "A",
     "setsWon": null,
     "won": null
    }
