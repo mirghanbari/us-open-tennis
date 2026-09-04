@@ -7030,11 +7030,16 @@
   "court": "Court 7",
   "courtId": "AH",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788469403000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "3:39",
+  "setDurations": [
+   60,
+   48,
+   43,
+   68
+  ],
   "upset": false,
   "sides": [
    {
@@ -7048,8 +7053,8 @@
     ],
     "seed": 31,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    },
    {
     "players": [
@@ -7062,12 +7067,44 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     7,
+     5
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     1,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     7,
+     2
+    ]
+   }
+  ],
+  "winner": 1,
   "courtOrder": 4,
   "notBefore": "4:00 PM",
   "session": 1,
@@ -9868,8 +9905,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpbu13",
+      "name": "Z. Bergs",
+      "fullName": "Zizou Bergs",
+      "nation": "BEL"
+     }
+    ],
+    "seed": 31,
     "entryStatus": null,
     "setsWon": null,
     "won": null
