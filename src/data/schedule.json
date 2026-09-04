@@ -1221,7 +1221,7 @@
   "shortLabel": "Day 6: Fri, Sept 4",
   "displayDate": "Day 6: Friday, September 4",
   "date": "2026-09-04",
-  "releaseTime": "2:39 AM",
+  "releaseTime": "10:04 AM",
   "comments": null,
   "footerComment": null,
   "courts": [
@@ -1256,6 +1256,18 @@
       "roundName": "Round 3",
       "team1": "Y. Wu",
       "team2": "C. Alcaraz"
+     },
+     {
+      "id": "null-0",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "Intentionally Blank",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
      }
     ]
    },
@@ -1324,6 +1336,18 @@
       "roundName": "Round 3",
       "team1": "A. Bublik",
       "team2": "T. Paul"
+     },
+     {
+      "id": "null-0",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "Intentionally Blank",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
      }
     ]
    },
@@ -1989,7 +2013,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "scheduled",
+      "status": "live",
       "eventCode": "GQ",
       "roundName": "Round 2",
       "team1": "Y. Saffar",
@@ -2023,7 +2047,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "scheduled",
+      "status": "live",
       "eventCode": "GQ",
       "roundName": "Round 2",
       "team1": "N. Poznick",
@@ -2057,7 +2081,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "scheduled",
+      "status": "live",
       "eventCode": "GQ",
       "roundName": "Round 2",
       "team1": "C. Mercier",
@@ -2125,7 +2149,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "scheduled",
+      "status": "live",
       "eventCode": "GQ",
       "roundName": "Round 2",
       "team1": "D. Popovski",
@@ -2159,7 +2183,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "scheduled",
+      "status": "live",
       "eventCode": "GQ",
       "roundName": "Round 2",
       "team1": "R. Yoshida",
@@ -2193,7 +2217,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "scheduled",
+      "status": "live",
       "eventCode": "GQ",
       "roundName": "Round 2",
       "team1": "S. Sim",
