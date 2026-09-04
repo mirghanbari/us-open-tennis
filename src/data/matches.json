@@ -9783,6 +9783,12 @@
   "notBefore": null,
   "session": 2,
   "espnId": "182699",
+  "broadcasts": [
+   {
+    "name": "ESPN2",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788654600000,
   "espnSideIds": [
    "2375",
@@ -9849,6 +9855,12 @@
   "notBefore": null,
   "session": 1,
   "espnId": "182737",
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788631200000,
   "espnSideIds": [
    "7833",
@@ -9915,6 +9927,12 @@
   "notBefore": null,
   "session": 1,
   "espnId": "182749",
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788631200000,
   "espnSideIds": [
    "12932",
@@ -9981,6 +9999,12 @@
   "notBefore": "4:30 PM",
   "session": 1,
   "espnId": "182757",
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788640200000,
   "espnSideIds": [
    "3356",
@@ -10047,6 +10071,12 @@
   "notBefore": null,
   "session": 1,
   "espnId": "182716",
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788631200000,
   "espnSideIds": [
    "2367",
@@ -10113,6 +10143,12 @@
   "notBefore": null,
   "session": 2,
   "espnId": "182728",
+  "broadcasts": [
+   {
+    "name": "ESPN2",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788654600000,
   "espnSideIds": [
    "10319",
@@ -10179,6 +10215,12 @@
   "notBefore": null,
   "session": 1,
   "espnId": "182727",
+  "broadcasts": [
+   {
+    "name": "ESPN2",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788622200000,
   "espnSideIds": [
    "2946",
@@ -10245,6 +10287,12 @@
   "notBefore": null,
   "session": 1,
   "espnId": "182731",
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788625800000,
   "espnSideIds": [
    "11757",
@@ -10559,7 +10607,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788552600000,
+  "startEpoch": 1788553800000,
   "espnSideIds": [
    "3739",
    "9992"
@@ -20983,6 +21031,12 @@
   "notBefore": "1:30 PM",
   "session": 1,
   "espnId": "182581",
+  "broadcasts": [
+   {
+    "name": "ESPN2",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788629400000,
   "espnSideIds": [
    "3157",
@@ -21049,6 +21103,12 @@
   "notBefore": null,
   "session": 1,
   "espnId": "182586",
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788625800000,
   "espnSideIds": [
    "3730",
