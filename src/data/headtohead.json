@@ -415,28 +415,6 @@
    }
   ]
  },
- "WS-2304": {
-  "player1": {
-   "id": "wta326096",
-   "name": "Ann Li",
-   "wins": 0
-  },
-  "player2": {
-   "id": "wta329668",
-   "name": "Linda Noskova",
-   "wins": 1
-  },
-  "meetings": [
-   {
-    "year": 2026,
-    "tournament": "Dubai",
-    "surface": "Hard",
-    "round": "R1",
-    "winner": "2",
-    "score": "6-3, 5-7, 6-4"
-   }
-  ]
- },
  "WS-2307": {
   "player1": {
    "id": "wta316738",
@@ -757,6 +735,36 @@
    "wins": 0
   },
   "meetings": []
+ },
+ "WS-2402": {
+  "player1": {
+   "id": "wta326482",
+   "name": "Marta Kostyuk",
+   "wins": 1
+  },
+  "player2": {
+   "id": "wta329668",
+   "name": "Linda Noskova",
+   "wins": 1
+  },
+  "meetings": [
+   {
+    "year": 2026,
+    "tournament": "Madrid 1000",
+    "surface": "Clay",
+    "round": "QF",
+    "winner": "1",
+    "score": "7-6, 6-0"
+   },
+   {
+    "year": 2026,
+    "tournament": "Wimbledon",
+    "surface": "Grass",
+    "round": "SF",
+    "winner": "2",
+    "score": "6-4, 6-4"
+   }
+  ]
  },
  "WS-2403": {
   "player1": {
