@@ -10535,7 +10535,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788556200000,
+  "startEpoch": 1788557400000,
   "espnSideIds": [
    "11400",
    "10239"
@@ -10607,7 +10607,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788556800000,
+  "startEpoch": 1788557400000,
   "espnSideIds": [
    "3739",
    "9992"
@@ -24187,11 +24187,14 @@
   "court": "Court 11",
   "courtId": "AL",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788538798000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:01",
+  "setDurations": [
+   58,
+   63
+  ],
   "upset": false,
   "sides": [
    {
@@ -24211,8 +24214,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -24231,12 +24234,33 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     7,
+     3
+    ]
+   },
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     8,
+     6
+    ]
+   }
+  ],
+  "winner": 1,
   "courtOrder": 3,
   "notBefore": null,
   "session": 1
@@ -25330,7 +25354,20 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpr548",
+      "name": "R. Ram",
+      "fullName": "Rajeev Ram",
+      "nation": "USA"
+     },
+     {
+      "id": "atpso70",
+      "name": "J. Salisbury",
+      "fullName": "Joe Salisbury",
+      "nation": "GBR"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
