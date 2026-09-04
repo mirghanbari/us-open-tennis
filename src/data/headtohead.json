@@ -435,28 +435,6 @@
    }
   ]
  },
- "WS-2232": {
-  "player1": {
-   "id": "wta328139",
-   "name": "Jessica Bouzas Maneiro",
-   "wins": 0
-  },
-  "player2": {
-   "id": "wta324166",
-   "name": "Elena Rybakina",
-   "wins": 1
-  },
-  "meetings": [
-   {
-    "year": 2024,
-    "tournament": "United Cup",
-    "surface": "Hard",
-    "round": "RR",
-    "winner": "2",
-    "score": "6-2, 6-3"
-   }
-  ]
- },
  "WS-2301": {
   "player1": {
    "id": "wta320760",
@@ -940,6 +918,28 @@
     "round": "R1",
     "winner": "2",
     "score": "6-4, 1-6, 6-4"
+   }
+  ]
+ },
+ "WS-2316": {
+  "player1": {
+   "id": "wta325338",
+   "name": "Yuliia Starodubtseva",
+   "wins": 1
+  },
+  "player2": {
+   "id": "wta324166",
+   "name": "Elena Rybakina",
+   "wins": 0
+  },
+  "meetings": [
+   {
+    "year": 2026,
+    "tournament": "Roland Garros",
+    "surface": "Clay",
+    "round": "R2",
+    "winner": "1",
+    "score": "3-6, 6-1, 7-6"
    }
   ]
  }

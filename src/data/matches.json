@@ -19970,11 +19970,14 @@
   "court": "Louis Armstrong Stadium",
   "courtId": "AB",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788472939000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:08",
+  "setDurations": [
+   30,
+   38
+  ],
   "upset": false,
   "sides": [
    {
@@ -19988,8 +19991,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -20002,12 +20005,27 @@
     ],
     "seed": 2,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 2,
   "notBefore": null,
   "session": 2,
@@ -21081,15 +21099,28 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta324166",
+      "name": "E. Rybakina",
+      "fullName": "Elena Rybakina",
+      "nation": "KAZ"
+     }
+    ],
+    "seed": 2,
     "entryStatus": null,
     "setsWon": null,
     "won": null
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182530",
+  "startEpoch": 1788580800000,
+  "espnSideIds": [
+   "13478",
+   "3126"
+  ]
  },
  {
   "id": "WS-2401",
