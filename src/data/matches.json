@@ -23789,11 +23789,15 @@
   "court": "Court 11",
   "courtId": "AL",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788525352000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:26",
+  "setDurations": [
+   56,
+   47,
+   43
+  ],
   "upset": false,
   "sides": [
    {
@@ -23813,8 +23817,8 @@
     ],
     "seed": 14,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -23833,12 +23837,37 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     4,
+     7
+    ]
+   },
+   {
+    "games": [
+     7,
+     5
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1
@@ -24711,7 +24740,20 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpg585",
+      "name": "M. Gonzalez",
+      "fullName": "Maximo Gonzalez",
+      "nation": "ARG"
+     },
+     {
+      "id": "atpme56",
+      "name": "A. Molteni",
+      "fullName": "Andres Molteni",
+      "nation": "ARG"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
