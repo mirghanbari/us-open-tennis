@@ -9738,9 +9738,9 @@
    "MS-1201",
    "MS-1202"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Arthur Ashe Stadium",
+  "courtId": "AA",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -9779,6 +9779,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 2,
+  "notBefore": null,
+  "session": 2,
   "espnId": "182699",
   "startEpoch": 1788580800000,
   "espnSideIds": [
@@ -9801,9 +9804,9 @@
    "MS-1203",
    "MS-1204"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 5",
+  "courtId": "AE",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -9842,6 +9845,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 3,
+  "notBefore": null,
+  "session": 1,
   "espnId": "182737",
   "startEpoch": 1788580800000,
   "espnSideIds": [
@@ -9864,9 +9870,9 @@
    "MS-1205",
    "MS-1206"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Grandstand",
+  "courtId": "AC",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -9905,6 +9911,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 3,
+  "notBefore": null,
+  "session": 1,
   "espnId": "182749",
   "startEpoch": 1788580800000,
   "espnSideIds": [
@@ -9927,9 +9936,9 @@
    "MS-1207",
    "MS-1208"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Stadium 17",
+  "courtId": "AD",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -9968,6 +9977,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 4,
+  "notBefore": "4:30 PM",
+  "session": 1,
   "espnId": "182757",
   "startEpoch": 1788580800000,
   "espnSideIds": [
@@ -9990,9 +10002,9 @@
    "MS-1209",
    "MS-1210"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Stadium 17",
+  "courtId": "AD",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -10031,6 +10043,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 3,
+  "notBefore": null,
+  "session": 1,
   "espnId": "182716",
   "startEpoch": 1788580800000,
   "espnSideIds": [
@@ -10053,9 +10068,9 @@
    "MS-1211",
    "MS-1212"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Louis Armstrong Stadium",
+  "courtId": "AB",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -10094,6 +10109,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 2,
+  "notBefore": null,
+  "session": 2,
   "espnId": "182728",
   "startEpoch": 1788580800000,
   "espnSideIds": [
@@ -10116,9 +10134,9 @@
    "MS-1213",
    "MS-1214"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Arthur Ashe Stadium",
+  "courtId": "AA",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -10157,6 +10175,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 1,
+  "notBefore": null,
+  "session": 1,
   "espnId": "182727",
   "startEpoch": 1788580800000,
   "espnSideIds": [
@@ -10179,9 +10200,9 @@
    "MS-1215",
    "MS-1216"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Louis Armstrong Stadium",
+  "courtId": "AB",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -10220,6 +10241,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 2,
+  "notBefore": null,
+  "session": 1,
   "espnId": "182731",
   "startEpoch": 1788580800000,
   "espnSideIds": [
@@ -10797,7 +10821,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788541200000,
+  "startEpoch": 1788542400000,
   "espnSideIds": [
    "2875",
    "3782"
@@ -20121,7 +20145,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788541200000,
+  "startEpoch": 1788541500000,
   "espnSideIds": [
    "2114",
    "8017"
@@ -20610,9 +20634,9 @@
    "WS-2217",
    "WS-2218"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Stadium 17",
+  "courtId": "AD",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -20651,6 +20675,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 2,
+  "notBefore": null,
+  "session": 1,
   "espnId": "182536",
   "startEpoch": 1788580800000,
   "espnSideIds": [
@@ -20673,9 +20700,9 @@
    "WS-2219",
    "WS-2220"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Louis Armstrong Stadium",
+  "courtId": "AB",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -20714,6 +20741,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 1,
+  "notBefore": null,
+  "session": 1,
   "espnId": "182540",
   "startEpoch": 1788580800000,
   "espnSideIds": [
@@ -20736,9 +20766,9 @@
    "WS-2221",
    "WS-2222"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Arthur Ashe Stadium",
+  "courtId": "AA",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -20777,6 +20807,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 1,
+  "notBefore": null,
+  "session": 2,
   "espnId": "182578",
   "startEpoch": 1788580800000,
   "espnSideIds": [
@@ -20799,9 +20832,9 @@
    "WS-2223",
    "WS-2224"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Arthur Ashe Stadium",
+  "courtId": "AA",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -20840,6 +20873,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 2,
+  "notBefore": "1:30 PM",
+  "session": 1,
   "espnId": "182581",
   "startEpoch": 1788580800000,
   "espnSideIds": [
@@ -20862,9 +20898,9 @@
    "WS-2225",
    "WS-2226"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Grandstand",
+  "courtId": "AC",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -20903,6 +20939,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 2,
+  "notBefore": null,
+  "session": 1,
   "espnId": "182586",
   "startEpoch": 1788580800000,
   "espnSideIds": [
@@ -20925,9 +20964,9 @@
    "WS-2227",
    "WS-2228"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Grandstand",
+  "courtId": "AC",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -20966,6 +21005,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 1,
+  "notBefore": null,
+  "session": 1,
   "espnId": "182560",
   "startEpoch": 1788580800000,
   "espnSideIds": [
@@ -20988,9 +21030,9 @@
    "WS-2229",
    "WS-2230"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Louis Armstrong Stadium",
+  "courtId": "AB",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -21029,6 +21071,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 1,
+  "notBefore": null,
+  "session": 2,
   "espnId": "182566",
   "startEpoch": 1788580800000,
   "espnSideIds": [
@@ -21051,9 +21096,9 @@
    "WS-2231",
    "WS-2232"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Grandstand",
+  "courtId": "AC",
+  "eventDay": 14,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -21092,6 +21137,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 4,
+  "notBefore": "5:00 PM",
+  "session": 1,
   "espnId": "182530",
   "startEpoch": 1788580800000,
   "espnSideIds": [
@@ -27241,11 +27289,14 @@
   "court": "Court 5",
   "courtId": "AE",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788523600000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:59",
+  "setDurations": [
+   49,
+   70
+  ],
   "upset": false,
   "sides": [
    {
@@ -27265,8 +27316,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -27285,12 +27336,30 @@
     ],
     "seed": 3,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     5,
+     7
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     7,
+     9
+    ]
+   }
+  ],
+  "winner": 2,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1
@@ -28584,8 +28653,21 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta319731",
+      "name": "A. Danilina",
+      "fullName": "Anna Danilina",
+      "nation": "KAZ"
+     },
+     {
+      "id": "wta316344",
+      "name": "A. Krunic",
+      "fullName": "Aleksandra Krunic",
+      "nation": "SRB"
+     }
+    ],
+    "seed": 3,
     "entryStatus": null,
     "setsWon": null,
     "won": null
