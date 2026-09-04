@@ -10751,7 +10751,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788555600000,
+  "startEpoch": 1788556500000,
   "espnSideIds": [
    "3754",
    "2869"
@@ -20792,11 +20792,14 @@
   "court": "Grandstand",
   "courtId": "AC",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788537326000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:47",
+  "setDurations": [
+   48,
+   59
+  ],
   "upset": false,
   "sides": [
    {
@@ -20810,8 +20813,8 @@
     ],
     "seed": 26,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -20824,12 +20827,27 @@
     ],
     "seed": 7,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     7,
+     5
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 3,
   "notBefore": null,
   "session": 1,
@@ -21631,8 +21649,15 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta325410",
+      "name": "E. Navarro",
+      "fullName": "Emma Navarro",
+      "nation": "USA"
+     }
+    ],
+    "seed": 26,
     "entryStatus": null,
     "setsWon": null,
     "won": null
