@@ -10487,7 +10487,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788553800000,
+  "startEpoch": 1788554400000,
   "espnSideIds": [
    "11400",
    "10239"
@@ -20340,7 +20340,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788549600000,
+  "startEpoch": 1788550800000,
   "espnSideIds": [
    "3380",
    "6970"
@@ -21987,11 +21987,14 @@
   "court": "Court 7",
   "courtId": "AH",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788531361000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:11",
+  "setDurations": [
+   22,
+   49
+  ],
   "upset": false,
   "sides": [
    {
@@ -22011,8 +22014,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -22031,12 +22034,27 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     0,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1
@@ -24309,7 +24327,20 @@
     "won": null
    },
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpa0fc",
+      "name": "M. Arnaldi",
+      "fullName": "Matteo Arnaldi",
+      "nation": "ITA"
+     },
+     {
+      "id": "atpsl28",
+      "name": "J. Struff",
+      "fullName": "Jan-Lennard Struff",
+      "nation": "GER"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
