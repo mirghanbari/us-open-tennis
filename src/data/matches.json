@@ -10293,7 +10293,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788539400000,
+  "startEpoch": 1788540300000,
   "espnSideIds": [
    "2383",
    "3511"
@@ -10725,7 +10725,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788539400000,
+  "startEpoch": 1788540600000,
   "espnSideIds": [
    "2865",
    "2964"
@@ -20127,11 +20127,14 @@
   "court": "Grandstand",
   "courtId": "AC",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788521249000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:17",
+  "setDurations": [
+   39,
+   38
+  ],
   "upset": false,
   "sides": [
    {
@@ -20145,8 +20148,8 @@
     ],
     "seed": 11,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -20159,12 +20162,27 @@
     ],
     "seed": 18,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1,
@@ -20343,11 +20361,14 @@
   "court": "Stadium 17",
   "courtId": "AD",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788521156000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:15",
+  "setDurations": [
+   38,
+   37
+  ],
   "upset": false,
   "sides": [
    {
@@ -20361,8 +20382,8 @@
     ],
     "seed": 19,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -20375,12 +20396,27 @@
     ],
     "seed": 16,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1,
@@ -21114,8 +21150,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta326482",
+      "name": "M. Kostyuk",
+      "fullName": "Marta Kostyuk",
+      "nation": "UKR"
+     }
+    ],
+    "seed": 11,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -21164,8 +21207,15 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta312469",
+      "name": "S. Cirstea",
+      "fullName": "Sorana Cirstea",
+      "nation": "ROU"
+     }
+    ],
+    "seed": 16,
     "entryStatus": null,
     "setsWon": null,
     "won": null

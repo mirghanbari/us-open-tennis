@@ -486,36 +486,6 @@
   },
   "meetings": []
  },
- "WS-2303": {
-  "player1": {
-   "id": "wta326482",
-   "name": "Marta Kostyuk",
-   "wins": 0
-  },
-  "player2": {
-   "id": "wta319007",
-   "name": "Ekaterina Alexandrova",
-   "wins": 2
-  },
-  "meetings": [
-   {
-    "year": 2022,
-    "tournament": "Portoroz",
-    "surface": "Hard",
-    "round": "R1",
-    "winner": "2",
-    "score": "7-6, 5-7, 7-5"
-   },
-   {
-    "year": 2021,
-    "tournament": "Rome",
-    "surface": "Clay",
-    "round": "R1",
-    "winner": "2",
-    "score": "6-3, 6-1"
-   }
-  ]
- },
  "WS-2304": {
   "player1": {
    "id": "wta326096",
@@ -581,44 +551,6 @@
     "round": "QF",
     "winner": "1",
     "score": "7-5, 6-7, 7-6"
-   }
-  ]
- },
- "WS-2306": {
-  "player1": {
-   "id": "wta319280",
-   "name": "Jasmine Paolini",
-   "wins": 3
-  },
-  "player2": {
-   "id": "wta312469",
-   "name": "Sorana Cirstea",
-   "wins": 0
-  },
-  "meetings": [
-   {
-    "year": 2024,
-    "tournament": "Dubai",
-    "surface": "Hard",
-    "round": "SF",
-    "winner": "1",
-    "score": "6-2, 7-6"
-   },
-   {
-    "year": 2023,
-    "tournament": "Roland Garros",
-    "surface": "Clay",
-    "round": "R1",
-    "winner": "1",
-    "score": "7-5, 2-6, 6-2"
-   },
-   {
-    "year": 2021,
-    "tournament": "Portoroz",
-    "surface": "Hard",
-    "round": "QF",
-    "winner": "1",
-    "score": "6-4, 4-6, 6-1"
    }
   ]
  },
