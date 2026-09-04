@@ -3275,6 +3275,42 @@
    }
   ]
  },
+ "MS-1206": {
+  "tour": "atp",
+  "minutes": 150,
+  "sides": [
+   {
+    "aces": 7,
+    "doubleFaults": 3,
+    "servePoints": 106,
+    "firstIn": 56,
+    "firstWon": 34,
+    "secondWon": 23,
+    "serveGames": 18,
+    "bpSaved": 2,
+    "bpFaced": 10,
+    "firstServePct": 53,
+    "firstWonPct": 61,
+    "secondWonPct": 46,
+    "bpSavedPct": 20
+   },
+   {
+    "aces": 15,
+    "doubleFaults": 5,
+    "servePoints": 123,
+    "firstIn": 74,
+    "firstWon": 54,
+    "secondWon": 25,
+    "serveGames": 19,
+    "bpSaved": 6,
+    "bpFaced": 10,
+    "firstServePct": 60,
+    "firstWonPct": 73,
+    "secondWonPct": 51,
+    "bpSavedPct": 60
+   }
+  ]
+ },
  "WS-2104": {
   "tour": "wta",
   "minutes": 113,
@@ -6476,6 +6512,78 @@
     "firstWonPct": 50,
     "secondWonPct": 17,
     "bpSavedPct": 33
+   }
+  ]
+ },
+ "WS-2221": {
+  "tour": "wta",
+  "minutes": 114,
+  "sides": [
+   {
+    "aces": 5,
+    "doubleFaults": 2,
+    "servePoints": 57,
+    "firstIn": 29,
+    "firstWon": 20,
+    "secondWon": 18,
+    "serveGames": 10,
+    "bpSaved": 4,
+    "bpFaced": 6,
+    "firstServePct": 51,
+    "firstWonPct": 69,
+    "secondWonPct": 64,
+    "bpSavedPct": 67
+   },
+   {
+    "aces": 3,
+    "doubleFaults": 4,
+    "servePoints": 80,
+    "firstIn": 43,
+    "firstWon": 22,
+    "secondWon": 21,
+    "serveGames": 10,
+    "bpSaved": 10,
+    "bpFaced": 14,
+    "firstServePct": 54,
+    "firstWonPct": 51,
+    "secondWonPct": 57,
+    "bpSavedPct": 71
+   }
+  ]
+ },
+ "WS-2231": {
+  "tour": "wta",
+  "minutes": 162,
+  "sides": [
+   {
+    "aces": 7,
+    "doubleFaults": 3,
+    "servePoints": 95,
+    "firstIn": 61,
+    "firstWon": 35,
+    "secondWon": 21,
+    "serveGames": 14,
+    "bpSaved": 5,
+    "bpFaced": 9,
+    "firstServePct": 64,
+    "firstWonPct": 57,
+    "secondWonPct": 62,
+    "bpSavedPct": 56
+   },
+   {
+    "aces": 0,
+    "doubleFaults": 3,
+    "servePoints": 94,
+    "firstIn": 53,
+    "firstWon": 29,
+    "secondWon": 25,
+    "serveGames": 13,
+    "bpSaved": 6,
+    "bpFaced": 10,
+    "firstServePct": 56,
+    "firstWonPct": 55,
+    "secondWonPct": 61,
+    "bpSavedPct": 60
    }
   ]
  }
