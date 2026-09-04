@@ -7516,11 +7516,15 @@
   "court": "Louis Armstrong Stadium",
   "courtId": "AB",
   "eventDay": 12,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788467237000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:17",
+  "setDurations": [
+   42,
+   43,
+   52
+  ],
   "upset": false,
   "sides": [
    {
@@ -7534,8 +7538,8 @@
     ],
     "seed": null,
     "entryStatus": "WC",
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -7548,12 +7552,34 @@
     ],
     "seed": 14,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 1,
   "notBefore": null,
   "session": 2,
@@ -9969,15 +9995,28 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpt0ha",
+      "name": "L. Tien",
+      "fullName": "Learner Tien",
+      "nation": "USA"
+     }
+    ],
+    "seed": 14,
     "entryStatus": null,
     "setsWon": null,
     "won": null
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182728",
+  "startEpoch": 1788580800000,
+  "espnSideIds": [
+   "10319",
+   "10386"
+  ]
  },
  {
   "id": "MS-1307",
@@ -10165,6 +10204,12 @@
   "notBefore": null,
   "session": 1,
   "espnId": "182687",
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788539400000,
   "espnSideIds": [
    "2383",
@@ -10231,6 +10276,12 @@
   "notBefore": null,
   "session": 2,
   "espnId": "182691",
+  "broadcasts": [
+   {
+    "name": "ESPN2",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788562800000,
   "espnSideIds": [
    "9376",
@@ -10297,6 +10348,12 @@
   "notBefore": "4:30 PM",
   "session": 1,
   "espnId": "182689",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788553800000,
   "espnSideIds": [
    "11400",
@@ -10363,6 +10420,12 @@
   "notBefore": "4:00 PM",
   "session": 1,
   "espnId": "182740",
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788552000000,
   "espnSideIds": [
    "3739",
@@ -10429,6 +10492,12 @@
   "notBefore": null,
   "session": 2,
   "espnId": "182745",
+  "broadcasts": [
+   {
+    "name": "ESPN2",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788568200000,
   "espnSideIds": [
    "9250",
@@ -10495,6 +10564,12 @@
   "notBefore": "5:00 PM",
   "session": 1,
   "espnId": "182747",
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788555600000,
   "espnSideIds": [
    "3754",
@@ -19846,7 +19921,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788485400000,
+  "startEpoch": 1788486000000,
   "espnSideIds": [
    "6059",
    "3126"
@@ -19984,6 +20059,12 @@
   "notBefore": "1:00 PM",
   "session": 1,
   "espnId": "182565",
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788541200000,
   "espnSideIds": [
    "2114",
@@ -20050,6 +20131,12 @@
   "notBefore": null,
   "session": 1,
   "espnId": "182564",
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788534000000,
   "espnSideIds": [
    "3382",
@@ -20116,6 +20203,12 @@
   "notBefore": null,
   "session": 1,
   "espnId": "182543",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788546600000,
   "espnSideIds": [
    "3380",
@@ -20254,6 +20347,12 @@
   "notBefore": null,
   "session": 1,
   "espnId": "182549",
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788534000000,
   "espnSideIds": [
    "2615",
@@ -20320,6 +20419,12 @@
   "notBefore": null,
   "session": 2,
   "espnId": "182529",
+  "broadcasts": [
+   {
+    "name": "ESPN2",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788570000000,
   "espnSideIds": [
    "1797",
