@@ -27507,11 +27507,14 @@
   "court": "Court 12",
   "courtId": "AM",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788520417000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:06",
+  "setDurations": [
+   35,
+   31
+  ],
   "upset": false,
   "sides": [
    {
@@ -27531,8 +27534,8 @@
     ],
     "seed": null,
     "entryStatus": "WC",
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -27551,12 +27554,27 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     0,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1
@@ -28547,7 +28565,20 @@
     "won": null
    },
    {
-    "players": [],
+    "players": [
+     {
+      "id": "wta317138",
+      "name": "E. Hozumi",
+      "fullName": "Eri Hozumi",
+      "nation": "JPN"
+     },
+     {
+      "id": "wta312041",
+      "name": "A. Klepac",
+      "fullName": "Andreja Klepac",
+      "nation": "SLO"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
