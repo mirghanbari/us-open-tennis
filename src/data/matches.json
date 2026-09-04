@@ -23272,11 +23272,14 @@
   "court": "Court 6",
   "courtId": "AG",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788543441000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:34",
+  "setDurations": [
+   49,
+   45
+  ],
   "upset": false,
   "sides": [
    {
@@ -23296,8 +23299,8 @@
     ],
     "seed": null,
     "entryStatus": "WC",
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -23316,12 +23319,30 @@
     ],
     "seed": null,
     "entryStatus": "A",
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     5,
+     7
+    ]
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 4,
   "notBefore": null,
   "session": 1
@@ -25126,9 +25147,22 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpch12",
+      "name": "J. Choinski",
+      "fullName": "Jan Choinski",
+      "nation": "GBR"
+     },
+     {
+      "id": "atpdh46",
+      "name": "A. Donski",
+      "fullName": "Alexander Donski",
+      "nation": "BUL"
+     }
+    ],
     "seed": null,
-    "entryStatus": null,
+    "entryStatus": "A",
     "setsWon": null,
     "won": null
    },
