@@ -21891,7 +21891,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788647400000,
+  "startEpoch": 1788651000000,
   "espnSideIds": [
    "13478",
    "3126"
@@ -22871,14 +22871,10 @@
   "courtId": "AE",
   "eventDay": 14,
   "epoch": 1788628650000,
-  "status": "finished",
-  "statusCode": "D",
-  "duration": "2:09",
-  "setDurations": [
-   37,
-   58,
-   34
-  ],
+  "status": "scheduled",
+  "statusCode": "B",
+  "duration": null,
+  "setDurations": [],
   "upset": false,
   "sides": [
    {
@@ -22898,8 +22894,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": 1,
-    "won": false
+    "setsWon": null,
+    "won": null
    },
    {
     "players": [
@@ -22918,37 +22914,12 @@
     ],
     "seed": null,
     "entryStatus": "WC",
-    "setsWon": 2,
-    "won": true
+    "setsWon": null,
+    "won": null
    }
   ],
-  "sets": [
-   {
-    "games": [
-     6,
-     4
-    ],
-    "tiebreak": null
-   },
-   {
-    "games": [
-     6,
-     7
-    ],
-    "tiebreak": [
-     1,
-     7
-    ]
-   },
-   {
-    "games": [
-     2,
-     6
-    ],
-    "tiebreak": null
-   }
-  ],
-  "winner": 2,
+  "sets": [],
+  "winner": null,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1
@@ -22969,14 +22940,10 @@
   "courtId": "AH",
   "eventDay": 14,
   "epoch": 1788641830000,
-  "status": "finished",
-  "statusCode": "D",
-  "duration": "1:34",
-  "setDurations": [
-   23,
-   40,
-   31
-  ],
+  "status": "scheduled",
+  "statusCode": "B",
+  "duration": null,
+  "setDurations": [],
   "upset": false,
   "sides": [
    {
@@ -22996,8 +22963,8 @@
     ],
     "seed": null,
     "entryStatus": "WC",
-    "setsWon": 1,
-    "won": false
+    "setsWon": null,
+    "won": null
    },
    {
     "players": [
@@ -23016,34 +22983,12 @@
     ],
     "seed": 16,
     "entryStatus": null,
-    "setsWon": 2,
-    "won": true
+    "setsWon": null,
+    "won": null
    }
   ],
-  "sets": [
-   {
-    "games": [
-     2,
-     6
-    ],
-    "tiebreak": null
-   },
-   {
-    "games": [
-     6,
-     3
-    ],
-    "tiebreak": null
-   },
-   {
-    "games": [
-     1,
-     6
-    ],
-    "tiebreak": null
-   }
-  ],
-  "winner": 2,
+  "sets": [],
+  "winner": null,
   "courtOrder": 3,
   "notBefore": null,
   "session": 1
@@ -23255,13 +23200,10 @@
   "courtId": "AM",
   "eventDay": 14,
   "epoch": 1788629300000,
-  "status": "finished",
-  "statusCode": "D",
-  "duration": "0:56",
-  "setDurations": [
-   28,
-   28
-  ],
+  "status": "scheduled",
+  "statusCode": "B",
+  "duration": null,
+  "setDurations": [],
   "upset": false,
   "sides": [
    {
@@ -23281,8 +23223,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": 2,
-    "won": true
+    "setsWon": null,
+    "won": null
    },
    {
     "players": [
@@ -23301,27 +23243,12 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": 0,
-    "won": false
+    "setsWon": null,
+    "won": null
    }
   ],
-  "sets": [
-   {
-    "games": [
-     6,
-     2
-    ],
-    "tiebreak": null
-   },
-   {
-    "games": [
-     6,
-     4
-    ],
-    "tiebreak": null
-   }
-  ],
-  "winner": 1,
+  "sets": [],
+  "winner": null,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1
@@ -23342,13 +23269,10 @@
   "courtId": "AK",
   "eventDay": 14,
   "epoch": 1788633483000,
-  "status": "finished",
-  "statusCode": "D",
-  "duration": "1:00",
-  "setDurations": [
-   26,
-   34
-  ],
+  "status": "scheduled",
+  "statusCode": "B",
+  "duration": null,
+  "setDurations": [],
   "upset": false,
   "sides": [
    {
@@ -23368,8 +23292,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": 0,
-    "won": false
+    "setsWon": null,
+    "won": null
    },
    {
     "players": [
@@ -23388,27 +23312,12 @@
     ],
     "seed": 7,
     "entryStatus": null,
-    "setsWon": 2,
-    "won": true
+    "setsWon": null,
+    "won": null
    }
   ],
-  "sets": [
-   {
-    "games": [
-     2,
-     6
-    ],
-    "tiebreak": null
-   },
-   {
-    "games": [
-     4,
-     6
-    ],
-    "tiebreak": null
-   }
-  ],
-  "winner": 2,
+  "sets": [],
+  "winner": null,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1
@@ -23606,13 +23515,10 @@
   "courtId": "AL",
   "eventDay": 14,
   "epoch": 1788627289000,
-  "status": "finished",
-  "statusCode": "D",
-  "duration": "1:43",
-  "setDurations": [
-   48,
-   55
-  ],
+  "status": "scheduled",
+  "statusCode": "B",
+  "duration": null,
+  "setDurations": [],
   "upset": false,
   "sides": [
    {
@@ -23632,8 +23538,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": 2,
-    "won": true
+    "setsWon": null,
+    "won": null
    },
    {
     "players": [
@@ -23652,33 +23558,12 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": 0,
-    "won": false
+    "setsWon": null,
+    "won": null
    }
   ],
-  "sets": [
-   {
-    "games": [
-     7,
-     6
-    ],
-    "tiebreak": [
-     7,
-     4
-    ]
-   },
-   {
-    "games": [
-     7,
-     6
-    ],
-    "tiebreak": [
-     7,
-     3
-    ]
-   }
-  ],
-  "winner": 1,
+  "sets": [],
+  "winner": null,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1
@@ -23789,14 +23674,10 @@
   "courtId": "AN",
   "eventDay": 14,
   "epoch": 1788643793000,
-  "status": "finished",
-  "statusCode": "D",
-  "duration": "2:38",
-  "setDurations": [
-   48,
-   65,
-   45
-  ],
+  "status": "scheduled",
+  "statusCode": "B",
+  "duration": null,
+  "setDurations": [],
   "upset": false,
   "sides": [
    {
@@ -23816,8 +23697,8 @@
     ],
     "seed": 11,
     "entryStatus": null,
-    "setsWon": 2,
-    "won": true
+    "setsWon": null,
+    "won": null
    },
    {
     "players": [
@@ -23836,37 +23717,12 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": 1,
-    "won": false
+    "setsWon": null,
+    "won": null
    }
   ],
-  "sets": [
-   {
-    "games": [
-     5,
-     7
-    ],
-    "tiebreak": null
-   },
-   {
-    "games": [
-     7,
-     6
-    ],
-    "tiebreak": [
-     7,
-     2
-    ]
-   },
-   {
-    "games": [
-     6,
-     3
-    ],
-    "tiebreak": null
-   }
-  ],
-  "winner": 1,
+  "sets": [],
+  "winner": null,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1
@@ -23887,13 +23743,10 @@
   "courtId": "AN",
   "eventDay": 14,
   "epoch": 1788632853000,
-  "status": "finished",
-  "statusCode": "D",
-  "duration": "1:17",
-  "setDurations": [
-   31,
-   46
-  ],
+  "status": "scheduled",
+  "statusCode": "B",
+  "duration": null,
+  "setDurations": [],
   "upset": false,
   "sides": [
    {
@@ -23913,8 +23766,8 @@
     ],
     "seed": null,
     "entryStatus": "WC",
-    "setsWon": 0,
-    "won": false
+    "setsWon": null,
+    "won": null
    },
    {
     "players": [
@@ -23933,30 +23786,12 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": 2,
-    "won": true
+    "setsWon": null,
+    "won": null
    }
   ],
-  "sets": [
-   {
-    "games": [
-     3,
-     6
-    ],
-    "tiebreak": null
-   },
-   {
-    "games": [
-     6,
-     7
-    ],
-    "tiebreak": [
-     6,
-     8
-    ]
-   }
-  ],
-  "winner": 2,
+  "sets": [],
+  "winner": null,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1
@@ -24067,13 +23902,10 @@
   "courtId": "AE",
   "eventDay": 14,
   "epoch": 1788634114000,
-  "status": "finished",
-  "statusCode": "D",
-  "duration": "1:12",
-  "setDurations": [
-   18,
-   54
-  ],
+  "status": "scheduled",
+  "statusCode": "B",
+  "duration": null,
+  "setDurations": [],
   "upset": false,
   "sides": [
    {
@@ -24093,8 +23925,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": 0,
-    "won": false
+    "setsWon": null,
+    "won": null
    },
    {
     "players": [
@@ -24113,30 +23945,12 @@
     ],
     "seed": 5,
     "entryStatus": null,
-    "setsWon": 2,
-    "won": true
+    "setsWon": null,
+    "won": null
    }
   ],
-  "sets": [
-   {
-    "games": [
-     0,
-     6
-    ],
-    "tiebreak": null
-   },
-   {
-    "games": [
-     6,
-     7
-    ],
-    "tiebreak": [
-     3,
-     7
-    ]
-   }
-  ],
-  "winner": 2,
+  "sets": [],
+  "winner": null,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1
@@ -24666,13 +24480,10 @@
   "courtId": "AM",
   "eventDay": 14,
   "epoch": 1788645560000,
-  "status": "finished",
-  "statusCode": "D",
-  "duration": "1:35",
-  "setDurations": [
-   51,
-   44
-  ],
+  "status": "scheduled",
+  "statusCode": "B",
+  "duration": null,
+  "setDurations": [],
   "upset": false,
   "sides": [
    {
@@ -24692,8 +24503,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": 0,
-    "won": false
+    "setsWon": null,
+    "won": null
    },
    {
     "players": [
@@ -24712,30 +24523,12 @@
     ],
     "seed": null,
     "entryStatus": "WC",
-    "setsWon": 2,
-    "won": true
+    "setsWon": null,
+    "won": null
    }
   ],
-  "sets": [
-   {
-    "games": [
-     6,
-     7
-    ],
-    "tiebreak": [
-     6,
-     8
-    ]
-   },
-   {
-    "games": [
-     5,
-     7
-    ],
-    "tiebreak": null
-   }
-  ],
-  "winner": 2,
+  "sets": [],
+  "winner": null,
   "courtOrder": 4,
   "notBefore": null,
   "session": 1
@@ -24756,14 +24549,10 @@
   "courtId": "AG",
   "eventDay": 14,
   "epoch": 1788644679000,
-  "status": "finished",
-  "statusCode": "D",
-  "duration": "1:54",
-  "setDurations": [
-   34,
-   28,
-   52
-  ],
+  "status": "scheduled",
+  "statusCode": "B",
+  "duration": null,
+  "setDurations": [],
   "upset": false,
   "sides": [
    {
@@ -24783,8 +24572,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": 1,
-    "won": false
+    "setsWon": null,
+    "won": null
    },
    {
     "players": [
@@ -24803,37 +24592,12 @@
     ],
     "seed": 3,
     "entryStatus": null,
-    "setsWon": 2,
-    "won": true
+    "setsWon": null,
+    "won": null
    }
   ],
-  "sets": [
-   {
-    "games": [
-     4,
-     6
-    ],
-    "tiebreak": null
-   },
-   {
-    "games": [
-     6,
-     1
-    ],
-    "tiebreak": null
-   },
-   {
-    "games": [
-     6,
-     7
-    ],
-    "tiebreak": [
-     1,
-     10
-    ]
-   }
-  ],
-  "winner": 2,
+  "sets": [],
+  "winner": null,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1
@@ -25408,14 +25172,10 @@
   "courtId": "AK",
   "eventDay": 14,
   "epoch": 1788642591000,
-  "status": "finished",
-  "statusCode": "D",
-  "duration": "2:16",
-  "setDurations": [
-   45,
-   50,
-   41
-  ],
+  "status": "scheduled",
+  "statusCode": "B",
+  "duration": null,
+  "setDurations": [],
   "upset": false,
   "sides": [
    {
@@ -25435,8 +25195,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": 2,
-    "won": true
+    "setsWon": null,
+    "won": null
    },
    {
     "players": [
@@ -25455,34 +25215,12 @@
     ],
     "seed": null,
     "entryStatus": "A",
-    "setsWon": 1,
-    "won": false
+    "setsWon": null,
+    "won": null
    }
   ],
-  "sets": [
-   {
-    "games": [
-     6,
-     4
-    ],
-    "tiebreak": null
-   },
-   {
-    "games": [
-     5,
-     7
-    ],
-    "tiebreak": null
-   },
-   {
-    "games": [
-     6,
-     4
-    ],
-    "tiebreak": null
-   }
-  ],
-  "winner": 1,
+  "sets": [],
+  "winner": null,
   "courtOrder": 3,
   "notBefore": "2:00 PM",
   "session": 1
@@ -25669,41 +25407,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [
-     {
-      "id": "atpli37",
-      "name": "N. Lammons",
-      "fullName": "Nathaniel Lammons",
-      "nation": "USA"
-     },
-     {
-      "id": "atpw686",
-      "name": "J. Withrow",
-      "fullName": "Jackson Withrow",
-      "nation": "USA"
-     }
-    ],
+    "players": [],
     "seed": null,
-    "entryStatus": "WC",
+    "entryStatus": null,
     "setsWon": null,
     "won": null
    },
    {
-    "players": [
-     {
-      "id": "atpcl84",
-      "name": "F. Cabral",
-      "fullName": "Francisco Cabral",
-      "nation": "POR"
-     },
-     {
-      "id": "atpt0gf",
-      "name": "J. Tracy",
-      "fullName": "JJ Tracy",
-      "nation": "USA"
-     }
-    ],
-    "seed": 16,
+    "players": [],
+    "seed": null,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -25801,54 +25513,28 @@
   "eventDay": null,
   "epoch": 1788637117000,
   "status": "scheduled",
-  "statusCode": "F",
-  "duration": "0:00",
+  "statusCode": "B",
+  "duration": null,
   "setDurations": [],
   "upset": false,
   "sides": [
    {
-    "players": [
-     {
-      "id": "atpbk92",
-      "name": "A. Bublik",
-      "fullName": "Alexander Bublik",
-      "nation": "KAZ"
-     },
-     {
-      "id": "atps0re",
-      "name": "J. Shang",
-      "fullName": "Juncheng Shang",
-      "nation": "CHN"
-     }
-    ],
+    "players": [],
     "seed": null,
     "entryStatus": null,
-    "setsWon": 0,
-    "won": false
+    "setsWon": null,
+    "won": null
    },
    {
-    "players": [
-     {
-      "id": "atpa887",
-      "name": "G. Andreozzi",
-      "fullName": "Guido Andreozzi",
-      "nation": "ARG"
-     },
-     {
-      "id": "atpgh33",
-      "name": "M. Guinard",
-      "fullName": "Manuel Guinard",
-      "nation": "FRA"
-     }
-    ],
-    "seed": 7,
+    "players": [],
+    "seed": null,
     "entryStatus": null,
-    "setsWon": 0,
-    "won": true
+    "setsWon": null,
+    "won": null
    }
   ],
   "sets": [],
-  "winner": 2
+  "winner": null
  },
  {
   "id": "MD-3205",
@@ -25945,20 +25631,7 @@
   "upset": false,
   "sides": [
    {
-    "players": [
-     {
-      "id": "atps0dl",
-      "name": "R. Seggerman",
-      "fullName": "Ryan Seggerman",
-      "nation": "USA"
-     },
-     {
-      "id": "atpt0j0",
-      "name": "P. Trhac",
-      "fullName": "Patrik Trhac",
-      "nation": "USA"
-     }
-    ],
+    "players": [],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
@@ -26014,40 +25687,14 @@
   "upset": false,
   "sides": [
    {
-    "players": [
-     {
-      "id": "atpd917",
-      "name": "S. Doumbia",
-      "fullName": "Sadio Doumbia",
-      "nation": "FRA"
-     },
-     {
-      "id": "atpre45",
-      "name": "F. Reboul",
-      "fullName": "Fabien Reboul",
-      "nation": "FRA"
-     }
-    ],
-    "seed": 11,
+    "players": [],
+    "seed": null,
     "entryStatus": null,
     "setsWon": null,
     "won": null
    },
    {
-    "players": [
-     {
-      "id": "atpsy05",
-      "name": "J. Schnaitter",
-      "fullName": "Jakob Schnaitter",
-      "nation": "GER"
-     },
-     {
-      "id": "atpw0e2",
-      "name": "M. Wallner",
-      "fullName": "Mark Wallner",
-      "nation": "GER"
-     }
-    ],
+    "players": [],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
@@ -26103,21 +25750,8 @@
     "won": null
    },
    {
-    "players": [
-     {
-      "id": "atphb05",
-      "name": "C. Harrison",
-      "fullName": "Christian Harrison",
-      "nation": "USA"
-     },
-     {
-      "id": "atpsl22",
-      "name": "N. Skupski",
-      "fullName": "Neal Skupski",
-      "nation": "GBR"
-     }
-    ],
-    "seed": 5,
+    "players": [],
+    "seed": null,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -26333,41 +25967,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [
-     {
-      "id": "atpk0c9",
-      "name": "M. Kiger",
-      "fullName": "Mac Kiger",
-      "nation": "USA"
-     },
-     {
-      "id": "atpk0az",
-      "name": "A. Kovacevic",
-      "fullName": "Aleksandar Kovacevic",
-      "nation": "USA"
-     }
-    ],
+    "players": [],
     "seed": null,
-    "entryStatus": "WC",
+    "entryStatus": null,
     "setsWon": null,
     "won": null
    },
    {
-    "players": [
-     {
-      "id": "atpa853",
-      "name": "M. Arevalo",
-      "fullName": "Marcelo Arevalo",
-      "nation": "ESA"
-     },
-     {
-      "id": "atppf00",
-      "name": "M. Pavic",
-      "fullName": "Mate Pavic",
-      "nation": "CRO"
-     }
-    ],
-    "seed": 3,
+    "players": [],
+    "seed": null,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -26596,20 +26204,7 @@
   "upset": false,
   "sides": [
    {
-    "players": [
-     {
-      "id": "atpf0dm",
-      "name": "A. Fery",
-      "fullName": "Arthur Fery",
-      "nation": "GBR"
-     },
-     {
-      "id": "atppj18",
-      "name": "J. Paris",
-      "fullName": "Joshua Paris",
-      "nation": "GBR"
-     }
-    ],
+    "players": [],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
@@ -26715,21 +26310,8 @@
     "won": null
    },
    {
-    "players": [
-     {
-      "id": "atpa887",
-      "name": "G. Andreozzi",
-      "fullName": "Guido Andreozzi",
-      "nation": "ARG"
-     },
-     {
-      "id": "atpgh33",
-      "name": "M. Guinard",
-      "fullName": "Manuel Guinard",
-      "nation": "FRA"
-     }
-    ],
-    "seed": 7,
+    "players": [],
+    "seed": null,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -31372,11 +30954,14 @@
   "court": "Court 11",
   "courtId": "AL",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788647040000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:27",
+  "setDurations": [
+   36,
+   51
+  ],
   "upset": false,
   "sides": [
    {
@@ -31396,8 +30981,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -31416,12 +31001,27 @@
     ],
     "seed": 2,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     5,
+     7
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 4,
   "notBefore": null,
   "session": 1
@@ -31864,8 +31464,21 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta314445",
+      "name": "G. Dabrowski",
+      "fullName": "Gabriela Dabrowski",
+      "nation": "CAN"
+     },
+     {
+      "id": "wta321047",
+      "name": "L. Stefani",
+      "fullName": "Luisa Stefani",
+      "nation": "BRA"
+     }
+    ],
+    "seed": 2,
     "entryStatus": null,
     "setsWon": null,
     "won": null
