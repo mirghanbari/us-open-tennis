@@ -21112,7 +21112,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788627300000,
+  "startEpoch": 1788627600000,
   "espnSideIds": [
    "9820",
    "7804"
@@ -23217,11 +23217,14 @@
   "court": "Court 11",
   "courtId": "AL",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788627289000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:43",
+  "setDurations": [
+   48,
+   55
+  ],
   "upset": false,
   "sides": [
    {
@@ -23241,8 +23244,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -23261,12 +23264,33 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     7,
+     4
+    ]
+   },
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     7,
+     3
+    ]
+   }
+  ],
+  "winner": 1,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1
@@ -25334,7 +25358,20 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atps0dl",
+      "name": "R. Seggerman",
+      "fullName": "Ryan Seggerman",
+      "nation": "USA"
+     },
+     {
+      "id": "atpt0j0",
+      "name": "P. Trhac",
+      "fullName": "Patrik Trhac",
+      "nation": "USA"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
