@@ -21460,7 +21460,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788649800000,
+  "startEpoch": 1788650100000,
   "espnSideIds": [
    "14311",
    "7759"
@@ -24351,10 +24351,13 @@
   "courtId": "AH",
   "eventDay": 14,
   "epoch": 1788647550000,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:20",
+  "setDurations": [
+   43,
+   37
+  ],
   "upset": false,
   "sides": [
    {
@@ -24374,8 +24377,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -24394,12 +24397,27 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     5,
+     7
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 4,
   "notBefore": null,
   "session": 1
@@ -25408,10 +25426,14 @@
   "courtId": "AK",
   "eventDay": 14,
   "epoch": 1788642591000,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:16",
+  "setDurations": [
+   45,
+   50,
+   41
+  ],
   "upset": false,
   "sides": [
    {
@@ -25431,8 +25453,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -25451,12 +25473,34 @@
     ],
     "seed": null,
     "entryStatus": "A",
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     5,
+     7
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 3,
   "notBefore": "2:00 PM",
   "session": 1
