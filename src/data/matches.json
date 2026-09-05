@@ -9885,7 +9885,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788631200000,
+  "startEpoch": 1788633000000,
   "espnSideIds": [
    "12932",
    "10427"
@@ -10245,7 +10245,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788627000000,
+  "startEpoch": 1788627600000,
   "espnSideIds": [
    "11757",
    "7602"
@@ -21112,7 +21112,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788626700000,
+  "startEpoch": 1788627300000,
   "espnSideIds": [
    "9820",
    "7804"
@@ -21136,11 +21136,14 @@
   "court": "Louis Armstrong Stadium",
   "courtId": "AB",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788626898000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:39",
+  "setDurations": [
+   41,
+   58
+  ],
   "upset": false,
   "sides": [
    {
@@ -21154,8 +21157,8 @@
     ],
     "seed": 24,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -21168,12 +21171,27 @@
     ],
     "seed": 10,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     7,
+     5
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1,
@@ -21400,7 +21418,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788627000000,
+  "startEpoch": 1788628800000,
   "espnSideIds": [
    "3730",
    "2392"
@@ -21919,8 +21937,15 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta325601",
+      "name": "A. Potapova",
+      "fullName": "Anastasia Potapova",
+      "nation": "AUT"
+     }
+    ],
+    "seed": 24,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -24879,20 +24904,20 @@
    {
     "players": [
      {
-      "id": "atpea24",
-      "name": "T. Etcheverry",
-      "fullName": "Tomas Martin Etcheverry",
-      "nation": "ARG"
+      "id": "atpco03",
+      "name": "A. Chandrasekar",
+      "fullName": "Anirudh Chandrasekar",
+      "nation": "IND"
      },
      {
-      "id": "atpu182",
-      "name": "C. Ugo Carabelli",
-      "fullName": "Camilo Ugo Carabelli",
-      "nation": "ARG"
+      "id": "atplf40",
+      "name": "I. Liutarevich",
+      "fullName": "Ivan Liutarevich",
+      "nation": "BLR"
      }
     ],
     "seed": null,
-    "entryStatus": null,
+    "entryStatus": "A",
     "setsWon": null,
     "won": null
    }
@@ -24918,11 +24943,14 @@
   "court": "Court 7",
   "courtId": "AH",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788626559000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:34",
+  "setDurations": [
+   52,
+   42
+  ],
   "upset": false,
   "sides": [
    {
@@ -24942,8 +24970,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -24962,12 +24990,27 @@
     ],
     "seed": 2,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     5,
+     7
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1
@@ -25871,8 +25914,21 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpg710",
+      "name": "M. Granollers",
+      "fullName": "Marcel Granollers",
+      "nation": "ESP"
+     },
+     {
+      "id": "atpz184",
+      "name": "H. Zeballos",
+      "fullName": "Horacio Zeballos",
+      "nation": "ARG"
+     }
+    ],
+    "seed": 2,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -30009,11 +30065,14 @@
   "court": "Stadium 17",
   "courtId": "AD",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788626519000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:30",
+  "setDurations": [
+   41,
+   49
+  ],
   "upset": false,
   "sides": [
    {
@@ -30033,8 +30092,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -30053,12 +30112,27 @@
     ],
     "seed": 9,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1
@@ -30701,8 +30775,21 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta317299",
+      "name": "E. Routliffe",
+      "fullName": "Erin Routliffe",
+      "nation": "NZL"
+     },
+     {
+      "id": "wta318390",
+      "name": "A. Sutjiadi",
+      "fullName": "Aldila Sutjiadi",
+      "nation": "INA"
+     }
+    ],
+    "seed": 9,
     "entryStatus": null,
     "setsWon": null,
     "won": null
