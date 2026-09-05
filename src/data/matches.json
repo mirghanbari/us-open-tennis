@@ -23261,11 +23261,14 @@
   "court": "Court 12",
   "courtId": "AM",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788624775000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:06",
+  "setDurations": [
+   18,
+   48
+  ],
   "upset": false,
   "sides": [
    {
@@ -23285,8 +23288,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -23305,12 +23308,30 @@
     ],
     "seed": 15,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     1,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     1,
+     7
+    ]
+   }
+  ],
+  "winner": 2,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1
@@ -25277,8 +25298,21 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpka00",
+      "name": "A. Krajicek",
+      "fullName": "Austin Krajicek",
+      "nation": "USA"
+     },
+     {
+      "id": "atpmf09",
+      "name": "N. Mektic",
+      "fullName": "Nikola Mektic",
+      "nation": "CRO"
+     }
+    ],
+    "seed": 15,
     "entryStatus": null,
     "setsWon": null,
     "won": null
