@@ -10703,11 +10703,16 @@
   "court": "Grandstand",
   "courtId": "AC",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788547920000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:33",
+  "setDurations": [
+   32,
+   33,
+   55,
+   33
+  ],
   "upset": false,
   "sides": [
    {
@@ -10721,8 +10726,8 @@
     ],
     "seed": 18,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -10735,12 +10740,44 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     1,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     3,
+     7
+    ]
+   },
+   {
+    "games": [
+     1,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 4,
   "notBefore": "5:00 PM",
   "session": 1,
@@ -11270,7 +11307,14 @@
     "won": null
    },
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpte51",
+      "name": "S. Tsitsipas",
+      "fullName": "Stefanos Tsitsipas",
+      "nation": "GRE"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
@@ -29620,10 +29664,10 @@
   "court": "",
   "courtId": "",
   "eventDay": null,
-  "epoch": null,
+  "epoch": 1788547980000,
   "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
+  "statusCode": "F",
+  "duration": "0:00",
   "setDurations": [],
   "upset": false,
   "sides": [
@@ -29644,8 +29688,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -29664,12 +29708,12 @@
     ],
     "seed": 8,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": true
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": 2
  },
  {
   "id": "WD-4209",
@@ -30397,8 +30441,21 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta317964",
+      "name": "E. Mertens",
+      "fullName": "Elise Mertens",
+      "nation": "BEL"
+     },
+     {
+      "id": "wta330482",
+      "name": "D. Shnaider",
+      "fullName": "Diana Shnaider",
+      "nation": "RUS"
+     }
+    ],
+    "seed": 8,
     "entryStatus": null,
     "setsWon": null,
     "won": null
