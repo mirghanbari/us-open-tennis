@@ -27295,11 +27295,15 @@
   "court": "Court 10",
   "courtId": "AK",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788550793000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:19",
+  "setDurations": [
+   41,
+   42,
+   56
+  ],
   "upset": false,
   "sides": [
    {
@@ -27319,8 +27323,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -27339,12 +27343,34 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 4,
   "notBefore": null,
   "session": 1
@@ -29590,7 +29616,20 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "wta318001",
+      "name": "N. Fossa Huergo",
+      "fullName": "Nicole Fossa Huergo",
+      "nation": "ARG"
+     },
+     {
+      "id": "wta319571",
+      "name": "T. Korpatsch",
+      "fullName": "Tamara Korpatsch",
+      "nation": "GER"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
