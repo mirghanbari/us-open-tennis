@@ -202,36 +202,6 @@
   },
   "meetings": []
  },
- "MS-1311": {
-  "player1": {
-   "id": "atpm0qi",
-   "name": "Alex Michelsen",
-   "wins": 1
-  },
-  "player2": {
-   "id": "atpm0n7",
-   "name": "Daniel Merida",
-   "wins": 1
-  },
-  "meetings": [
-   {
-    "year": 2026,
-    "tournament": "Indian Wells",
-    "surface": "Hard",
-    "round": "R1",
-    "winner": "1",
-    "score": "6-3, 6-4"
-   },
-   {
-    "year": 2026,
-    "tournament": "Canada",
-    "surface": "Hard",
-    "round": "R3",
-    "winner": "2",
-    "score": "6-4, 6-7, 6-1"
-   }
-  ]
- },
  "MS-1313": {
   "player1": {
    "id": "atps0s1",
@@ -277,6 +247,19 @@
     "score": "6-3, 7-5"
    }
   ]
+ },
+ "MS-1406": {
+  "player1": {
+   "id": "atpm0qi",
+   "name": "Alex Michelsen",
+   "wins": 0
+  },
+  "player2": {
+   "id": "atpea24",
+   "name": "Tomas Martin Etcheverry",
+   "wins": 0
+  },
+  "meetings": []
  },
  "MS-1408": {
   "player1": {
