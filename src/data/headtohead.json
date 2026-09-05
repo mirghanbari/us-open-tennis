@@ -396,60 +396,6 @@
    }
   ]
  },
- "WS-2307": {
-  "player1": {
-   "id": "wta316738",
-   "name": "Elina Svitolina",
-   "wins": 4
-  },
-  "player2": {
-   "id": "wta323942",
-   "name": "Anna Kalinskaya",
-   "wins": 1
-  },
-  "meetings": [
-   {
-    "year": 2026,
-    "tournament": "Doha",
-    "surface": "Hard",
-    "round": "R3",
-    "winner": "2",
-    "score": "6-4, 6-3"
-   },
-   {
-    "year": 2026,
-    "tournament": "Berlin",
-    "surface": "Grass",
-    "round": "R1",
-    "winner": "1",
-    "score": "6-1, 4-1 RET"
-   },
-   {
-    "year": 2025,
-    "tournament": "Dubai",
-    "surface": "Hard",
-    "round": "R1",
-    "winner": "1",
-    "score": "6-1, 6-2"
-   },
-   {
-    "year": 2025,
-    "tournament": "Montreal",
-    "surface": "Hard",
-    "round": "R3",
-    "winner": "1",
-    "score": "6-1, 6-1"
-   },
-   {
-    "year": 2024,
-    "tournament": "Rome",
-    "surface": "Clay",
-    "round": "R3",
-    "winner": "1",
-    "score": "6-3, 6-3"
-   }
-  ]
- },
  "WS-2309": {
   "player1": {
    "id": "wta331809",
@@ -774,6 +720,28 @@
     "round": "R1",
     "winner": "1",
     "score": "7-6, 6-3"
+   }
+  ]
+ },
+ "WS-2404": {
+  "player1": {
+   "id": "wta323942",
+   "name": "Anna Kalinskaya",
+   "wins": 1
+  },
+  "player2": {
+   "id": "wta325410",
+   "name": "Emma Navarro",
+   "wins": 0
+  },
+  "meetings": [
+   {
+    "year": 2026,
+    "tournament": "Doha",
+    "surface": "Hard",
+    "round": "R2",
+    "winner": "1",
+    "score": "7-5, 2-6, 6-2"
    }
   ]
  }

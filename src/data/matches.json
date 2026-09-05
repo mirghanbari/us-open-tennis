@@ -20907,11 +20907,15 @@
   "court": "Louis Armstrong Stadium",
   "courtId": "AB",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788560770000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:52",
+  "setDurations": [
+   36,
+   37,
+   39
+  ],
   "upset": false,
   "sides": [
    {
@@ -20925,8 +20929,8 @@
     ],
     "seed": 9,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -20939,12 +20943,34 @@
     ],
     "seed": 21,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 2,
   "notBefore": null,
   "session": 2,
@@ -21842,8 +21868,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta323942",
+      "name": "A. Kalinskaya",
+      "fullName": "Anna Kalinskaya",
+      "nation": "RUS"
+     }
+    ],
+    "seed": 21,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -21864,7 +21897,13 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182588",
+  "startEpoch": 1788667200000,
+  "espnSideIds": [
+   "2977",
+   "3785"
+  ]
  },
  {
   "id": "WS-2405",
