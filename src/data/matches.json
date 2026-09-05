@@ -9983,7 +9983,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788643800000,
+  "startEpoch": 1788644100000,
   "espnSideIds": [
    "3356",
    "3310"
@@ -23788,11 +23788,15 @@
   "court": "Court 13",
   "courtId": "AN",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788643793000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:38",
+  "setDurations": [
+   48,
+   65,
+   45
+  ],
   "upset": false,
   "sides": [
    {
@@ -23812,8 +23816,8 @@
     ],
     "seed": 11,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -23832,12 +23836,37 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     5,
+     7
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     7,
+     2
+    ]
+   },
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1
@@ -25935,8 +25964,21 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpd917",
+      "name": "S. Doumbia",
+      "fullName": "Sadio Doumbia",
+      "nation": "FRA"
+     },
+     {
+      "id": "atpre45",
+      "name": "F. Reboul",
+      "fullName": "Fabien Reboul",
+      "nation": "FRA"
+     }
+    ],
+    "seed": 11,
     "entryStatus": null,
     "setsWon": null,
     "won": null
