@@ -25237,11 +25237,15 @@
   "court": "Court 10",
   "courtId": "AK",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788642591000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:16",
+  "setDurations": [
+   45,
+   50,
+   41
+  ],
   "upset": false,
   "sides": [
    {
@@ -25261,8 +25265,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -25281,12 +25285,34 @@
     ],
     "seed": null,
     "entryStatus": "A",
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     5,
+     7
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 3,
   "notBefore": "2:00 PM",
   "session": 1
@@ -26361,7 +26387,20 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpf0dm",
+      "name": "A. Fery",
+      "fullName": "Arthur Fery",
+      "nation": "GBR"
+     },
+     {
+      "id": "atppj18",
+      "name": "J. Paris",
+      "fullName": "Joshua Paris",
+      "nation": "GBR"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
