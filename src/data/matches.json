@@ -24165,13 +24165,10 @@
   "courtId": "AH",
   "eventDay": 14,
   "epoch": 1788647550000,
-  "status": "finished",
-  "statusCode": "D",
-  "duration": "1:20",
-  "setDurations": [
-   43,
-   37
-  ],
+  "status": "scheduled",
+  "statusCode": "B",
+  "duration": null,
+  "setDurations": [],
   "upset": false,
   "sides": [
    {
@@ -24191,8 +24188,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": 0,
-    "won": false
+    "setsWon": null,
+    "won": null
    },
    {
     "players": [
@@ -24211,27 +24208,12 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": 2,
-    "won": true
+    "setsWon": null,
+    "won": null
    }
   ],
-  "sets": [
-   {
-    "games": [
-     5,
-     7
-    ],
-    "tiebreak": null
-   },
-   {
-    "games": [
-     3,
-     6
-    ],
-    "tiebreak": null
-   }
-  ],
-  "winner": 2,
+  "sets": [],
+  "winner": null,
   "courtOrder": 4,
   "notBefore": null,
   "session": 1
@@ -25882,20 +25864,7 @@
   "upset": false,
   "sides": [
    {
-    "players": [
-     {
-      "id": "atppg32",
-      "name": "A. Pavlasek",
-      "fullName": "Adam Pavlasek",
-      "nation": "CZE"
-     },
-     {
-      "id": "atprh13",
-      "name": "P. Rikl",
-      "fullName": "Patrik Rikl",
-      "nation": "CZE"
-     }
-    ],
+    "players": [],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
