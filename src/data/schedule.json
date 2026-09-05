@@ -1028,8 +1028,8 @@
   "label": 14,
   "shortLabel": "Day 7: Sat, Sept 5",
   "displayDate": "Day 7: Saturday, September 5",
-  "date": "2026-09-04",
-  "releaseTime": "7:36 PM",
+  "date": "2026-09-05",
+  "releaseTime": "8:47 AM",
   "comments": null,
   "footerComment": null,
   "courts": [
@@ -1064,6 +1064,18 @@
       "roundName": "Round 3",
       "team1": "C. Bucsa",
       "team2": "C. Gauff"
+     },
+     {
+      "id": "null-0",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "Intentionally Blank",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
      }
     ]
    },
@@ -1132,6 +1144,18 @@
       "roundName": "Round 3",
       "team1": "A. Blockx",
       "team2": "F. Cobolli"
+     },
+     {
+      "id": "null-0",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "Intentionally Blank",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
      }
     ]
    },
