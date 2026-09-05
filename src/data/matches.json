@@ -24437,11 +24437,14 @@
   "court": "Court 11",
   "courtId": "AL",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788651791000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:01",
+  "setDurations": [
+   25,
+   36
+  ],
   "upset": false,
   "sides": [
    {
@@ -24461,8 +24464,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -24481,12 +24484,27 @@
     ],
     "seed": 9,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 5,
   "notBefore": "6:30 PM",
   "session": 1
@@ -26144,15 +26162,41 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atppg32",
+      "name": "A. Pavlasek",
+      "fullName": "Adam Pavlasek",
+      "nation": "CZE"
+     },
+     {
+      "id": "atprh13",
+      "name": "P. Rikl",
+      "fullName": "Patrik Rikl",
+      "nation": "CZE"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpci96",
+      "name": "J. Cash",
+      "fullName": "Julian Cash",
+      "nation": "GBR"
+     },
+     {
+      "id": "atpgd08",
+      "name": "L. Glasspool",
+      "fullName": "Lloyd Glasspool",
+      "nation": "GBR"
+     }
+    ],
+    "seed": 9,
     "entryStatus": null,
     "setsWon": null,
     "won": null
