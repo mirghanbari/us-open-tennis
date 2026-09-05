@@ -24665,11 +24665,14 @@
   "court": "Court 12",
   "courtId": "AM",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788645560000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:35",
+  "setDurations": [
+   51,
+   44
+  ],
   "upset": false,
   "sides": [
    {
@@ -24689,8 +24692,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -24709,12 +24712,30 @@
     ],
     "seed": null,
     "entryStatus": "WC",
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     6,
+     8
+    ]
+   },
+   {
+    "games": [
+     5,
+     7
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 4,
   "notBefore": null,
   "session": 1
@@ -26312,9 +26333,22 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpk0c9",
+      "name": "M. Kiger",
+      "fullName": "Mac Kiger",
+      "nation": "USA"
+     },
+     {
+      "id": "atpk0az",
+      "name": "A. Kovacevic",
+      "fullName": "Aleksandar Kovacevic",
+      "nation": "USA"
+     }
+    ],
     "seed": null,
-    "entryStatus": null,
+    "entryStatus": "WC",
     "setsWon": null,
     "won": null
    },
