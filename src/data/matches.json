@@ -9765,11 +9765,15 @@
   "court": "Court 5",
   "courtId": "AE",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788643101000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:13",
+  "setDurations": [
+   41,
+   40,
+   52
+  ],
   "upset": false,
   "sides": [
    {
@@ -9783,8 +9787,8 @@
     ],
     "seed": 21,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    },
    {
     "players": [
@@ -9797,12 +9801,34 @@
     ],
     "seed": null,
     "entryStatus": "WC",
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 3,
   "notBefore": null,
   "session": 1,
@@ -9957,7 +9983,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788643200000,
+  "startEpoch": 1788643800000,
   "espnSideIds": [
    "3356",
    "3310"
@@ -9981,11 +10007,15 @@
   "court": "Stadium 17",
   "courtId": "AD",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788642963000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:10",
+  "setDurations": [
+   41,
+   39,
+   50
+  ],
   "upset": false,
   "sides": [
    {
@@ -9999,8 +10029,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    },
    {
     "players": [
@@ -10013,12 +10043,34 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 3,
   "notBefore": null,
   "session": 1,
@@ -11194,8 +11246,15 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpd0fj",
+      "name": "L. Darderi",
+      "fullName": "Luciano Darderi",
+      "nation": "ITA"
+     }
+    ],
+    "seed": 21,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -11273,7 +11332,14 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpke29",
+      "name": "K. Khachanov",
+      "fullName": "Karen Khachanov",
+      "nation": "RUS"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
@@ -21418,11 +21484,14 @@
   "court": "Arthur Ashe Stadium",
   "courtId": "AA",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788642894000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:28",
+  "setDurations": [
+   48,
+   40
+  ],
   "upset": false,
   "sides": [
    {
@@ -21436,8 +21505,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -21450,12 +21519,27 @@
     ],
     "seed": 4,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 2,
   "notBefore": "1:30 PM",
   "session": 1,
@@ -22173,8 +22257,15 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta328560",
+      "name": "C. Gauff",
+      "fullName": "Coco Gauff",
+      "nation": "USA"
+     }
+    ],
+    "seed": 4,
     "entryStatus": null,
     "setsWon": null,
     "won": null

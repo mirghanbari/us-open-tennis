@@ -29,19 +29,6 @@
    }
   ]
  },
- "MS-1302": {
-  "player1": {
-   "id": "atpd0fj",
-   "name": "Luciano Darderi",
-   "wins": 0
-  },
-  "player2": {
-   "id": "atps0ia",
-   "name": "Dane Sweeny",
-   "wins": 0
-  },
-  "meetings": []
- },
  "MS-1303": {
   "player1": {
    "id": "atpz0bz",
@@ -76,36 +63,6 @@
    "wins": 0
   },
   "meetings": []
- },
- "MS-1305": {
-  "player1": {
-   "id": "atpke29",
-   "name": "Karen Khachanov",
-   "wins": 2
-  },
-  "player2": {
-   "id": "atpbm95",
-   "name": "Benjamin Bonzi",
-   "wins": 0
-  },
-  "meetings": [
-   {
-    "year": 2022,
-    "tournament": "Australian Open",
-    "surface": "Hard",
-    "round": "R2",
-    "winner": "1",
-    "score": "6-4, 6-0, 7-5"
-   },
-   {
-    "year": 2021,
-    "tournament": "Lyon",
-    "surface": "Clay",
-    "round": "R1",
-    "winner": "1",
-    "score": "6-1, 4-6, 7-6"
-   }
-  ]
  },
  "MS-1306": {
   "player1": {
@@ -361,28 +318,6 @@
     "round": "R2",
     "winner": "1",
     "score": "6-2, 6-2"
-   }
-  ]
- },
- "WS-2312": {
-  "player1": {
-   "id": "wta321158",
-   "name": "Cristina Bucsa",
-   "wins": 0
-  },
-  "player2": {
-   "id": "wta328560",
-   "name": "Coco Gauff",
-   "wins": 1
-  },
-  "meetings": [
-   {
-    "year": 2023,
-    "tournament": "Indian Wells",
-    "surface": "Hard",
-    "round": "R2",
-    "winner": "2",
-    "score": "6-2, 6-4"
    }
   ]
  },
