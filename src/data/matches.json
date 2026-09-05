@@ -29910,11 +29910,15 @@
   "court": "Court 12",
   "courtId": "AM",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788638879000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:24",
+  "setDurations": [
+   41,
+   61,
+   42
+  ],
   "upset": false,
   "sides": [
    {
@@ -29934,8 +29938,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -29954,12 +29958,34 @@
     ],
     "seed": 13,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     7,
+     5
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 3,
   "notBefore": null,
   "session": 1
@@ -31096,8 +31122,21 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta317810",
+      "name": "S. Hunter",
+      "fullName": "Storm Hunter",
+      "nation": "AUS"
+     },
+     {
+      "id": "wta317888",
+      "name": "D. Krawczyk",
+      "fullName": "Desirae Krawczyk",
+      "nation": "USA"
+     }
+    ],
+    "seed": 13,
     "entryStatus": null,
     "setsWon": null,
     "won": null
