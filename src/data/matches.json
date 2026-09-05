@@ -10559,11 +10559,15 @@
   "court": "Court 11",
   "courtId": "AL",
   "eventDay": 13,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788548865000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:26",
+  "setDurations": [
+   49,
+   52,
+   45
+  ],
   "upset": false,
   "sides": [
    {
@@ -10577,8 +10581,8 @@
     ],
     "seed": 27,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    },
    {
     "players": [
@@ -10591,12 +10595,34 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 4,
   "notBefore": "4:00 PM",
   "session": 1,
@@ -11264,8 +11290,15 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpea24",
+      "name": "T. Etcheverry",
+      "fullName": "Tomas Martin Etcheverry",
+      "nation": "ARG"
+     }
+    ],
+    "seed": 27,
     "entryStatus": null,
     "setsWon": null,
     "won": null
