@@ -9885,7 +9885,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788638400000,
+  "startEpoch": 1788639600000,
   "espnSideIds": [
    "12932",
    "10427"
@@ -10239,11 +10239,16 @@
   "court": "Louis Armstrong Stadium",
   "courtId": "AB",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788638055000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:45",
+  "setDurations": [
+   54,
+   41,
+   20,
+   50
+  ],
   "upset": false,
   "sides": [
    {
@@ -10257,8 +10262,8 @@
     ],
     "seed": 28,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    },
    {
     "players": [
@@ -10271,12 +10276,44 @@
     ],
     "seed": 5,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     4,
+     7
+    ]
+   },
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     0
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1,
@@ -11293,15 +11330,28 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpb0pg",
+      "name": "A. Blockx",
+      "fullName": "Alexander Blockx",
+      "nation": "BEL"
+     }
+    ],
+    "seed": 28,
     "entryStatus": null,
     "setsWon": null,
     "won": null
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182738",
+  "startEpoch": 1788753600000,
+  "espnSideIds": [
+   "3700",
+   "11757"
+  ]
  },
  {
   "id": "MS-1405",
