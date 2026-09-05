@@ -9813,7 +9813,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788634200000,
+  "startEpoch": 1788634800000,
   "espnSideIds": [
    "7833",
    "4030"
@@ -9885,7 +9885,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788635700000,
+  "startEpoch": 1788636600000,
   "espnSideIds": [
    "12932",
    "10427"
@@ -10029,7 +10029,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788634200000,
+  "startEpoch": 1788634800000,
   "espnSideIds": [
    "2367",
    "2355"
@@ -21064,11 +21064,14 @@
   "court": "Stadium 17",
   "courtId": "AD",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788633699000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:38",
+  "setDurations": [
+   33,
+   65
+  ],
   "upset": false,
   "sides": [
    {
@@ -21082,8 +21085,8 @@
     ],
     "seed": 5,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -21096,12 +21099,30 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     7,
+     5
+    ]
+   }
+  ],
+  "winner": 1,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1,
@@ -21346,7 +21367,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788634800000,
+  "startEpoch": 1788636600000,
   "espnSideIds": [
    "3157",
    "3626"
@@ -21959,8 +21980,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta331809",
+      "name": "M. Andreeva",
+      "fullName": "Mirra Andreeva",
+      "nation": "RUS"
+     }
+    ],
+    "seed": 5,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -21981,7 +22009,13 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182555",
+  "startEpoch": 1788753600000,
+  "espnSideIds": [
+   "9820",
+   "2971"
+  ]
  },
  {
   "id": "WS-2406",
@@ -23750,11 +23784,14 @@
   "court": "Court 5",
   "courtId": "AE",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788634114000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:12",
+  "setDurations": [
+   18,
+   54
+  ],
   "upset": false,
   "sides": [
    {
@@ -23774,8 +23811,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -23794,12 +23831,30 @@
     ],
     "seed": 5,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     0,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     3,
+     7
+    ]
+   }
+  ],
+  "winner": 2,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1
@@ -25664,8 +25719,21 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atphb05",
+      "name": "C. Harrison",
+      "fullName": "Christian Harrison",
+      "nation": "USA"
+     },
+     {
+      "id": "atpsl22",
+      "name": "N. Skupski",
+      "fullName": "Neal Skupski",
+      "nation": "GBR"
+     }
+    ],
+    "seed": 5,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -29640,11 +29708,14 @@
   "court": "Court 11",
   "courtId": "AL",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788634145000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:36",
+  "setDurations": [
+   44,
+   52
+  ],
   "upset": false,
   "sides": [
    {
@@ -29664,8 +29735,8 @@
     ],
     "seed": 1,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -29684,12 +29755,27 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1
@@ -30823,8 +30909,21 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta320301",
+      "name": "K. Siniakova",
+      "fullName": "Katerina Siniakova",
+      "nation": "CZE"
+     },
+     {
+      "id": "wta318609",
+      "name": "T. Townsend",
+      "fullName": "Taylor Townsend",
+      "nation": "USA"
+     }
+    ],
+    "seed": 1,
     "entryStatus": null,
     "setsWon": null,
     "won": null

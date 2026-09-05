@@ -372,19 +372,6 @@
    }
   ]
  },
- "WS-2309": {
-  "player1": {
-   "id": "wta331809",
-   "name": "Mirra Andreeva",
-   "wins": 0
-  },
-  "player2": {
-   "id": "wta330364",
-   "name": "Nikola Bartunkova",
-   "wins": 0
-  },
-  "meetings": []
- },
  "WS-2311": {
   "player1": {
    "id": "wta332285",
@@ -675,6 +662,52 @@
     "round": "R2",
     "winner": "1",
     "score": "7-5, 2-6, 6-2"
+   }
+  ]
+ },
+ "WS-2405": {
+  "player1": {
+   "id": "wta331809",
+   "name": "Mirra Andreeva",
+   "wins": 3
+  },
+  "player2": {
+   "id": "wta325601",
+   "name": "Anastasia Potapova",
+   "wins": 1
+  },
+  "meetings": [
+   {
+    "year": 2026,
+    "tournament": "Linz",
+    "surface": "Clay",
+    "round": "F",
+    "winner": "1",
+    "score": "1-6, 6-4, 6-3"
+   },
+   {
+    "year": 2025,
+    "tournament": "US Open",
+    "surface": "Hard",
+    "round": "R2",
+    "winner": "1",
+    "score": "6-1, 6-3"
+   },
+   {
+    "year": 2023,
+    "tournament": "Wimbledon",
+    "surface": "Grass",
+    "round": "R3",
+    "winner": "1",
+    "score": "6-2, 7-5"
+   },
+   {
+    "year": 2022,
+    "tournament": "Monastir",
+    "surface": "Hard",
+    "round": "R1",
+    "winner": "2",
+    "score": "6-3, 6-7, 6-3"
    }
   ]
  }
