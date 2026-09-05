@@ -189,19 +189,6 @@
    }
   ]
  },
- "MS-1310": {
-  "player1": {
-   "id": "atpva25",
-   "name": "Valentin Vacherot",
-   "wins": 0
-  },
-  "player2": {
-   "id": "atptd51",
-   "name": "Frances Tiafoe",
-   "wins": 0
-  },
-  "meetings": []
- },
  "MS-1313": {
   "player1": {
    "id": "atps0s1",
@@ -245,6 +232,76 @@
     "round": "R2",
     "winner": "1",
     "score": "6-3, 7-5"
+   }
+  ]
+ },
+ "MS-1405": {
+  "player1": {
+   "id": "atpmm58",
+   "name": "Daniil Medvedev",
+   "wins": 6
+  },
+  "player2": {
+   "id": "atptd51",
+   "name": "Frances Tiafoe",
+   "wins": 1
+  },
+  "meetings": [
+   {
+    "year": 2026,
+    "tournament": "Brisbane",
+    "surface": "Hard",
+    "round": "R2",
+    "winner": "1",
+    "score": "6-3, 6-2"
+   },
+   {
+    "year": 2024,
+    "tournament": "Laver Cup",
+    "surface": "Hard",
+    "round": "RR",
+    "winner": "2",
+    "score": "3-6, 6-4, 1-0"
+   },
+   {
+    "year": 2023,
+    "tournament": "Indian Wells",
+    "surface": "Hard",
+    "round": "SF",
+    "winner": "1",
+    "score": "7-5, 7-6"
+   },
+   {
+    "year": 2021,
+    "tournament": "Miami",
+    "surface": "Hard",
+    "round": "R4",
+    "winner": "1",
+    "score": "6-4, 6-3"
+   },
+   {
+    "year": 2020,
+    "tournament": "Australian Open",
+    "surface": "Hard",
+    "round": "R1",
+    "winner": "1",
+    "score": "6-3, 4-6, 6-4, 6-2"
+   },
+   {
+    "year": 2020,
+    "tournament": "US Open",
+    "surface": "Hard",
+    "round": "R4",
+    "winner": "1",
+    "score": "6-4, 6-1, 6-0"
+   },
+   {
+    "year": 2019,
+    "tournament": "Washington",
+    "surface": "Hard",
+    "round": "R3",
+    "winner": "1",
+    "score": "6-2, 7-5"
    }
   ]
  },
