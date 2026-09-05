@@ -21418,7 +21418,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788629400000,
+  "startEpoch": 1788630600000,
   "espnSideIds": [
    "3730",
    "2392"
@@ -22931,11 +22931,14 @@
   "court": "Court 12",
   "courtId": "AM",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788629300000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "0:56",
+  "setDurations": [
+   28,
+   28
+  ],
   "upset": false,
   "sides": [
    {
@@ -22955,8 +22958,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -22975,12 +22978,27 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1
@@ -25288,7 +25306,20 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpbk92",
+      "name": "A. Bublik",
+      "fullName": "Alexander Bublik",
+      "nation": "KAZ"
+     },
+     {
+      "id": "atps0re",
+      "name": "J. Shang",
+      "fullName": "Juncheng Shang",
+      "nation": "CHN"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
@@ -29931,11 +29962,15 @@
   "court": "Court 10",
   "courtId": "AK",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788628827000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:10",
+  "setDurations": [
+   28,
+   62,
+   40
+  ],
   "upset": false,
   "sides": [
    {
@@ -29955,8 +29990,8 @@
     ],
     "seed": 10,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -29975,12 +30010,37 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     3,
+     7
+    ]
+   },
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1
@@ -30791,8 +30851,21 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta319960",
+      "name": "E. Perez",
+      "fullName": "Ellen Perez",
+      "nation": "AUS"
+     },
+     {
+      "id": "wta317462",
+      "name": "D. Schuurs",
+      "fullName": "Demi Schuurs",
+      "nation": "NED"
+     }
+    ],
+    "seed": 10,
     "entryStatus": null,
     "setsWon": null,
     "won": null
