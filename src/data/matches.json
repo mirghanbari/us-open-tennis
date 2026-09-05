@@ -23054,11 +23054,14 @@
   "court": "Court 10",
   "courtId": "AK",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788633483000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:00",
+  "setDurations": [
+   26,
+   34
+  ],
   "upset": false,
   "sides": [
    {
@@ -23078,8 +23081,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -23098,12 +23101,27 @@
     ],
     "seed": 7,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1
@@ -25383,8 +25401,21 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpa887",
+      "name": "G. Andreozzi",
+      "fullName": "Guido Andreozzi",
+      "nation": "ARG"
+     },
+     {
+      "id": "atpgh33",
+      "name": "M. Guinard",
+      "fullName": "Manuel Guinard",
+      "nation": "FRA"
+     }
+    ],
+    "seed": 7,
     "entryStatus": null,
     "setsWon": null,
     "won": null
