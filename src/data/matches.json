@@ -9813,7 +9813,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788631200000,
+  "startEpoch": 1788633000000,
   "espnSideIds": [
    "7833",
    "4030"
@@ -21346,7 +21346,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788629400000,
+  "startEpoch": 1788631200000,
   "espnSideIds": [
    "3157",
    "3626"
@@ -21418,7 +21418,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788628800000,
+  "startEpoch": 1788629400000,
   "espnSideIds": [
    "3730",
    "2392"
@@ -22573,11 +22573,15 @@
   "court": "Court 5",
   "courtId": "AE",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788628650000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:09",
+  "setDurations": [
+   37,
+   58,
+   34
+  ],
   "upset": false,
   "sides": [
    {
@@ -22597,8 +22601,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -22617,12 +22621,37 @@
     ],
     "seed": null,
     "entryStatus": "WC",
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     1,
+     7
+    ]
+   },
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1
@@ -25134,9 +25163,22 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpli37",
+      "name": "N. Lammons",
+      "fullName": "Nathaniel Lammons",
+      "nation": "USA"
+     },
+     {
+      "id": "atpw686",
+      "name": "J. Withrow",
+      "fullName": "Jackson Withrow",
+      "nation": "USA"
+     }
+    ],
     "seed": null,
-    "entryStatus": null,
+    "entryStatus": "WC",
     "setsWon": null,
     "won": null
    },
