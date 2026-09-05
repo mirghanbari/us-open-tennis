@@ -9885,7 +9885,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788640800000,
+  "startEpoch": 1788641100000,
   "espnSideIds": [
    "12932",
    "10427"
@@ -9957,7 +9957,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788640200000,
+  "startEpoch": 1788642000000,
   "espnSideIds": [
    "3356",
    "3310"
@@ -30711,11 +30711,15 @@
   "court": "Court 11",
   "courtId": "AL",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788640718000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:31",
+  "setDurations": [
+   24,
+   42,
+   25
+  ],
   "upset": false,
   "sides": [
    {
@@ -30735,8 +30739,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -30755,12 +30759,34 @@
     ],
     "seed": null,
     "entryStatus": "WC",
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     1,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 3,
   "notBefore": null,
   "session": 1
@@ -31445,9 +31471,22 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "wta329408",
+      "name": "R. Montgomery",
+      "fullName": "Robin Montgomery",
+      "nation": "USA"
+     },
+     {
+      "id": "wta329409",
+      "name": "A. Krueger",
+      "fullName": "Ashlyn Krueger",
+      "nation": "USA"
+     }
+    ],
     "seed": null,
-    "entryStatus": null,
+    "entryStatus": "WC",
     "setsWon": null,
     "won": null
    },
