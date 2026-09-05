@@ -21490,11 +21490,14 @@
   "court": "Grandstand",
   "courtId": "AC",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788640023000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:27",
+  "setDurations": [
+   67,
+   80
+  ],
   "upset": false,
   "sides": [
    {
@@ -21508,8 +21511,8 @@
     ],
     "seed": 8,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -21522,12 +21525,33 @@
     ],
     "seed": 25,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     7,
+     3
+    ]
+   },
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     7,
+     3
+    ]
+   }
+  ],
+  "winner": 1,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1,
@@ -21783,7 +21807,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788643800000,
+  "startEpoch": 1788647400000,
   "espnSideIds": [
    "13478",
    "3126"
@@ -22185,8 +22209,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta326408",
+      "name": "I. Swiatek",
+      "fullName": "Iga Swiatek",
+      "nation": "POL"
+     }
+    ],
+    "seed": 8,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -22207,7 +22238,13 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182562",
+  "startEpoch": 1788753600000,
+  "espnSideIds": [
+   "3730",
+   "6048"
+  ]
  },
  {
   "id": "WS-2408",

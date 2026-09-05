@@ -386,44 +386,6 @@
    }
   ]
  },
- "WS-2313": {
-  "player1": {
-   "id": "wta326408",
-   "name": "Iga Swiatek",
-   "wins": 3
-  },
-  "player2": {
-   "id": "wta320983",
-   "name": "Marie Bouzkova",
-   "wins": 0
-  },
-  "meetings": [
-   {
-    "year": 2026,
-    "tournament": "Australian Open",
-    "surface": "Hard",
-    "round": "R2",
-    "winner": "1",
-    "score": "6-2, 6-3"
-   },
-   {
-    "year": 2025,
-    "tournament": "Wuhan",
-    "surface": "Hard",
-    "round": "R2",
-    "winner": "1",
-    "score": "6-1, 6-1"
-   },
-   {
-    "year": 2024,
-    "tournament": "Roland Garros",
-    "surface": "Clay",
-    "round": "R3",
-    "winner": "1",
-    "score": "6-4, 6-2"
-   }
-  ]
- },
  "WS-2315": {
   "player1": {
    "id": "wta319998",
@@ -670,6 +632,84 @@
     "round": "R1",
     "winner": "2",
     "score": "6-3, 6-7, 6-3"
+   }
+  ]
+ },
+ "WS-2407": {
+  "player1": {
+   "id": "wta326408",
+   "name": "Iga Swiatek",
+   "wins": 7
+  },
+  "player2": {
+   "id": "wta328120",
+   "name": "Qinwen Zheng",
+   "wins": 1
+  },
+  "meetings": [
+   {
+    "year": 2025,
+    "tournament": "Indian Wells",
+    "surface": "Hard",
+    "round": "QF",
+    "winner": "1",
+    "score": "6-3, 6-3"
+   },
+   {
+    "year": 2024,
+    "tournament": "Dubai",
+    "surface": "Hard",
+    "round": "QF",
+    "winner": "1",
+    "score": "6-3, 6-2"
+   },
+   {
+    "year": 2024,
+    "tournament": "Olympics",
+    "surface": "Clay",
+    "round": "SF",
+    "winner": "2",
+    "score": "6-2, 7-5"
+   },
+   {
+    "year": 2023,
+    "tournament": "Stuttgart",
+    "surface": "Clay",
+    "round": "R2",
+    "winner": "1",
+    "score": "6-1, 6-4"
+   },
+   {
+    "year": 2023,
+    "tournament": "Cincinnati",
+    "surface": "Hard",
+    "round": "R3",
+    "winner": "1",
+    "score": "3-6, 6-1, 6-1"
+   },
+   {
+    "year": 2023,
+    "tournament": "United Cup",
+    "surface": "Hard",
+    "round": "",
+    "winner": "1",
+    "score": "6-2, 6-3"
+   },
+   {
+    "year": 2022,
+    "tournament": "Roland Garros",
+    "surface": "Clay",
+    "round": "R4",
+    "winner": "1",
+    "score": "6-7, 6-0, 6-2"
+   },
+   {
+    "year": 2022,
+    "tournament": "San Diego",
+    "surface": "Hard",
+    "round": "R2",
+    "winner": "1",
+    "score": "6-4, 4-6, 6-1"
    }
   ]
  }
