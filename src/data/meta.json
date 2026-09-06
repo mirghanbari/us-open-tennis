@@ -5,7 +5,7 @@
  "city": "Flushing Meadows, New York",
  "startDate": "2026-08-30",
  "endDate": "2026-09-13",
- "updated": "2026-09-06T22:20:48.668Z",
+ "updated": "2026-09-06T22:30:45.538Z",
  "sources": {
   "draw:MS": true,
   "draw:WS": true,
@@ -13,8 +13,7 @@
   "draw:WD": true,
   "draw:XD": true,
   "schedule": true,
-  "espn:atp": false,
-  "espn:wta": true,
+  "espn:atp": true,
   "espn:rankings:atp": true,
   "espn:rankings:wta": true,
   "tml:atp": true,
