@@ -1051,7 +1051,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "scheduled",
+      "status": "live",
       "eventCode": "BS",
       "roundName": "Round 1",
       "team1": "D. Pagani",
@@ -1319,7 +1319,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "scheduled",
+      "status": "live",
       "eventCode": "BS",
       "roundName": "Round 1",
       "team1": "K. Colombo",
@@ -1686,6 +1686,202 @@
       "roundName": "Round 1",
       "team1": "Y. Qu",
       "team2": "A. Malygina"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "tournDay": 16,
+  "label": 16,
+  "shortLabel": "Day 9: Mon, Sept 7",
+  "displayDate": "Day 9: Monday, September 7",
+  "date": "2026-09-06",
+  "releaseTime": "12:32 PM",
+  "comments": "SINGLES ONLY",
+  "footerComment": null,
+  "courts": [
+   {
+    "court": "Arthur Ashe Stadium",
+    "courtId": "AA",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:30 AM",
+    "startEpoch": 1788795000000,
+    "matches": [
+     {
+      "id": "WS-2407",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WS",
+      "roundName": "Round 4",
+      "team1": "I. Swiatek",
+      "team2": "Q. Zheng"
+     },
+     {
+      "id": "MS-1404",
+      "order": 2,
+      "notBefore": "1:00 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MS",
+      "roundName": "Round 4",
+      "team1": "F. Cerundolo",
+      "team2": "A. Blockx"
+     }
+    ]
+   },
+   {
+    "court": "Arthur Ashe Stadium",
+    "courtId": "AA",
+    "session": 2,
+    "sessionName": null,
+    "startTime": "7:00 PM",
+    "startEpoch": 1788822000000,
+    "matches": [
+     {
+      "id": "WS-2406",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WS",
+      "roundName": "Round 4",
+      "team1": "I. Jovic",
+      "team2": "C. Gauff"
+     },
+     {
+      "id": "MS-1401",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MS",
+      "roundName": "Round 4",
+      "team1": "A. Zverev",
+      "team2": "L. Darderi"
+     }
+    ]
+   },
+   {
+    "court": "Louis Armstrong Stadium",
+    "courtId": "AB",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788793200000,
+    "matches": [
+     {
+      "id": "WS-2405",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WS",
+      "roundName": "Round 4",
+      "team1": "M. Andreeva",
+      "team2": "A. Potapova"
+     },
+     {
+      "id": "null-0",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "Match TBA",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
+     },
+     {
+      "id": "WS-2408",
+      "order": 3,
+      "notBefore": "2:30 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WS",
+      "roundName": "Round 4",
+      "team1": "N. Osaka",
+      "team2": "E. Rybakina"
+     },
+     {
+      "id": "MS-1403",
+      "order": 4,
+      "notBefore": "4:00 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MS",
+      "roundName": "Round 4",
+      "team1": "K. Khachanov",
+      "team2": "L. Tien"
+     }
+    ]
+   },
+   {
+    "court": "Grandstand",
+    "courtId": "AC",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788793200000,
+    "matches": [
+     {
+      "id": "null-0",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "Match TBA",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
+     },
+     {
+      "id": "null-0",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "Match TBA",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
+     },
+     {
+      "id": "null-0",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "Match TBA",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
+     },
+     {
+      "id": "MS-1402",
+      "order": 4,
+      "notBefore": "4:30 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MS",
+      "roundName": "Round 4",
+      "team1": "A. Gea",
+      "team2": "B. van de Zandschulp"
      }
     ]
    }
