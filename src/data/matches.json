@@ -11686,7 +11686,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788721200000,
+  "startEpoch": 1788722400000,
   "espnSideIds": [
    "2383",
    "2708"
@@ -31492,11 +31492,14 @@
   "court": "Stadium 17",
   "courtId": "AD",
   "eventDay": 15,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788720202000,
+  "status": "retired",
+  "statusCode": "E",
+  "duration": "1:30",
+  "setDurations": [
+   29,
+   61
+  ],
   "upset": false,
   "sides": [
    {
@@ -31516,8 +31519,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": true
    },
    {
     "players": [
@@ -31536,12 +31539,27 @@
     ],
     "seed": 3,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     1,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     5
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1
@@ -32204,7 +32222,20 @@
     "won": null
    },
    {
-    "players": [],
+    "players": [
+     {
+      "id": "wta310440",
+      "name": "T. Maria",
+      "fullName": "Tatjana Maria",
+      "nation": "GER"
+     },
+     {
+      "id": "wta326907",
+      "name": "Z. Sonmez",
+      "fullName": "Zeynep Sonmez",
+      "nation": "TUR"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
