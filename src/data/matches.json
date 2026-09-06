@@ -11638,11 +11638,15 @@
   "court": "Louis Armstrong Stadium",
   "courtId": "AB",
   "eventDay": 15,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788734198000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:57",
+  "setDurations": [
+   74,
+   42,
+   61
+  ],
   "upset": false,
   "sides": [
    {
@@ -11656,8 +11660,8 @@
     ],
     "seed": 7,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -11670,12 +11674,40 @@
     ],
     "seed": 11,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     1,
+     7
+    ]
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     6,
+     8
+    ]
+   }
+  ],
+  "winner": 2,
   "courtOrder": 3,
   "notBefore": "3:00 PM",
   "session": 1,
@@ -12075,8 +12107,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atptd51",
+      "name": "F. Tiafoe",
+      "fullName": "Frances Tiafoe",
+      "nation": "USA"
+     }
+    ],
+    "seed": 11,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -12097,7 +12136,13 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182777",
+  "startEpoch": 1788840000000,
+  "espnSideIds": [
+   "2708",
+   "11400"
+  ]
  },
  {
   "id": "MS-1504",
@@ -22494,7 +22539,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788734400000,
+  "startEpoch": 1788735000000,
   "espnSideIds": [
    "2113",
    "1774"
