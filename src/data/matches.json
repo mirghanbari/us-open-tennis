@@ -9741,7 +9741,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788655500000,
+  "startEpoch": 1788657000000,
   "espnSideIds": [
    "2375",
    "2970"
@@ -9863,11 +9863,17 @@
   "court": "Grandstand",
   "courtId": "AC",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788655429000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "3:55",
+  "setDurations": [
+   65,
+   42,
+   50,
+   45,
+   33
+  ],
   "upset": false,
   "sides": [
    {
@@ -9881,8 +9887,8 @@
     ],
     "seed": null,
     "entryStatus": "WC",
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": false
    },
    {
     "players": [
@@ -9895,12 +9901,51 @@
     ],
     "seed": null,
     "entryStatus": "LL",
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     7,
+     9
+    ]
+   },
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 3,
   "notBefore": null,
   "session": 1,
@@ -10153,7 +10198,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788655200000,
+  "startEpoch": 1788656400000,
   "espnSideIds": [
    "10319",
    "10386"
@@ -11289,9 +11334,16 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpg0ix",
+      "name": "A. Gea",
+      "fullName": "Arthur Gea",
+      "nation": "FRA"
+     }
+    ],
     "seed": null,
-    "entryStatus": null,
+    "entryStatus": "LL",
     "setsWon": null,
     "won": null
    },
@@ -21891,7 +21943,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788655500000,
+  "startEpoch": 1788657000000,
   "espnSideIds": [
    "13478",
    "3126"
