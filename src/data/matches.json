@@ -9693,11 +9693,15 @@
   "court": "Arthur Ashe Stadium",
   "courtId": "AA",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788671358000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:26",
+  "setDurations": [
+   38,
+   68,
+   40
+  ],
   "upset": false,
   "sides": [
    {
@@ -9711,8 +9715,8 @@
     ],
     "seed": 1,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    },
    {
     "players": [
@@ -9725,12 +9729,37 @@
     ],
     "seed": 25,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     7,
+     2
+    ]
+   },
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 2,
   "notBefore": null,
   "session": 2,
@@ -11308,8 +11337,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpz355",
+      "name": "A. Zverev",
+      "fullName": "Alexander Zverev",
+      "nation": "GER"
+     }
+    ],
+    "seed": 1,
     "entryStatus": null,
     "setsWon": null,
     "won": null
