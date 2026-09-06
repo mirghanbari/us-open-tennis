@@ -26102,11 +26102,14 @@
   "court": "Court 11",
   "courtId": "AL",
   "eventDay": 15,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788719451000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:28",
+  "setDurations": [
+   35,
+   53
+  ],
   "upset": false,
   "sides": [
    {
@@ -26126,8 +26129,8 @@
     ],
     "seed": 12,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -26146,12 +26149,27 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     7,
+     5
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 2,
   "notBefore": "12:30 PM",
   "session": 1
@@ -27086,15 +27104,41 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpn670",
+      "name": "H. Nys",
+      "fullName": "Hugo Nys",
+      "nation": "MON"
+     },
+     {
+      "id": "atpr613",
+      "name": "E. Roger-Vasselin",
+      "fullName": "Edouard Roger-Vasselin",
+      "nation": "FRA"
+     }
+    ],
+    "seed": 12,
     "entryStatus": null,
     "setsWon": null,
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpa887",
+      "name": "G. Andreozzi",
+      "fullName": "Guido Andreozzi",
+      "nation": "ARG"
+     },
+     {
+      "id": "atpgh33",
+      "name": "M. Guinard",
+      "fullName": "Manuel Guinard",
+      "nation": "FRA"
+     }
+    ],
+    "seed": 7,
     "entryStatus": null,
     "setsWon": null,
     "won": null
