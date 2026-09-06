@@ -22297,7 +22297,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788712200000,
+  "startEpoch": 1788712800000,
   "espnSideIds": [
    "3382",
    "6970"
@@ -25920,11 +25920,14 @@
   "court": "Louis Armstrong Stadium",
   "courtId": "AB",
   "eventDay": 15,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788711926000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:16",
+  "setDurations": [
+   42,
+   34
+  ],
   "upset": false,
   "sides": [
    {
@@ -25944,8 +25947,8 @@
     ],
     "seed": 1,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -25964,12 +25967,27 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     7,
+     5
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1
@@ -26913,8 +26931,21 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atph808",
+      "name": "H. Heliovaara",
+      "fullName": "Harri Heliovaara",
+      "nation": "FIN"
+     },
+     {
+      "id": "atpp0g6",
+      "name": "H. Patten",
+      "fullName": "Henry Patten",
+      "nation": "GBR"
+     }
+    ],
+    "seed": 1,
     "entryStatus": null,
     "setsWon": null,
     "won": null
