@@ -27055,11 +27055,15 @@
   "court": "Stadium 17",
   "courtId": "AD",
   "eventDay": 15,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788738951000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:41",
+  "setDurations": [
+   54,
+   67,
+   40
+  ],
   "upset": false,
   "sides": [
    {
@@ -27079,8 +27083,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -27099,12 +27103,40 @@
     ],
     "seed": 10,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     2,
+     7
+    ]
+   },
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     11,
+     9
+    ]
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 4,
   "notBefore": "3:30 PM",
   "session": 1
@@ -27643,7 +27675,20 @@
     "won": null
    },
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpr548",
+      "name": "R. Ram",
+      "fullName": "Rajeev Ram",
+      "nation": "USA"
+     },
+     {
+      "id": "atpso70",
+      "name": "J. Salisbury",
+      "fullName": "Joe Salisbury",
+      "nation": "GBR"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
