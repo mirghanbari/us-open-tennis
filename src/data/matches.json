@@ -11758,7 +11758,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788721200000,
+  "startEpoch": 1788721800000,
   "espnSideIds": [
    "11400",
    "3739"
@@ -11898,7 +11898,7 @@
   "espnId": "182724",
   "broadcasts": [
    {
-    "name": "ESPN",
+    "name": "ABC",
     "type": "tv"
    }
   ],
@@ -31726,11 +31726,14 @@
   "court": "Grandstand",
   "courtId": "AC",
   "eventDay": 15,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788720988000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:35",
+  "setDurations": [
+   42,
+   53
+  ],
   "upset": false,
   "sides": [
    {
@@ -31750,8 +31753,8 @@
     ],
     "seed": 16,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -31770,12 +31773,27 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 2,
   "notBefore": null,
   "session": 1
@@ -32314,7 +32332,20 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "wta317138",
+      "name": "E. Hozumi",
+      "fullName": "Eri Hozumi",
+      "nation": "JPN"
+     },
+     {
+      "id": "wta312041",
+      "name": "A. Klepac",
+      "fullName": "Andreja Klepac",
+      "nation": "SLO"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
