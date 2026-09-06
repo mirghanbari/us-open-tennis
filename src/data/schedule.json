@@ -651,7 +651,7 @@
   "shortLabel": "Day 8: Sun, Sept 6",
   "displayDate": "Day 8: Sunday, September 6",
   "date": "2026-09-06",
-  "releaseTime": "9:20 AM",
+  "releaseTime": "5:15 PM",
   "comments": null,
   "footerComment": null,
   "courts": [
@@ -964,6 +964,18 @@
       "roundName": "Round 2",
       "team1": "X. Jiang / S. Zhang",
       "team2": "E. Chong / Z. Yang"
+     },
+     {
+      "id": "GS-22129",
+      "order": 5,
+      "notBefore": "5:45 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GS",
+      "roundName": "Round 1",
+      "team1": "M. Rajeshwaran Revathi",
+      "team2": "E. Combs"
      }
     ]
    },
@@ -1150,18 +1162,6 @@
       "roundName": "Round 1",
       "team1": "K. Watanabe",
       "team2": "J. Gaines Jr"
-     },
-     {
-      "id": "GS-22129",
-      "order": 5,
-      "notBefore": null,
-      "conjunction": null,
-      "comment": null,
-      "status": "scheduled",
-      "eventCode": "GS",
-      "roundName": "Round 1",
-      "team1": "M. Rajeshwaran Revathi",
-      "team2": "E. Combs"
      }
     ]
    },
@@ -1343,7 +1343,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "live",
+      "status": "finished",
       "eventCode": "GS",
       "roundName": "Round 1",
       "team1": "P. Berezina",
