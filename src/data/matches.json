@@ -10227,11 +10227,17 @@
   "court": "Louis Armstrong Stadium",
   "courtId": "AB",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788672888000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "3:24",
+  "setDurations": [
+   31,
+   31,
+   56,
+   40,
+   46
+  ],
   "upset": false,
   "sides": [
    {
@@ -10245,8 +10251,8 @@
     ],
     "seed": 17,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": false
    },
    {
     "players": [
@@ -10259,12 +10265,51 @@
     ],
     "seed": 14,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     1
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     7,
+     2
+    ]
+   },
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 2,
   "notBefore": null,
   "session": 2,
@@ -11477,15 +11522,28 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpt0ha",
+      "name": "L. Tien",
+      "fullName": "Learner Tien",
+      "nation": "USA"
+     }
+    ],
+    "seed": 14,
     "entryStatus": null,
     "setsWon": null,
     "won": null
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182692",
+  "startEpoch": 1788753600000,
+  "espnSideIds": [
+   "2367",
+   "10386"
+  ]
  },
  {
   "id": "MS-1404",
