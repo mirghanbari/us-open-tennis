@@ -269,36 +269,6 @@
    }
   ]
  },
- "WS-2311": {
-  "player1": {
-   "id": "wta332285",
-   "name": "Iva Jovic",
-   "wins": 2
-  },
-  "player2": {
-   "id": "wta330332",
-   "name": "Alexandra Eala",
-   "wins": 0
-  },
-  "meetings": [
-   {
-    "year": 2026,
-    "tournament": "Roland Garros",
-    "surface": "Clay",
-    "round": "R1",
-    "winner": "1",
-    "score": "6-4, 6-2"
-   },
-   {
-    "year": 2026,
-    "tournament": "Queens",
-    "surface": "Grass",
-    "round": "R2",
-    "winner": "1",
-    "score": "6-2, 6-2"
-   }
-  ]
- },
  "WS-2316": {
   "player1": {
    "id": "wta325338",
@@ -459,6 +429,28 @@
     "round": "R1",
     "winner": "2",
     "score": "6-3, 6-7, 6-3"
+   }
+  ]
+ },
+ "WS-2406": {
+  "player1": {
+   "id": "wta332285",
+   "name": "Iva Jovic",
+   "wins": 0
+  },
+  "player2": {
+   "id": "wta328560",
+   "name": "Coco Gauff",
+   "wins": 1
+  },
+  "meetings": [
+   {
+    "year": 2026,
+    "tournament": "Rome",
+    "surface": "Clay",
+    "round": "R4",
+    "winner": "2",
+    "score": "5-7, 7-5, 6-2"
    }
   ]
  },
