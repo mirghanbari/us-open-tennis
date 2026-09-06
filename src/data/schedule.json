@@ -650,8 +650,8 @@
   "label": 15,
   "shortLabel": "Day 8: Sun, Sept 6",
   "displayDate": "Day 8: Sunday, September 6",
-  "date": "2026-09-05",
-  "releaseTime": "6:39 PM",
+  "date": "2026-09-06",
+  "releaseTime": "9:20 AM",
   "comments": null,
   "footerComment": null,
   "courts": [
@@ -686,6 +686,18 @@
       "roundName": "Round 4",
       "team1": "T. Paul",
       "team2": "C. Alcaraz"
+     },
+     {
+      "id": "null-0",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "Intentionally Blank",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
      }
     ]
    },
