@@ -11758,7 +11758,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788721800000,
+  "startEpoch": 1788722100000,
   "espnSideIds": [
    "11400",
    "3739"
@@ -30820,11 +30820,14 @@
   "court": "Court 5",
   "courtId": "AE",
   "eventDay": 15,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788721277000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:03",
+  "setDurations": [
+   33,
+   30
+  ],
   "upset": false,
   "sides": [
    {
@@ -30844,8 +30847,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -30864,12 +30867,27 @@
     ],
     "seed": 6,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 3,
   "notBefore": "1:30 PM",
   "session": 1
@@ -32003,8 +32021,21 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta321158",
+      "name": "C. Bucsa",
+      "fullName": "Cristina Bucsa",
+      "nation": "ESP"
+     },
+     {
+      "id": "wta316713",
+      "name": "N. Melichar-Martinez",
+      "fullName": "Nicole Melichar-Martinez",
+      "nation": "USA"
+     }
+    ],
+    "seed": 6,
     "entryStatus": null,
     "setsWon": null,
     "won": null
