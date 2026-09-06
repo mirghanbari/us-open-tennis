@@ -9980,11 +9980,17 @@
   "court": "Stadium 17",
   "courtId": "AD",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788660567000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "4:29",
+  "setDurations": [
+   39,
+   59,
+   45,
+   63,
+   63
+  ],
   "upset": false,
   "sides": [
    {
@@ -9998,8 +10004,8 @@
     ],
     "seed": 31,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": false
    },
    {
     "players": [
@@ -10012,12 +10018,54 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     3,
+     7
+    ]
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     6,
+     8
+    ]
+   },
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 4,
   "notBefore": "4:30 PM",
   "session": 1,
@@ -11348,7 +11396,14 @@
     "won": null
    },
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpv812",
+      "name": "B. van de Zandschulp",
+      "fullName": "Botic van de Zandschulp",
+      "nation": "NED"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
@@ -11356,7 +11411,13 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182688",
+  "startEpoch": 1788753600000,
+  "espnSideIds": [
+   "10427",
+   "3310"
+  ]
  },
  {
   "id": "MS-1403",
