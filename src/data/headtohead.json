@@ -260,36 +260,6 @@
    }
   ]
  },
- "WS-2402": {
-  "player1": {
-   "id": "wta326482",
-   "name": "Marta Kostyuk",
-   "wins": 1
-  },
-  "player2": {
-   "id": "wta329668",
-   "name": "Linda Noskova",
-   "wins": 1
-  },
-  "meetings": [
-   {
-    "year": 2026,
-    "tournament": "Madrid 1000",
-    "surface": "Clay",
-    "round": "QF",
-    "winner": "1",
-    "score": "7-6, 6-0"
-   },
-   {
-    "year": 2026,
-    "tournament": "Wimbledon",
-    "surface": "Grass",
-    "round": "SF",
-    "winner": "2",
-    "score": "6-4, 6-4"
-   }
-  ]
- },
  "WS-2403": {
   "player1": {
    "id": "wta316956",
@@ -507,6 +477,36 @@
     "round": "QF",
     "winner": "2",
     "score": "4-6, 7-6, 6-4"
+   }
+  ]
+ },
+ "WS-2501": {
+  "player1": {
+   "id": "wta320760",
+   "name": "Aryna Sabalenka",
+   "wins": 2
+  },
+  "player2": {
+   "id": "wta329668",
+   "name": "Linda Noskova",
+   "wins": 0
+  },
+  "meetings": [
+   {
+    "year": 2026,
+    "tournament": "Indian Wells",
+    "surface": "Hard",
+    "round": "SF",
+    "winner": "1",
+    "score": "6-3, 6-4"
+   },
+   {
+    "year": 2023,
+    "tournament": "Adelaide #1",
+    "surface": "Hard",
+    "round": "F",
+    "winner": "1",
+    "score": "6-3, 7-6"
    }
   ]
  }
