@@ -843,7 +843,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "live",
+      "status": "finished",
       "eventCode": "MD",
       "roundName": "Round 2",
       "team1": "S. Bolelli / A. Vavassori",
@@ -1697,8 +1697,8 @@
   "shortLabel": "Day 9: Mon, Sept 7",
   "displayDate": "Day 9: Monday, September 7",
   "date": "2026-09-06",
-  "releaseTime": "4:35 PM",
-  "comments": "Main Draw Only",
+  "releaseTime": "7:44 PM",
+  "comments": null,
   "footerComment": null,
   "courts": [
    {
@@ -1894,16 +1894,16 @@
     "startEpoch": 1788793200000,
     "matches": [
      {
-      "id": "null-0",
+      "id": "GS-22125",
       "order": 1,
       "notBefore": null,
       "conjunction": null,
-      "comment": "MATCH TBA",
+      "comment": null,
       "status": "scheduled",
-      "eventCode": null,
-      "roundName": "",
-      "team1": "",
-      "team2": ""
+      "eventCode": "GS",
+      "roundName": "Round 1",
+      "team1": "J. Preston",
+      "team2": "F. De Bresser"
      },
      {
       "id": "MD-3212",
@@ -1952,28 +1952,28 @@
     "startEpoch": 1788793200000,
     "matches": [
      {
-      "id": "null-0",
+      "id": "BS-21124",
       "order": 1,
       "notBefore": null,
       "conjunction": null,
-      "comment": "MATCH TBA",
+      "comment": null,
       "status": "scheduled",
-      "eventCode": null,
-      "roundName": "",
-      "team1": "",
-      "team2": ""
+      "eventCode": "BS",
+      "roundName": "Round 1",
+      "team1": "P. Chabalgoity",
+      "team2": "K. Hance"
      },
      {
-      "id": "null-0",
+      "id": "GS-22114",
       "order": 2,
       "notBefore": null,
       "conjunction": null,
-      "comment": "MATCH TBA",
+      "comment": null,
       "status": "scheduled",
-      "eventCode": null,
-      "roundName": "",
-      "team1": "",
-      "team2": ""
+      "eventCode": "GS",
+      "roundName": "Round 1",
+      "team1": "T. Frodin",
+      "team2": "K. Zajickova"
      },
      {
       "id": "WD-4305",
@@ -2002,6 +2002,402 @@
     ]
    },
    {
+    "court": "Court 4",
+    "courtId": "AF",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788793200000,
+    "matches": [
+     {
+      "id": "BS-21118",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BS",
+      "roundName": "Round 1",
+      "team1": "G. Goode",
+      "team2": "T. Chavez"
+     },
+     {
+      "id": "GS-22209",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GS",
+      "roundName": "Round 2",
+      "team1": "A. Pushkareva",
+      "team2": "Y. Shao"
+     },
+     {
+      "id": "BS-21208",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BS",
+      "roundName": "Round 2",
+      "team1": "M. Chelemen",
+      "team2": "T. Behrmann"
+     },
+     {
+      "id": "BD-23116",
+      "order": 4,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BD",
+      "roundName": "Round 1",
+      "team1": "M. Ceban / R. Lawlor",
+      "team2": "K. Hance / J. Kennedy"
+     }
+    ]
+   },
+   {
+    "court": "Court 6",
+    "courtId": "AG",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788793200000,
+    "matches": [
+     {
+      "id": "GS-22113",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GS",
+      "roundName": "Round 1",
+      "team1": "F. Dorofeeva-Rybas",
+      "team2": "S. Bielinska"
+     },
+     {
+      "id": "BS-21204",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BS",
+      "roundName": "Round 2",
+      "team1": "V. Gonzalez-Galino",
+      "team2": "J. Lee"
+     },
+     {
+      "id": "BS-21205",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BS",
+      "roundName": "Round 2",
+      "team1": "M. Antonius",
+      "team2": "S. Massellani"
+     },
+     {
+      "id": "BS-21207",
+      "order": 4,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BS",
+      "roundName": "Round 2",
+      "team1": "A. Johnson",
+      "team2": "D. Brand"
+     }
+    ]
+   },
+   {
+    "court": "Court 7",
+    "courtId": "AH",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788793200000,
+    "matches": [
+     {
+      "id": "BS-21121",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BS",
+      "roundName": "Round 1",
+      "team1": "Y. Alvarez",
+      "team2": "H. Kawanishi"
+     },
+     {
+      "id": "BS-21117",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BS",
+      "roundName": "Round 1",
+      "team1": "Z. Sesko",
+      "team2": "M. Latak"
+     },
+     {
+      "id": "GS-22211",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GS",
+      "roundName": "Round 2",
+      "team1": "J. Hazelitt",
+      "team2": "E. Dotsenko"
+     },
+     {
+      "id": "BD-23102",
+      "order": 4,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BD",
+      "roundName": "Round 1",
+      "team1": "T. Davidov / T. Lee",
+      "team2": "P. Chabalgoity / L. Storck Franca"
+     },
+     {
+      "id": "BD-23103",
+      "order": 5,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BD",
+      "roundName": "Round 1",
+      "team1": "D. Jovanovski / O. Majdanzic",
+      "team2": "T. Konduri / M. Latak"
+     }
+    ]
+   },
+   {
+    "court": "Court 8",
+    "courtId": "AI",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788793200000,
+    "matches": [
+     {
+      "id": "BS-21120",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BS",
+      "roundName": "Round 1",
+      "team1": "S. Azam",
+      "team2": "D. Kisimov"
+     },
+     {
+      "id": "GS-22201",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GS",
+      "roundName": "Round 2",
+      "team1": "X. Sun",
+      "team2": "T. Gowda"
+     },
+     {
+      "id": "GS-22210",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GS",
+      "roundName": "Round 2",
+      "team1": "Y. Saffar",
+      "team2": "P. Pinera Celorio"
+     },
+     {
+      "id": "BD-23110",
+      "order": 4,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BD",
+      "roundName": "Round 1",
+      "team1": "D. Malacek / K. Stolarczyk",
+      "team2": "E. Camacho / K. Filaretov"
+     },
+     {
+      "id": "BD-23104",
+      "order": 5,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BD",
+      "roundName": "Round 1",
+      "team1": "O. Ogunsakin / N. Raguin",
+      "team2": "Y. Alexandrescou / R. Tabata"
+     }
+    ]
+   },
+   {
+    "court": "Court 9",
+    "courtId": "AJ",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788793200000,
+    "matches": [
+     {
+      "id": "GS-22128",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GS",
+      "roundName": "Round 1",
+      "team1": "H. Smart",
+      "team2": "P. Skliar"
+     },
+     {
+      "id": "BS-21123",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BS",
+      "roundName": "Round 1",
+      "team1": "O. Majdanzic",
+      "team2": "R. Lawlor"
+     },
+     {
+      "id": "BS-21203",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BS",
+      "roundName": "Round 2",
+      "team1": "V. Reddy",
+      "team2": "D. Jade"
+     },
+     {
+      "id": "BD-23112",
+      "order": 4,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BD",
+      "roundName": "Round 1",
+      "team1": "K. Nara / Y. Sakurai",
+      "team2": "J. Mackenzie / V. Reisach"
+     },
+     {
+      "id": "BD-23109",
+      "order": 5,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BD",
+      "roundName": "Round 1",
+      "team1": "M. Domenc / D. Jade",
+      "team2": "J. Kusy / K. Thompson"
+     }
+    ]
+   },
+   {
+    "court": "Court 10",
+    "courtId": "AK",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788793200000,
+    "matches": [
+     {
+      "id": "GS-22115",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GS",
+      "roundName": "Round 1",
+      "team1": "A. James",
+      "team2": "D. Britton"
+     },
+     {
+      "id": "BS-21201",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BS",
+      "roundName": "Round 2",
+      "team1": "G. Miguel",
+      "team2": "M. Ceban"
+     },
+     {
+      "id": "GD-24114",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GD",
+      "roundName": "Round 1",
+      "team1": "K. Drenser-Hagmann / C. Hoo",
+      "team2": "D. Britton / T. Kovacevic"
+     },
+     {
+      "id": "BD-23101",
+      "order": 4,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BD",
+      "roundName": "Round 1",
+      "team1": "G. Miguel / Z. Sesko",
+      "team2": "F. Alfano / R. Ciurnelli"
+     },
+     {
+      "id": "GD-24106",
+      "order": 5,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GD",
+      "roundName": "Round 1",
+      "team1": "P. Berezina / A. Terentyeva",
+      "team2": "I. DeLuccia / S. Meabe"
+     }
+    ]
+   },
+   {
     "court": "Court 11",
     "courtId": "AL",
     "session": 1,
@@ -2010,16 +2406,16 @@
     "startEpoch": 1788793200000,
     "matches": [
      {
-      "id": "null-0",
+      "id": "GS-22116",
       "order": 1,
       "notBefore": null,
       "conjunction": null,
-      "comment": "MATCH TBA",
+      "comment": null,
       "status": "scheduled",
-      "eventCode": null,
-      "roundName": "",
-      "team1": "",
-      "team2": ""
+      "eventCode": "GS",
+      "roundName": "Round 1",
+      "team1": "O. Traynor",
+      "team2": "N. Leme Da Silva"
      },
      {
       "id": "WD-4306",
@@ -2068,16 +2464,16 @@
     "startEpoch": 1788793200000,
     "matches": [
      {
-      "id": "null-0",
+      "id": "GS-22127",
       "order": 1,
       "notBefore": null,
       "conjunction": null,
-      "comment": "MATCH TBA",
+      "comment": null,
       "status": "scheduled",
-      "eventCode": null,
-      "roundName": "",
-      "team1": "",
-      "team2": ""
+      "eventCode": "GS",
+      "roundName": "Round 1",
+      "team1": "I. Manchala",
+      "team2": "A. Malova"
      },
      {
       "id": "MD-3209",
@@ -2114,6 +2510,216 @@
       "roundName": "Round 2",
       "team1": "S. Doumbia / F. Reboul / D. Stevenson / M. Willis",
       "team2": "Y. Alvarez / N. Johnston / J. Schnaitter / M. Wallner"
+     }
+    ]
+   },
+   {
+    "court": "Court 13",
+    "courtId": "AN",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788793200000,
+    "matches": [
+     {
+      "id": "BS-21119",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BS",
+      "roundName": "Round 1",
+      "team1": "E. Camacho",
+      "team2": "M. Gribaldo"
+     },
+     {
+      "id": "GS-22202",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GS",
+      "roundName": "Round 2",
+      "team1": "A. Sushkova",
+      "team2": "K. Penickova"
+     },
+     {
+      "id": "GS-22212",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GS",
+      "roundName": "Round 2",
+      "team1": "Y. Lin",
+      "team2": "A. Penickova"
+     },
+     {
+      "id": "GD-24107",
+      "order": 4,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GD",
+      "roundName": "Round 1",
+      "team1": "R. Alame / T. Frodin",
+      "team2": "H. Ayrault / J. Preston"
+     },
+     {
+      "id": "GD-24110",
+      "order": 5,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GD",
+      "roundName": "Round 1",
+      "team1": "E. Combs / O. De Los Reyes",
+      "team2": "M. Rajeshwaran Revathi / A. Sushkova"
+     }
+    ]
+   },
+   {
+    "court": "Court 14",
+    "courtId": "AO",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788793200000,
+    "matches": [
+     {
+      "id": "BS-21122",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BS",
+      "roundName": "Round 1",
+      "team1": "K. Filaretov",
+      "team2": "K. Stolarczyk"
+     },
+     {
+      "id": "BS-21206",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BS",
+      "roundName": "Round 2",
+      "team1": "T. Konduri",
+      "team2": "M. Domenc"
+     },
+     {
+      "id": "GS-22204",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GS",
+      "roundName": "Round 2",
+      "team1": "C. Mercier",
+      "team2": "M. Makarova"
+     },
+     {
+      "id": "GD-24113",
+      "order": 4,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GD",
+      "roundName": "Round 1",
+      "team1": "A. James / P. Skliar",
+      "team2": "E. Eigelsbach / A. Pircher"
+     },
+     {
+      "id": "GD-24103",
+      "order": 5,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GD",
+      "roundName": "Round 1",
+      "team1": "K. Ishii / N. Kha",
+      "team2": "M. Burcescu / R. Zhang"
+     }
+    ]
+   },
+   {
+    "court": "Court 15",
+    "courtId": "AP",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788793200000,
+    "matches": [
+     {
+      "id": "GS-22126",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GS",
+      "roundName": "Round 1",
+      "team1": "M. Lauva",
+      "team2": "A. Alexander"
+     },
+     {
+      "id": "BS-21202",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BS",
+      "roundName": "Round 2",
+      "team1": "K. Thompson",
+      "team2": "D. Pagani"
+     },
+     {
+      "id": "GS-22203",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GS",
+      "roundName": "Round 2",
+      "team1": "S. Larraya Guidi",
+      "team2": "I. Pistola"
+     },
+     {
+      "id": "GD-24102",
+      "order": 4,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GD",
+      "roundName": "Round 1",
+      "team1": "S. Fagan / M. Sohns",
+      "team2": "A. Alexander / L. Beviz"
+     },
+     {
+      "id": "GD-24108",
+      "order": 5,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GD",
+      "roundName": "Round 1",
+      "team1": "T. Hermanova / D. Popovski",
+      "team2": "C. Esquiva Banuls / S. Larraya Guidi"
      }
     ]
    }
