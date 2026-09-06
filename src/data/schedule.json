@@ -651,7 +651,7 @@
   "shortLabel": "Day 8: Sun, Sept 6",
   "displayDate": "Day 8: Sunday, September 6",
   "date": "2026-09-06",
-  "releaseTime": "5:49 PM",
+  "releaseTime": "6:20 PM",
   "comments": null,
   "footerComment": null,
   "courts": [
@@ -1099,7 +1099,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "live",
+      "status": "finished",
       "eventCode": "BS",
       "roundName": "Round 1",
       "team1": "C. Doig",
@@ -1294,7 +1294,7 @@
      {
       "id": "GS-22110",
       "order": 5,
-      "notBefore": null,
+      "notBefore": "6:15 PM",
       "conjunction": null,
       "comment": null,
       "status": "scheduled",
@@ -1430,18 +1430,6 @@
       "roundName": "Round 2",
       "team1": "L. Kichenok / N. Kichenok",
       "team2": "M. Kato / F. Wu"
-     },
-     {
-      "id": "BS-21125",
-      "order": 5,
-      "notBefore": null,
-      "conjunction": null,
-      "comment": null,
-      "status": "scheduled",
-      "eventCode": "BS",
-      "roundName": "Round 1",
-      "team1": "J. Kennedy",
-      "team2": "R. Tabata"
      }
     ]
    },
@@ -1500,6 +1488,18 @@
       "roundName": "Round 2",
       "team1": "N. Fossa Huergo / T. Korpatsch",
       "team2": "H. Chan / M. Joint"
+     },
+     {
+      "id": "BS-21125",
+      "order": 5,
+      "notBefore": "6:45 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BS",
+      "roundName": "Round 1",
+      "team1": "J. Kennedy",
+      "team2": "R. Tabata"
      }
     ]
    },
