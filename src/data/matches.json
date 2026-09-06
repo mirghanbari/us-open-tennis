@@ -22539,7 +22539,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788735000000,
+  "startEpoch": 1788735300000,
   "espnSideIds": [
    "2113",
    "1774"
@@ -31990,11 +31990,15 @@
   "court": "Court 11",
   "courtId": "AL",
   "eventDay": 15,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788734504000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:05",
+  "setDurations": [
+   34,
+   48,
+   43
+  ],
   "upset": false,
   "sides": [
    {
@@ -32014,8 +32018,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -32034,12 +32038,34 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 4,
   "notBefore": null,
   "session": 1
@@ -32702,7 +32728,20 @@
     "won": null
    },
    {
-    "players": [],
+    "players": [
+     {
+      "id": "wta317612",
+      "name": "M. Kato",
+      "fullName": "Miyu Kato",
+      "nation": "JPN"
+     },
+     {
+      "id": "wta323382",
+      "name": "F. Wu",
+      "fullName": "Fang-Hsien Wu",
+      "nation": "TPE"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
