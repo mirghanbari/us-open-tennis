@@ -21891,7 +21891,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788653400000,
+  "startEpoch": 1788654600000,
   "espnSideIds": [
    "13478",
    "3126"
@@ -25175,11 +25175,14 @@
   "court": "Court 12",
   "courtId": "AM",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788653874000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:36",
+  "setDurations": [
+   49,
+   47
+  ],
   "upset": false,
   "sides": [
    {
@@ -25199,8 +25202,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -25219,12 +25222,30 @@
     ],
     "seed": 10,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     4,
+     7
+    ]
+   },
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 5,
   "notBefore": "6:30 PM",
   "session": 1
@@ -26441,8 +26462,21 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpa0e5",
+      "name": "T. Arribage",
+      "fullName": "Theo Arribage",
+      "nation": "FRA"
+     },
+     {
+      "id": "atpo411",
+      "name": "A. Olivetti",
+      "fullName": "Albano Olivetti",
+      "nation": "FRA"
+     }
+    ],
+    "seed": 10,
     "entryStatus": null,
     "setsWon": null,
     "won": null
