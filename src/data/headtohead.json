@@ -269,28 +269,6 @@
    }
   ]
  },
- "WS-2316": {
-  "player1": {
-   "id": "wta325338",
-   "name": "Yuliia Starodubtseva",
-   "wins": 1
-  },
-  "player2": {
-   "id": "wta324166",
-   "name": "Elena Rybakina",
-   "wins": 0
-  },
-  "meetings": [
-   {
-    "year": 2026,
-    "tournament": "Roland Garros",
-    "surface": "Clay",
-    "round": "R2",
-    "winner": "1",
-    "score": "3-6, 6-1, 7-6"
-   }
-  ]
- },
  "WS-2401": {
   "player1": {
    "id": "wta320760",
@@ -529,6 +507,28 @@
     "round": "R2",
     "winner": "1",
     "score": "6-4, 4-6, 6-1"
+   }
+  ]
+ },
+ "WS-2408": {
+  "player1": {
+   "id": "wta319998",
+   "name": "Naomi Osaka",
+   "wins": 0
+  },
+  "player2": {
+   "id": "wta324166",
+   "name": "Elena Rybakina",
+   "wins": 1
+  },
+  "meetings": [
+   {
+    "year": 2026,
+    "tournament": "Toronto",
+    "surface": "Hard",
+    "round": "QF",
+    "winner": "2",
+    "score": "4-6, 7-6, 6-4"
    }
   ]
  }

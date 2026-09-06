@@ -22008,11 +22008,14 @@
   "court": "Grandstand",
   "courtId": "AC",
   "eventDay": 14,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788663581000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:52",
+  "setDurations": [
+   67,
+   45
+  ],
   "upset": false,
   "sides": [
    {
@@ -22026,8 +22029,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -22040,12 +22043,30 @@
     ],
     "seed": 2,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     6,
+     8
+    ]
+   },
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 4,
   "notBefore": "5:00 PM",
   "session": 1,
@@ -22555,8 +22576,15 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta324166",
+      "name": "E. Rybakina",
+      "fullName": "Elena Rybakina",
+      "nation": "KAZ"
+     }
+    ],
+    "seed": 2,
     "entryStatus": null,
     "setsWon": null,
     "won": null
