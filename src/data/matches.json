@@ -26570,11 +26570,14 @@
   "court": "Court 11",
   "courtId": "AL",
   "eventDay": 15,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788725902000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:31",
+  "setDurations": [
+   49,
+   42
+  ],
   "upset": false,
   "sides": [
    {
@@ -26594,8 +26597,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -26614,12 +26617,30 @@
     ],
     "seed": 9,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     2,
+     7
+    ]
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 3,
   "notBefore": null,
   "session": 1
@@ -27305,8 +27326,21 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpci96",
+      "name": "J. Cash",
+      "fullName": "Julian Cash",
+      "nation": "GBR"
+     },
+     {
+      "id": "atpgd08",
+      "name": "L. Glasspool",
+      "fullName": "Lloyd Glasspool",
+      "nation": "GBR"
+     }
+    ],
+    "seed": 9,
     "entryStatus": null,
     "setsWon": null,
     "won": null
