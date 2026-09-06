@@ -26711,11 +26711,15 @@
   "court": "Stadium 17",
   "courtId": "AD",
   "eventDay": 15,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788727952000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:43",
+  "setDurations": [
+   32,
+   33,
+   38
+  ],
   "upset": false,
   "sides": [
    {
@@ -26735,8 +26739,8 @@
     ],
     "seed": 13,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -26755,12 +26759,34 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 3,
   "notBefore": null,
   "session": 1
@@ -27429,8 +27455,21 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpmo55",
+      "name": "L. Miedler",
+      "fullName": "Lucas Miedler",
+      "nation": "AUT"
+     },
+     {
+      "id": "atppg94",
+      "name": "M. Polmans",
+      "fullName": "Marc Polmans",
+      "nation": "AUS"
+     }
+    ],
+    "seed": 13,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -31748,11 +31787,14 @@
   "court": "Court 5",
   "courtId": "AE",
   "eventDay": 15,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788728071000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:39",
+  "setDurations": [
+   62,
+   37
+  ],
   "upset": false,
   "sides": [
    {
@@ -31772,8 +31814,8 @@
     ],
     "seed": 7,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -31792,12 +31834,30 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     8,
+     6
+    ]
+   },
+   {
+    "games": [
+     6,
+     1
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 4,
   "notBefore": null,
   "session": 1
@@ -32499,8 +32559,21 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta322931",
+      "name": "X. Jiang",
+      "fullName": "Xinyu Jiang",
+      "nation": "CHN"
+     },
+     {
+      "id": "wta311779",
+      "name": "S. Zhang",
+      "fullName": "Shuai Zhang",
+      "nation": "CHN"
+     }
+    ],
+    "seed": 7,
     "entryStatus": null,
     "setsWon": null,
     "won": null
