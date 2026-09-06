@@ -22189,11 +22189,14 @@
   "court": "Arthur Ashe Stadium",
   "courtId": "AA",
   "eventDay": 15,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788713811000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:15",
+  "setDurations": [
+   43,
+   32
+  ],
   "upset": false,
   "sides": [
    {
@@ -22207,8 +22210,8 @@
     ],
     "seed": 1,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -22221,12 +22224,27 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1,
@@ -22749,8 +22767,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta320760",
+      "name": "A. Sabalenka",
+      "fullName": "Aryna Sabalenka",
+      "nation": "BLR"
+     }
+    ],
+    "seed": 1,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -26675,11 +26700,15 @@
   "court": "Grandstand",
   "courtId": "AC",
   "eventDay": 15,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788714021000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:51",
+  "setDurations": [
+   32,
+   40,
+   39
+  ],
   "upset": false,
   "sides": [
    {
@@ -26699,8 +26728,8 @@
     ],
     "seed": null,
     "entryStatus": "WC",
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -26719,12 +26748,37 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     7,
+     0
+    ]
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1
@@ -26819,11 +26873,14 @@
   "court": "Stadium 17",
   "courtId": "AD",
   "eventDay": 15,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788713555000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:36",
+  "setDurations": [
+   60,
+   36
+  ],
   "upset": false,
   "sides": [
    {
@@ -26843,8 +26900,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -26863,12 +26920,30 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     9,
+     7
+    ]
+   },
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1
@@ -27226,9 +27301,22 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpc0oj",
+      "name": "B. Carpico",
+      "fullName": "Brandon Carpico",
+      "nation": "USA"
+     },
+     {
+      "id": "atpf0hz",
+      "name": "N. Filin",
+      "fullName": "Nikita Samuel Filin",
+      "nation": "USA"
+     }
+    ],
     "seed": null,
-    "entryStatus": null,
+    "entryStatus": "WC",
     "setsWon": null,
     "won": null
    },
@@ -27269,7 +27357,20 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpg585",
+      "name": "M. Gonzalez",
+      "fullName": "Maximo Gonzalez",
+      "nation": "ARG"
+     },
+     {
+      "id": "atpme56",
+      "name": "A. Molteni",
+      "fullName": "Andres Molteni",
+      "nation": "ARG"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
