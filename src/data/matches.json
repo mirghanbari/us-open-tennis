@@ -10557,9 +10557,6 @@
    }
   ],
   "winner": 1,
-  "courtOrder": 2,
-  "notBefore": null,
-  "session": 1,
   "espnId": "182687",
   "broadcasts": [
    {
@@ -10655,9 +10652,6 @@
    }
   ],
   "winner": 2,
-  "courtOrder": 1,
-  "notBefore": null,
-  "session": 2,
   "espnId": "182691",
   "broadcasts": [
    {
@@ -10756,9 +10750,6 @@
    }
   ],
   "winner": 1,
-  "courtOrder": 4,
-  "notBefore": "4:30 PM",
-  "session": 1,
   "espnId": "182689",
   "broadcasts": [
    {
@@ -10854,9 +10845,6 @@
    }
   ],
   "winner": 1,
-  "courtOrder": 4,
-  "notBefore": "4:00 PM",
-  "session": 1,
   "espnId": "182740",
   "broadcasts": [
    {
@@ -10966,9 +10954,6 @@
    }
   ],
   "winner": 1,
-  "courtOrder": 2,
-  "notBefore": null,
-  "session": 2,
   "espnId": "182745",
   "broadcasts": [
    {
@@ -11075,9 +11060,6 @@
    }
   ],
   "winner": 2,
-  "courtOrder": 4,
-  "notBefore": "5:00 PM",
-  "session": 1,
   "espnId": "182747",
   "broadcasts": [
    {
@@ -11192,9 +11174,6 @@
    }
   ],
   "winner": 2,
-  "courtOrder": 2,
-  "notBefore": null,
-  "session": 1,
   "espnId": "182719",
   "broadcasts": [
    {
@@ -11290,9 +11269,6 @@
    }
   ],
   "winner": 2,
-  "courtOrder": 2,
-  "notBefore": "1:00 PM",
-  "session": 1,
   "espnId": "182723",
   "broadcasts": [
    {
@@ -11592,6 +11568,12 @@
   "notBefore": "3:00 PM",
   "session": 1,
   "espnId": "182744",
+  "broadcasts": [
+   {
+    "name": "ABC",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788721200000,
   "espnSideIds": [
    "2383",
@@ -11658,6 +11640,12 @@
   "notBefore": "2:30 PM",
   "session": 1,
   "espnId": "182717",
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788719400000,
   "espnSideIds": [
    "11400",
@@ -11724,6 +11712,12 @@
   "notBefore": null,
   "session": 2,
   "espnId": "182722",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788735600000,
   "espnSideIds": [
    "9250",
@@ -11790,6 +11784,12 @@
   "notBefore": "2:00 PM",
   "session": 1,
   "espnId": "182724",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788717600000,
   "espnSideIds": [
    "2964",
@@ -20640,9 +20640,6 @@
    }
   ],
   "winner": 1,
-  "courtOrder": 1,
-  "notBefore": null,
-  "session": 1,
   "espnId": "182554",
   "broadcasts": [
    {
@@ -20741,9 +20738,6 @@
    }
   ],
   "winner": 1,
-  "courtOrder": 2,
-  "notBefore": "1:00 PM",
-  "session": 1,
   "espnId": "182565",
   "broadcasts": [
    {
@@ -20831,9 +20825,6 @@
    }
   ],
   "winner": 1,
-  "courtOrder": 1,
-  "notBefore": null,
-  "session": 1,
   "espnId": "182564",
   "broadcasts": [
    {
@@ -20932,9 +20923,6 @@
    }
   ],
   "winner": 2,
-  "courtOrder": 3,
-  "notBefore": null,
-  "session": 1,
   "espnId": "182543",
   "broadcasts": [
    {
@@ -21030,9 +21018,6 @@
    }
   ],
   "winner": 1,
-  "courtOrder": 1,
-  "notBefore": null,
-  "session": 1,
   "espnId": "182545",
   "broadcasts": [
    {
@@ -21120,9 +21105,6 @@
    }
   ],
   "winner": 2,
-  "courtOrder": 1,
-  "notBefore": null,
-  "session": 1,
   "espnId": "182549",
   "broadcasts": [
    {
@@ -21218,9 +21200,6 @@
    }
   ],
   "winner": 2,
-  "courtOrder": 2,
-  "notBefore": null,
-  "session": 2,
   "espnId": "182529",
   "broadcasts": [
    {
@@ -21308,9 +21287,6 @@
    }
   ],
   "winner": 1,
-  "courtOrder": 3,
-  "notBefore": null,
-  "session": 1,
   "espnId": "182537",
   "broadcasts": [
    {
@@ -22143,6 +22119,12 @@
   "notBefore": null,
   "session": 1,
   "espnId": "182541",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788708600000,
   "espnSideIds": [
    "3038",
@@ -22209,6 +22191,12 @@
   "notBefore": "12:30 PM",
   "session": 1,
   "espnId": "182571",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788712200000,
   "espnSideIds": [
    "3382",
@@ -22275,6 +22263,12 @@
   "notBefore": null,
   "session": 1,
   "espnId": "182582",
+  "broadcasts": [
+   {
+    "name": "ABC",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788728400000,
   "espnSideIds": [
    "2113",
@@ -22341,6 +22335,12 @@
   "notBefore": null,
   "session": 2,
   "espnId": "182588",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788742800000,
   "espnSideIds": [
    "2977",
@@ -22982,10 +22982,7 @@
     "tiebreak": null
    }
   ],
-  "winner": 1,
-  "courtOrder": 2,
-  "notBefore": null,
-  "session": 1
+  "winner": 1
  },
  {
   "id": "MD-3102",
@@ -23069,10 +23066,7 @@
     "tiebreak": null
    }
   ],
-  "winner": 2,
-  "courtOrder": 2,
-  "notBefore": null,
-  "session": 1
+  "winner": 2
  },
  {
   "id": "MD-3103",
@@ -23352,10 +23346,7 @@
     "tiebreak": null
    }
   ],
-  "winner": 1,
-  "courtOrder": 2,
-  "notBefore": null,
-  "session": 1
+  "winner": 1
  },
  {
   "id": "MD-3106",
@@ -23453,10 +23444,7 @@
     ]
    }
   ],
-  "winner": 2,
-  "courtOrder": 1,
-  "notBefore": null,
-  "session": 1
+  "winner": 2
  },
  {
   "id": "MD-3107",
@@ -23714,10 +23702,7 @@
     "tiebreak": null
    }
   ],
-  "winner": 1,
-  "courtOrder": 4,
-  "notBefore": "5:30 PM",
-  "session": 1
+  "winner": 1
  },
  {
   "id": "MD-3110",
@@ -23804,10 +23789,7 @@
     "tiebreak": null
    }
   ],
-  "winner": 2,
-  "courtOrder": 3,
-  "notBefore": null,
-  "session": 1
+  "winner": 2
  },
  {
   "id": "MD-3111",
@@ -24265,10 +24247,7 @@
     "tiebreak": null
    }
   ],
-  "winner": 2,
-  "courtOrder": 4,
-  "notBefore": null,
-  "session": 1
+  "winner": 2
  },
  {
   "id": "MD-3116",
@@ -24456,10 +24435,7 @@
     "tiebreak": null
    }
   ],
-  "winner": 1,
-  "courtOrder": 2,
-  "notBefore": null,
-  "session": 1
+  "winner": 1
  },
  {
   "id": "MD-3118",
@@ -24549,10 +24525,7 @@
     ]
    }
   ],
-  "winner": 2,
-  "courtOrder": 1,
-  "notBefore": null,
-  "session": 1
+  "winner": 2
  },
  {
   "id": "MD-3119",
@@ -24810,10 +24783,7 @@
     "tiebreak": null
    }
   ],
-  "winner": 1,
-  "courtOrder": 2,
-  "notBefore": null,
-  "session": 1
+  "winner": 1
  },
  {
   "id": "MD-3122",
@@ -24900,10 +24870,7 @@
     "tiebreak": null
    }
   ],
-  "winner": 2,
-  "courtOrder": 1,
-  "notBefore": null,
-  "session": 1
+  "winner": 2
  },
  {
   "id": "MD-3123",
@@ -25186,10 +25153,7 @@
     "tiebreak": null
    }
   ],
-  "winner": 2,
-  "courtOrder": 1,
-  "notBefore": null,
-  "session": 1
+  "winner": 2
  },
  {
   "id": "MD-3126",
@@ -25281,10 +25245,7 @@
     "tiebreak": null
    }
   ],
-  "winner": 2,
-  "courtOrder": 1,
-  "notBefore": null,
-  "session": 1
+  "winner": 2
  },
  {
   "id": "MD-3127",
@@ -25374,10 +25335,7 @@
     ]
    }
   ],
-  "winner": 1,
-  "courtOrder": 3,
-  "notBefore": null,
-  "session": 1
+  "winner": 1
  },
  {
   "id": "MD-3128",
@@ -25562,10 +25520,7 @@
     "tiebreak": null
    }
   ],
-  "winner": 2,
-  "courtOrder": 1,
-  "notBefore": null,
-  "session": 1
+  "winner": 2
  },
  {
   "id": "MD-3130",
@@ -25663,10 +25618,7 @@
     "tiebreak": null
    }
   ],
-  "winner": 1,
-  "courtOrder": 3,
-  "notBefore": null,
-  "session": 1
+  "winner": 1
  },
  {
   "id": "MD-3131",
@@ -28077,10 +28029,7 @@
     "tiebreak": null
    }
   ],
-  "winner": 2,
-  "courtOrder": 2,
-  "notBefore": null,
-  "session": 1
+  "winner": 2
  },
  {
   "id": "WD-4108",
@@ -28164,10 +28113,7 @@
     "tiebreak": null
    }
   ],
-  "winner": 2,
-  "courtOrder": 3,
-  "notBefore": "2:00 PM",
-  "session": 1
+  "winner": 2
  },
  {
   "id": "WD-4109",
@@ -28251,10 +28197,7 @@
     "tiebreak": null
    }
   ],
-  "winner": 1,
-  "courtOrder": 4,
-  "notBefore": null,
-  "session": 1
+  "winner": 1
  },
  {
   "id": "WD-4110",
@@ -28438,10 +28381,7 @@
     "tiebreak": null
    }
   ],
-  "winner": 1,
-  "courtOrder": 4,
-  "notBefore": null,
-  "session": 1
+  "winner": 1
  },
  {
   "id": "WD-4112",
@@ -28539,10 +28479,7 @@
     ]
    }
   ],
-  "winner": 2,
-  "courtOrder": 1,
-  "notBefore": null,
-  "session": 2
+  "winner": 2
  },
  {
   "id": "WD-4113",
@@ -28878,10 +28815,7 @@
     "tiebreak": null
    }
   ],
-  "winner": 2,
-  "courtOrder": 4,
-  "notBefore": "5:30 PM",
-  "session": 1
+  "winner": 2
  },
  {
   "id": "WD-4117",
@@ -29060,10 +28994,7 @@
     "tiebreak": null
    }
   ],
-  "winner": 2,
-  "courtOrder": 4,
-  "notBefore": null,
-  "session": 1
+  "winner": 2
  },
  {
   "id": "WD-4119",
@@ -29494,10 +29425,7 @@
     ]
    }
   ],
-  "winner": 1,
-  "courtOrder": 3,
-  "notBefore": "2:00 PM",
-  "session": 1
+  "winner": 1
  },
  {
   "id": "WD-4124",
@@ -29584,10 +29512,7 @@
     ]
    }
   ],
-  "winner": 2,
-  "courtOrder": 1,
-  "notBefore": null,
-  "session": 1
+  "winner": 2
  },
  {
   "id": "WD-4125",
@@ -29671,10 +29596,7 @@
     "tiebreak": null
    }
   ],
-  "winner": 1,
-  "courtOrder": 2,
-  "notBefore": null,
-  "session": 1
+  "winner": 1
  },
  {
   "id": "WD-4126",
@@ -29758,10 +29680,7 @@
     "tiebreak": null
    }
   ],
-  "winner": 2,
-  "courtOrder": 3,
-  "notBefore": "2:00 PM",
-  "session": 1
+  "winner": 2
  },
  {
   "id": "WD-4127",
@@ -29853,10 +29772,7 @@
     "tiebreak": null
    }
   ],
-  "winner": 2,
-  "courtOrder": 2,
-  "notBefore": "12:30 PM",
-  "session": 1
+  "winner": 2
  },
  {
   "id": "WD-4128",
@@ -29948,10 +29864,7 @@
     "tiebreak": null
    }
   ],
-  "winner": 1,
-  "courtOrder": 4,
-  "notBefore": null,
-  "session": 1
+  "winner": 1
  },
  {
   "id": "WD-4129",
@@ -30043,10 +29956,7 @@
     "tiebreak": null
    }
   ],
-  "winner": 1,
-  "courtOrder": 3,
-  "notBefore": null,
-  "session": 1
+  "winner": 1
  },
  {
   "id": "WD-4130",
@@ -30130,10 +30040,7 @@
     "tiebreak": null
    }
   ],
-  "winner": 2,
-  "courtOrder": 1,
-  "notBefore": null,
-  "session": 1
+  "winner": 2
  },
  {
   "id": "WD-4131",
@@ -30220,10 +30127,7 @@
     ]
    }
   ],
-  "winner": 1,
-  "courtOrder": 3,
-  "notBefore": "4:00 PM",
-  "session": 1
+  "winner": 1
  },
  {
   "id": "WD-4132",
