@@ -22491,11 +22491,14 @@
   "court": "Louis Armstrong Stadium",
   "courtId": "AB",
   "eventDay": 15,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788740894000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:25",
+  "setDurations": [
+   37,
+   48
+  ],
   "upset": false,
   "sides": [
    {
@@ -22509,8 +22512,8 @@
     ],
     "seed": 3,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -22523,12 +22526,27 @@
     ],
     "seed": 16,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 4,
   "notBefore": null,
   "session": 1,
@@ -22970,8 +22988,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta316956",
+      "name": "J. Pegula",
+      "fullName": "Jessica Pegula",
+      "nation": "USA"
+     }
+    ],
+    "seed": 3,
     "entryStatus": null,
     "setsWon": null,
     "won": null
