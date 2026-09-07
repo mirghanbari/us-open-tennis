@@ -1069,7 +1069,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "scheduled",
+      "status": "live",
       "eventCode": "WS",
       "roundName": "Round 4",
       "team1": "I. Swiatek",
@@ -2086,6 +2086,86 @@
       "roundName": "Round 1",
       "team1": "T. Hermanova / D. Popovski",
       "team2": "C. Esquiva Banuls / S. Larraya Guidi"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "tournDay": 17,
+  "label": 17,
+  "shortLabel": "Day 10: Tue, Sept 8",
+  "displayDate": "Day 10: Tuesday, September 8",
+  "date": "2026-09-07",
+  "releaseTime": "11:36 AM",
+  "comments": "Singles Only",
+  "footerComment": null,
+  "courts": [
+   {
+    "court": "Arthur Ashe Stadium",
+    "courtId": "AA",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:30 AM",
+    "startEpoch": 1788881400000,
+    "matches": [
+     {
+      "id": "WS-2501",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WS",
+      "roundName": "Quarterfinals",
+      "team1": "A. Sabalenka",
+      "team2": "L. Noskova"
+     },
+     {
+      "id": "MS-1503",
+      "order": 2,
+      "notBefore": "1:00 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MS",
+      "roundName": "Quarterfinals",
+      "team1": "F. Tiafoe",
+      "team2": "A. Michelsen"
+     }
+    ]
+   },
+   {
+    "court": "Arthur Ashe Stadium",
+    "courtId": "AA",
+    "session": 2,
+    "sessionName": null,
+    "startTime": "7:00 PM",
+    "startEpoch": 1788908400000,
+    "matches": [
+     {
+      "id": "WS-2502",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WS",
+      "roundName": "Quarterfinals",
+      "team1": "J. Pegula",
+      "team2": "E. Navarro"
+     },
+     {
+      "id": "MS-1504",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MS",
+      "roundName": "Quarterfinals",
+      "team1": "B. Shelton",
+      "team2": "C. Alcaraz"
      }
     ]
    }
