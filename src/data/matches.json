@@ -11614,7 +11614,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788802200000,
+  "startEpoch": 1788803700000,
   "espnSideIds": [
    "3700",
    "11757"
@@ -22692,11 +22692,15 @@
   "court": "Louis Armstrong Stadium",
   "courtId": "AB",
   "eventDay": 16,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788802586000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:27",
+  "setDurations": [
+   50,
+   49,
+   48
+  ],
   "upset": false,
   "sides": [
    {
@@ -22710,8 +22714,8 @@
     ],
     "seed": 5,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -22724,12 +22728,34 @@
     ],
     "seed": 24,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     5,
+     7
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1,
@@ -22956,7 +22982,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788805800000,
+  "startEpoch": 1788807000000,
   "espnSideIds": [
    "2789",
    "3126"
@@ -23120,8 +23146,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta331809",
+      "name": "M. Andreeva",
+      "fullName": "Mirra Andreeva",
+      "nation": "RUS"
+     }
+    ],
+    "seed": 5,
     "entryStatus": null,
     "setsWon": null,
     "won": null
