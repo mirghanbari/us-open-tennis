@@ -11536,6 +11536,12 @@
   "notBefore": "4:00 PM",
   "session": 1,
   "espnId": "182692",
+  "broadcasts": [
+   {
+    "name": "ESPN2",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788817500000,
   "espnSideIds": [
    "2367",
