@@ -22644,11 +22644,14 @@
   "court": "Arthur Ashe Stadium",
   "courtId": "AA",
   "eventDay": 15,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788749650000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:21",
+  "setDurations": [
+   36,
+   45
+  ],
   "upset": false,
   "sides": [
    {
@@ -22662,8 +22665,8 @@
     ],
     "seed": 21,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -22676,12 +22679,27 @@
     ],
     "seed": 26,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 2,
   "notBefore": null,
   "session": 2,
@@ -23089,15 +23107,28 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta325410",
+      "name": "E. Navarro",
+      "fullName": "Emma Navarro",
+      "nation": "USA"
+     }
+    ],
+    "seed": 26,
     "entryStatus": null,
     "setsWon": null,
     "won": null
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182535",
+  "startEpoch": 1788840000000,
+  "espnSideIds": [
+   "2113",
+   "3785"
+  ]
  },
  {
   "id": "WS-2503",
