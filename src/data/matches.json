@@ -11416,6 +11416,12 @@
   "notBefore": null,
   "session": 2,
   "espnId": "182682",
+  "broadcasts": [
+   {
+    "name": "ESPN2",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788827400000,
   "espnSideIds": [
    "2375",
@@ -11482,6 +11488,12 @@
   "notBefore": "4:30 PM",
   "session": 1,
   "espnId": "182688",
+  "broadcasts": [
+   {
+    "name": "ESPN Unlmtd",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788813000000,
   "espnSideIds": [
    "10427",
@@ -22800,6 +22812,12 @@
   "notBefore": null,
   "session": 2,
   "espnId": "182557",
+  "broadcasts": [
+   {
+    "name": "ESPN2",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788822000000,
   "espnSideIds": [
    "14311",
@@ -26284,15 +26302,41 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpli37",
+      "name": "N. Lammons",
+      "fullName": "Nathaniel Lammons",
+      "nation": "USA"
+     },
+     {
+      "id": "atpw686",
+      "name": "J. Withrow",
+      "fullName": "Jackson Withrow",
+      "nation": "USA"
+     }
+    ],
     "seed": null,
-    "entryStatus": null,
+    "entryStatus": "WC",
     "setsWon": null,
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpcl84",
+      "name": "F. Cabral",
+      "fullName": "Francisco Cabral",
+      "nation": "POR"
+     },
+     {
+      "id": "atpt0gf",
+      "name": "J. Tracy",
+      "fullName": "JJ Tracy",
+      "nation": "USA"
+     }
+    ],
+    "seed": 16,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -26414,28 +26458,54 @@
   "eventDay": null,
   "epoch": 1788637117000,
   "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
+  "statusCode": "F",
+  "duration": "0:00",
   "setDurations": [],
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpbk92",
+      "name": "A. Bublik",
+      "fullName": "Alexander Bublik",
+      "nation": "KAZ"
+     },
+     {
+      "id": "atps0re",
+      "name": "J. Shang",
+      "fullName": "Juncheng Shang",
+      "nation": "CHN"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpa887",
+      "name": "G. Andreozzi",
+      "fullName": "Guido Andreozzi",
+      "nation": "ARG"
+     },
+     {
+      "id": "atpgh33",
+      "name": "M. Guinard",
+      "fullName": "Manuel Guinard",
+      "nation": "FRA"
+     }
+    ],
+    "seed": 7,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": true
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": 2
  },
  {
   "id": "MD-3205",
@@ -26553,7 +26623,20 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atps0dl",
+      "name": "R. Seggerman",
+      "fullName": "Ryan Seggerman",
+      "nation": "USA"
+     },
+     {
+      "id": "atpt0j0",
+      "name": "P. Trhac",
+      "fullName": "Patrik Trhac",
+      "nation": "USA"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
@@ -26612,14 +26695,40 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpd917",
+      "name": "S. Doumbia",
+      "fullName": "Sadio Doumbia",
+      "nation": "FRA"
+     },
+     {
+      "id": "atpre45",
+      "name": "F. Reboul",
+      "fullName": "Fabien Reboul",
+      "nation": "FRA"
+     }
+    ],
+    "seed": 11,
     "entryStatus": null,
     "setsWon": null,
     "won": null
    },
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpsy05",
+      "name": "J. Schnaitter",
+      "fullName": "Jakob Schnaitter",
+      "nation": "GER"
+     },
+     {
+      "id": "atpw0e2",
+      "name": "M. Wallner",
+      "fullName": "Mark Wallner",
+      "nation": "GER"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
@@ -26678,8 +26787,21 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atphb05",
+      "name": "C. Harrison",
+      "fullName": "Christian Harrison",
+      "nation": "USA"
+     },
+     {
+      "id": "atpsl22",
+      "name": "N. Skupski",
+      "fullName": "Neal Skupski",
+      "nation": "GBR"
+     }
+    ],
+    "seed": 5,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -26980,15 +27102,41 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpk0c9",
+      "name": "M. Kiger",
+      "fullName": "Mac Kiger",
+      "nation": "USA"
+     },
+     {
+      "id": "atpk0az",
+      "name": "A. Kovacevic",
+      "fullName": "Aleksandar Kovacevic",
+      "nation": "USA"
+     }
+    ],
     "seed": null,
-    "entryStatus": null,
+    "entryStatus": "WC",
     "setsWon": null,
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpa853",
+      "name": "M. Arevalo",
+      "fullName": "Marcelo Arevalo",
+      "nation": "ESA"
+     },
+     {
+      "id": "atppf00",
+      "name": "M. Pavic",
+      "fullName": "Mate Pavic",
+      "nation": "CRO"
+     }
+    ],
+    "seed": 3,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -27324,7 +27472,20 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpf0dm",
+      "name": "A. Fery",
+      "fullName": "Arthur Fery",
+      "nation": "GBR"
+     },
+     {
+      "id": "atppj18",
+      "name": "J. Paris",
+      "fullName": "Joshua Paris",
+      "nation": "GBR"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
