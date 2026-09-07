@@ -11542,7 +11542,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788816600000,
+  "startEpoch": 1788816900000,
   "espnSideIds": [
    "2367",
    "10386"
@@ -11566,11 +11566,16 @@
   "court": "Arthur Ashe Stadium",
   "courtId": "AA",
   "eventDay": 16,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788816352000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "3:16",
+  "setDurations": [
+   50,
+   45,
+   55,
+   46
+  ],
   "upset": false,
   "sides": [
    {
@@ -11584,8 +11589,8 @@
     ],
     "seed": 24,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -11598,12 +11603,41 @@
     ],
     "seed": 28,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     5,
+     7
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     5,
+     7
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 2,
   "notBefore": "1:00 PM",
   "session": 1,
@@ -12097,8 +12131,15 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpb0pg",
+      "name": "A. Blockx",
+      "fullName": "Alexander Blockx",
+      "nation": "BEL"
+     }
+    ],
+    "seed": 28,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -22952,11 +22993,14 @@
   "court": "Louis Armstrong Stadium",
   "courtId": "AB",
   "eventDay": 16,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788816093000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:06",
+  "setDurations": [
+   22,
+   44
+  ],
   "upset": false,
   "sides": [
    {
@@ -22970,8 +23014,8 @@
     ],
     "seed": 13,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -22984,12 +23028,27 @@
     ],
     "seed": 2,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     1,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 3,
   "notBefore": "2:30 PM",
   "session": 1,
@@ -23228,15 +23287,28 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta324166",
+      "name": "E. Rybakina",
+      "fullName": "Elena Rybakina",
+      "nation": "KAZ"
+     }
+    ],
+    "seed": 2,
     "entryStatus": null,
     "setsWon": null,
     "won": null
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182576",
+  "startEpoch": 1788926400000,
+  "espnSideIds": [
+   "6048",
+   "3126"
+  ]
  },
  {
   "id": "WS-2601",
