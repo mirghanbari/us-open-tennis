@@ -11542,7 +11542,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788813000000,
+  "startEpoch": 1788814800000,
   "espnSideIds": [
    "2367",
    "10386"
@@ -23000,7 +23000,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788809400000,
+  "startEpoch": 1788811200000,
   "espnSideIds": [
    "2789",
    "3126"
@@ -26895,11 +26895,15 @@
   "court": "Court 12",
   "courtId": "AM",
   "eventDay": 16,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788809664000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:21",
+  "setDurations": [
+   56,
+   47,
+   38
+  ],
   "upset": false,
   "sides": [
    {
@@ -26919,8 +26923,8 @@
     ],
     "seed": 6,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -26939,12 +26943,37 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     12,
+     10
+    ]
+   },
+   {
+    "games": [
+     5,
+     7
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 2,
   "notBefore": "1:00 PM",
   "session": 1
@@ -27880,8 +27909,21 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpkb92",
+      "name": "K. Krawietz",
+      "fullName": "Kevin Krawietz",
+      "nation": "GER"
+     },
+     {
+      "id": "atppc68",
+      "name": "T. Puetz",
+      "fullName": "Tim Puetz",
+      "nation": "GER"
+     }
+    ],
+    "seed": 6,
     "entryStatus": null,
     "setsWon": null,
     "won": null
