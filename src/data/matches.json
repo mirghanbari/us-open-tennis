@@ -32996,11 +32996,14 @@
   "court": "Court 11",
   "courtId": "AL",
   "eventDay": 16,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788811859000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:45",
+  "setDurations": [
+   57,
+   48
+  ],
   "upset": false,
   "sides": [
    {
@@ -33020,8 +33023,8 @@
     ],
     "seed": 10,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -33040,12 +33043,27 @@
     ],
     "seed": 8,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     5,
+     7
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 3,
   "notBefore": null,
   "session": 1
@@ -33463,8 +33481,21 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta317964",
+      "name": "E. Mertens",
+      "fullName": "Elise Mertens",
+      "nation": "BEL"
+     },
+     {
+      "id": "wta330482",
+      "name": "D. Shnaider",
+      "fullName": "Diana Shnaider",
+      "nation": "RUS"
+     }
+    ],
+    "seed": 8,
     "entryStatus": null,
     "setsWon": null,
     "won": null
