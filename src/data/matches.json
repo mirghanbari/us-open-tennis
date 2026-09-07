@@ -11538,7 +11538,7 @@
   "espnId": "182692",
   "broadcasts": [
    {
-    "name": "ESPN2",
+    "name": "ESPN Unlmtd",
     "type": "tv"
    }
   ],
@@ -22879,7 +22879,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788822000000,
+  "startEpoch": 1788822300000,
   "espnSideIds": [
    "14311",
    "3626"
@@ -33406,11 +33406,14 @@
   "court": "Court 11",
   "courtId": "AL",
   "eventDay": 16,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788821504000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:37",
+  "setDurations": [
+   38,
+   59
+  ],
   "upset": false,
   "sides": [
    {
@@ -33430,8 +33433,8 @@
     ],
     "seed": 7,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -33450,12 +33453,30 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     8,
+     6
+    ]
+   }
+  ],
+  "winner": 1,
   "courtOrder": 4,
   "notBefore": "5:00 PM",
   "session": 1
@@ -33792,8 +33813,21 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta322931",
+      "name": "X. Jiang",
+      "fullName": "Xinyu Jiang",
+      "nation": "CHN"
+     },
+     {
+      "id": "wta311779",
+      "name": "S. Zhang",
+      "fullName": "Shuai Zhang",
+      "nation": "CHN"
+     }
+    ],
+    "seed": 7,
     "entryStatus": null,
     "setsWon": null,
     "won": null
