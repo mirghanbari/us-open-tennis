@@ -1051,7 +1051,7 @@
   "shortLabel": "Day 9: Mon, Sept 7",
   "displayDate": "Day 9: Monday, September 7",
   "date": "2026-09-07",
-  "releaseTime": "1:41 PM",
+  "releaseTime": "2:12 PM",
   "comments": null,
   "footerComment": null,
   "courts": [
@@ -1509,7 +1509,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "live",
+      "status": "finished",
       "eventCode": "BS",
       "roundName": "Round 1",
       "team1": "Z. Sesko",
@@ -1542,7 +1542,7 @@
      {
       "id": "BD-23103",
       "order": 5,
-      "notBefore": null,
+      "notBefore": "3:30 PM",
       "conjunction": null,
       "comment": null,
       "status": "scheduled",
@@ -1682,7 +1682,7 @@
      {
       "id": "BD-23109",
       "order": 5,
-      "notBefore": null,
+      "notBefore": "3:30 PM",
       "conjunction": null,
       "comment": null,
       "status": "scheduled",
@@ -1801,7 +1801,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "scheduled",
+      "status": "live",
       "eventCode": "WD",
       "roundName": "Round 3",
       "team1": "E. Perez / D. Schuurs",
@@ -2066,7 +2066,7 @@
      {
       "id": "GD-24102",
       "order": 4,
-      "notBefore": null,
+      "notBefore": "3:30 PM",
       "conjunction": null,
       "comment": null,
       "status": "scheduled",
