@@ -1051,7 +1051,7 @@
   "shortLabel": "Day 9: Mon, Sept 7",
   "displayDate": "Day 9: Monday, September 7",
   "date": "2026-09-07",
-  "releaseTime": "5:19 PM",
+  "releaseTime": "6:18 PM",
   "comments": null,
   "footerComment": null,
   "courts": [
@@ -1562,6 +1562,18 @@
       "roundName": "Round 1",
       "team1": "T. Davidov / T. Lee",
       "team2": "P. Chabalgoity / L. Storck Franca"
+     },
+     {
+      "id": "GD-24102",
+      "order": 5,
+      "notBefore": "3:30 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GD",
+      "roundName": "Round 1",
+      "team1": "S. Fagan / M. Sohns",
+      "team2": "A. Alexander / L. Beviz"
      }
     ]
    },
@@ -1697,7 +1709,7 @@
       "notBefore": "6:05 PM",
       "conjunction": null,
       "comment": null,
-      "status": "scheduled",
+      "status": "live",
       "eventCode": "BD",
       "roundName": "Round 1",
       "team1": "M. Domenc / D. Jade",
@@ -2064,20 +2076,8 @@
       "team2": "I. Pistola"
      },
      {
-      "id": "GD-24102",
-      "order": 4,
-      "notBefore": "3:30 PM",
-      "conjunction": null,
-      "comment": null,
-      "status": "scheduled",
-      "eventCode": "GD",
-      "roundName": "Round 1",
-      "team1": "S. Fagan / M. Sohns",
-      "team2": "A. Alexander / L. Beviz"
-     },
-     {
       "id": "GD-24108",
-      "order": 5,
+      "order": 4,
       "notBefore": null,
       "conjunction": null,
       "comment": null,
