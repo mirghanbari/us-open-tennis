@@ -22878,7 +22878,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788795000000,
+  "startEpoch": 1788795300000,
   "espnSideIds": [
    "3730",
    "6048"
@@ -27429,10 +27429,10 @@
   "court": "Stadium 17",
   "courtId": "AD",
   "eventDay": 16,
-  "epoch": null,
+  "epoch": 1788794902000,
   "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
+  "statusCode": "F",
+  "duration": "0:00",
   "setDurations": [],
   "upset": false,
   "sides": [
@@ -27453,8 +27453,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -27473,12 +27473,12 @@
     ],
     "seed": 2,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": true
    }
   ],
   "sets": [],
-  "winner": null,
+  "winner": 2,
   "courtOrder": 4,
   "notBefore": "4:00 PM",
   "session": 1
@@ -27934,8 +27934,21 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpg710",
+      "name": "M. Granollers",
+      "fullName": "Marcel Granollers",
+      "nation": "ESP"
+     },
+     {
+      "id": "atpz184",
+      "name": "H. Zeballos",
+      "fullName": "Horacio Zeballos",
+      "nation": "ARG"
+     }
+    ],
+    "seed": 2,
     "entryStatus": null,
     "setsWon": null,
     "won": null
