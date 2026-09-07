@@ -1051,7 +1051,7 @@
   "shortLabel": "Day 9: Mon, Sept 7",
   "displayDate": "Day 9: Monday, September 7",
   "date": "2026-09-07",
-  "releaseTime": "4:37 PM",
+  "releaseTime": "5:19 PM",
   "comments": null,
   "footerComment": null,
   "courts": [
@@ -1301,7 +1301,7 @@
       "notBefore": "4:00 PM",
       "conjunction": null,
       "comment": null,
-      "status": "scheduled",
+      "status": "live",
       "eventCode": "BD",
       "roundName": "Round 1",
       "team1": "D. Jovanovski / O. Majdandzic",
@@ -1359,7 +1359,7 @@
       "notBefore": "2:00 PM",
       "conjunction": null,
       "comment": null,
-      "status": "live",
+      "status": "finished",
       "eventCode": "WD",
       "roundName": "Round 3",
       "team1": "A. Bondar / A. Kalinina",
@@ -1492,6 +1492,18 @@
       "roundName": "Round 2",
       "team1": "A. Johnson",
       "team2": "D. Brand"
+     },
+     {
+      "id": "GD-24110",
+      "order": 5,
+      "notBefore": "5:45 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GD",
+      "roundName": "Round 1",
+      "team1": "E. Combs / O. De Los Reyes",
+      "team2": "M. Rajeshwaran Revathi / A. Sushkova"
      }
     ]
    },
@@ -1859,7 +1871,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "live",
+      "status": "finished",
       "eventCode": "WD",
       "roundName": "Round 3",
       "team1": "S. Hsieh / J. Ostapenko",
@@ -1917,7 +1929,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "live",
+      "status": "finished",
       "eventCode": "GS",
       "roundName": "Round 2",
       "team1": "Y. Lin",
@@ -1934,18 +1946,6 @@
       "roundName": "Round 1",
       "team1": "R. Alame / T. Frodin",
       "team2": "H. Ayrault / J. Preston"
-     },
-     {
-      "id": "GD-24110",
-      "order": 5,
-      "notBefore": "5:30 PM",
-      "conjunction": null,
-      "comment": null,
-      "status": "scheduled",
-      "eventCode": "GD",
-      "roundName": "Round 1",
-      "team1": "E. Combs / O. De Los Reyes",
-      "team2": "M. Rajeshwaran Revathi / A. Sushkova"
      }
     ]
    },
@@ -2222,7 +2222,7 @@
       "status": "scheduled",
       "eventCode": "WD",
       "roundName": "Quarterfinals",
-      "team1": "S. Hsieh / J. Ostapenko / H. Chan / M. Joint",
+      "team1": "S. Hsieh / J. Ostapenko",
       "team2": "E. Mertens / D. Shnaider"
      }
     ]
@@ -2292,7 +2292,7 @@
       "status": "scheduled",
       "eventCode": "WD",
       "roundName": "Quarterfinals",
-      "team1": "A. Bondar / A. Kalinina / E. Routliffe / A. Sutjiadi",
+      "team1": "E. Routliffe / A. Sutjiadi",
       "team2": "R. Montgomery / A. Krueger"
      }
     ]

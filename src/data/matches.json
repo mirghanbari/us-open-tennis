@@ -32966,11 +32966,14 @@
   "court": "Court 12",
   "courtId": "AM",
   "eventDay": 16,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788815493000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:20",
+  "setDurations": [
+   36,
+   44
+  ],
   "upset": false,
   "sides": [
    {
@@ -32990,8 +32993,8 @@
     ],
     "seed": 4,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -33010,12 +33013,27 @@
     ],
     "seed": 14,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 3,
   "notBefore": null,
   "session": 1
@@ -33128,11 +33146,15 @@
   "court": "Court 5",
   "courtId": "AE",
   "eventDay": 16,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788815764000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:55",
+  "setDurations": [
+   33,
+   44,
+   38
+  ],
   "upset": false,
   "sides": [
    {
@@ -33152,8 +33174,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -33172,12 +33194,34 @@
     ],
     "seed": 9,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 3,
   "notBefore": "2:00 PM",
   "session": 1
@@ -33532,8 +33576,21 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta310053",
+      "name": "S. Hsieh",
+      "fullName": "Su-Wei Hsieh",
+      "nation": "TPE"
+     },
+     {
+      "id": "wta319939",
+      "name": "J. Ostapenko",
+      "fullName": "Jelena Ostapenko",
+      "nation": "LAT"
+     }
+    ],
+    "seed": 4,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -33591,8 +33648,21 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta317299",
+      "name": "E. Routliffe",
+      "fullName": "Erin Routliffe",
+      "nation": "NZL"
+     },
+     {
+      "id": "wta318390",
+      "name": "A. Sutjiadi",
+      "fullName": "Aldila Sutjiadi",
+      "nation": "INA"
+     }
+    ],
+    "seed": 9,
     "entryStatus": null,
     "setsWon": null,
     "won": null
