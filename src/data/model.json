@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-07T21:40:51.582Z",
+ "generated": "2026-09-07T21:50:49.099Z",
  "tourMeans": {
   "atp": {
    "meanSpw": 0.63179003339771,
@@ -49,7 +49,7 @@
    "matches": 55,
    "spw": 0.6199,
    "rpw": 0.376,
-   "servePoints": 1215,
+   "servePoints": 1214,
    "rated": true
   },
   "atpd875": {
@@ -310,7 +310,7 @@
    "matches": 487,
    "spw": 0.6816,
    "rpw": 0.3626,
-   "servePoints": 7179,
+   "servePoints": 7178,
    "rated": true
   },
   "atph0bh": {
@@ -751,7 +751,7 @@
    "matches": 264,
    "spw": 0.6037,
    "rpw": 0.386,
-   "servePoints": 5370,
+   "servePoints": 5369,
    "rated": true
   },
   "atpm0qi": {
@@ -850,7 +850,7 @@
    "matches": 356,
    "spw": 0.6836,
    "rpw": 0.3425,
-   "servePoints": 4399,
+   "servePoints": 4398,
    "rated": true
   },
   "atpw367": {
@@ -886,7 +886,7 @@
    "matches": 235,
    "spw": 0.691,
    "rpw": 0.3309,
-   "servePoints": 7084,
+   "servePoints": 7083,
    "rated": true
   },
   "atpgj37": {
@@ -904,7 +904,7 @@
    "matches": 350,
    "spw": 0.5925,
    "rpw": 0.3853,
-   "servePoints": 3386,
+   "servePoints": 3385,
    "rated": true
   },
   "atphb71": {
@@ -922,7 +922,7 @@
    "matches": 383,
    "spw": 0.6382,
    "rpw": 0.3624,
-   "servePoints": 6030,
+   "servePoints": 6029,
    "rated": true
   },
   "atpsu55": {
@@ -931,7 +931,7 @@
    "matches": 460,
    "spw": 0.6366,
    "rpw": 0.3723,
-   "servePoints": 4879,
+   "servePoints": 4878,
    "rated": true
   },
   "atpv0dz": {
@@ -949,7 +949,7 @@
    "matches": 464,
    "spw": 0.6395,
    "rpw": 0.3673,
-   "servePoints": 6503,
+   "servePoints": 6502,
    "rated": true
   },
   "atpl0bv": {
@@ -1750,7 +1750,7 @@
    "matches": 184,
    "spw": 0.5911,
    "rpw": 0.4726,
-   "servePoints": 5210,
+   "servePoints": 5209,
    "rated": true
   },
   "wta328818": {
@@ -1903,7 +1903,7 @@
    "matches": 239,
    "spw": 0.5468,
    "rpw": 0.4334,
-   "servePoints": 4390,
+   "servePoints": 4389,
    "rated": true
   },
   "wta315130": {
@@ -3902,145 +3902,145 @@
   "MS": [
    {
     "playerId": "atpa0e2",
-    "title": 0.5551,
-    "final": 0.719,
-    "semi": 0.8108,
+    "title": 0.5602,
+    "final": 0.7242,
+    "semi": 0.8179,
     "quarter": 1
    },
    {
     "playerId": "atpz355",
-    "title": 0.2543,
-    "final": 0.5752,
-    "semi": 0.7225,
-    "quarter": 0.8737
+    "title": 0.2512,
+    "final": 0.5834,
+    "semi": 0.7267,
+    "quarter": 0.876
    },
    {
     "playerId": "atps0s1",
-    "title": 0.0527,
-    "final": 0.1132,
-    "semi": 0.1892,
+    "title": 0.048,
+    "final": 0.1097,
+    "semi": 0.1821,
     "quarter": 1
    },
    {
     "playerId": "atptd51",
-    "title": 0.0434,
-    "final": 0.1117,
-    "semi": 0.5872,
+    "title": 0.0444,
+    "final": 0.1088,
+    "semi": 0.5957,
     "quarter": 1
    },
    {
     "playerId": "atpt0ha",
-    "title": 0.0241,
-    "final": 0.1232,
-    "semi": 0.3598,
-    "quarter": 0.5643
-   },
-   {
-    "playerId": "atpg0ix",
-    "title": 0.0201,
-    "final": 0.0972,
-    "semi": 0.1816,
-    "quarter": 0.7
+    "title": 0.029,
+    "final": 0.1263,
+    "semi": 0.3657,
+    "quarter": 0.5713
    },
    {
     "playerId": "atpm0qi",
-    "title": 0.018,
-    "final": 0.0561,
-    "semi": 0.4128,
+    "title": 0.0189,
+    "final": 0.0573,
+    "semi": 0.4043,
     "quarter": 1
    },
    {
+    "playerId": "atpg0ix",
+    "title": 0.016,
+    "final": 0.094,
+    "semi": 0.1785,
+    "quarter": 0.698
+   },
+   {
     "playerId": "atpb0pg",
-    "title": 0.0143,
-    "final": 0.0953,
-    "semi": 0.3884,
+    "title": 0.0145,
+    "final": 0.0926,
+    "semi": 0.3891,
     "quarter": 1
    },
    {
     "playerId": "atpke29",
-    "title": 0.0142,
-    "final": 0.0746,
-    "semi": 0.2518,
-    "quarter": 0.4357
+    "title": 0.0135,
+    "final": 0.0734,
+    "semi": 0.2452,
+    "quarter": 0.4287
    },
    {
     "playerId": "atpd0fj",
     "title": 0.0027,
-    "final": 0.0202,
-    "semi": 0.0524,
-    "quarter": 0.1263
+    "final": 0.0191,
+    "semi": 0.0527,
+    "quarter": 0.124
    },
    {
     "playerId": "atpv812",
-    "title": 0.0011,
-    "final": 0.0143,
-    "semi": 0.0435,
-    "quarter": 0.3
+    "title": 0.0016,
+    "final": 0.0112,
+    "semi": 0.0421,
+    "quarter": 0.302
    }
   ],
   "WS": [
    {
     "playerId": "wta320760",
-    "title": 0.2769,
-    "final": 0.446,
-    "semi": 0.7197,
+    "title": 0.277,
+    "final": 0.4504,
+    "semi": 0.7146,
     "quarter": 1
    },
    {
     "playerId": "wta316956",
-    "title": 0.2241,
-    "final": 0.401,
-    "semi": 0.8121,
+    "title": 0.2179,
+    "final": 0.3929,
+    "semi": 0.8051,
     "quarter": 1
    },
    {
     "playerId": "wta324166",
-    "title": 0.1918,
-    "final": 0.4042,
-    "semi": 0.7206,
+    "title": 0.1906,
+    "final": 0.3951,
+    "semi": 0.7217,
     "quarter": 1
    },
    {
     "playerId": "wta328560",
-    "title": 0.1413,
-    "final": 0.2735,
-    "semi": 0.4704,
-    "quarter": 0.7655
+    "title": 0.145,
+    "final": 0.2876,
+    "semi": 0.494,
+    "quarter": 0.7684
    },
    {
     "playerId": "wta331809",
-    "title": 0.0774,
-    "final": 0.2081,
-    "semi": 0.455,
+    "title": 0.0792,
+    "final": 0.1967,
+    "semi": 0.4269,
     "quarter": 1
    },
    {
     "playerId": "wta329668",
-    "title": 0.0467,
-    "final": 0.1146,
-    "semi": 0.2803,
+    "title": 0.0477,
+    "final": 0.1154,
+    "semi": 0.2854,
     "quarter": 1
    },
    {
     "playerId": "wta328120",
-    "title": 0.0263,
-    "final": 0.0913,
-    "semi": 0.2794,
+    "title": 0.025,
+    "final": 0.093,
+    "semi": 0.2783,
     "quarter": 1
    },
    {
     "playerId": "wta325410",
-    "title": 0.0102,
-    "final": 0.0384,
-    "semi": 0.1879,
+    "title": 0.0104,
+    "final": 0.0413,
+    "semi": 0.1949,
     "quarter": 1
    },
    {
     "playerId": "wta332285",
-    "title": 0.0053,
-    "final": 0.0229,
-    "semi": 0.0746,
-    "quarter": 0.2345
+    "title": 0.0072,
+    "final": 0.0276,
+    "semi": 0.0791,
+    "quarter": 0.2316
    }
   ]
  },
