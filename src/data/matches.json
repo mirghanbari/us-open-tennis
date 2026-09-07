@@ -27158,11 +27158,15 @@
   "court": "Stadium 17",
   "courtId": "AD",
   "eventDay": 16,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788808407000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:29",
+  "setDurations": [
+   45,
+   48,
+   56
+  ],
   "upset": false,
   "sides": [
    {
@@ -27182,8 +27186,8 @@
     ],
     "seed": null,
     "entryStatus": "WC",
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -27202,12 +27206,43 @@
     ],
     "seed": 3,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     6,
+     8
+    ]
+   },
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     7,
+     3
+    ]
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     7,
+     10
+    ]
+   }
+  ],
+  "winner": 2,
   "courtOrder": 2,
   "notBefore": "12:30 PM",
   "session": 1
@@ -27921,8 +27956,21 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpa853",
+      "name": "M. Arevalo",
+      "fullName": "Marcelo Arevalo",
+      "nation": "ESA"
+     },
+     {
+      "id": "atppf00",
+      "name": "M. Pavic",
+      "fullName": "Mate Pavic",
+      "nation": "CRO"
+     }
+    ],
+    "seed": 3,
     "entryStatus": null,
     "setsWon": null,
     "won": null
