@@ -1050,8 +1050,8 @@
   "label": 16,
   "shortLabel": "Day 9: Mon, Sept 7",
   "displayDate": "Day 9: Monday, September 7",
-  "date": "2026-09-06",
-  "releaseTime": "7:44 PM",
+  "date": "2026-09-07",
+  "releaseTime": "8:35 AM",
   "comments": null,
   "footerComment": null,
   "courts": [
@@ -1086,6 +1086,18 @@
       "roundName": "Round 4",
       "team1": "F. Cerundolo",
       "team2": "A. Blockx"
+     },
+     {
+      "id": "null-0",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "Intentionally Blank",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
      }
     ]
    },
