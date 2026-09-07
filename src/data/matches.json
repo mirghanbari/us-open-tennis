@@ -27682,9 +27682,9 @@
    "MD-3201",
    "MD-3202"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 12",
+  "courtId": "AM",
+  "eventDay": 17,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -27734,7 +27734,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 5,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "MD-3302",
@@ -27751,9 +27754,9 @@
    "MD-3203",
    "MD-3204"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 6",
+  "courtId": "AG",
+  "eventDay": 17,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -27803,7 +27806,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 5,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "MD-3303",
@@ -27820,9 +27826,9 @@
    "MD-3205",
    "MD-3206"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 11",
+  "courtId": "AL",
+  "eventDay": 17,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -27859,7 +27865,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 5,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "MD-3304",
@@ -27876,9 +27885,9 @@
    "MD-3207",
    "MD-3208"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 12",
+  "courtId": "AM",
+  "eventDay": 17,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -27915,7 +27924,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 4,
+  "notBefore": "5:00 PM",
+  "session": 1
  },
  {
   "id": "MD-3305",
@@ -27932,9 +27944,9 @@
    "MD-3209",
    "MD-3210"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 5",
+  "courtId": "AE",
+  "eventDay": 17,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -27984,7 +27996,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 5,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "MD-3306",
@@ -28001,9 +28016,9 @@
    "MD-3211",
    "MD-3212"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 11",
+  "courtId": "AL",
+  "eventDay": 17,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -28053,7 +28068,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 4,
+  "notBefore": "5:00 PM",
+  "session": 1
  },
  {
   "id": "MD-3307",
@@ -28070,9 +28088,9 @@
    "MD-3213",
    "MD-3214"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 5",
+  "courtId": "AE",
+  "eventDay": 17,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -28122,7 +28140,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 4,
+  "notBefore": "4:00 PM",
+  "session": 1
  },
  {
   "id": "MD-3308",
@@ -28139,9 +28160,9 @@
    "MD-3215",
    "MD-3216"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 6",
+  "courtId": "AG",
+  "eventDay": 17,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -28191,7 +28212,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 4,
+  "notBefore": "4:00 PM",
+  "session": 1
  },
  {
   "id": "MD-3401",
@@ -33407,9 +33431,9 @@
    "WD-4301",
    "WD-4302"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Louis Armstrong Stadium",
+  "courtId": "AB",
+  "eventDay": 17,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -33446,7 +33470,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 3,
+  "notBefore": "3:00 PM",
+  "session": 1
  },
  {
   "id": "WD-4402",
@@ -33463,9 +33490,9 @@
    "WD-4303",
    "WD-4304"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Louis Armstrong Stadium",
+  "courtId": "AB",
+  "eventDay": 17,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -33502,7 +33529,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 4,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "WD-4403",
@@ -33519,9 +33549,9 @@
    "WD-4305",
    "WD-4306"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Stadium 17",
+  "courtId": "AD",
+  "eventDay": 17,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -33558,7 +33588,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 5,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "WD-4404",
@@ -33575,9 +33608,9 @@
    "WD-4307",
    "WD-4308"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Stadium 17",
+  "courtId": "AD",
+  "eventDay": 17,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -33614,7 +33647,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 4,
+  "notBefore": "4:00 PM",
+  "session": 1
  },
  {
   "id": "WD-4501",

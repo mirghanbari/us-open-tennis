@@ -1545,7 +1545,7 @@
       "notBefore": "2:15 PM",
       "conjunction": null,
       "comment": null,
-      "status": "scheduled",
+      "status": "live",
       "eventCode": "BD",
       "roundName": "Round 1",
       "team1": "T. Davidov / T. Lee",
@@ -1673,7 +1673,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "scheduled",
+      "status": "live",
       "eventCode": "BD",
       "roundName": "Round 1",
       "team1": "K. Nara / Y. Sakurai",
@@ -1999,7 +1999,7 @@
       "notBefore": "2:15 PM",
       "conjunction": null,
       "comment": null,
-      "status": "live",
+      "status": "finished",
       "eventCode": "GD",
       "roundName": "Round 1",
       "team1": "A. James / P. Skliar",
@@ -2097,9 +2097,9 @@
   "shortLabel": "Day 10: Tue, Sept 8",
   "displayDate": "Day 10: Tuesday, September 8",
   "date": "2026-09-07",
-  "releaseTime": "11:36 AM",
-  "comments": "Singles Only",
-  "footerComment": null,
+  "releaseTime": "4:47 PM",
+  "comments": null,
+  "footerComment": "WHEELCHAIR DOUBLES ALTERNATE SIGN-INS CLOSE AT 10:30 AM",
   "courts": [
    {
     "court": "Arthur Ashe Stadium",
@@ -2166,6 +2166,588 @@
       "roundName": "Quarterfinals",
       "team1": "B. Shelton",
       "team2": "C. Alcaraz"
+     }
+    ]
+   },
+   {
+    "court": "Louis Armstrong Stadium",
+    "courtId": "AB",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788879600000,
+    "matches": [
+     {
+      "id": "null-0",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "Match TBA",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
+     },
+     {
+      "id": "null-0",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "Match TBA",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
+     },
+     {
+      "id": "WD-4401",
+      "order": 3,
+      "notBefore": "3:00 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WD",
+      "roundName": "Quarterfinals",
+      "team1": "K. Siniakova / T. Townsend",
+      "team2": "I. Neel / G. Olmos / C. Bucsa / N. Melichar-Martinez"
+     },
+     {
+      "id": "WD-4402",
+      "order": 4,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WD",
+      "roundName": "Quarterfinals",
+      "team1": "S. Hsieh / J. Ostapenko / H. Chan / M. Joint",
+      "team2": "E. Mertens / D. Shnaider"
+     }
+    ]
+   },
+   {
+    "court": "Stadium 17",
+    "courtId": "AD",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788879600000,
+    "matches": [
+     {
+      "id": "null-0",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "Match TBA",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
+     },
+     {
+      "id": "null-0",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "Match TBA",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
+     },
+     {
+      "id": "null-0",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "Match TBA",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
+     },
+     {
+      "id": "WD-4404",
+      "order": 4,
+      "notBefore": "4:00 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WD",
+      "roundName": "Quarterfinals",
+      "team1": "X. Jiang / S. Zhang / M. Kato / F. Wu",
+      "team2": "G. Dabrowski / L. Stefani"
+     },
+     {
+      "id": "WD-4403",
+      "order": 5,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WD",
+      "roundName": "Quarterfinals",
+      "team1": "A. Bondar / A. Kalinina / E. Routliffe / A. Sutjiadi",
+      "team2": "R. Montgomery / A. Krueger"
+     }
+    ]
+   },
+   {
+    "court": "Court 5",
+    "courtId": "AE",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788879600000,
+    "matches": [
+     {
+      "id": "null-0",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "Match TBA",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
+     },
+     {
+      "id": "null-0",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "Match TBA",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
+     },
+     {
+      "id": "null-0",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "Match TBA",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
+     },
+     {
+      "id": "MD-3307",
+      "order": 4,
+      "notBefore": "4:00 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MD",
+      "roundName": "Round 3",
+      "team1": "B. Carpico / N. Filin",
+      "team2": "R. Ram / J. Salisbury"
+     },
+     {
+      "id": "MD-3305",
+      "order": 5,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MD",
+      "roundName": "Round 3",
+      "team1": "K. Krawietz / T. Puetz",
+      "team2": "J. Cash / L. Glasspool"
+     }
+    ]
+   },
+   {
+    "court": "Court 6",
+    "courtId": "AG",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788879600000,
+    "matches": [
+     {
+      "id": "null-0",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "Match TBA",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
+     },
+     {
+      "id": "null-0",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "Match TBA",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
+     },
+     {
+      "id": "null-0",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "Match TBA",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
+     },
+     {
+      "id": "MD-3308",
+      "order": 4,
+      "notBefore": "4:00 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MD",
+      "roundName": "Round 3",
+      "team1": "M. Gonzalez / A. Molteni",
+      "team2": "M. Granollers / H. Zeballos"
+     },
+     {
+      "id": "MD-3302",
+      "order": 5,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MD",
+      "roundName": "Round 3",
+      "team1": "H. Nys / E. Roger-Vasselin",
+      "team2": "G. Andreozzi / M. Guinard"
+     }
+    ]
+   },
+   {
+    "court": "Court 10",
+    "courtId": "AK",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788879600000,
+    "matches": [
+     {
+      "id": "DD-34103",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "DD",
+      "roundName": "Quarterfinals",
+      "team1": "L. Guo / M. Ohtani",
+      "team2": "A. Van Koot / D. De Groot"
+     },
+     {
+      "id": "UD-36101",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "UD",
+      "roundName": "Quarterfinals",
+      "team1": "N. Vink / G. Sasson",
+      "team2": "G. Slade / H. Davidson"
+     },
+     {
+      "id": "CD-33101",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "CD",
+      "roundName": "Quarterfinals",
+      "team1": "A. Hewett / G. Reid",
+      "team2": "Z. Ji / S. Houdet"
+     },
+     {
+      "id": "null-0",
+      "order": 4,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "Match TBA",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
+     }
+    ]
+   },
+   {
+    "court": "Court 11",
+    "courtId": "AL",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788879600000,
+    "matches": [
+     {
+      "id": "DD-34101",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "DD",
+      "roundName": "Quarterfinals",
+      "team1": "Y. Kamiji / Z. Zhu",
+      "team2": "M. Phelps / S. Czauz"
+     },
+     {
+      "id": "UD-36103",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "UD",
+      "roundName": "Quarterfinals",
+      "team1": "D. Wagner / A. Bogdanov",
+      "team2": "A. Lapthorne / L. Els"
+     },
+     {
+      "id": "CD-33103",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "CD",
+      "roundName": "Quarterfinals",
+      "team1": "T. Egberink / C. Stroud",
+      "team2": "C. Ratzlaff / C. Cooper"
+     },
+     {
+      "id": "MD-3306",
+      "order": 4,
+      "notBefore": "5:00 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MD",
+      "roundName": "Round 3",
+      "team1": "L. Miedler / M. Polmans",
+      "team2": "M. Arevalo / M. Pavic"
+     },
+     {
+      "id": "MD-3303",
+      "order": 5,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MD",
+      "roundName": "Round 3",
+      "team1": "S. Bolelli / A. Vavassori",
+      "team2": "R. Seggerman / P. Trhac / A. Krajicek / N. Mektic"
+     }
+    ]
+   },
+   {
+    "court": "Court 12",
+    "courtId": "AM",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788879600000,
+    "matches": [
+     {
+      "id": "null-0",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "Match TBA",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
+     },
+     {
+      "id": "null-0",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "Match TBA",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
+     },
+     {
+      "id": "null-0",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "Match TBA",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
+     },
+     {
+      "id": "MD-3304",
+      "order": 4,
+      "notBefore": "5:00 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MD",
+      "roundName": "Round 3",
+      "team1": "S. Doumbia / F. Reboul / J. Schnaitter / M. Wallner",
+      "team2": "C. Harrison / N. Skupski"
+     },
+     {
+      "id": "MD-3301",
+      "order": 5,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MD",
+      "roundName": "Round 3",
+      "team1": "H. Heliovaara / H. Patten",
+      "team2": "F. Cabral / J. Tracy"
+     }
+    ]
+   },
+   {
+    "court": "Court 14",
+    "courtId": "AO",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788879600000,
+    "matches": [
+     {
+      "id": "DD-34104",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "DD",
+      "roundName": "Quarterfinals",
+      "team1": "J. Griffioen / K. Montjane",
+      "team2": "Z. Wang / X. Li"
+     },
+     {
+      "id": "UD-36102",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "UD",
+      "roundName": "Quarterfinals",
+      "team1": "G. Lazarte / F. Cayulef",
+      "team2": "A. Kaplan / B. Wenzel"
+     },
+     {
+      "id": "CD-33102",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "CD",
+      "roundName": "Quarterfinals",
+      "team1": "M. Ter Hofte / D. Caverzaschi",
+      "team2": "G. Fernandez / T. Oda"
+     },
+     {
+      "id": "null-0",
+      "order": 4,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "Match TBA",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
+     }
+    ]
+   },
+   {
+    "court": "Court 15",
+    "courtId": "AP",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1788879600000,
+    "matches": [
+     {
+      "id": "DD-34102",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "DD",
+      "roundName": "Quarterfinals",
+      "team1": "L. De Greef / J. Bos",
+      "team2": "K. Chasteau / A. Bernal"
+     },
+     {
+      "id": "UD-36104",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "UD",
+      "roundName": "Quarterfinals",
+      "team1": "Y. Silva / L. Pena",
+      "team2": "S. Schroder / J. Woodman"
+     },
+     {
+      "id": "CD-33104",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "CD",
+      "roundName": "Quarterfinals",
+      "team1": "S. Lysov / T. Miki",
+      "team2": "M. De la Puente / R. Spaargaren"
+     },
+     {
+      "id": "null-0",
+      "order": 4,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "Match TBA",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
      }
     ]
    }
