@@ -1557,7 +1557,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "scheduled",
+      "status": "live",
       "eventCode": "GD",
       "roundName": "Round 1",
       "team1": "M. Pop / H. Smart",
@@ -1927,7 +1927,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "scheduled",
+      "status": "live",
       "eventCode": "UD",
       "roundName": "Quarterfinals",
       "team1": "Y. Silva / L. Pena",
@@ -1944,6 +1944,98 @@
       "roundName": "Quarterfinals",
       "team1": "S. Lysov / T. Miki",
       "team2": "M. De la Puente / R. Spaargaren"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "tournDay": 18,
+  "label": 18,
+  "shortLabel": "Day 11: Wed, Sept 9",
+  "displayDate": "Day 11: Wednesday, September 9",
+  "date": "2026-09-08",
+  "releaseTime": "1:11 PM",
+  "comments": "ASHE ONLY",
+  "footerComment": null,
+  "courts": [
+   {
+    "court": "Arthur Ashe Stadium",
+    "courtId": "AA",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:30 AM",
+    "startEpoch": 1788967800000,
+    "matches": [
+     {
+      "id": "WS-2504",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WS",
+      "roundName": "Quarterfinals",
+      "team1": "Q. Zheng",
+      "team2": "E. Rybakina"
+     },
+     {
+      "id": "WS-2503",
+      "order": 2,
+      "notBefore": "12:30 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WS",
+      "roundName": "Quarterfinals",
+      "team1": "M. Andreeva",
+      "team2": "C. Gauff"
+     },
+     {
+      "id": "MS-1502",
+      "order": 3,
+      "notBefore": "2:00 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MS",
+      "roundName": "Quarterfinals",
+      "team1": "K. Khachanov",
+      "team2": "A. Blockx"
+     }
+    ]
+   },
+   {
+    "court": "Arthur Ashe Stadium",
+    "courtId": "AA",
+    "session": 2,
+    "sessionName": null,
+    "startTime": "7:30 PM",
+    "startEpoch": 1788996600000,
+    "matches": [
+     {
+      "id": "MS-1501",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MS",
+      "roundName": "Quarterfinals",
+      "team1": "A. Zverev",
+      "team2": "B. van de Zandschulp"
+     },
+     {
+      "id": "null-0",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "MATCH TBA",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
      }
     ]
    }
