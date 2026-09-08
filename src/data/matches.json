@@ -28247,11 +28247,14 @@
   "court": "Court 12",
   "courtId": "AM",
   "eventDay": 17,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788906934000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:27",
+  "setDurations": [
+   33,
+   54
+  ],
   "upset": false,
   "sides": [
    {
@@ -28271,8 +28274,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -28291,12 +28294,30 @@
     ],
     "seed": 5,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     1,
+     7
+    ]
+   }
+  ],
+  "winner": 2,
   "courtOrder": 4,
   "notBefore": "5:00 PM",
   "session": 1
@@ -28463,11 +28484,15 @@
   "court": "Court 5",
   "courtId": "AE",
   "eventDay": 17,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788906664000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:20",
+  "setDurations": [
+   51,
+   40,
+   49
+  ],
   "upset": false,
   "sides": [
    {
@@ -28487,8 +28512,8 @@
     ],
     "seed": null,
     "entryStatus": "WC",
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -28507,12 +28532,37 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     6,
+     8
+    ]
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 4,
   "notBefore": "4:00 PM",
   "session": 1
@@ -28683,8 +28733,21 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atphb05",
+      "name": "C. Harrison",
+      "fullName": "Christian Harrison",
+      "nation": "USA"
+     },
+     {
+      "id": "atpsl22",
+      "name": "N. Skupski",
+      "fullName": "Neal Skupski",
+      "nation": "GBR"
+     }
+    ],
+    "seed": 5,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -28762,7 +28825,20 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpr548",
+      "name": "R. Ram",
+      "fullName": "Rajeev Ram",
+      "nation": "USA"
+     },
+     {
+      "id": "atpso70",
+      "name": "J. Salisbury",
+      "fullName": "Joe Salisbury",
+      "nation": "GBR"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
