@@ -28535,11 +28535,14 @@
   "court": "Court 6",
   "courtId": "AG",
   "eventDay": 17,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788904238000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:23",
+  "setDurations": [
+   39,
+   44
+  ],
   "upset": false,
   "sides": [
    {
@@ -28559,8 +28562,8 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -28579,12 +28582,27 @@
     ],
     "seed": 2,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 4,
   "notBefore": "4:00 PM",
   "session": 1
@@ -28751,8 +28769,21 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpg710",
+      "name": "M. Granollers",
+      "fullName": "Marcel Granollers",
+      "nation": "ESP"
+     },
+     {
+      "id": "atpz184",
+      "name": "H. Zeballos",
+      "fullName": "Horacio Zeballos",
+      "nation": "ARG"
+     }
+    ],
+    "seed": 2,
     "entryStatus": null,
     "setsWon": null,
     "won": null
