@@ -12318,11 +12318,17 @@
   "court": "Arthur Ashe Stadium",
   "courtId": "AA",
   "eventDay": 17,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788908806000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "4:39",
+  "setDurations": [
+   50,
+   44,
+   65,
+   54,
+   66
+  ],
   "upset": false,
   "sides": [
    {
@@ -12336,8 +12342,8 @@
     ],
     "seed": 11,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    },
    {
     "players": [
@@ -12350,12 +12356,51 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     5,
+     7
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     7,
+     5
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     10,
+     6
+    ]
+   }
+  ],
+  "winner": 1,
   "courtOrder": 2,
   "notBefore": "1:00 PM",
   "session": 1,
@@ -12513,8 +12558,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atptd51",
+      "name": "F. Tiafoe",
+      "fullName": "Frances Tiafoe",
+      "nation": "USA"
+     }
+    ],
+    "seed": 11,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -23405,7 +23457,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788909300000,
+  "startEpoch": 1788909900000,
   "espnSideIds": [
    "2113",
    "3785"
