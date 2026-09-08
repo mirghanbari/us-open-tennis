@@ -1051,7 +1051,7 @@
   "shortLabel": "Day 10: Tue, Sept 8",
   "displayDate": "Day 10: Tuesday, September 8",
   "date": "2026-09-08",
-  "releaseTime": "12:25 PM",
+  "releaseTime": "12:49 PM",
   "comments": null,
   "footerComment": null,
   "courts": [
@@ -1228,7 +1228,7 @@
      {
       "id": "BD-23105",
       "order": 3,
-      "notBefore": null,
+      "notBefore": "2:15 PM",
       "conjunction": null,
       "comment": null,
       "status": "scheduled",
@@ -1298,7 +1298,7 @@
      {
       "id": "GD-24109",
       "order": 3,
-      "notBefore": null,
+      "notBefore": "2:00 PM",
       "conjunction": null,
       "comment": null,
       "status": "scheduled",
@@ -1359,7 +1359,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "scheduled",
+      "status": "live",
       "eventCode": "BD",
       "roundName": "Round 1",
       "team1": "A. Gabet / V. Gonzalez-Galino",
@@ -1368,7 +1368,7 @@
      {
       "id": "GD-24105",
       "order": 3,
-      "notBefore": null,
+      "notBefore": "2:15 PM",
       "conjunction": null,
       "comment": null,
       "status": "scheduled",
@@ -1487,7 +1487,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "live",
+      "status": "finished",
       "eventCode": "GS",
       "roundName": "Round 2",
       "team1": "F. Dorofeeva-Rybas",
