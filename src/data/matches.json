@@ -26852,11 +26852,15 @@
   "court": "Court 12",
   "courtId": "AM",
   "eventDay": 16,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788825610000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:19",
+  "setDurations": [
+   52,
+   32,
+   55
+  ],
   "upset": false,
   "sides": [
    {
@@ -26876,8 +26880,8 @@
     ],
     "seed": 11,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -26896,12 +26900,37 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     4,
+     7
+    ]
+   },
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 4,
   "notBefore": "5:00 PM",
   "session": 1
@@ -28010,7 +28039,20 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
+    "players": [
+     {
+      "id": "atpsy05",
+      "name": "J. Schnaitter",
+      "fullName": "Jakob Schnaitter",
+      "nation": "GER"
+     },
+     {
+      "id": "atpw0e2",
+      "name": "M. Wallner",
+      "fullName": "Mark Wallner",
+      "nation": "GER"
+     }
+    ],
     "seed": null,
     "entryStatus": null,
     "setsWon": null,
