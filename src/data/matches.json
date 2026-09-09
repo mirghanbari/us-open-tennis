@@ -23556,11 +23556,15 @@
   "court": "Arthur Ashe Stadium",
   "courtId": "AA",
   "eventDay": 18,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788986410000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:19",
+  "setDurations": [
+   26,
+   80,
+   33
+  ],
   "upset": false,
   "sides": [
    {
@@ -23574,8 +23578,8 @@
     ],
     "seed": 5,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -23588,12 +23592,37 @@
     ],
     "seed": 4,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     7,
+     9
+    ]
+   },
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 2,
   "notBefore": "12:30 PM",
   "session": 1,
@@ -23797,8 +23826,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta328560",
+      "name": "C. Gauff",
+      "fullName": "Coco Gauff",
+      "nation": "USA"
+     }
+    ],
+    "seed": 4,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -23819,7 +23855,13 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182551",
+  "startEpoch": 1789012800000,
+  "espnSideIds": [
+   "3626",
+   "3126"
+  ]
  },
  {
   "id": "WS-2701",
