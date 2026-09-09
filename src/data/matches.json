@@ -12228,6 +12228,12 @@
   "notBefore": null,
   "session": 2,
   "espnId": "182772",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788996600000,
   "espnSideIds": [
    "2375",
@@ -12294,6 +12300,12 @@
   "notBefore": "2:00 PM",
   "session": 1,
   "espnId": "182770",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788976800000,
   "espnSideIds": [
    "2367",
@@ -12483,7 +12495,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788920400000,
+  "startEpoch": 1788921600000,
   "espnSideIds": [
    "9250",
    "3782"
@@ -23523,6 +23535,12 @@
   "notBefore": "12:30 PM",
   "session": 1,
   "espnId": "182573",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788971400000,
   "espnSideIds": [
    "9820",
@@ -23589,6 +23607,12 @@
   "notBefore": null,
   "session": 1,
   "espnId": "182576",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1788967800000,
   "espnSideIds": [
    "6048",
