@@ -12495,7 +12495,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788921600000,
+  "startEpoch": 1788922500000,
   "espnSideIds": [
    "9250",
    "3782"
@@ -23421,11 +23421,15 @@
   "court": "Arthur Ashe Stadium",
   "courtId": "AA",
   "eventDay": 17,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788921826000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:21",
+  "setDurations": [
+   49,
+   47,
+   45
+  ],
   "upset": false,
   "sides": [
    {
@@ -23439,8 +23443,8 @@
     ],
     "seed": 3,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -23453,12 +23457,34 @@
     ],
     "seed": 26,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     3,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 1,
   "notBefore": null,
   "session": 2,
@@ -23659,15 +23685,28 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta316956",
+      "name": "J. Pegula",
+      "fullName": "Jessica Pegula",
+      "nation": "USA"
+     }
+    ],
+    "seed": 3,
     "entryStatus": null,
     "setsWon": null,
     "won": null
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182553",
+  "startEpoch": 1789012800000,
+  "espnSideIds": [
+   "3038",
+   "2113"
+  ]
  },
  {
   "id": "WS-2602",
