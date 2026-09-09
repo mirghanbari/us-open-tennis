@@ -12435,11 +12435,17 @@
   "court": "Arthur Ashe Stadium",
   "courtId": "AA",
   "eventDay": 17,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788939228000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "4:28",
+  "setDurations": [
+   61,
+   49,
+   48,
+   36,
+   74
+  ],
   "upset": false,
   "sides": [
    {
@@ -12453,8 +12459,8 @@
     ],
     "seed": 8,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 3,
+    "won": true
    },
    {
     "players": [
@@ -12467,12 +12473,54 @@
     ],
     "seed": 2,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     5,
+     7
+    ]
+   },
+   {
+    "games": [
+     6,
+     1
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     1,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     10,
+     7
+    ]
+   }
+  ],
+  "winner": 1,
   "courtOrder": 2,
   "notBefore": null,
   "session": 2,
@@ -12572,15 +12620,28 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atps0s1",
+      "name": "B. Shelton",
+      "fullName": "Ben Shelton",
+      "nation": "USA"
+     }
+    ],
+    "seed": 8,
     "entryStatus": null,
     "setsWon": null,
     "won": null
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182766",
+  "startEpoch": 1789099200000,
+  "espnSideIds": [
+   "2708",
+   "9250"
+  ]
  },
  {
   "id": "MS-1701",
