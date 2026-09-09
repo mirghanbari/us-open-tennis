@@ -12483,7 +12483,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1788917400000,
+  "startEpoch": 1788919200000,
   "espnSideIds": [
    "9250",
    "3782"
@@ -28173,11 +28173,15 @@
   "court": "Court 6",
   "courtId": "AG",
   "eventDay": 17,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1788915198000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:40",
+  "setDurations": [
+   56,
+   45,
+   59
+  ],
   "upset": false,
   "sides": [
    {
@@ -28197,8 +28201,8 @@
     ],
     "seed": 12,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -28217,12 +28221,40 @@
     ],
     "seed": 7,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     7,
+     4
+    ]
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     1,
+     10
+    ]
+   }
+  ],
+  "winner": 2,
   "courtOrder": 5,
   "notBefore": null,
   "session": 1
@@ -28795,9 +28827,9 @@
    "MD-3301",
    "MD-3302"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 12",
+  "courtId": "AM",
+  "eventDay": 18,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -28826,15 +28858,31 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpa887",
+      "name": "G. Andreozzi",
+      "fullName": "Guido Andreozzi",
+      "nation": "ARG"
+     },
+     {
+      "id": "atpgh33",
+      "name": "M. Guinard",
+      "fullName": "Manuel Guinard",
+      "nation": "FRA"
+     }
+    ],
+    "seed": 7,
     "entryStatus": null,
     "setsWon": null,
     "won": null
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 5,
+  "notBefore": "7:00 PM",
+  "session": 1
  },
  {
   "id": "MD-3402",
@@ -28851,9 +28899,9 @@
    "MD-3303",
    "MD-3304"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Arthur Ashe Stadium",
+  "courtId": "AA",
+  "eventDay": 18,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -28890,7 +28938,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 2,
+  "notBefore": null,
+  "session": 2
  },
  {
   "id": "MD-3403",
@@ -28907,9 +28958,9 @@
    "MD-3305",
    "MD-3306"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 11",
+  "courtId": "AL",
+  "eventDay": 18,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -28959,7 +29010,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 5,
+  "notBefore": "6:00 PM",
+  "session": 1
  },
  {
   "id": "MD-3404",
@@ -28976,9 +29030,9 @@
    "MD-3307",
    "MD-3308"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Court 5",
+  "courtId": "AE",
+  "eventDay": 18,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -29028,7 +29082,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 5,
+  "notBefore": "6:00 PM",
+  "session": 1
  },
  {
   "id": "MD-3501",
@@ -34497,9 +34554,9 @@
    "WD-4401",
    "WD-4402"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Louis Armstrong Stadium",
+  "courtId": "AB",
+  "eventDay": 18,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -34549,7 +34606,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 4,
+  "notBefore": "4:00 PM",
+  "session": 1
  },
  {
   "id": "WD-4502",
@@ -34566,9 +34626,9 @@
    "WD-4403",
    "WD-4404"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Louis Armstrong Stadium",
+  "courtId": "AB",
+  "eventDay": 18,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -34618,7 +34678,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 5,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "WD-4601",
