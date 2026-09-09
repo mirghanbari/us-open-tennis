@@ -1335,7 +1335,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "live",
+      "status": "finished",
       "eventCode": "BD",
       "roundName": "Round 2",
       "team1": "N. Baena / F. Fontes D'Amorim",
@@ -1859,7 +1859,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "scheduled",
+      "status": "live",
       "eventCode": "CS",
       "roundName": "Round 1",
       "team1": "T. Oda",
@@ -1917,7 +1917,7 @@
       "notBefore": null,
       "conjunction": null,
       "comment": null,
-      "status": "live",
+      "status": "finished",
       "eventCode": "KS",
       "roundName": "Quarterfinals",
       "team1": "L. Foyster",
@@ -1980,6 +1980,52 @@
       "roundName": "Quarterfinals",
       "team1": "S. Matsuoka",
       "team2": "C. Figueiredo Kogan"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "tournDay": 19,
+  "label": 19,
+  "shortLabel": "Day 12: Thu, Sept 10",
+  "displayDate": "Day 12: Thursday, September 10",
+  "date": "2026-09-09",
+  "releaseTime": "5:30 PM",
+  "comments": "Ashe Only",
+  "footerComment": null,
+  "courts": [
+   {
+    "court": "Arthur Ashe Stadium",
+    "courtId": "AA",
+    "session": 2,
+    "sessionName": null,
+    "startTime": "7:00 PM",
+    "startEpoch": 1789081200000,
+    "matches": [
+     {
+      "id": "WS-2601",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WS",
+      "roundName": "Semifinals",
+      "team1": "A. Sabalenka",
+      "team2": "J. Pegula"
+     },
+     {
+      "id": "WS-2602",
+      "order": 2,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WS",
+      "roundName": "Semifinals",
+      "team1": "C. Gauff",
+      "team2": "E. Rybakina"
      }
     ]
    }
