@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-10T05:10:46.049Z",
+ "generated": "2026-09-10T05:12:08.736Z",
  "tourMeans": {
   "atp": {
    "meanSpw": 0.63179003339771,
@@ -31,7 +31,7 @@
    "matches": 378,
    "spw": 0.6564,
    "rpw": 0.3397,
-   "servePoints": 5380,
+   "servePoints": 5379,
    "rated": true
   },
   "atphb64": {
@@ -661,7 +661,7 @@
    "matches": 249,
    "spw": 0.6694,
    "rpw": 0.333,
-   "servePoints": 5746,
+   "servePoints": 5745,
    "rated": true
   },
   "atpva25": {
@@ -1669,7 +1669,7 @@
    "matches": 266,
    "spw": 0.5667,
    "rpw": 0.4505,
-   "servePoints": 4680,
+   "servePoints": 4679,
    "rated": true
   },
   "wta325410": {
@@ -3882,29 +3882,29 @@
   "MS": [
    {
     "playerId": "atpz355",
-    "title": 0.5556,
-    "final": 0.7917,
+    "title": 0.5727,
+    "final": 0.8084,
     "semi": 1,
     "quarter": 1
    },
    {
     "playerId": "atps0s1",
-    "title": 0.2278,
-    "final": 0.5748,
+    "title": 0.2189,
+    "final": 0.5778,
     "semi": 1,
     "quarter": 1
    },
    {
     "playerId": "atptd51",
-    "title": 0.1388,
-    "final": 0.4252,
+    "title": 0.1391,
+    "final": 0.4222,
     "semi": 1,
     "quarter": 1
    },
    {
     "playerId": "atpke29",
-    "title": 0.0778,
-    "final": 0.2083,
+    "title": 0.0693,
+    "final": 0.1916,
     "semi": 1,
     "quarter": 1
    }
@@ -3912,29 +3912,29 @@
   "WS": [
    {
     "playerId": "wta320760",
-    "title": 0.329,
-    "final": 0.5783,
+    "title": 0.3376,
+    "final": 0.5815,
     "semi": 1,
     "quarter": 1
    },
    {
     "playerId": "wta328560",
-    "title": 0.2441,
-    "final": 0.5183,
+    "title": 0.2386,
+    "final": 0.5167,
     "semi": 1,
     "quarter": 1
    },
    {
     "playerId": "wta324166",
-    "title": 0.222,
-    "final": 0.4817,
+    "title": 0.2168,
+    "final": 0.4833,
     "semi": 1,
     "quarter": 1
    },
    {
     "playerId": "wta316956",
-    "title": 0.2049,
-    "final": 0.4217,
+    "title": 0.207,
+    "final": 0.4185,
     "semi": 1,
     "quarter": 1
    }
