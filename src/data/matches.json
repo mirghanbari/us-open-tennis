@@ -23881,7 +23881,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1789081800000,
+  "startEpoch": 1789082100000,
   "espnSideIds": [
    "3038",
    "2113"
@@ -29476,11 +29476,14 @@
   "court": "Louis Armstrong Stadium",
   "courtId": "AB",
   "eventDay": 19,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1789082292000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:23",
+  "setDurations": [
+   47,
+   36
+  ],
   "upset": false,
   "sides": [
    {
@@ -29500,8 +29503,8 @@
     ],
     "seed": 1,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    },
    {
     "players": [
@@ -29520,12 +29523,30 @@
     ],
     "seed": 5,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     4,
+     7
+    ]
+   },
+   {
+    "games": [
+     2,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 4,
   "notBefore": null,
   "session": 1
@@ -29646,8 +29667,21 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atphb05",
+      "name": "C. Harrison",
+      "fullName": "Christian Harrison",
+      "nation": "USA"
+     },
+     {
+      "id": "atpsl22",
+      "name": "N. Skupski",
+      "fullName": "Neal Skupski",
+      "nation": "GBR"
+     }
+    ],
+    "seed": 5,
     "entryStatus": null,
     "setsWon": null,
     "won": null
