@@ -12604,9 +12604,9 @@
    "MS-1501",
    "MS-1502"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Arthur Ashe Stadium",
+  "courtId": "AA",
+  "eventDay": 20,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -12645,6 +12645,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 2,
+  "notBefore": "3:00 PM",
+  "session": 1,
   "espnId": "182768",
   "startEpoch": 1789099200000,
   "espnSideIds": [
@@ -12667,9 +12670,9 @@
    "MS-1503",
    "MS-1504"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Arthur Ashe Stadium",
+  "courtId": "AA",
+  "eventDay": 20,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -12708,6 +12711,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 1,
+  "notBefore": null,
+  "session": 2,
   "espnId": "182766",
   "startEpoch": 1789099200000,
   "espnSideIds": [
@@ -35140,9 +35146,9 @@
    "WD-4501",
    "WD-4502"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Arthur Ashe Stadium",
+  "courtId": "AA",
+  "eventDay": 20,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -35192,7 +35198,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 1,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "XD-5101",

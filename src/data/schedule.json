@@ -2668,5 +2668,73 @@
     ]
    }
   ]
+ },
+ {
+  "tournDay": 20,
+  "label": 20,
+  "shortLabel": "Day 13: Fri, Sept 11",
+  "displayDate": "Day 13: Friday, September 11",
+  "date": "2026-09-09",
+  "releaseTime": "-1:37 AM",
+  "comments": "MAIN DRAW ONLY",
+  "footerComment": null,
+  "courts": [
+   {
+    "court": "Arthur Ashe Stadium",
+    "courtId": "AA",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "12:00 PM",
+    "startEpoch": 1789142400000,
+    "matches": [
+     {
+      "id": "WD-4601",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "WD",
+      "roundName": "Final",
+      "team1": "K. Siniakova / T. Townsend",
+      "team2": "A. Krueger / R. Montgomery"
+     },
+     {
+      "id": "MS-1601",
+      "order": 2,
+      "notBefore": "3:00 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MS",
+      "roundName": "Semifinals",
+      "team1": "A. Zverev",
+      "team2": "K. Khachanov"
+     }
+    ]
+   },
+   {
+    "court": "Arthur Ashe Stadium",
+    "courtId": "AA",
+    "session": 2,
+    "sessionName": null,
+    "startTime": "7:00 PM",
+    "startEpoch": 1789167600000,
+    "matches": [
+     {
+      "id": "MS-1602",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "MS",
+      "roundName": "Semifinals",
+      "team1": "F. Tiafoe",
+      "team2": "B. Shelton"
+     }
+    ]
+   }
+  ]
  }
 ]
