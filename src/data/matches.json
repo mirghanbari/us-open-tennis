@@ -34958,11 +34958,15 @@
   "court": "Louis Armstrong Stadium",
   "courtId": "AB",
   "eventDay": 18,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1789001522000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:37",
+  "setDurations": [
+   49,
+   41,
+   67
+  ],
   "upset": false,
   "sides": [
    {
@@ -34982,8 +34986,8 @@
     ],
     "seed": null,
     "entryStatus": "WC",
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -35002,12 +35006,37 @@
     ],
     "seed": 2,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     10,
+     8
+    ]
+   }
+  ],
+  "winner": 1,
   "courtOrder": 5,
   "notBefore": null,
   "session": 1
@@ -35058,9 +35087,22 @@
     "won": null
    },
    {
-    "players": [],
+    "players": [
+     {
+      "id": "wta329409",
+      "name": "A. Krueger",
+      "fullName": "Ashlyn Krueger",
+      "nation": "USA"
+     },
+     {
+      "id": "wta329408",
+      "name": "R. Montgomery",
+      "fullName": "Robin Montgomery",
+      "nation": "USA"
+     }
+    ],
     "seed": null,
-    "entryStatus": null,
+    "entryStatus": "WC",
     "setsWon": null,
     "won": null
    }
