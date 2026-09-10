@@ -29548,11 +29548,14 @@
   "court": "Louis Armstrong Stadium",
   "courtId": "AB",
   "eventDay": 19,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1789075575000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:19",
+  "setDurations": [
+   32,
+   47
+  ],
   "upset": false,
   "sides": [
    {
@@ -29572,8 +29575,8 @@
     ],
     "seed": 6,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -29592,12 +29595,27 @@
     ],
     "seed": null,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 3,
   "notBefore": "4:00 PM",
   "session": 1
@@ -29635,8 +29653,21 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpkb92",
+      "name": "K. Krawietz",
+      "fullName": "Kevin Krawietz",
+      "nation": "GER"
+     },
+     {
+      "id": "atppc68",
+      "name": "T. Puetz",
+      "fullName": "Tim Puetz",
+      "nation": "GER"
+     }
+    ],
+    "seed": 6,
     "entryStatus": null,
     "setsWon": null,
     "won": null
