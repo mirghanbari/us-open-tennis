@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-10T17:20:47.422Z",
+ "generated": "2026-09-10T17:30:47.090Z",
  "tourMeans": {
   "atp": {
    "meanSpw": 0.63179003339771,
@@ -76,7 +76,7 @@
    "matches": 219,
    "spw": 0.6569,
    "rpw": 0.3575,
-   "servePoints": 4372,
+   "servePoints": 4371,
    "rated": true
   },
   "atpte30": {
@@ -94,7 +94,7 @@
    "matches": 163,
    "spw": 0.6316,
    "rpw": 0.3671,
-   "servePoints": 5814,
+   "servePoints": 5813,
    "rated": true
   },
   "atpw0ah": {
@@ -589,7 +589,7 @@
    "matches": 190,
    "spw": 0.6303,
    "rpw": 0.3674,
-   "servePoints": 6666,
+   "servePoints": 6665,
    "rated": true
   },
   "atpmm58": {
@@ -598,7 +598,7 @@
    "matches": 653,
    "spw": 0.6496,
    "rpw": 0.3998,
-   "servePoints": 7123,
+   "servePoints": 7122,
    "rated": true
   },
   "atpg09o": {
@@ -760,7 +760,7 @@
    "matches": 171,
    "spw": 0.6369,
    "rpw": 0.368,
-   "servePoints": 5282,
+   "servePoints": 5281,
    "rated": true
   },
   "atpc0nb": {
@@ -985,7 +985,7 @@
    "matches": 161,
    "spw": 0.6307,
    "rpw": 0.3648,
-   "servePoints": 3967,
+   "servePoints": 3966,
    "rated": true
   },
   "atphg86": {
@@ -1102,7 +1102,7 @@
    "matches": 158,
    "spw": 0.6227,
    "rpw": 0.3641,
-   "servePoints": 4506,
+   "servePoints": 4505,
    "rated": true
   },
   "atpd994": {
@@ -1228,7 +1228,7 @@
    "matches": 145,
    "spw": 0.5292,
    "rpw": 0.4403,
-   "servePoints": 3135,
+   "servePoints": 3134,
    "rated": true
   },
   "wta318314": {
@@ -1570,7 +1570,7 @@
    "matches": 281,
    "spw": 0.5356,
    "rpw": 0.4897,
-   "servePoints": 3062,
+   "servePoints": 3061,
    "rated": true
   },
   "wta327077": {
@@ -1597,7 +1597,7 @@
    "matches": 742,
    "spw": 0.5895,
    "rpw": 0.4609,
-   "servePoints": 4792,
+   "servePoints": 4791,
    "rated": true
   },
   "wta316738": {
@@ -1624,7 +1624,7 @@
    "matches": 83,
    "spw": 0.5279,
    "rpw": 0.4416,
-   "servePoints": 3123,
+   "servePoints": 3122,
    "rated": true
   },
   "wta322222": {
@@ -2029,7 +2029,7 @@
    "matches": 400,
    "spw": 0.5769,
    "rpw": 0.4964,
-   "servePoints": 6411,
+   "servePoints": 6410,
    "rated": true
   },
   "wta326408": {
@@ -2245,7 +2245,7 @@
    "matches": 540,
    "spw": 0.5866,
    "rpw": 0.4585,
-   "servePoints": 4920,
+   "servePoints": 4919,
    "rated": true
   },
   "wta318312": {
@@ -2254,7 +2254,7 @@
    "matches": 500,
    "spw": 0.5665,
    "rpw": 0.4342,
-   "servePoints": 4388,
+   "servePoints": 4387,
    "rated": true
   },
   "wta329408": {
@@ -2945,7 +2945,7 @@
    "elo": 1701,
    "hardElo": 1631,
    "matches": 405,
-   "spw": 0.6376,
+   "spw": 0.6375,
    "rpw": 0.349,
    "servePoints": 315,
    "rated": true
@@ -3882,29 +3882,29 @@
   "MS": [
    {
     "playerId": "atpz355",
-    "title": 0.5632,
-    "final": 0.8063,
+    "title": 0.5612,
+    "final": 0.7954,
     "semi": 1,
     "quarter": 1
    },
    {
     "playerId": "atps0s1",
-    "title": 0.2223,
-    "final": 0.5597,
+    "title": 0.2177,
+    "final": 0.5621,
     "semi": 1,
     "quarter": 1
    },
    {
     "playerId": "atptd51",
-    "title": 0.1421,
-    "final": 0.4403,
+    "title": 0.1436,
+    "final": 0.4379,
     "semi": 1,
     "quarter": 1
    },
    {
     "playerId": "atpke29",
-    "title": 0.0724,
-    "final": 0.1937,
+    "title": 0.0775,
+    "final": 0.2046,
     "semi": 1,
     "quarter": 1
    }
@@ -3912,29 +3912,29 @@
   "WS": [
    {
     "playerId": "wta320760",
-    "title": 0.3332,
-    "final": 0.5791,
+    "title": 0.3268,
+    "final": 0.5749,
     "semi": 1,
     "quarter": 1
    },
    {
     "playerId": "wta328560",
-    "title": 0.2362,
-    "final": 0.5153,
+    "title": 0.2461,
+    "final": 0.5177,
     "semi": 1,
     "quarter": 1
    },
    {
     "playerId": "wta324166",
-    "title": 0.2213,
-    "final": 0.4847,
+    "title": 0.2222,
+    "final": 0.4823,
     "semi": 1,
     "quarter": 1
    },
    {
     "playerId": "wta316956",
-    "title": 0.2093,
-    "final": 0.4209,
+    "title": 0.2049,
+    "final": 0.4251,
     "semi": 1,
     "quarter": 1
    }
