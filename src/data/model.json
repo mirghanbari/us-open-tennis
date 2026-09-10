@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-10T17:30:47.090Z",
+ "generated": "2026-09-10T17:37:13.291Z",
  "tourMeans": {
   "atp": {
    "meanSpw": 0.63179003339771,
@@ -454,7 +454,7 @@
    "matches": 599,
    "spw": 0.6978,
    "rpw": 0.3509,
-   "servePoints": 8070,
+   "servePoints": 8069,
    "rated": true
   },
   "atpb0no": {
@@ -1012,7 +1012,7 @@
    "matches": 598,
    "spw": 0.6721,
    "rpw": 0.3525,
-   "servePoints": 6085,
+   "servePoints": 6084,
    "rated": true
   },
   "atpf0f1": {
@@ -1381,7 +1381,7 @@
    "matches": 452,
    "spw": 0.5739,
    "rpw": 0.4295,
-   "servePoints": 5922,
+   "servePoints": 5921,
    "rated": true
   },
   "wta326096": {
@@ -3882,29 +3882,29 @@
   "MS": [
    {
     "playerId": "atpz355",
-    "title": 0.5612,
-    "final": 0.7954,
+    "title": 0.5595,
+    "final": 0.7973,
     "semi": 1,
     "quarter": 1
    },
    {
     "playerId": "atps0s1",
-    "title": 0.2177,
-    "final": 0.5621,
+    "title": 0.2178,
+    "final": 0.5614,
     "semi": 1,
     "quarter": 1
    },
    {
     "playerId": "atptd51",
-    "title": 0.1436,
-    "final": 0.4379,
+    "title": 0.1501,
+    "final": 0.4386,
     "semi": 1,
     "quarter": 1
    },
    {
     "playerId": "atpke29",
-    "title": 0.0775,
-    "final": 0.2046,
+    "title": 0.0726,
+    "final": 0.2027,
     "semi": 1,
     "quarter": 1
    }
@@ -3912,29 +3912,29 @@
   "WS": [
    {
     "playerId": "wta320760",
-    "title": 0.3268,
-    "final": 0.5749,
+    "title": 0.3321,
+    "final": 0.5726,
     "semi": 1,
     "quarter": 1
    },
    {
     "playerId": "wta328560",
-    "title": 0.2461,
-    "final": 0.5177,
-    "semi": 1,
-    "quarter": 1
-   },
-   {
-    "playerId": "wta324166",
-    "title": 0.2222,
-    "final": 0.4823,
+    "title": 0.2484,
+    "final": 0.5267,
     "semi": 1,
     "quarter": 1
    },
    {
     "playerId": "wta316956",
-    "title": 0.2049,
-    "final": 0.4251,
+    "title": 0.2128,
+    "final": 0.4274,
+    "semi": 1,
+    "quarter": 1
+   },
+   {
+    "playerId": "wta324166",
+    "title": 0.2067,
+    "final": 0.4733,
     "semi": 1,
     "quarter": 1
    }
