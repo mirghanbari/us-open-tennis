@@ -23830,6 +23830,12 @@
   "notBefore": null,
   "session": 2,
   "espnId": "182553",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1789081200000,
   "espnSideIds": [
    "3038",
@@ -23896,6 +23902,12 @@
   "notBefore": null,
   "session": 2,
   "espnId": "182551",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
   "startEpoch": 1789086600000,
   "espnSideIds": [
    "3626",
