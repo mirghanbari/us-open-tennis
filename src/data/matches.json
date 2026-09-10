@@ -29199,11 +29199,15 @@
   "court": "Court 11",
   "courtId": "AL",
   "eventDay": 18,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1789000753000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:30",
+  "setDurations": [
+   49,
+   39,
+   62
+  ],
   "upset": false,
   "sides": [
    {
@@ -29223,8 +29227,8 @@
     ],
     "seed": 6,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -29243,12 +29247,40 @@
     ],
     "seed": 3,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     7
+    ],
+    "tiebreak": [
+     4,
+     7
+    ]
+   },
+   {
+    "games": [
+     6,
+     4
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     7,
+     6
+    ],
+    "tiebreak": [
+     10,
+     7
+    ]
+   }
+  ],
+  "winner": 1,
   "courtOrder": 4,
   "notBefore": "6:00 PM",
   "session": 1
@@ -29358,9 +29390,9 @@
    "MD-3401",
    "MD-3402"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Louis Armstrong Stadium",
+  "courtId": "AB",
+  "eventDay": 19,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -29384,7 +29416,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 4,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "MD-3502",
@@ -29401,9 +29436,9 @@
    "MD-3403",
    "MD-3404"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Louis Armstrong Stadium",
+  "courtId": "AB",
+  "eventDay": 19,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -29412,8 +29447,21 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "atpkb92",
+      "name": "K. Krawietz",
+      "fullName": "Kevin Krawietz",
+      "nation": "GER"
+     },
+     {
+      "id": "atppc68",
+      "name": "T. Puetz",
+      "fullName": "Tim Puetz",
+      "nation": "GER"
+     }
+    ],
+    "seed": 6,
     "entryStatus": null,
     "setsWon": null,
     "won": null
@@ -29440,7 +29488,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 3,
+  "notBefore": "4:00 PM",
+  "session": 1
  },
  {
   "id": "MD-3601",
