@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-10T22:37:49.154Z",
+ "generated": "2026-09-10T22:40:51.421Z",
  "tourMeans": {
   "atp": {
    "meanSpw": 0.63179003339771,
@@ -517,7 +517,7 @@
    "matches": 298,
    "spw": 0.6197,
    "rpw": 0.397,
-   "servePoints": 6428,
+   "servePoints": 6427,
    "rated": true
   },
   "atpb0pg": {
@@ -2020,7 +2020,7 @@
    "matches": 82,
    "spw": 0.5232,
    "rpw": 0.463,
-   "servePoints": 3078,
+   "servePoints": 3077,
    "rated": true
   },
   "wta328560": {
@@ -2191,7 +2191,7 @@
    "matches": 58,
    "spw": 0.5438,
    "rpw": 0.4386,
-   "servePoints": 1936,
+   "servePoints": 1935,
    "rated": true
   },
   "wta327909": {
@@ -3882,28 +3882,28 @@
   "MS": [
    {
     "playerId": "atpz355",
-    "title": 0.5542,
+    "title": 0.568,
     "final": 0.7966,
     "semi": 1,
     "quarter": 1
    },
    {
     "playerId": "atps0s1",
-    "title": 0.2222,
-    "final": 0.5675,
+    "title": 0.2124,
+    "final": 0.5657,
     "semi": 1,
     "quarter": 1
    },
    {
     "playerId": "atptd51",
-    "title": 0.1486,
-    "final": 0.4325,
+    "title": 0.1395,
+    "final": 0.4343,
     "semi": 1,
     "quarter": 1
    },
    {
     "playerId": "atpke29",
-    "title": 0.075,
+    "title": 0.0801,
     "final": 0.2034,
     "semi": 1,
     "quarter": 1
@@ -3912,29 +3912,29 @@
   "WS": [
    {
     "playerId": "wta320760",
-    "title": 0.3347,
-    "final": 0.5754,
+    "title": 0.3364,
+    "final": 0.5746,
     "semi": 1,
     "quarter": 1
    },
    {
     "playerId": "wta328560",
-    "title": 0.2399,
-    "final": 0.5149,
+    "title": 0.2377,
+    "final": 0.5167,
     "semi": 1,
     "quarter": 1
    },
    {
     "playerId": "wta324166",
-    "title": 0.2184,
-    "final": 0.4851,
+    "title": 0.2141,
+    "final": 0.4833,
     "semi": 1,
     "quarter": 1
    },
    {
     "playerId": "wta316956",
-    "title": 0.207,
-    "final": 0.4246,
+    "title": 0.2118,
+    "final": 0.4254,
     "semi": 1,
     "quarter": 1
    }
