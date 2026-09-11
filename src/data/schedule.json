@@ -688,8 +688,8 @@
   "label": 20,
   "shortLabel": "Day 13: Fri, Sept 11",
   "displayDate": "Day 13: Friday, September 11",
-  "date": "2026-09-10",
-  "releaseTime": "7:42 PM",
+  "date": "2026-09-11",
+  "releaseTime": "9:43 AM",
   "comments": null,
   "footerComment": null,
   "courts": [
@@ -724,6 +724,18 @@
       "roundName": "Semifinals",
       "team1": "A. Zverev",
       "team2": "K. Khachanov"
+     },
+     {
+      "id": "null-0",
+      "order": 3,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": "Intentionally Blank",
+      "status": "scheduled",
+      "eventCode": null,
+      "roundName": "",
+      "team1": "",
+      "team2": ""
      }
     ]
    },
