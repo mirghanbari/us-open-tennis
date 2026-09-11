@@ -35249,11 +35249,15 @@
   "court": "Arthur Ashe Stadium",
   "courtId": "AA",
   "eventDay": 20,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1789149421000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:53",
+  "setDurations": [
+   41,
+   24,
+   48
+  ],
   "upset": false,
   "sides": [
    {
@@ -35273,8 +35277,8 @@
     ],
     "seed": 1,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -35293,12 +35297,34 @@
     ],
     "seed": null,
     "entryStatus": "WC",
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     5,
+     7
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     0
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 1,
   "notBefore": null,
   "session": 1
