@@ -23923,11 +23923,15 @@
   "court": "Arthur Ashe Stadium",
   "courtId": "AA",
   "eventDay": 19,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1789096132000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "2:09",
+  "setDurations": [
+   38,
+   44,
+   47
+  ],
   "upset": false,
   "sides": [
    {
@@ -23941,8 +23945,8 @@
     ],
     "seed": 4,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 1,
+    "won": false
    },
    {
     "players": [
@@ -23955,12 +23959,34 @@
     ],
     "seed": 2,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     6,
+     3
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     4,
+     6
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 2,
   "courtOrder": 2,
   "notBefore": null,
   "session": 2,
@@ -24017,15 +24043,34 @@
     "won": null
    },
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta324166",
+      "name": "E. Rybakina",
+      "fullName": "Elena Rybakina",
+      "nation": "KAZ"
+     }
+    ],
+    "seed": 2,
     "entryStatus": null,
     "setsWon": null,
     "won": null
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "espnId": "182589",
+  "broadcasts": [
+   {
+    "name": "ESPN",
+    "type": "tv"
+   }
+  ],
+  "startEpoch": 1789243200000,
+  "espnSideIds": [
+   "3038",
+   "3126"
+  ]
  },
  {
   "id": "MD-3101",

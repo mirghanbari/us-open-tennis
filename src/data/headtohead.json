@@ -131,33 +131,153 @@
    }
   ]
  },
- "WS-2602": {
+ "WS-2701": {
   "player1": {
-   "id": "wta328560",
-   "name": "Coco Gauff",
-   "wins": 1
+   "id": "wta320760",
+   "name": "Aryna Sabalenka",
+   "wins": 10
   },
   "player2": {
    "id": "wta324166",
    "name": "Elena Rybakina",
-   "wins": 1
+   "wins": 7
   },
   "meetings": [
    {
     "year": 2026,
-    "tournament": "Toronto",
+    "tournament": "Australian Open",
     "surface": "Hard",
-    "round": "SF",
+    "round": "F",
     "winner": "2",
-    "score": "5-7, 6-2, 6-2"
+    "score": "6-4, 4-6, 6-4"
    },
    {
-    "year": 2022,
-    "tournament": "Toronto",
+    "year": 2026,
+    "tournament": "Miami",
     "surface": "Hard",
-    "round": "R2",
+    "round": "SF",
     "winner": "1",
-    "score": "6-4, 6-7, 7-6"
+    "score": "6-4, 6-3"
+   },
+   {
+    "year": 2026,
+    "tournament": "Indian Wells",
+    "surface": "Hard",
+    "round": "F",
+    "winner": "1",
+    "score": "3-6, 6-3, 7-6"
+   },
+   {
+    "year": 2025,
+    "tournament": "Berlin",
+    "surface": "Grass",
+    "round": "QF",
+    "winner": "1",
+    "score": "7-6, 3-6, 7-6"
+   },
+   {
+    "year": 2025,
+    "tournament": "Cincinnati",
+    "surface": "Hard",
+    "round": "QF",
+    "winner": "2",
+    "score": "6-1, 6-4"
+   },
+   {
+    "year": 2025,
+    "tournament": "Wuhan",
+    "surface": "Hard",
+    "round": "QF",
+    "winner": "1",
+    "score": "6-3, 6-3"
+   },
+   {
+    "year": 2025,
+    "tournament": "Wta Finals",
+    "surface": "Hard",
+    "round": "F",
+    "winner": "2",
+    "score": "6-3, 7-6"
+   },
+   {
+    "year": 2024,
+    "tournament": "Madrid",
+    "surface": "Clay",
+    "round": "SF",
+    "winner": "1",
+    "score": "1-6, 7-5, 7-6"
+   },
+   {
+    "year": 2024,
+    "tournament": "Wta Finals",
+    "surface": "Hard",
+    "round": "RR",
+    "winner": "2",
+    "score": "6-4, 3-6, 6-1"
+   },
+   {
+    "year": 2023,
+    "tournament": "Australian Open",
+    "surface": "Hard",
+    "round": "F",
+    "winner": "1",
+    "score": "4-6, 6-3, 6-4"
+   },
+   {
+    "year": 2023,
+    "tournament": "Indian Wells",
+    "surface": "Hard",
+    "round": "F",
+    "winner": "2",
+    "score": "7-6, 6-4"
+   },
+   {
+    "year": 2023,
+    "tournament": "Beijing",
+    "surface": "Hard",
+    "round": "QF",
+    "winner": "2",
+    "score": "7-5, 6-2"
+   },
+   {
+    "year": 2023,
+    "tournament": "Wta Finals",
+    "surface": "Hard",
+    "round": "RR",
+    "winner": "1",
+    "score": "6-2, 3-6, 6-3"
+   },
+   {
+    "year": 2023,
+    "tournament": "Brisbane",
+    "surface": "Hard",
+    "round": "F",
+    "winner": "2",
+    "score": "6-0, 6-3"
+   },
+   {
+    "year": 2021,
+    "tournament": "Abu Dhabi",
+    "surface": "Hard",
+    "round": "QF",
+    "winner": "1",
+    "score": "6-4, 4-6, 6-3"
+   },
+   {
+    "year": 2021,
+    "tournament": "Wimbledon",
+    "surface": "Grass",
+    "round": "R4",
+    "winner": "1",
+    "score": "6-3, 4-6, 6-3"
+   },
+   {
+    "year": 2019,
+    "tournament": "Wuhan",
+    "surface": "Hard",
+    "round": "QF",
+    "winner": "1",
+    "score": "6-3, 1-6, 6-1"
    }
   ]
  }
