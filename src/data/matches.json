@@ -24006,9 +24006,9 @@
    "WS-2601",
    "WS-2602"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Arthur Ashe Stadium",
+  "courtId": "AA",
+  "eventDay": 21,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -24047,6 +24047,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 2,
+  "notBefore": "4:00 PM",
+  "session": 1,
   "espnId": "182589",
   "broadcasts": [
    {
@@ -29702,9 +29705,9 @@
    "MD-3501",
    "MD-3502"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Arthur Ashe Stadium",
+  "courtId": "AA",
+  "eventDay": 21,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -29754,7 +29757,10 @@
    }
   ],
   "sets": [],
-  "winner": null
+  "winner": null,
+  "courtOrder": 1,
+  "notBefore": null,
+  "session": 1
  },
  {
   "id": "WD-4101",
