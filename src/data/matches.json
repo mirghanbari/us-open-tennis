@@ -23833,11 +23833,14 @@
   "court": "Arthur Ashe Stadium",
   "courtId": "AA",
   "eventDay": 19,
-  "epoch": null,
-  "status": "scheduled",
-  "statusCode": "B",
-  "duration": null,
-  "setDurations": [],
+  "epoch": 1789087000000,
+  "status": "finished",
+  "statusCode": "D",
+  "duration": "1:20",
+  "setDurations": [
+   43,
+   37
+  ],
   "upset": false,
   "sides": [
    {
@@ -23851,8 +23854,8 @@
     ],
     "seed": 1,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 2,
+    "won": true
    },
    {
     "players": [
@@ -23865,12 +23868,27 @@
     ],
     "seed": 3,
     "entryStatus": null,
-    "setsWon": null,
-    "won": null
+    "setsWon": 0,
+    "won": false
    }
   ],
-  "sets": [],
-  "winner": null,
+  "sets": [
+   {
+    "games": [
+     7,
+     5
+    ],
+    "tiebreak": null
+   },
+   {
+    "games": [
+     6,
+     2
+    ],
+    "tiebreak": null
+   }
+  ],
+  "winner": 1,
   "courtOrder": 1,
   "notBefore": null,
   "session": 2,
@@ -23953,7 +23971,7 @@
     "type": "tv"
    }
   ],
-  "startEpoch": 1789087500000,
+  "startEpoch": 1789087800000,
   "espnSideIds": [
    "3626",
    "3126"
@@ -23985,8 +24003,15 @@
   "upset": false,
   "sides": [
    {
-    "players": [],
-    "seed": null,
+    "players": [
+     {
+      "id": "wta320760",
+      "name": "A. Sabalenka",
+      "fullName": "Aryna Sabalenka",
+      "nation": "BLR"
+     }
+    ],
+    "seed": 1,
     "entryStatus": null,
     "setsWon": null,
     "won": null
