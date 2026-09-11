@@ -1081,8 +1081,8 @@
   "shortLabel": "Day 14: Sat, Sept 12",
   "displayDate": "Day 14: Saturday, September 12",
   "date": "2026-09-11",
-  "releaseTime": "4:12 PM",
-  "comments": "Ashe Only",
+  "releaseTime": "6:30 PM",
+  "comments": null,
   "footerComment": null,
   "courts": [
    {
@@ -1116,6 +1116,150 @@
       "roundName": "Final",
       "team1": "A. Sabalenka",
       "team2": "E. Rybakina"
+     }
+    ]
+   },
+   {
+    "court": "Court 7",
+    "courtId": "AH",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1789225200000,
+    "matches": [
+     {
+      "id": "GS-22601",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GS",
+      "roundName": "Final",
+      "team1": "X. Sun",
+      "team2": "A. Pushkareva"
+     }
+    ]
+   },
+   {
+    "court": "Court 10",
+    "courtId": "AK",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1789225200000,
+    "matches": [
+     {
+      "id": "US-35401",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "US",
+      "roundName": "Final",
+      "team1": "N. Vink",
+      "team2": "S. Schroder"
+     }
+    ]
+   },
+   {
+    "court": "Court 11",
+    "courtId": "AL",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1789225200000,
+    "matches": [
+     {
+      "id": "CS-31401",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "CS",
+      "roundName": "Final",
+      "team1": "T. Oda",
+      "team2": "A. Hewett"
+     }
+    ]
+   },
+   {
+    "court": "Court 12",
+    "courtId": "AM",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1789225200000,
+    "matches": [
+     {
+      "id": "BS-21601",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BS",
+      "roundName": "Final",
+      "team1": "G. Miguel",
+      "team2": "M. Latak"
+     },
+     {
+      "id": "BD-23501",
+      "order": 2,
+      "notBefore": "12:00 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BD",
+      "roundName": "Final",
+      "team1": "T. Konduri / M. Latak",
+      "team2": "A. Gabet / V. Gonzalez-Galino"
+     }
+    ]
+   },
+   {
+    "court": "Court 13",
+    "courtId": "AN",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1789225200000,
+    "matches": [
+     {
+      "id": "DS-32401",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "DS",
+      "roundName": "Final",
+      "team1": "Y. Kamiji",
+      "team2": "D. De Groot"
+     }
+    ]
+   },
+   {
+    "court": "Court 14",
+    "courtId": "AO",
+    "session": 1,
+    "sessionName": null,
+    "startTime": "11:00 AM",
+    "startEpoch": 1789225200000,
+    "matches": [
+     {
+      "id": "GD-24501",
+      "order": 1,
+      "notBefore": null,
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "GD",
+      "roundName": "Final",
+      "team1": "P. Berezina / A. Terentyeva",
+      "team2": "A. Penickova / K. Penickova"
      }
     ]
    }
