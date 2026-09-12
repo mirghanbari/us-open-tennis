@@ -12802,9 +12802,9 @@
    "MS-1601",
    "MS-1602"
   ],
-  "court": "",
-  "courtId": "",
-  "eventDay": null,
+  "court": "Arthur Ashe Stadium",
+  "courtId": "AA",
+  "eventDay": 22,
   "epoch": null,
   "status": "scheduled",
   "statusCode": "B",
@@ -12843,6 +12843,9 @@
   ],
   "sets": [],
   "winner": null,
+  "courtOrder": 1,
+  "notBefore": null,
+  "session": 1,
   "espnId": "182677",
   "broadcasts": [
    {
