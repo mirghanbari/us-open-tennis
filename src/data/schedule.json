@@ -396,8 +396,8 @@
   "label": 21,
   "shortLabel": "Day 14: Sat, Sept 12",
   "displayDate": "Day 14: Saturday, September 12",
-  "date": "2026-09-11",
-  "releaseTime": "6:30 PM",
+  "date": "2026-09-12",
+  "releaseTime": "1:17 PM",
   "comments": null,
   "footerComment": null,
   "courts": [
@@ -498,6 +498,18 @@
       "roundName": "Final",
       "team1": "T. Oda",
       "team2": "A. Hewett"
+     },
+     {
+      "id": "BD-23501",
+      "order": 2,
+      "notBefore": "12:00 PM",
+      "conjunction": null,
+      "comment": null,
+      "status": "scheduled",
+      "eventCode": "BD",
+      "roundName": "Final",
+      "team1": "T. Konduri / M. Latak",
+      "team2": "A. Gabet / V. Gonzalez-Galino"
      }
     ]
    },
@@ -520,18 +532,6 @@
       "roundName": "Final",
       "team1": "G. Miguel",
       "team2": "M. Latak"
-     },
-     {
-      "id": "BD-23501",
-      "order": 2,
-      "notBefore": "12:00 PM",
-      "conjunction": null,
-      "comment": null,
-      "status": "scheduled",
-      "eventCode": "BD",
-      "roundName": "Final",
-      "team1": "T. Konduri / M. Latak",
-      "team2": "A. Gabet / V. Gonzalez-Galino"
      }
     ]
    },
