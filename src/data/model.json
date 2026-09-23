@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-23T07:02:17.103Z",
+ "generated": "2026-09-23T08:02:40.480Z",
  "tourMeans": {
   "atp": {
-   "meanSpw": 0.6317795767069581,
-   "meanRpw": 0.36822042329304194
+   "meanSpw": 0.6317864120150918,
+   "meanRpw": 0.3682135879849082
   },
   "wta": {
    "meanSpw": 0.5622144651393951,
@@ -14,15 +14,15 @@
  "eloWeight": 0.6,
  "trainedFrom": 2000,
  "trainedThrough": "2026-09-21",
- "historyMatches": 152366,
+ "historyMatches": 152466,
  "ratings": {
   "atpz355": {
-   "elo": 2164,
-   "hardElo": 2086,
-   "matches": 812,
-   "spw": 0.6945,
+   "elo": 2166,
+   "hardElo": 2088,
+   "matches": 814,
+   "spw": 0.6954,
    "rpw": 0.3739,
-   "servePoints": 9415,
+   "servePoints": 9524,
    "rated": true
   },
   "atpsu87": {
@@ -31,16 +31,16 @@
    "matches": 379,
    "spw": 0.656,
    "rpw": 0.3388,
-   "servePoints": 5429,
+   "servePoints": 5428,
    "rated": true
   },
   "atphb64": {
-   "elo": 1836,
-   "hardElo": 1696,
-   "matches": 171,
-   "spw": 0.662,
-   "rpw": 0.3369,
-   "servePoints": 4508,
+   "elo": 1827,
+   "hardElo": 1690,
+   "matches": 172,
+   "spw": 0.6623,
+   "rpw": 0.3354,
+   "servePoints": 4608,
    "rated": true
   },
   "atpd0cg": {
@@ -53,12 +53,12 @@
    "rated": true
   },
   "atpd875": {
-   "elo": 1890,
-   "hardElo": 1879,
-   "matches": 807,
-   "spw": 0.6615,
-   "rpw": 0.3647,
-   "servePoints": 4020,
+   "elo": 1887,
+   "hardElo": 1874,
+   "matches": 809,
+   "spw": 0.6628,
+   "rpw": 0.3629,
+   "servePoints": 4202,
    "rated": true
   },
   "atpp09z": {
@@ -67,7 +67,7 @@
    "matches": 276,
    "spw": 0.6539,
    "rpw": 0.3393,
-   "servePoints": 4593,
+   "servePoints": 4592,
    "rated": true
   },
   "atph997": {
@@ -80,12 +80,12 @@
    "rated": true
   },
   "atpte30": {
-   "elo": 1865,
+   "elo": 1853,
    "hardElo": 1800,
-   "matches": 191,
-   "spw": 0.6519,
-   "rpw": 0.3503,
-   "servePoints": 5068,
+   "matches": 192,
+   "spw": 0.6511,
+   "rpw": 0.3499,
+   "servePoints": 5163,
    "rated": true
   },
   "atpd0fj": {
@@ -98,12 +98,12 @@
    "rated": true
   },
   "atpw0ah": {
-   "elo": 1426,
-   "hardElo": 1458,
-   "matches": 3,
-   "spw": 0.6143,
-   "rpw": 0.3651,
-   "servePoints": 289,
+   "elo": 1492,
+   "hardElo": 1526,
+   "matches": 4,
+   "spw": 0.6204,
+   "rpw": 0.3773,
+   "servePoints": 335,
    "rated": true
   },
   "atps0gd": {
@@ -143,12 +143,12 @@
    "rated": true
   },
   "atpf0dm": {
-   "elo": 1856,
-   "hardElo": 1678,
-   "matches": 28,
-   "spw": 0.6328,
-   "rpw": 0.3692,
-   "servePoints": 1817,
+   "elo": 1869,
+   "hardElo": 1692,
+   "matches": 29,
+   "spw": 0.6349,
+   "rpw": 0.3726,
+   "servePoints": 1869,
    "rated": true
   },
   "atpm0ej": {
@@ -157,16 +157,16 @@
    "matches": 344,
    "spw": 0.644,
    "rpw": 0.3842,
-   "servePoints": 5989,
+   "servePoints": 5988,
    "rated": true
   },
   "atpj0dz": {
-   "elo": 2031,
+   "elo": 2038,
    "hardElo": 1882,
-   "matches": 54,
-   "spw": 0.6337,
-   "rpw": 0.4002,
-   "servePoints": 3341,
+   "matches": 55,
+   "spw": 0.6344,
+   "rpw": 0.4028,
+   "servePoints": 3378,
    "rated": true
   },
   "atpy09v": {
@@ -175,16 +175,16 @@
    "matches": 62,
    "spw": 0.6353,
    "rpw": 0.3527,
-   "servePoints": 1786,
+   "servePoints": 1785,
    "rated": true
   },
   "atpm0ci": {
-   "elo": 1765,
-   "hardElo": 1709,
-   "matches": 165,
-   "spw": 0.6357,
-   "rpw": 0.3544,
-   "servePoints": 5170,
+   "elo": 1769,
+   "hardElo": 1718,
+   "matches": 166,
+   "spw": 0.6364,
+   "rpw": 0.3557,
+   "servePoints": 5222,
    "rated": true
   },
   "atpz0bz": {
@@ -206,12 +206,12 @@
    "rated": true
   },
   "atpae14": {
-   "elo": 1753,
-   "hardElo": 1630,
-   "matches": 217,
-   "spw": 0.6222,
-   "rpw": 0.3465,
-   "servePoints": 5218,
+   "elo": 1740,
+   "hardElo": 1609,
+   "matches": 218,
+   "spw": 0.6221,
+   "rpw": 0.3464,
+   "servePoints": 5268,
    "rated": true
   },
   "atpc0c8": {
@@ -233,12 +233,12 @@
    "rated": true
   },
   "atpbu13": {
-   "elo": 1834,
+   "elo": 1819,
    "hardElo": 1771,
-   "matches": 157,
-   "spw": 0.637,
-   "rpw": 0.3667,
-   "servePoints": 5037,
+   "matches": 159,
+   "spw": 0.6352,
+   "rpw": 0.3674,
+   "servePoints": 5186,
    "rated": true
   },
   "atpte16": {
@@ -296,21 +296,21 @@
    "rated": true
   },
   "atpdh58": {
-   "elo": 1620,
-   "hardElo": 1590,
-   "matches": 1,
-   "spw": 0.6375,
-   "rpw": 0.3734,
-   "servePoints": 77,
+   "elo": 1753,
+   "hardElo": 1710,
+   "matches": 3,
+   "spw": 0.6608,
+   "rpw": 0.3933,
+   "servePoints": 164,
    "rated": true
   },
   "atpag37": {
-   "elo": 2004,
-   "hardElo": 1974,
-   "matches": 489,
-   "spw": 0.6794,
-   "rpw": 0.3622,
-   "servePoints": 7209,
+   "elo": 2015,
+   "hardElo": 1984,
+   "matches": 491,
+   "spw": 0.6812,
+   "rpw": 0.3609,
+   "servePoints": 7384,
    "rated": true
   },
   "atph0bh": {
@@ -341,12 +341,12 @@
    "rated": true
   },
   "atpmv14": {
-   "elo": 1853,
+   "elo": 1843,
    "hardElo": 1722,
-   "matches": 116,
-   "spw": 0.632,
-   "rpw": 0.3766,
-   "servePoints": 1729,
+   "matches": 118,
+   "spw": 0.6352,
+   "rpw": 0.3794,
+   "servePoints": 1852,
    "rated": true
   },
   "atpbm95": {
@@ -368,21 +368,21 @@
    "rated": true
   },
   "atpb0id": {
-   "elo": 1882,
+   "elo": 1847,
    "hardElo": 1719,
-   "matches": 54,
-   "spw": 0.6245,
+   "matches": 56,
+   "spw": 0.6238,
    "rpw": 0.3793,
-   "servePoints": 3029,
+   "servePoints": 3273,
    "rated": true
   },
   "atpm0ni": {
-   "elo": 1940,
-   "hardElo": 1906,
-   "matches": 153,
-   "spw": 0.6553,
-   "rpw": 0.3657,
-   "servePoints": 5959,
+   "elo": 1947,
+   "hardElo": 1916,
+   "matches": 155,
+   "spw": 0.6561,
+   "rpw": 0.3648,
+   "servePoints": 6087,
    "rated": true
   },
   "atpm0hu": {
@@ -395,12 +395,12 @@
    "rated": true
   },
   "atpr09x": {
-   "elo": 1704,
+   "elo": 1750,
    "hardElo": 1722,
-   "matches": 57,
-   "spw": 0.6417,
-   "rpw": 0.363,
-   "servePoints": 902,
+   "matches": 59,
+   "spw": 0.6363,
+   "rpw": 0.3722,
+   "servePoints": 1055,
    "rated": true
   },
   "atpm0gz": {
@@ -409,16 +409,16 @@
    "matches": 105,
    "spw": 0.6804,
    "rpw": 0.2825,
-   "servePoints": 3848,
+   "servePoints": 3847,
    "rated": true
   },
   "atpv0dp": {
-   "elo": 1703,
+   "elo": 1710,
    "hardElo": 1628,
-   "matches": 32,
-   "spw": 0.6125,
-   "rpw": 0.388,
-   "servePoints": 1561,
+   "matches": 34,
+   "spw": 0.6154,
+   "rpw": 0.3868,
+   "servePoints": 1788,
    "rated": true
   },
   "atpmc65": {
@@ -426,26 +426,26 @@
    "hardElo": 1821,
    "matches": 959,
    "spw": 0.6323,
-   "rpw": 0.3711,
+   "rpw": 0.371,
    "servePoints": 3400,
    "rated": true
   },
   "atpbt72": {
-   "elo": 1865,
-   "hardElo": 1788,
-   "matches": 200,
+   "elo": 1868,
+   "hardElo": 1796,
+   "matches": 201,
    "spw": 0.647,
    "rpw": 0.3593,
    "servePoints": 6081,
    "rated": true
   },
   "atpt0ha": {
-   "elo": 1979,
-   "hardElo": 1952,
-   "matches": 117,
-   "spw": 0.6258,
-   "rpw": 0.382,
-   "servePoints": 5485,
+   "elo": 1976,
+   "hardElo": 1946,
+   "matches": 119,
+   "spw": 0.6257,
+   "rpw": 0.3829,
+   "servePoints": 5599,
    "rated": true
   },
   "atpfb98": {
@@ -454,7 +454,7 @@
    "matches": 602,
    "spw": 0.6974,
    "rpw": 0.3541,
-   "servePoints": 8156,
+   "servePoints": 8155,
    "rated": true
   },
   "atpb0no": {
@@ -476,12 +476,12 @@
    "rated": true
   },
   "atpp09o": {
-   "elo": 1685,
-   "hardElo": 1638,
-   "matches": 21,
-   "spw": 0.6129,
-   "rpw": 0.3658,
-   "servePoints": 256,
+   "elo": 1709,
+   "hardElo": 1674,
+   "matches": 22,
+   "spw": 0.6193,
+   "rpw": 0.378,
+   "servePoints": 303,
    "rated": true
   },
   "atpu182": {
@@ -499,7 +499,7 @@
    "matches": 537,
    "spw": 0.6461,
    "rpw": 0.349,
-   "servePoints": 5218,
+   "servePoints": 5217,
    "rated": true
   },
   "atpm0jz": {
@@ -508,16 +508,16 @@
    "matches": 39,
    "spw": 0.6079,
    "rpw": 0.3573,
-   "servePoints": 1046,
+   "servePoints": 1045,
    "rated": true
   },
   "atpc0au": {
-   "elo": 1923,
-   "hardElo": 1864,
-   "matches": 302,
-   "spw": 0.6204,
-   "rpw": 0.3977,
-   "servePoints": 6772,
+   "elo": 1928,
+   "hardElo": 1873,
+   "matches": 304,
+   "spw": 0.622,
+   "rpw": 0.3995,
+   "servePoints": 6847,
    "rated": true
   },
   "atpb0pg": {
@@ -544,7 +544,7 @@
    "matches": 89,
    "spw": 0.6368,
    "rpw": 0.3549,
-   "servePoints": 2216,
+   "servePoints": 2215,
    "rated": true
   },
   "atpta29": {
@@ -632,7 +632,7 @@
    "elo": 1793,
    "hardElo": 1787,
    "matches": 310,
-   "spw": 0.6332,
+   "spw": 0.6333,
    "rpw": 0.3797,
    "servePoints": 4692,
    "rated": true
@@ -643,34 +643,34 @@
    "matches": 68,
    "spw": 0.6518,
    "rpw": 0.3233,
-   "servePoints": 3024,
+   "servePoints": 3023,
    "rated": true
   },
   "atpsy67": {
-   "elo": 1580,
-   "hardElo": 1459,
-   "matches": 30,
-   "spw": 0.6363,
-   "rpw": 0.3254,
-   "servePoints": 1217,
+   "elo": 1627,
+   "hardElo": 1530,
+   "matches": 32,
+   "spw": 0.6412,
+   "rpw": 0.3285,
+   "servePoints": 1351,
    "rated": true
   },
   "atprc91": {
-   "elo": 1843,
-   "hardElo": 1821,
-   "matches": 252,
-   "spw": 0.6697,
-   "rpw": 0.3348,
-   "servePoints": 5911,
+   "elo": 1813,
+   "hardElo": 1783,
+   "matches": 254,
+   "spw": 0.6696,
+   "rpw": 0.3334,
+   "servePoints": 6075,
    "rated": true
   },
   "atpva25": {
-   "elo": 1865,
-   "hardElo": 1829,
-   "matches": 63,
-   "spw": 0.6644,
-   "rpw": 0.3552,
-   "servePoints": 2583,
+   "elo": 1879,
+   "hardElo": 1845,
+   "matches": 65,
+   "spw": 0.6663,
+   "rpw": 0.3557,
+   "servePoints": 2766,
    "rated": true
   },
   "atpk0az": {
@@ -683,21 +683,21 @@
    "rated": true
   },
   "atpmq75": {
-   "elo": 1799,
-   "hardElo": 1713,
-   "matches": 130,
-   "spw": 0.6381,
-   "rpw": 0.3625,
-   "servePoints": 3298,
+   "elo": 1789,
+   "hardElo": 1705,
+   "matches": 132,
+   "spw": 0.6348,
+   "rpw": 0.3628,
+   "servePoints": 3442,
    "rated": true
   },
   "atpm0jf": {
-   "elo": 1752,
-   "hardElo": 1647,
-   "matches": 97,
-   "spw": 0.6442,
-   "rpw": 0.3436,
-   "servePoints": 3191,
+   "elo": 1762,
+   "hardElo": 1661,
+   "matches": 98,
+   "spw": 0.6461,
+   "rpw": 0.3433,
+   "servePoints": 3244,
    "rated": true
   },
   "atpv832": {
@@ -710,12 +710,12 @@
    "rated": true
   },
   "atps0uv": {
-   "elo": 1534,
-   "hardElo": 1511,
-   "matches": 9,
-   "spw": 0.6508,
-   "rpw": 0.3329,
-   "servePoints": 610,
+   "elo": 1573,
+   "hardElo": 1554,
+   "matches": 10,
+   "spw": 0.6525,
+   "rpw": 0.3352,
+   "servePoints": 675,
    "rated": true
   },
   "atpd0dt": {
@@ -733,7 +733,7 @@
    "matches": 509,
    "spw": 0.654,
    "rpw": 0.3608,
-   "servePoints": 7923,
+   "servePoints": 7922,
    "rated": true
   },
   "atpn0ae": {
@@ -742,7 +742,7 @@
    "matches": 288,
    "spw": 0.6761,
    "rpw": 0.3535,
-   "servePoints": 6584,
+   "servePoints": 6583,
    "rated": true
   },
   "atpb0bi": {
@@ -760,25 +760,25 @@
    "matches": 176,
    "spw": 0.6405,
    "rpw": 0.3709,
-   "servePoints": 5665,
+   "servePoints": 5664,
    "rated": true
   },
   "atpc0nb": {
    "elo": 1487,
    "hardElo": 1491,
    "matches": 14,
-   "spw": 0.6188,
+   "spw": 0.6189,
    "rpw": 0.3358,
    "servePoints": 773,
    "rated": true
   },
   "atpm0n7": {
-   "elo": 1945,
+   "elo": 1968,
    "hardElo": 1862,
-   "matches": 30,
-   "spw": 0.6228,
-   "rpw": 0.3968,
-   "servePoints": 2012,
+   "matches": 31,
+   "spw": 0.6247,
+   "rpw": 0.3967,
+   "servePoints": 2106,
    "rated": true
   },
   "atpf724": {
@@ -787,16 +787,16 @@
    "matches": 387,
    "spw": 0.6225,
    "rpw": 0.3671,
-   "servePoints": 3642,
+   "servePoints": 3641,
    "rated": true
   },
   "atpv0am": {
-   "elo": 1649,
-   "hardElo": 1610,
-   "matches": 47,
-   "spw": 0.6254,
-   "rpw": 0.349,
-   "servePoints": 1383,
+   "elo": 1650,
+   "hardElo": 1616,
+   "matches": 49,
+   "spw": 0.627,
+   "rpw": 0.355,
+   "servePoints": 1559,
    "rated": true
   },
   "atpre44": {
@@ -814,7 +814,7 @@
    "matches": 241,
    "spw": 0.6479,
    "rpw": 0.3587,
-   "servePoints": 6262,
+   "servePoints": 6261,
    "rated": true
   },
   "atpki82": {
@@ -827,12 +827,12 @@
    "rated": true
   },
   "atpl0il": {
-   "elo": 1629,
+   "elo": 1646,
    "hardElo": 1561,
-   "matches": 43,
-   "spw": 0.6197,
-   "rpw": 0.3633,
-   "servePoints": 2409,
+   "matches": 44,
+   "spw": 0.6221,
+   "rpw": 0.3639,
+   "servePoints": 2456,
    "rated": true
   },
   "atpf0by": {
@@ -854,12 +854,12 @@
    "rated": true
   },
   "atpw367": {
-   "elo": 1700,
-   "hardElo": 1732,
-   "matches": 988,
-   "spw": 0.6443,
-   "rpw": 0.335,
-   "servePoints": 3291,
+   "elo": 1689,
+   "hardElo": 1717,
+   "matches": 989,
+   "spw": 0.6467,
+   "rpw": 0.3317,
+   "servePoints": 3392,
    "rated": true
   },
   "atpn0bs": {
@@ -868,7 +868,7 @@
    "matches": 127,
    "spw": 0.6088,
    "rpw": 0.402,
-   "servePoints": 4782,
+   "servePoints": 4781,
    "rated": true
   },
   "atpd643": {
@@ -881,27 +881,27 @@
    "rated": true
   },
   "atps0s1": {
-   "elo": 2068,
-   "hardElo": 2061,
-   "matches": 242,
-   "spw": 0.6911,
-   "rpw": 0.3337,
-   "servePoints": 7700,
+   "elo": 2032,
+   "hardElo": 2015,
+   "matches": 244,
+   "spw": 0.6905,
+   "rpw": 0.3319,
+   "servePoints": 7853,
    "rated": true
   },
   "atpgj37": {
-   "elo": 1793,
-   "hardElo": 1826,
-   "matches": 275,
-   "spw": 0.6593,
-   "rpw": 0.3254,
-   "servePoints": 5394,
+   "elo": 1798,
+   "hardElo": 1828,
+   "matches": 276,
+   "spw": 0.6602,
+   "rpw": 0.3268,
+   "servePoints": 5446,
    "rated": true
   },
   "atpd923": {
-   "elo": 1674,
-   "hardElo": 1556,
-   "matches": 351,
+   "elo": 1680,
+   "hardElo": 1568,
+   "matches": 352,
    "spw": 0.5891,
    "rpw": 0.3855,
    "servePoints": 3388,
@@ -913,16 +913,16 @@
    "matches": 412,
    "spw": 0.6827,
    "rpw": 0.3463,
-   "servePoints": 5173,
+   "servePoints": 5172,
    "rated": true
   },
   "atpki95": {
-   "elo": 1726,
-   "hardElo": 1704,
-   "matches": 384,
-   "spw": 0.6374,
-   "rpw": 0.3618,
-   "servePoints": 5958,
+   "elo": 1735,
+   "hardElo": 1712,
+   "matches": 385,
+   "spw": 0.6379,
+   "rpw": 0.3611,
+   "servePoints": 6048,
    "rated": true
   },
   "atpsu55": {
@@ -931,7 +931,7 @@
    "matches": 463,
    "spw": 0.6371,
    "rpw": 0.3736,
-   "servePoints": 5062,
+   "servePoints": 5061,
    "rated": true
   },
   "atpv0dz": {
@@ -953,12 +953,12 @@
    "rated": true
   },
   "atpl0bv": {
-   "elo": 1958,
-   "hardElo": 1891,
-   "matches": 253,
-   "spw": 0.6653,
-   "rpw": 0.3531,
-   "servePoints": 6093,
+   "elo": 1990,
+   "hardElo": 1932,
+   "matches": 255,
+   "spw": 0.6654,
+   "rpw": 0.3539,
+   "servePoints": 6225,
    "rated": true
   },
   "atpcd85": {
@@ -971,12 +971,12 @@
    "rated": true
   },
   "atps0tm": {
-   "elo": 1668,
-   "hardElo": 1592,
-   "matches": 8,
+   "elo": 1710,
+   "hardElo": 1643,
+   "matches": 9,
    "spw": 0.624,
-   "rpw": 0.3685,
-   "servePoints": 601,
+   "rpw": 0.3725,
+   "servePoints": 685,
    "rated": true
   },
   "atpm0fh": {
@@ -1007,12 +1007,12 @@
    "rated": true
   },
   "atpte51": {
-   "elo": 1907,
+   "elo": 1918,
    "hardElo": 1858,
-   "matches": 602,
-   "spw": 0.6712,
-   "rpw": 0.3525,
-   "servePoints": 6380,
+   "matches": 604,
+   "spw": 0.6714,
+   "rpw": 0.352,
+   "servePoints": 6538,
    "rated": true
   },
   "atpf0f1": {
@@ -1021,7 +1021,7 @@
    "matches": 187,
    "spw": 0.663,
    "rpw": 0.3698,
-   "servePoints": 4677,
+   "servePoints": 4676,
    "rated": true
   },
   "atpbk92": {
@@ -1043,12 +1043,12 @@
    "rated": true
   },
   "atpt0a1": {
-   "elo": 1900,
-   "hardElo": 1818,
-   "matches": 65,
-   "spw": 0.6515,
-   "rpw": 0.3581,
-   "servePoints": 2970,
+   "elo": 1906,
+   "hardElo": 1828,
+   "matches": 66,
+   "spw": 0.6525,
+   "rpw": 0.3585,
+   "servePoints": 3024,
    "rated": true
   },
   "atpme82": {
@@ -1061,12 +1061,12 @@
    "rated": true
   },
   "atpp0hw": {
-   "elo": 1794,
-   "hardElo": 1607,
-   "matches": 48,
-   "spw": 0.6376,
-   "rpw": 0.3686,
-   "servePoints": 2272,
+   "elo": 1810,
+   "hardElo": 1638,
+   "matches": 50,
+   "spw": 0.6368,
+   "rpw": 0.3663,
+   "servePoints": 2389,
    "rated": true
   },
   "atps0h2": {
@@ -1106,12 +1106,12 @@
    "rated": true
   },
   "atpd994": {
-   "elo": 1728,
-   "hardElo": 1658,
-   "matches": 222,
-   "spw": 0.6407,
-   "rpw": 0.342,
-   "servePoints": 3414,
+   "elo": 1717,
+   "hardElo": 1645,
+   "matches": 223,
+   "spw": 0.6392,
+   "rpw": 0.3439,
+   "servePoints": 3493,
    "rated": true
   },
   "atpwb32": {
@@ -1133,9 +1133,9 @@
    "rated": true
   },
   "atpf0f2": {
-   "elo": 1814,
-   "hardElo": 1740,
-   "matches": 42,
+   "elo": 1817,
+   "hardElo": 1747,
+   "matches": 43,
    "spw": 0.6277,
    "rpw": 0.3573,
    "servePoints": 2244,
@@ -1165,7 +1165,7 @@
    "matches": 376,
    "spw": 0.6716,
    "rpw": 0.4125,
-   "servePoints": 6420,
+   "servePoints": 6419,
    "rated": true
   },
   "wta320760": {
@@ -1174,7 +1174,7 @@
    "matches": 578,
    "spw": 0.6134,
    "rpw": 0.4596,
-   "servePoints": 6822,
+   "servePoints": 6821,
    "rated": true
   },
   "wta325898": {
@@ -1183,7 +1183,7 @@
    "matches": 220,
    "spw": 0.5512,
    "rpw": 0.4544,
-   "servePoints": 3904,
+   "servePoints": 3903,
    "rated": true
   },
   "wta320716": {
@@ -1273,7 +1273,7 @@
    "matches": 137,
    "spw": 0.5625,
    "rpw": 0.4063,
-   "servePoints": 3781,
+   "servePoints": 3780,
    "rated": true
   },
   "wta331102": {
@@ -1291,7 +1291,7 @@
    "matches": 697,
    "spw": 0.5662,
    "rpw": 0.4865,
-   "servePoints": 2961,
+   "servePoints": 2960,
    "rated": true
   },
   "wta327845": {
@@ -1318,7 +1318,7 @@
    "matches": 295,
    "spw": 0.5833,
    "rpw": 0.4595,
-   "servePoints": 5109,
+   "servePoints": 5108,
    "rated": true
   },
   "wta317810": {
@@ -1345,7 +1345,7 @@
    "matches": 208,
    "spw": 0.5814,
    "rpw": 0.4182,
-   "servePoints": 4515,
+   "servePoints": 4514,
    "rated": true
   },
   "wta320728": {
@@ -1372,7 +1372,7 @@
    "matches": 61,
    "spw": 0.5561,
    "rpw": 0.4225,
-   "servePoints": 2099,
+   "servePoints": 2098,
    "rated": true
   },
   "wta319007": {
@@ -1381,7 +1381,7 @@
    "matches": 455,
    "spw": 0.5752,
    "rpw": 0.4298,
-   "servePoints": 5954,
+   "servePoints": 5953,
    "rated": true
   },
   "wta326096": {
@@ -1525,7 +1525,7 @@
    "matches": 294,
    "spw": 0.575,
    "rpw": 0.4241,
-   "servePoints": 5284,
+   "servePoints": 5283,
    "rated": true
   },
   "wta319280": {
@@ -1534,7 +1534,7 @@
    "matches": 340,
    "spw": 0.5624,
    "rpw": 0.4532,
-   "servePoints": 5114,
+   "servePoints": 5113,
    "rated": true
   },
   "wta327655": {
@@ -1570,7 +1570,7 @@
    "matches": 282,
    "spw": 0.5351,
    "rpw": 0.4879,
-   "servePoints": 3047,
+   "servePoints": 3046,
    "rated": true
   },
   "wta327077": {
@@ -1579,7 +1579,7 @@
    "matches": 147,
    "spw": 0.5781,
    "rpw": 0.4184,
-   "servePoints": 3423,
+   "servePoints": 3422,
    "rated": true
   },
   "wta320316": {
@@ -1613,7 +1613,7 @@
    "elo": 1708,
    "hardElo": 1482,
    "matches": 47,
-   "spw": 0.5281,
+   "spw": 0.5282,
    "rpw": 0.435,
    "servePoints": 1986,
    "rated": true
@@ -1633,7 +1633,7 @@
    "matches": 311,
    "spw": 0.5761,
    "rpw": 0.4258,
-   "servePoints": 5429,
+   "servePoints": 5428,
    "rated": true
   },
   "wta324789": {
@@ -1660,7 +1660,7 @@
    "matches": 269,
    "spw": 0.523,
    "rpw": 0.4406,
-   "servePoints": 3709,
+   "servePoints": 3708,
    "rated": true
   },
   "wta323942": {
@@ -1678,7 +1678,7 @@
    "matches": 208,
    "spw": 0.5649,
    "rpw": 0.4679,
-   "servePoints": 5418,
+   "servePoints": 5417,
    "rated": true
   },
   "wta328884": {
@@ -1732,7 +1732,7 @@
    "matches": 36,
    "spw": 0.5146,
    "rpw": 0.4187,
-   "servePoints": 966,
+   "servePoints": 965,
    "rated": true
   },
   "wta322191": {
@@ -1795,7 +1795,7 @@
    "matches": 140,
    "spw": 0.5598,
    "rpw": 0.4259,
-   "servePoints": 1927,
+   "servePoints": 1926,
    "rated": true
   },
   "wta310440": {
@@ -1804,7 +1804,7 @@
    "matches": 441,
    "spw": 0.5548,
    "rpw": 0.4297,
-   "servePoints": 4151,
+   "servePoints": 4150,
    "rated": true
   },
   "wta319939": {
@@ -1867,7 +1867,7 @@
    "matches": 127,
    "spw": 0.5363,
    "rpw": 0.4481,
-   "servePoints": 2050,
+   "servePoints": 2049,
    "rated": true
   },
   "wta329409": {
@@ -1894,7 +1894,7 @@
    "matches": 83,
    "spw": 0.5736,
    "rpw": 0.4699,
-   "servePoints": 3701,
+   "servePoints": 3700,
    "rated": true
   },
   "wta320277": {
@@ -1903,7 +1903,7 @@
    "matches": 243,
    "spw": 0.5475,
    "rpw": 0.4335,
-   "servePoints": 4481,
+   "servePoints": 4480,
    "rated": true
   },
   "wta315130": {
@@ -1921,7 +1921,7 @@
    "matches": 55,
    "spw": 0.5177,
    "rpw": 0.4164,
-   "servePoints": 1741,
+   "servePoints": 1740,
    "rated": true
   },
   "wta327182": {
@@ -1930,7 +1930,7 @@
    "matches": 33,
    "spw": 0.5289,
    "rpw": 0.4619,
-   "servePoints": 1762,
+   "servePoints": 1761,
    "rated": true
   },
   "wta329512": {
@@ -1957,7 +1957,7 @@
    "matches": 94,
    "spw": 0.5513,
    "rpw": 0.4845,
-   "servePoints": 3707,
+   "servePoints": 3706,
    "rated": true
   },
   "wta330375": {
@@ -1975,7 +1975,7 @@
    "matches": 153,
    "spw": 0.5434,
    "rpw": 0.4359,
-   "servePoints": 3602,
+   "servePoints": 3601,
    "rated": true
   },
   "wta320567": {
@@ -2029,7 +2029,7 @@
    "matches": 406,
    "spw": 0.5798,
    "rpw": 0.4934,
-   "servePoints": 6678,
+   "servePoints": 6677,
    "rated": true
   },
   "wta326408": {
@@ -2137,7 +2137,7 @@
    "matches": 169,
    "spw": 0.5548,
    "rpw": 0.4234,
-   "servePoints": 4081,
+   "servePoints": 4080,
    "rated": true
   },
   "wta328120": {
@@ -2173,7 +2173,7 @@
    "matches": 533,
    "spw": 0.5928,
    "rpw": 0.4449,
-   "servePoints": 3942,
+   "servePoints": 3941,
    "rated": true
   },
   "wta319998": {
@@ -2191,7 +2191,7 @@
    "matches": 59,
    "spw": 0.5438,
    "rpw": 0.4364,
-   "servePoints": 1976,
+   "servePoints": 1975,
    "rated": true
   },
   "wta327909": {
@@ -2200,7 +2200,7 @@
    "matches": 190,
    "spw": 0.5682,
    "rpw": 0.4399,
-   "servePoints": 3573,
+   "servePoints": 3572,
    "rated": true
   },
   "wta320301": {
@@ -2501,12 +2501,12 @@
    "rated": false
   },
   "atpw0ed": {
-   "elo": 1582,
-   "hardElo": 1573,
-   "matches": 5,
-   "spw": 0.6286,
-   "rpw": 0.3649,
-   "servePoints": 129,
+   "elo": 1532,
+   "hardElo": 1508,
+   "matches": 6,
+   "spw": 0.6362,
+   "rpw": 0.3543,
+   "servePoints": 211,
    "rated": true
   },
   "atpa887": {
@@ -2551,7 +2551,7 @@
    "matches": 243,
    "spw": 0.6215,
    "rpw": 0.3521,
-   "servePoints": 945,
+   "servePoints": 944,
    "rated": true
   },
   "atpgd32": {
@@ -2774,7 +2774,7 @@
    "elo": 1430,
    "hardElo": 1465,
    "matches": 6,
-   "spw": 0.63,
+   "spw": 0.6301,
    "rpw": 0.3675,
    "servePoints": 12,
    "rated": true
@@ -2911,7 +2911,7 @@
    "matches": 288,
    "spw": 0.6761,
    "rpw": 0.3535,
-   "servePoints": 6584,
+   "servePoints": 6583,
    "rated": true
   },
   "atpc0e0": {
@@ -2928,7 +2928,7 @@
    "hardElo": 1500,
    "matches": 2,
    "spw": 0.6312,
-   "rpw": 0.3684,
+   "rpw": 0.3683,
    "servePoints": 4,
    "rated": false
   },
@@ -3081,7 +3081,7 @@
    "hardElo": 1613,
    "matches": 14,
    "spw": 0.6318,
-   "rpw": 0.3682,
+   "rpw": 0.3681,
    "servePoints": 0,
    "rated": false
   },
@@ -3099,7 +3099,7 @@
    "hardElo": 1696,
    "matches": 507,
    "spw": 0.6293,
-   "rpw": 0.3658,
+   "rpw": 0.3657,
    "servePoints": 91,
    "rated": true
   },
@@ -3406,7 +3406,7 @@
    "matches": 308,
    "spw": 0.5228,
    "rpw": 0.4692,
-   "servePoints": 1495,
+   "servePoints": 1494,
    "rated": true
   },
   "wta318001": {
@@ -3613,7 +3613,7 @@
    "matches": 115,
    "spw": 0.5605,
    "rpw": 0.4262,
-   "servePoints": 2586,
+   "servePoints": 2585,
    "rated": true
   },
   "wta313841": {
@@ -3851,12 +3851,12 @@
    "rated": false
   },
   "atprh16": {
-   "elo": 1964,
+   "elo": 1967,
    "hardElo": 1831,
-   "matches": 499,
-   "spw": 0.6612,
-   "rpw": 0.3736,
-   "servePoints": 6086,
+   "matches": 501,
+   "spw": 0.6639,
+   "rpw": 0.3755,
+   "servePoints": 6168,
    "rated": true
   }
  },
